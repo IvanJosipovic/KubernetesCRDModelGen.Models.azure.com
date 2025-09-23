@@ -2,5 +2,6 @@
   <PropertyGroup>
     <PackageId>KubernetesCRDModelGen.Models.azure.com</PackageId>
     <RepositoryUrl>https://github.com/IvanJosipovic/KubernetesCRDModelGen.Models.azure.com</RepositoryUrl>
+    <Description>C# models for Kubernetes CRDs in group azure.com</Description>
   </PropertyGroup>
 </Project>
