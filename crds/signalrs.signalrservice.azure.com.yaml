@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: signalrs.signalrservice.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/stable/2021-10-01/signalr.json
+          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/SignalRService/stable/2021-10-01/signalr.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}
         properties:
           apiVersion:
@@ -964,7 +964,7 @@ spec:
         description: |-
           Storage version of v1api20211001.SignalR
           Generator information:
-          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/stable/2021-10-01/signalr.json
+          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/SignalRService/stable/2021-10-01/signalr.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}
         properties:
           apiVersion:
@@ -1917,7 +1917,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/stable/2024-03-01/signalr.json
+          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/SignalRService/stable/2024-03-01/signalr.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}
         properties:
           apiVersion:
@@ -3003,7 +3003,7 @@ spec:
         description: |-
           Storage version of v1api20240301.SignalR
           Generator information:
-          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/stable/2024-03-01/signalr.json
+          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/SignalRService/stable/2024-03-01/signalr.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}
         properties:
           apiVersion:

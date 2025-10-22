@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: networkinterfaces.network.azure.com
 spec:
   conversion:
@@ -1296,7 +1296,7 @@ spec:
             type: object
           status:
             description: |-
-              Storage version of v1api20201101.NetworkInterface_STATUS_NetworkInterface_SubResourceEmbedded
+              Storage version of v1api20201101.NetworkInterface_STATUS
               A network interface in a resource group.
             properties:
               $propertyBag:
@@ -3087,7 +3087,7 @@ spec:
             type: object
           status:
             description: |-
-              Storage version of v1api20240301.NetworkInterface_STATUS_NetworkInterface_SubResourceEmbedded
+              Storage version of v1api20240301.NetworkInterface_STATUS
               A network interface in a resource group.
             properties:
               $propertyBag:

@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: flexibleserversconfigurations.dbformysql.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Configurations/stable/2022-01-01/Configurations.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2022-01-01/Configurations.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}
         properties:
           apiVersion:
@@ -309,7 +309,7 @@ spec:
         description: |-
           Storage version of v1api20220101.FlexibleServersConfiguration
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Configurations/stable/2022-01-01/Configurations.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2022-01-01/Configurations.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}
         properties:
           apiVersion:
@@ -569,7 +569,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Configurations/stable/2023-06-30/Configurations.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2023-06-30/Configurations.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}
         properties:
           apiVersion:
@@ -827,7 +827,7 @@ spec:
         description: |-
           Storage version of v1api20230630.FlexibleServersConfiguration
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Configurations/stable/2023-06-30/Configurations.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2023-06-30/Configurations.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}
         properties:
           apiVersion:
@@ -1087,7 +1087,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Configurations/stable/2023-12-30/Configurations.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2023-12-30/Configurations.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}
         properties:
           apiVersion:
@@ -1345,7 +1345,7 @@ spec:
         description: |-
           Storage version of v1api20231230.FlexibleServersConfiguration
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Configurations/stable/2023-12-30/Configurations.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2023-12-30/Configurations.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}
         properties:
           apiVersion:

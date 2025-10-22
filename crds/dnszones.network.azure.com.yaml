@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: dnszones.network.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /dns/resource-manager/Microsoft.Network/stable/2018-05-01/dns.json
+          - Generated from: /dns/resource-manager/Microsoft.Network/Dns/stable/2018-05-01/dns.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}
         properties:
           apiVersion:
@@ -372,7 +372,7 @@ spec:
         description: |-
           Storage version of v1api20180501.DnsZone
           Generator information:
-          - Generated from: /dns/resource-manager/Microsoft.Network/stable/2018-05-01/dns.json
+          - Generated from: /dns/resource-manager/Microsoft.Network/Dns/stable/2018-05-01/dns.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}
         properties:
           apiVersion:
