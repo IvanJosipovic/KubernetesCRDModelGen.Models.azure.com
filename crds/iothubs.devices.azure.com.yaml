@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: iothubs.devices.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /iothub/resource-manager/Microsoft.Devices/stable/2021-07-02/iothub.json
+          - Generated from: /iothub/resource-manager/Microsoft.Devices/IoTHub/stable/2021-07-02/iothub.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}
         properties:
           apiVersion:
@@ -1820,7 +1820,7 @@ spec:
         description: |-
           Storage version of v1api20210702.IotHub
           Generator information:
-          - Generated from: /iothub/resource-manager/Microsoft.Devices/stable/2021-07-02/iothub.json
+          - Generated from: /iothub/resource-manager/Microsoft.Devices/IoTHub/stable/2021-07-02/iothub.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}
         properties:
           apiVersion:

@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: roleassignments.authorization.azure.com
 spec:
   conversion:
@@ -247,6 +247,8 @@ spec:
                     type: string
                   name:
                     description: Name is the Kubernetes name of the resource.
+                    type: string
+                  wellKnownName:
                     type: string
                 type: object
             required:
@@ -569,6 +571,8 @@ spec:
                   name:
                     description: Name is the Kubernetes name of the resource.
                     type: string
+                  wellKnownName:
+                    type: string
                 type: object
             required:
             - owner
@@ -881,6 +885,8 @@ spec:
                     type: string
                   name:
                     description: Name is the Kubernetes name of the resource.
+                    type: string
+                  wellKnownName:
                     type: string
                 type: object
             required:
@@ -1202,6 +1208,8 @@ spec:
                     type: string
                   name:
                     description: Name is the Kubernetes name of the resource.
+                    type: string
+                  wellKnownName:
                     type: string
                 type: object
             required:

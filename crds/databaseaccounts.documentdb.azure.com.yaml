@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: databaseaccounts.documentdb.azure.com
 spec:
   conversion:
@@ -2224,11 +2224,6 @@ spec:
                 - Default
                 - Restore
                 type: string
-              customerManagedKeyStatus:
-                description: |-
-                  CustomerManagedKeyStatus: Indicates the status of the Customer Managed Key feature on the account. In case there are
-                  errors, the property provides troubleshooting guidance.
-                type: string
               databaseAccountOfferType:
                 description: 'DatabaseAccountOfferType: The offer type for the database'
                 enum:
@@ -3533,8 +3528,6 @@ spec:
                   type: object
                 type: array
               createMode:
-                type: string
-              customerManagedKeyStatus:
                 type: string
               databaseAccountOfferType:
                 type: string
@@ -4931,11 +4924,6 @@ spec:
                 - Default
                 - Restore
                 type: string
-              customerManagedKeyStatus:
-                description: |-
-                  CustomerManagedKeyStatus: Indicates the status of the Customer Managed Key feature on the account. In case there are
-                  errors, the property provides troubleshooting guidance.
-                type: string
               databaseAccountOfferType:
                 description: 'DatabaseAccountOfferType: The offer type for the database'
                 enum:
@@ -6250,8 +6238,6 @@ spec:
                   type: object
                 type: array
               createMode:
-                type: string
-              customerManagedKeyStatus:
                 type: string
               databaseAccountOfferType:
                 type: string

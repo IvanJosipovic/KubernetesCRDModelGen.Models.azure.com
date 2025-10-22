@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: flexibleserversfirewallrules.dbformysql.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/legacy/stable/2021-05-01/mysql.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2021-05-01/mysql.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}
         properties:
           apiVersion:
@@ -279,7 +279,7 @@ spec:
         description: |-
           Storage version of v1api20210501.FlexibleServersFirewallRule
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/legacy/stable/2021-05-01/mysql.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2021-05-01/mysql.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}
         properties:
           apiVersion:
@@ -519,7 +519,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Firewall/stable/2023-06-30/FirewallRules.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2023-06-30/FirewallRules.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}
         properties:
           apiVersion:
@@ -748,7 +748,7 @@ spec:
         description: |-
           Storage version of v1api20230630.FlexibleServersFirewallRule
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Firewall/stable/2023-06-30/FirewallRules.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2023-06-30/FirewallRules.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}
         properties:
           apiVersion:
@@ -988,7 +988,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Firewall/stable/2023-12-30/FirewallRules.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2023-12-30/FirewallRules.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}
         properties:
           apiVersion:
@@ -1217,7 +1217,7 @@ spec:
         description: |-
           Storage version of v1api20231230.FlexibleServersFirewallRule
           Generator information:
-          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/Firewall/stable/2023-12-30/FirewallRules.json
+          - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2023-12-30/FirewallRules.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}
         properties:
           apiVersion:

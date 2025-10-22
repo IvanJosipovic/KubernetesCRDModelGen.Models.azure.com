@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: namespacestopics.servicebus.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/preview/2021-01-01-preview/topics.json
+          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/preview/2021-01-01-preview/topics.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}
         properties:
           apiVersion:
@@ -375,7 +375,7 @@ spec:
         description: |-
           Storage version of v1api20210101preview.NamespacesTopic
           Generator information:
-          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/preview/2021-01-01-preview/topics.json
+          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/preview/2021-01-01-preview/topics.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}
         properties:
           apiVersion:
@@ -678,7 +678,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/stable/2021-11-01/topics.json
+          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2021-11-01/topics.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}
         properties:
           apiVersion:
@@ -1018,7 +1018,7 @@ spec:
         description: |-
           Storage version of v1api20211101.NamespacesTopic
           Generator information:
-          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/stable/2021-11-01/topics.json
+          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2021-11-01/topics.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}
         properties:
           apiVersion:
@@ -1327,7 +1327,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/preview/2022-10-01-preview/topics.json
+          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/preview/2022-10-01-preview/topics.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}
         properties:
           apiVersion:
@@ -1667,7 +1667,7 @@ spec:
         description: |-
           Storage version of v1api20221001preview.NamespacesTopic
           Generator information:
-          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/preview/2022-10-01-preview/topics.json
+          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/preview/2022-10-01-preview/topics.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}
         properties:
           apiVersion:
@@ -1976,7 +1976,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/stable/2024-01-01/topics.json
+          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2024-01-01/topics.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}
         properties:
           apiVersion:
@@ -2316,7 +2316,7 @@ spec:
         description: |-
           Storage version of v1api20240101.NamespacesTopic
           Generator information:
-          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/stable/2024-01-01/topics.json
+          - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2024-01-01/topics.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}
         properties:
           apiVersion:

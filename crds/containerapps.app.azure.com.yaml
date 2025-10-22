@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: containerapps.app.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /app/resource-manager/Microsoft.App/stable/2024-03-01/ContainerApps.json
+          - Generated from: /app/resource-manager/Microsoft.App/ContainerApps/stable/2024-03-01/ContainerApps.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}
         properties:
           apiVersion:
@@ -338,6 +338,8 @@ spec:
                             name:
                               description: Name is the Kubernetes name of the resource.
                               type: string
+                            wellKnownName:
+                              type: string
                           type: object
                         passwordSecretRef:
                           description: 'PasswordSecretRef: The name of the Secret that contains the registry login password'
@@ -375,6 +377,8 @@ spec:
                               type: string
                             name:
                               description: Name is the Kubernetes name of the resource.
+                              type: string
+                            wellKnownName:
                               type: string
                           type: object
                         keyVaultUrl:
@@ -1906,7 +1910,7 @@ spec:
         description: |-
           Storage version of v1api20240301.ContainerApp
           Generator information:
-          - Generated from: /app/resource-manager/Microsoft.App/stable/2024-03-01/ContainerApps.json
+          - Generated from: /app/resource-manager/Microsoft.App/ContainerApps/stable/2024-03-01/ContainerApps.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}
         properties:
           apiVersion:
@@ -2197,6 +2201,8 @@ spec:
                             name:
                               description: Name is the Kubernetes name of the resource.
                               type: string
+                            wellKnownName:
+                              type: string
                           type: object
                         passwordSecretRef:
                           type: string
@@ -2239,6 +2245,8 @@ spec:
                               type: string
                             name:
                               description: Name is the Kubernetes name of the resource.
+                              type: string
+                            wellKnownName:
                               type: string
                           type: object
                         keyVaultUrl:
@@ -4065,7 +4073,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /app/resource-manager/Microsoft.App/stable/2025-01-01/ContainerApps.json
+          - Generated from: /app/resource-manager/Microsoft.App/ContainerApps/stable/2025-01-01/ContainerApps.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}
         properties:
           apiVersion:
@@ -4171,6 +4179,8 @@ spec:
                               type: string
                             name:
                               description: Name is the Kubernetes name of the resource.
+                              type: string
+                            wellKnownName:
                               type: string
                           type: object
                         lifecycle:
@@ -4394,6 +4404,8 @@ spec:
                             name:
                               description: Name is the Kubernetes name of the resource.
                               type: string
+                            wellKnownName:
+                              type: string
                           type: object
                         passwordSecretRef:
                           description: 'PasswordSecretRef: The name of the Secret that contains the registry login password'
@@ -4442,6 +4454,8 @@ spec:
                               type: string
                             name:
                               description: Name is the Kubernetes name of the resource.
+                              type: string
+                            wellKnownName:
                               type: string
                           type: object
                         keyVaultUrl:
@@ -5016,6 +5030,8 @@ spec:
                                     name:
                                       description: Name is the Kubernetes name of the resource.
                                       type: string
+                                    wellKnownName:
+                                      type: string
                                   type: object
                                 queueLength:
                                   description: 'QueueLength: Queue length.'
@@ -5060,6 +5076,8 @@ spec:
                                       type: string
                                     name:
                                       description: Name is the Kubernetes name of the resource.
+                                      type: string
+                                    wellKnownName:
                                       type: string
                                   type: object
                                 metadata:
@@ -5110,6 +5128,8 @@ spec:
                                     name:
                                       description: Name is the Kubernetes name of the resource.
                                       type: string
+                                    wellKnownName:
+                                      type: string
                                   type: object
                                 metadata:
                                   additionalProperties:
@@ -5156,6 +5176,8 @@ spec:
                                       type: string
                                     name:
                                       description: Name is the Kubernetes name of the resource.
+                                      type: string
+                                    wellKnownName:
                                       type: string
                                   type: object
                                 metadata:
@@ -6135,7 +6157,7 @@ spec:
         description: |-
           Storage version of v1api20250101.ContainerApp
           Generator information:
-          - Generated from: /app/resource-manager/Microsoft.App/stable/2025-01-01/ContainerApps.json
+          - Generated from: /app/resource-manager/Microsoft.App/ContainerApps/stable/2025-01-01/ContainerApps.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}
         properties:
           apiVersion:
@@ -6246,6 +6268,8 @@ spec:
                               type: string
                             name:
                               description: Name is the Kubernetes name of the resource.
+                              type: string
+                            wellKnownName:
                               type: string
                           type: object
                         lifecycle:
@@ -6467,6 +6491,8 @@ spec:
                             name:
                               description: Name is the Kubernetes name of the resource.
                               type: string
+                            wellKnownName:
+                              type: string
                           type: object
                         passwordSecretRef:
                           type: string
@@ -6535,6 +6561,8 @@ spec:
                               type: string
                             name:
                               description: Name is the Kubernetes name of the resource.
+                              type: string
+                            wellKnownName:
                               type: string
                           type: object
                         keyVaultUrl:
@@ -7202,6 +7230,8 @@ spec:
                                     name:
                                       description: Name is the Kubernetes name of the resource.
                                       type: string
+                                    wellKnownName:
+                                      type: string
                                   type: object
                                 queueLength:
                                   type: integer
@@ -7259,6 +7289,8 @@ spec:
                                       type: string
                                     name:
                                       description: Name is the Kubernetes name of the resource.
+                                      type: string
+                                    wellKnownName:
                                       type: string
                                   type: object
                                 metadata:
@@ -7320,6 +7352,8 @@ spec:
                                     name:
                                       description: Name is the Kubernetes name of the resource.
                                       type: string
+                                    wellKnownName:
+                                      type: string
                                   type: object
                                 metadata:
                                   additionalProperties:
@@ -7379,6 +7413,8 @@ spec:
                                       type: string
                                     name:
                                       description: Name is the Kubernetes name of the resource.
+                                      type: string
+                                    wellKnownName:
                                       type: string
                                   type: object
                                 metadata:

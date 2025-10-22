@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: backupvaultsbackuppolicies.dataprotection.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /dataprotection/resource-manager/Microsoft.DataProtection/stable/2023-01-01/dataprotection.json
+          - Generated from: /dataprotection/resource-manager/Microsoft.DataProtection/DataProtection/stable/2023-01-01/dataprotection.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataProtection/backupVaults/{vaultName}/backupPolicies/{backupPolicyName}
         properties:
           apiVersion:
@@ -258,7 +258,9 @@ spec:
                                           description: 'Schedule: Schedule for this backup'
                                           properties:
                                             repeatingTimeIntervals:
-                                              description: 'RepeatingTimeIntervals: ISO 8601 repeating time interval format'
+                                              description: |-
+                                                RepeatingTimeIntervals: Repeating time interval which only support the following ISO 8601 format
+                                                [R/startDateTime/Duration]. Example: R/2007-03-01T13:00:00Z/P1Y2M10DT2H30M
                                               items:
                                                 type: string
                                               type: array
@@ -668,7 +670,9 @@ spec:
                                           description: 'Schedule: Schedule for this backup'
                                           properties:
                                             repeatingTimeIntervals:
-                                              description: 'RepeatingTimeIntervals: ISO 8601 repeating time interval format'
+                                              description: |-
+                                                RepeatingTimeIntervals: Repeating time interval which only support the following ISO 8601 format
+                                                [R/startDateTime/Duration]. Example: R/2007-03-01T13:00:00Z/P1Y2M10DT2H30M
                                               items:
                                                 type: string
                                               type: array
@@ -895,7 +899,7 @@ spec:
         description: |-
           Storage version of v1api20230101.BackupVaultsBackupPolicy
           Generator information:
-          - Generated from: /dataprotection/resource-manager/Microsoft.DataProtection/stable/2023-01-01/dataprotection.json
+          - Generated from: /dataprotection/resource-manager/Microsoft.DataProtection/DataProtection/stable/2023-01-01/dataprotection.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataProtection/backupVaults/{vaultName}/backupPolicies/{backupPolicyName}
         properties:
           apiVersion:
@@ -2017,7 +2021,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /dataprotection/resource-manager/Microsoft.DataProtection/stable/2023-11-01/dataprotection.json
+          - Generated from: /dataprotection/resource-manager/Microsoft.DataProtection/DataProtection/stable/2023-11-01/dataprotection.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataProtection/backupVaults/{vaultName}/backupPolicies/{backupPolicyName}
         properties:
           apiVersion:
@@ -2225,7 +2229,9 @@ spec:
                                           description: 'Schedule: Schedule for this backup'
                                           properties:
                                             repeatingTimeIntervals:
-                                              description: 'RepeatingTimeIntervals: ISO 8601 repeating time interval format'
+                                              description: |-
+                                                RepeatingTimeIntervals: Repeating time interval which only support the following ISO 8601 format
+                                                [R/startDateTime/Duration]. Example: R/2007-03-01T13:00:00Z/P1Y2M10DT2H30M
                                               items:
                                                 type: string
                                               type: array
@@ -2635,7 +2641,9 @@ spec:
                                           description: 'Schedule: Schedule for this backup'
                                           properties:
                                             repeatingTimeIntervals:
-                                              description: 'RepeatingTimeIntervals: ISO 8601 repeating time interval format'
+                                              description: |-
+                                                RepeatingTimeIntervals: Repeating time interval which only support the following ISO 8601 format
+                                                [R/startDateTime/Duration]. Example: R/2007-03-01T13:00:00Z/P1Y2M10DT2H30M
                                               items:
                                                 type: string
                                               type: array
@@ -2862,7 +2870,7 @@ spec:
         description: |-
           Storage version of v1api20231101.BackupVaultsBackupPolicy
           Generator information:
-          - Generated from: /dataprotection/resource-manager/Microsoft.DataProtection/stable/2023-11-01/dataprotection.json
+          - Generated from: /dataprotection/resource-manager/Microsoft.DataProtection/DataProtection/stable/2023-11-01/dataprotection.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataProtection/backupVaults/{vaultName}/backupPolicies/{backupPolicyName}
         properties:
           apiVersion:

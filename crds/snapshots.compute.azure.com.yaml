@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: snapshots.compute.azure.com
 spec:
   conversion:
@@ -221,16 +221,6 @@ spec:
                   create. If this field is present for updates or creation with other options, it indicates a resize. Resizes are only
                   allowed if the disk is not attached to a running VM, and can only increase the disk's size.
                 type: integer
-              diskState:
-                description: 'DiskState: The state of the snapshot.'
-                enum:
-                - ActiveSAS
-                - ActiveUpload
-                - Attached
-                - ReadyToUpload
-                - Reserved
-                - Unattached
-                type: string
               encryption:
                 description: 'Encryption: Encryption property can be used to encrypt data at rest with customer managed keys or platform managed keys.'
                 properties:
@@ -985,8 +975,6 @@ spec:
                 type: object
               diskSizeGB:
                 type: integer
-              diskState:
-                type: string
               encryption:
                 description: |-
                   Storage version of v1api20200930.Encryption
@@ -1652,7 +1640,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /compute/resource-manager/Microsoft.Compute/DiskRP/stable/2024-03-02/snapshot.json
+          - Generated from: /compute/resource-manager/Microsoft.Compute/DiskRP/stable/2024-03-02/DiskRP.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/snapshots/{snapshotName}
         properties:
           apiVersion:
@@ -1903,18 +1891,6 @@ spec:
                   create. If this field is present for updates or creation with other options, it indicates a resize. Resizes are only
                   allowed if the disk is not attached to a running VM, and can only increase the disk's size.
                 type: integer
-              diskState:
-                description: 'DiskState: The state of the snapshot.'
-                enum:
-                - ActiveSAS
-                - ActiveSASFrozen
-                - ActiveUpload
-                - Attached
-                - Frozen
-                - ReadyToUpload
-                - Reserved
-                - Unattached
-                type: string
               encryption:
                 description: 'Encryption: Encryption property can be used to encrypt data at rest with customer managed keys or platform managed keys.'
                 properties:
@@ -2066,7 +2042,7 @@ spec:
                   snapshots and can be diffed.
                 type: boolean
               location:
-                description: 'Location: Resource location'
+                description: 'Location: The geo-location where the resource lives'
                 type: string
               networkAccessPolicy:
                 description: 'NetworkAccessPolicy: Policy for accessing the disk via network.'
@@ -2226,7 +2202,7 @@ spec:
               sku:
                 description: |-
                   Sku: The snapshots sku name. Can be Standard_LRS, Premium_LRS, or Standard_ZRS. This is an optional parameter for
-                  incremental  snapshot and the default behavior is the SKU will be set to the same sku as the previous snapshot
+                  incremental snapshot and the default behavior is the SKU will be set to the same sku as the previous snapshot
                 properties:
                   name:
                     description: 'Name: The sku name.'
@@ -2260,7 +2236,7 @@ spec:
               tags:
                 additionalProperties:
                   type: string
-                description: 'Tags: Resource tags'
+                description: 'Tags: Resource tags.'
                 type: object
             required:
             - creationData
@@ -2511,7 +2487,9 @@ spec:
                 description: 'HyperVGeneration: The hypervisor generation of the Virtual Machine. Applicable to OS disks only.'
                 type: string
               id:
-                description: 'Id: Resource Id'
+                description: |-
+                  Id: Fully qualified resource ID for the resource. Ex -
+                  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
                 type: string
               incremental:
                 description: |-
@@ -2524,13 +2502,13 @@ spec:
                   Range Diff API can only be called on incremental snapshots with the same family id.
                 type: string
               location:
-                description: 'Location: Resource location'
+                description: 'Location: The geo-location where the resource lives'
                 type: string
               managedBy:
                 description: 'ManagedBy: Unused. Always Null.'
                 type: string
               name:
-                description: 'Name: Resource name'
+                description: 'Name: The name of the resource'
                 type: string
               networkAccessPolicy:
                 description: 'NetworkAccessPolicy: Policy for accessing the disk via network.'
@@ -2577,7 +2555,7 @@ spec:
               sku:
                 description: |-
                   Sku: The snapshots sku name. Can be Standard_LRS, Premium_LRS, or Standard_ZRS. This is an optional parameter for
-                  incremental  snapshot and the default behavior is the SKU will be set to the same sku as the previous snapshot
+                  incremental snapshot and the default behavior is the SKU will be set to the same sku as the previous snapshot
                 properties:
                   name:
                     description: 'Name: The sku name.'
@@ -2604,16 +2582,38 @@ spec:
               supportsHibernation:
                 description: 'SupportsHibernation: Indicates the OS on a snapshot supports hibernation.'
                 type: boolean
+              systemData:
+                description: 'SystemData: Azure Resource Manager metadata containing createdBy and modifiedBy information.'
+                properties:
+                  createdAt:
+                    description: 'CreatedAt: The timestamp of resource creation (UTC).'
+                    type: string
+                  createdBy:
+                    description: 'CreatedBy: The identity that created the resource.'
+                    type: string
+                  createdByType:
+                    description: 'CreatedByType: The type of identity that created the resource.'
+                    type: string
+                  lastModifiedAt:
+                    description: 'LastModifiedAt: The timestamp of resource last modification (UTC)'
+                    type: string
+                  lastModifiedBy:
+                    description: 'LastModifiedBy: The identity that last modified the resource.'
+                    type: string
+                  lastModifiedByType:
+                    description: 'LastModifiedByType: The type of identity that last modified the resource.'
+                    type: string
+                type: object
               tags:
                 additionalProperties:
                   type: string
-                description: 'Tags: Resource tags'
+                description: 'Tags: Resource tags.'
                 type: object
               timeCreated:
                 description: 'TimeCreated: The time when the snapshot was created.'
                 type: string
               type:
-                description: 'Type: Resource type'
+                description: 'Type: The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts"'
                 type: string
               uniqueId:
                 description: 'UniqueId: Unique Guid identifying the resource.'
@@ -2643,7 +2643,7 @@ spec:
         description: |-
           Storage version of v1api20240302.Snapshot
           Generator information:
-          - Generated from: /compute/resource-manager/Microsoft.Compute/DiskRP/stable/2024-03-02/snapshot.json
+          - Generated from: /compute/resource-manager/Microsoft.Compute/DiskRP/stable/2024-03-02/DiskRP.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/snapshots/{snapshotName}
         properties:
           apiVersion:
@@ -2874,8 +2874,6 @@ spec:
                 type: object
               diskSizeGB:
                 type: integer
-              diskState:
-                type: string
               encryption:
                 description: |-
                   Storage version of v1api20240302.Encryption
@@ -3158,7 +3156,7 @@ spec:
                 type: string
               purchasePlan:
                 description: |-
-                  Storage version of v1api20240302.PurchasePlan
+                  Storage version of v1api20240302.DiskPurchasePlan
                   Used for establishing the purchase context of any 3rd Party artifact through MarketPlace.
                 properties:
                   $propertyBag:
@@ -3571,7 +3569,7 @@ spec:
                 type: string
               purchasePlan:
                 description: |-
-                  Storage version of v1api20240302.PurchasePlan_STATUS
+                  Storage version of v1api20240302.DiskPurchasePlan_STATUS
                   Used for establishing the purchase context of any 3rd Party artifact through MarketPlace.
                 properties:
                   $propertyBag:
@@ -3646,6 +3644,31 @@ spec:
                 type: object
               supportsHibernation:
                 type: boolean
+              systemData:
+                description: |-
+                  Storage version of v1api20240302.SystemData_STATUS
+                  Metadata pertaining to creation and last modification of the resource.
+                properties:
+                  $propertyBag:
+                    additionalProperties:
+                      type: string
+                    description: |-
+                      PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
+                      resources, allowing for full fidelity round trip conversions
+                    type: object
+                  createdAt:
+                    type: string
+                  createdBy:
+                    type: string
+                  createdByType:
+                    type: string
+                  lastModifiedAt:
+                    type: string
+                  lastModifiedBy:
+                    type: string
+                  lastModifiedByType:
+                    type: string
+                type: object
               tags:
                 additionalProperties:
                   type: string

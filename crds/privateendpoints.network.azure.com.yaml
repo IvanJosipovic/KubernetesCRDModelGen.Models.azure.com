@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: privateendpoints.network.azure.com
 spec:
   conversion:
@@ -1061,7 +1061,7 @@ spec:
             type: object
           status:
             description: |-
-              Storage version of v1api20220701.PrivateEndpoint_STATUS_PrivateEndpoint_SubResourceEmbedded
+              Storage version of v1api20220701.PrivateEndpoint_STATUS
               Private endpoint resource.
             properties:
               $propertyBag:
@@ -2385,7 +2385,7 @@ spec:
             type: object
           status:
             description: |-
-              Storage version of v1api20240301.PrivateEndpoint_STATUS_PrivateEndpoint_SubResourceEmbedded
+              Storage version of v1api20240301.PrivateEndpoint_STATUS
               Private endpoint resource.
             properties:
               $propertyBag:

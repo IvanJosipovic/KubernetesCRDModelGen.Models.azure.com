@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.17.3
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.15.1
+    app.kubernetes.io/version: v2.16.0
   name: accounts.cognitiveservices.azure.com
 spec:
   conversion:
@@ -602,43 +602,45 @@ spec:
                         type: array
                     type: object
                   networkInjections:
-                    description: |-
-                      NetworkInjections: Specifies in AI Foundry where virtual network injection occurs to secure scenarios like Agents
-                      entirely within the  user's private network, eliminating public internet exposure while maintaining control over network
-                      configurations and  resources.
-                    properties:
-                      scenario:
-                        description: |-
-                          Scenario: Specifies what features in AI Foundry network injection applies to. Currently only supports 'agent' for agent
-                          scenarios. 'none' means no network injection.
-                        enum:
-                        - agent
-                        - none
-                        type: string
-                      subnetArmReference:
-                        description: 'SubnetArmReference: Specify the subnet for which your Agent Client is injected into.'
-                        properties:
-                          armId:
-                            description: |-
-                              ARMID is a string of the form /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}.
-                              The /resourcegroups/{resourceGroupName} bit is optional as some resources are scoped at the subscription level
-                              ARMID is mutually exclusive with Group, Kind, Namespace and Name.
-                            pattern: (?i)(^(/subscriptions/([^/]+)(/resourcegroups/([^/]+))?)?/providers/([^/]+)/([^/]+/[^/]+)(/([^/]+/[^/]+))*$|^/subscriptions/([^/]+)(/resourcegroups/([^/]+))?$)
-                            type: string
-                          group:
-                            description: Group is the Kubernetes group of the resource.
-                            type: string
-                          kind:
-                            description: Kind is the Kubernetes kind of the resource.
-                            type: string
-                          name:
-                            description: Name is the Kubernetes name of the resource.
-                            type: string
-                        type: object
-                      useMicrosoftManagedNetwork:
-                        description: 'UseMicrosoftManagedNetwork: Boolean to enable Microsoft Managed Network for subnet delegation'
-                        type: boolean
-                    type: object
+                    items:
+                      description: |-
+                        Specifies in AI Foundry where virtual network injection occurs to secure scenarios like Agents entirely within the
+                        user's private network, eliminating public internet exposure while maintaining control over network configurations and
+                        resources.
+                      properties:
+                        scenario:
+                          description: |-
+                            Scenario: Specifies what features in AI Foundry network injection applies to. Currently only supports 'agent' for agent
+                            scenarios. 'none' means no network injection.
+                          enum:
+                          - agent
+                          - none
+                          type: string
+                        subnetArmReference:
+                          description: 'SubnetArmReference: Specify the subnet for which your Agent Client is injected into.'
+                          properties:
+                            armId:
+                              description: |-
+                                ARMID is a string of the form /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}.
+                                The /resourcegroups/{resourceGroupName} bit is optional as some resources are scoped at the subscription level
+                                ARMID is mutually exclusive with Group, Kind, Namespace and Name.
+                              pattern: (?i)(^(/subscriptions/([^/]+)(/resourcegroups/([^/]+))?)?/providers/([^/]+)/([^/]+/[^/]+)(/([^/]+/[^/]+))*$|^/subscriptions/([^/]+)(/resourcegroups/([^/]+))?$)
+                              type: string
+                            group:
+                              description: Group is the Kubernetes group of the resource.
+                              type: string
+                            kind:
+                              description: Kind is the Kubernetes kind of the resource.
+                              type: string
+                            name:
+                              description: Name is the Kubernetes name of the resource.
+                              type: string
+                          type: object
+                        useMicrosoftManagedNetwork:
+                          description: 'UseMicrosoftManagedNetwork: Boolean to enable Microsoft Managed Network for subnet delegation'
+                          type: boolean
+                      type: object
+                    type: array
                   publicNetworkAccess:
                     description: 'PublicNetworkAccess: Whether or not public endpoint access is allowed for this account.'
                     enum:
@@ -1090,23 +1092,25 @@ spec:
                         type: array
                     type: object
                   networkInjections:
-                    description: |-
-                      NetworkInjections: Specifies in AI Foundry where virtual network injection occurs to secure scenarios like Agents
-                      entirely within the  user's private network, eliminating public internet exposure while maintaining control over network
-                      configurations and  resources.
-                    properties:
-                      scenario:
-                        description: |-
-                          Scenario: Specifies what features in AI Foundry network injection applies to. Currently only supports 'agent' for agent
-                          scenarios. 'none' means no network injection.
-                        type: string
-                      subnetArmId:
-                        description: 'SubnetArmId: Specify the subnet for which your Agent Client is injected into.'
-                        type: string
-                      useMicrosoftManagedNetwork:
-                        description: 'UseMicrosoftManagedNetwork: Boolean to enable Microsoft Managed Network for subnet delegation'
-                        type: boolean
-                    type: object
+                    items:
+                      description: |-
+                        Specifies in AI Foundry where virtual network injection occurs to secure scenarios like Agents entirely within the
+                        user's private network, eliminating public internet exposure while maintaining control over network configurations and
+                        resources.
+                      properties:
+                        scenario:
+                          description: |-
+                            Scenario: Specifies what features in AI Foundry network injection applies to. Currently only supports 'agent' for agent
+                            scenarios. 'none' means no network injection.
+                          type: string
+                        subnetArmId:
+                          description: 'SubnetArmId: Specify the subnet for which your Agent Client is injected into.'
+                          type: string
+                        useMicrosoftManagedNetwork:
+                          description: 'UseMicrosoftManagedNetwork: Boolean to enable Microsoft Managed Network for subnet delegation'
+                          type: boolean
+                      type: object
+                    type: array
                   privateEndpointConnections:
                     description: 'PrivateEndpointConnections: The private endpoint connection associated with the Cognitive Services account.'
                     items:
@@ -1917,44 +1921,46 @@ spec:
                         type: array
                     type: object
                   networkInjections:
-                    description: |-
-                      Storage version of v1api20250601.NetworkInjections
-                      Specifies in AI Foundry where virtual network injection occurs to secure scenarios like Agents entirely within the
-                      user's private network, eliminating public internet exposure while maintaining control over network configurations and
-                      resources.
-                    properties:
-                      $propertyBag:
-                        additionalProperties:
+                    items:
+                      description: |-
+                        Storage version of v1api20250601.NetworkInjection
+                        Specifies in AI Foundry where virtual network injection occurs to secure scenarios like Agents entirely within the
+                        user's private network, eliminating public internet exposure while maintaining control over network configurations and
+                        resources.
+                      properties:
+                        $propertyBag:
+                          additionalProperties:
+                            type: string
+                          description: |-
+                            PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
+                            resources, allowing for full fidelity round trip conversions
+                          type: object
+                        scenario:
                           type: string
-                        description: |-
-                          PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
-                          resources, allowing for full fidelity round trip conversions
-                        type: object
-                      scenario:
-                        type: string
-                      subnetArmReference:
-                        description: 'SubnetArmReference: Specify the subnet for which your Agent Client is injected into.'
-                        properties:
-                          armId:
-                            description: |-
-                              ARMID is a string of the form /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}.
-                              The /resourcegroups/{resourceGroupName} bit is optional as some resources are scoped at the subscription level
-                              ARMID is mutually exclusive with Group, Kind, Namespace and Name.
-                            pattern: (?i)(^(/subscriptions/([^/]+)(/resourcegroups/([^/]+))?)?/providers/([^/]+)/([^/]+/[^/]+)(/([^/]+/[^/]+))*$|^/subscriptions/([^/]+)(/resourcegroups/([^/]+))?$)
-                            type: string
-                          group:
-                            description: Group is the Kubernetes group of the resource.
-                            type: string
-                          kind:
-                            description: Kind is the Kubernetes kind of the resource.
-                            type: string
-                          name:
-                            description: Name is the Kubernetes name of the resource.
-                            type: string
-                        type: object
-                      useMicrosoftManagedNetwork:
-                        type: boolean
-                    type: object
+                        subnetArmReference:
+                          description: 'SubnetArmReference: Specify the subnet for which your Agent Client is injected into.'
+                          properties:
+                            armId:
+                              description: |-
+                                ARMID is a string of the form /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}.
+                                The /resourcegroups/{resourceGroupName} bit is optional as some resources are scoped at the subscription level
+                                ARMID is mutually exclusive with Group, Kind, Namespace and Name.
+                              pattern: (?i)(^(/subscriptions/([^/]+)(/resourcegroups/([^/]+))?)?/providers/([^/]+)/([^/]+/[^/]+)(/([^/]+/[^/]+))*$|^/subscriptions/([^/]+)(/resourcegroups/([^/]+))?$)
+                              type: string
+                            group:
+                              description: Group is the Kubernetes group of the resource.
+                              type: string
+                            kind:
+                              description: Kind is the Kubernetes kind of the resource.
+                              type: string
+                            name:
+                              description: Name is the Kubernetes name of the resource.
+                              type: string
+                          type: object
+                        useMicrosoftManagedNetwork:
+                          type: boolean
+                      type: object
+                    type: array
                   publicNetworkAccess:
                     type: string
                   raiMonitorConfig:
@@ -2501,26 +2507,28 @@ spec:
                         type: array
                     type: object
                   networkInjections:
-                    description: |-
-                      Storage version of v1api20250601.NetworkInjections_STATUS
-                      Specifies in AI Foundry where virtual network injection occurs to secure scenarios like Agents entirely within the
-                      user's private network, eliminating public internet exposure while maintaining control over network configurations and
-                      resources.
-                    properties:
-                      $propertyBag:
-                        additionalProperties:
+                    items:
+                      description: |-
+                        Storage version of v1api20250601.NetworkInjection_STATUS
+                        Specifies in AI Foundry where virtual network injection occurs to secure scenarios like Agents entirely within the
+                        user's private network, eliminating public internet exposure while maintaining control over network configurations and
+                        resources.
+                      properties:
+                        $propertyBag:
+                          additionalProperties:
+                            type: string
+                          description: |-
+                            PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
+                            resources, allowing for full fidelity round trip conversions
+                          type: object
+                        scenario:
                           type: string
-                        description: |-
-                          PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
-                          resources, allowing for full fidelity round trip conversions
-                        type: object
-                      scenario:
-                        type: string
-                      subnetArmId:
-                        type: string
-                      useMicrosoftManagedNetwork:
-                        type: boolean
-                    type: object
+                        subnetArmId:
+                          type: string
+                        useMicrosoftManagedNetwork:
+                          type: boolean
+                      type: object
+                    type: array
                   privateEndpointConnections:
                     items:
                       description: |-
