@@ -3,10 +3,10 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     cert-manager.io/inject-ca-from: azureserviceoperator-system/azureserviceoperator-serving-cert
-    controller-gen.kubebuilder.io/version: v0.17.3
+    controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.16.0
+    app.kubernetes.io/version: v2.17.0
   name: namespacesauthorizationrules.eventhub.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /eventhub/resource-manager/Microsoft.EventHub/stable/2021-11-01/AuthorizationRules.json
+          - Generated from: /eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2021-11-01/AuthorizationRules.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/authorizationRules/{authorizationRuleName}
         properties:
           apiVersion:
@@ -354,7 +354,7 @@ spec:
         description: |-
           Storage version of v1api20211101.NamespacesAuthorizationRule
           Generator information:
-          - Generated from: /eventhub/resource-manager/Microsoft.EventHub/stable/2021-11-01/AuthorizationRules.json
+          - Generated from: /eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2021-11-01/AuthorizationRules.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/authorizationRules/{authorizationRuleName}
         properties:
           apiVersion:
@@ -679,7 +679,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /eventhub/resource-manager/Microsoft.EventHub/stable/2024-01-01/AuthorizationRules.json
+          - Generated from: /eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2024-01-01/AuthorizationRules.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/authorizationRules/{authorizationRuleName}
         properties:
           apiVersion:
@@ -983,7 +983,7 @@ spec:
         description: |-
           Storage version of v1api20240101.NamespacesAuthorizationRule
           Generator information:
-          - Generated from: /eventhub/resource-manager/Microsoft.EventHub/stable/2024-01-01/AuthorizationRules.json
+          - Generated from: /eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2024-01-01/AuthorizationRules.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/authorizationRules/{authorizationRuleName}
         properties:
           apiVersion:

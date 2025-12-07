@@ -3,10 +3,10 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     cert-manager.io/inject-ca-from: azureserviceoperator-system/azureserviceoperator-serving-cert
-    controller-gen.kubebuilder.io/version: v0.17.3
+    controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.16.0
+    app.kubernetes.io/version: v2.17.0
   name: sqlroleassignments.documentdb.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/stable/2021-05-15/rbac.json
+          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2021-05-15/rbac.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlRoleAssignments/{roleAssignmentId}
         properties:
           apiVersion:
@@ -279,7 +279,7 @@ spec:
         description: |-
           Storage version of v1api20210515.SqlRoleAssignment
           Generator information:
-          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/stable/2021-05-15/rbac.json
+          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2021-05-15/rbac.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlRoleAssignments/{roleAssignmentId}
         properties:
           apiVersion:
@@ -515,7 +515,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/stable/2023-11-15/rbac.json
+          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2023-11-15/rbac.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlRoleAssignments/{roleAssignmentId}
         properties:
           apiVersion:
@@ -744,7 +744,7 @@ spec:
         description: |-
           Storage version of v1api20231115.SqlRoleAssignment
           Generator information:
-          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/stable/2023-11-15/rbac.json
+          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2023-11-15/rbac.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlRoleAssignments/{roleAssignmentId}
         properties:
           apiVersion:
@@ -980,7 +980,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/stable/2024-08-15/rbac.json
+          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2024-08-15/rbac.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlRoleAssignments/{roleAssignmentId}
         properties:
           apiVersion:
@@ -1209,7 +1209,7 @@ spec:
         description: |-
           Storage version of v1api20240815.SqlRoleAssignment
           Generator information:
-          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/stable/2024-08-15/rbac.json
+          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2024-08-15/rbac.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlRoleAssignments/{roleAssignmentId}
         properties:
           apiVersion:

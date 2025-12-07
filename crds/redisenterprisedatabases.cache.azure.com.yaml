@@ -3,10 +3,10 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     cert-manager.io/inject-ca-from: azureserviceoperator-system/azureserviceoperator-serving-cert
-    controller-gen.kubebuilder.io/version: v0.17.3
+    controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.16.0
+    app.kubernetes.io/version: v2.17.0
   name: redisenterprisedatabases.cache.azure.com
 spec:
   conversion:
@@ -183,6 +183,44 @@ spec:
                       - value
                       type: object
                     type: array
+                  secrets:
+                    description: 'Secrets: configures where to place Azure generated secrets.'
+                    properties:
+                      primaryKey:
+                        description: |-
+                          PrimaryKey: indicates where the PrimaryKey secret should be placed. If omitted, the secret will not be retrieved from
+                          Azure.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                      secondaryKey:
+                        description: |-
+                          SecondaryKey: indicates where the SecondaryKey secret should be placed. If omitted, the secret will not be retrieved
+                          from Azure.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                    type: object
                 type: object
               owner:
                 description: |-
@@ -490,6 +528,53 @@ spec:
                       - value
                       type: object
                     type: array
+                  secrets:
+                    description: Storage version of v1api20210301.RedisEnterpriseDatabaseOperatorSecrets
+                    properties:
+                      $propertyBag:
+                        additionalProperties:
+                          type: string
+                        description: |-
+                          PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
+                          resources, allowing for full fidelity round trip conversions
+                        type: object
+                      primaryKey:
+                        description: |-
+                          SecretDestination describes the location to store a single secret value.
+                          Note: This is similar to: ConfigMapDestination in configmaps.go.
+                          Changes to one may need to be made to the others as well.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                      secondaryKey:
+                        description: |-
+                          SecretDestination describes the location to store a single secret value.
+                          Note: This is similar to: ConfigMapDestination in configmaps.go.
+                          Changes to one may need to be made to the others as well.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                    type: object
                 type: object
               originalVersion:
                 type: string
@@ -836,6 +921,44 @@ spec:
                       - value
                       type: object
                     type: array
+                  secrets:
+                    description: 'Secrets: configures where to place Azure generated secrets.'
+                    properties:
+                      primaryKey:
+                        description: |-
+                          PrimaryKey: indicates where the PrimaryKey secret should be placed. If omitted, the secret will not be retrieved from
+                          Azure.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                      secondaryKey:
+                        description: |-
+                          SecondaryKey: indicates where the SecondaryKey secret should be placed. If omitted, the secret will not be retrieved
+                          from Azure.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                    type: object
                 type: object
               owner:
                 description: |-
@@ -1211,6 +1334,53 @@ spec:
                       - value
                       type: object
                     type: array
+                  secrets:
+                    description: Storage version of v1api20230701.RedisEnterpriseDatabaseOperatorSecrets
+                    properties:
+                      $propertyBag:
+                        additionalProperties:
+                          type: string
+                        description: |-
+                          PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
+                          resources, allowing for full fidelity round trip conversions
+                        type: object
+                      primaryKey:
+                        description: |-
+                          SecretDestination describes the location to store a single secret value.
+                          Note: This is similar to: ConfigMapDestination in configmaps.go.
+                          Changes to one may need to be made to the others as well.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                      secondaryKey:
+                        description: |-
+                          SecretDestination describes the location to store a single secret value.
+                          Note: This is similar to: ConfigMapDestination in configmaps.go.
+                          Changes to one may need to be made to the others as well.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                    type: object
                 type: object
               originalVersion:
                 type: string
@@ -1607,6 +1777,44 @@ spec:
                       - value
                       type: object
                     type: array
+                  secrets:
+                    description: 'Secrets: configures where to place Azure generated secrets.'
+                    properties:
+                      primaryKey:
+                        description: |-
+                          PrimaryKey: indicates where the PrimaryKey secret should be placed. If omitted, the secret will not be retrieved from
+                          Azure.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                      secondaryKey:
+                        description: |-
+                          SecondaryKey: indicates where the SecondaryKey secret should be placed. If omitted, the secret will not be retrieved
+                          from Azure.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                    type: object
                 type: object
               owner:
                 description: |-
@@ -2027,6 +2235,53 @@ spec:
                       - value
                       type: object
                     type: array
+                  secrets:
+                    description: Storage version of v1api20250401.RedisEnterpriseDatabaseOperatorSecrets
+                    properties:
+                      $propertyBag:
+                        additionalProperties:
+                          type: string
+                        description: |-
+                          PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
+                          resources, allowing for full fidelity round trip conversions
+                        type: object
+                      primaryKey:
+                        description: |-
+                          SecretDestination describes the location to store a single secret value.
+                          Note: This is similar to: ConfigMapDestination in configmaps.go.
+                          Changes to one may need to be made to the others as well.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                      secondaryKey:
+                        description: |-
+                          SecretDestination describes the location to store a single secret value.
+                          Note: This is similar to: ConfigMapDestination in configmaps.go.
+                          Changes to one may need to be made to the others as well.
+                        properties:
+                          key:
+                            description: Key is the key in the Kubernetes secret being referenced.
+                            type: string
+                          name:
+                            description: |-
+                              Name is the name of the Kubernetes secret to write to.
+                              The secret will be created in the same namespace as the resource.
+                            type: string
+                        required:
+                        - key
+                        - name
+                        type: object
+                    type: object
                 type: object
               originalVersion:
                 type: string

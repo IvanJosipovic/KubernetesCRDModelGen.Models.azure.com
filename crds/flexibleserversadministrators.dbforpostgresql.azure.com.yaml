@@ -7,7 +7,7 @@ metadata:
   labels:
     app.kubernetes.io/name: azure-service-operator
     app.kubernetes.io/version: v2.17.0
-  name: replicas.signalrservice.azure.com
+  name: flexibleserversadministrators.dbforpostgresql.azure.com
 spec:
   conversion:
     strategy: Webhook
@@ -20,15 +20,15 @@ spec:
           port: 443
       conversionReviewVersions:
       - v1
-  group: signalrservice.azure.com
+  group: dbforpostgresql.azure.com
   names:
     categories:
     - azure
-    - signalrservice
-    kind: Replica
-    listKind: ReplicaList
-    plural: replicas
-    singular: replica
+    - dbforpostgresql
+    kind: FlexibleServersAdministrator
+    listKind: FlexibleServersAdministratorList
+    plural: flexibleserversadministrators
+    singular: flexibleserversadministrator
   preserveUnknownFields: false
   scope: Namespaced
   versions:
@@ -45,13 +45,13 @@ spec:
     - jsonPath: .status.conditions[?(@.type=='Ready')].message
       name: Message
       type: string
-    name: v1api20240301
+    name: v20250801
     schema:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/SignalRService/stable/2024-03-01/signalr.json
-          - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/replicas/{replicaName}
+          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/AdministratorsMicrosoftEntra.json
+          - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/flexibleServers/{serverName}/administrators/{objectId}
         properties:
           apiVersion:
             description: |-
@@ -76,12 +76,6 @@ spec:
                 description: |-
                   AzureName: The name of the resource in Azure. This is often the same as the name of the resource in Kubernetes but it
                   doesn't have to be.
-                maxLength: 63
-                minLength: 3
-                pattern: ^[a-zA-Z][a-zA-Z0-9-]{1,61}[a-zA-Z0-9]$
-                type: string
-              location:
-                description: 'Location: The geo-location where the resource lives'
                 type: string
               operatorSpec:
                 description: |-
@@ -153,7 +147,7 @@ spec:
                 description: |-
                   Owner: The owner of the resource. The owner controls where the resource goes when it is deployed. The owner also
                   controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
-                  reference to a signalrservice.azure.com/SignalR resource
+                  reference to a dbforpostgresql.azure.com/FlexibleServer resource
                 properties:
                   armId:
                     pattern: (?i)(^(/subscriptions/([^/]+)(/resourcegroups/([^/]+))?)?/providers/([^/]+)/([^/]+/[^/]+)(/([^/]+/[^/]+))*$|^/subscriptions/([^/]+)(/resourcegroups/([^/]+))?$)
@@ -162,58 +156,52 @@ spec:
                     description: This is the name of the Kubernetes resource to reference.
                     type: string
                 type: object
-              regionEndpointEnabled:
-                description: |-
-                  RegionEndpointEnabled: Enable or disable the regional endpoint. Default to "Enabled".
-                  When it's Disabled, new connections will not be routed to this endpoint, however existing connections will not be
-                  affected.
+              principalName:
+                description: 'PrincipalName: Name of the Microsoft Entra principal.'
                 type: string
-              resourceStopped:
-                description: |-
-                  ResourceStopped: Stop or start the resource.  Default to "false".
-                  When it's true, the data plane of the resource is shutdown.
-                  When it's false, the data plane of the resource is started.
-                type: string
-              sku:
-                description: 'Sku: The billing information of the resource.'
+              principalNameFromConfig:
+                description: 'PrincipalNameFromConfig: Name of the Microsoft Entra principal.'
                 properties:
-                  capacity:
-                    description: |-
-                      Capacity: Optional, integer. The unit count of the resource.
-                      1 for Free_F1/Standard_S1/Premium_P1, 100 for Premium_P2 by default.
-                      If present, following values are allowed:
-                      Free_F1: 1;
-                      Standard_S1: 1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100;
-                      Premium_P1:  1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100;
-                      Premium_P2:  100,200,300,400,500,600,700,800,900,1000;
-                    type: integer
+                  key:
+                    description: Key is the key in the Kubernetes configmap being referenced
+                    type: string
                   name:
                     description: |-
-                      Name: The name of the SKU. Required.
-                      Allowed values: Standard_S1, Free_F1, Premium_P1, Premium_P2
-                    type: string
-                  tier:
-                    description: |-
-                      Tier: Optional tier of this particular SKU. 'Standard' or 'Free'.
-                      `Basic` is deprecated, use `Standard` instead.
-                    enum:
-                    - Basic
-                    - Free
-                    - Premium
-                    - Standard
+                      Name is the name of the Kubernetes configmap being referenced.
+                      The configmap must be in the same namespace as the resource
                     type: string
                 required:
+                - key
                 - name
                 type: object
-              tags:
-                additionalProperties:
-                  type: string
-                description: 'Tags: Resource tags.'
+              principalType:
+                description: 'PrincipalType: Type of Microsoft Entra principal to which the server administrator is associated.'
+                enum:
+                - Group
+                - ServicePrincipal
+                - Unknown
+                - User
+                type: string
+              tenantId:
+                description: 'TenantId: Identifier of the tenant in which the Microsoft Entra principal exists.'
+                type: string
+              tenantIdFromConfig:
+                description: 'TenantIdFromConfig: Identifier of the tenant in which the Microsoft Entra principal exists.'
+                properties:
+                  key:
+                    description: Key is the key in the Kubernetes configmap being referenced
+                    type: string
+                  name:
+                    description: |-
+                      Name is the name of the Kubernetes configmap being referenced.
+                      The configmap must be in the same namespace as the resource
+                    type: string
+                required:
+                - key
+                - name
                 type: object
             required:
-            - location
             - owner
-            - sku
             type: object
           status:
             properties:
@@ -266,57 +254,18 @@ spec:
                   Id: Fully qualified resource ID for the resource. E.g.
                   "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}"
                 type: string
-              location:
-                description: 'Location: The geo-location where the resource lives'
-                type: string
               name:
                 description: 'Name: The name of the resource'
                 type: string
-              provisioningState:
-                description: 'ProvisioningState: Provisioning state of the resource.'
+              objectId:
+                description: 'ObjectId: Object identifier of the Microsoft Entra principal.'
                 type: string
-              regionEndpointEnabled:
-                description: |-
-                  RegionEndpointEnabled: Enable or disable the regional endpoint. Default to "Enabled".
-                  When it's Disabled, new connections will not be routed to this endpoint, however existing connections will not be
-                  affected.
+              principalName:
+                description: 'PrincipalName: Name of the Microsoft Entra principal.'
                 type: string
-              resourceStopped:
-                description: |-
-                  ResourceStopped: Stop or start the resource.  Default to "false".
-                  When it's true, the data plane of the resource is shutdown.
-                  When it's false, the data plane of the resource is started.
+              principalType:
+                description: 'PrincipalType: Type of Microsoft Entra principal to which the server administrator is associated.'
                 type: string
-              sku:
-                description: 'Sku: The billing information of the resource.'
-                properties:
-                  capacity:
-                    description: |-
-                      Capacity: Optional, integer. The unit count of the resource.
-                      1 for Free_F1/Standard_S1/Premium_P1, 100 for Premium_P2 by default.
-                      If present, following values are allowed:
-                      Free_F1: 1;
-                      Standard_S1: 1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100;
-                      Premium_P1:  1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100;
-                      Premium_P2:  100,200,300,400,500,600,700,800,900,1000;
-                    type: integer
-                  family:
-                    description: 'Family: Not used. Retained for future use.'
-                    type: string
-                  name:
-                    description: |-
-                      Name: The name of the SKU. Required.
-                      Allowed values: Standard_S1, Free_F1, Premium_P1, Premium_P2
-                    type: string
-                  size:
-                    description: 'Size: Not used. Retained for future use.'
-                    type: string
-                  tier:
-                    description: |-
-                      Tier: Optional tier of this particular SKU. 'Standard' or 'Free'.
-                      `Basic` is deprecated, use `Standard` instead.
-                    type: string
-                type: object
               systemData:
                 description: 'SystemData: Azure Resource Manager metadata containing createdBy and modifiedBy information.'
                 properties:
@@ -339,11 +288,9 @@ spec:
                     description: 'LastModifiedByType: The type of identity that last modified the resource.'
                     type: string
                 type: object
-              tags:
-                additionalProperties:
-                  type: string
-                description: 'Tags: Resource tags.'
-                type: object
+              tenantId:
+                description: 'TenantId: Identifier of the tenant in which the Microsoft Entra principal exists.'
+                type: string
               type:
                 description: 'Type: The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or "Microsoft.Storage/storageAccounts"'
                 type: string
@@ -366,14 +313,14 @@ spec:
     - jsonPath: .status.conditions[?(@.type=='Ready')].message
       name: Message
       type: string
-    name: v1api20240301storage
+    name: v20250801storage
     schema:
       openAPIV3Schema:
         description: |-
-          Storage version of v1api20240301.Replica
+          Storage version of v20250801.FlexibleServersAdministrator
           Generator information:
-          - Generated from: /signalr/resource-manager/Microsoft.SignalRService/SignalRService/stable/2024-03-01/signalr.json
-          - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/replicas/{replicaName}
+          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/AdministratorsMicrosoftEntra.json
+          - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/flexibleServers/{serverName}/administrators/{objectId}
         properties:
           apiVersion:
             description: |-
@@ -393,7 +340,7 @@ spec:
           metadata:
             type: object
           spec:
-            description: Storage version of v1api20240301.Replica_Spec
+            description: Storage version of v20250801.FlexibleServersAdministrator_Spec
             properties:
               $propertyBag:
                 additionalProperties:
@@ -407,11 +354,9 @@ spec:
                   AzureName: The name of the resource in Azure. This is often the same as the name of the resource in Kubernetes but it
                   doesn't have to be.
                 type: string
-              location:
-                type: string
               operatorSpec:
                 description: |-
-                  Storage version of v1api20240301.ReplicaOperatorSpec
+                  Storage version of v20250801.FlexibleServersAdministratorOperatorSpec
                   Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
                 properties:
                   $propertyBag:
@@ -486,7 +431,7 @@ spec:
                 description: |-
                   Owner: The owner of the resource. The owner controls where the resource goes when it is deployed. The owner also
                   controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
-                  reference to a signalrservice.azure.com/SignalR resource
+                  reference to a dbforpostgresql.azure.com/FlexibleServer resource
                 properties:
                   armId:
                     pattern: (?i)(^(/subscriptions/([^/]+)(/resourcegroups/([^/]+))?)?/providers/([^/]+)/([^/]+/[^/]+)(/([^/]+/[^/]+))*$|^/subscriptions/([^/]+)(/resourcegroups/([^/]+))?$)
@@ -495,38 +440,51 @@ spec:
                     description: This is the name of the Kubernetes resource to reference.
                     type: string
                 type: object
-              regionEndpointEnabled:
+              principalName:
                 type: string
-              resourceStopped:
-                type: string
-              sku:
+              principalNameFromConfig:
                 description: |-
-                  Storage version of v1api20240301.ResourceSku
-                  The billing information of the resource.
+                  ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
+                  the resource it is on.
                 properties:
-                  $propertyBag:
-                    additionalProperties:
-                      type: string
-                    description: |-
-                      PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
-                      resources, allowing for full fidelity round trip conversions
-                    type: object
-                  capacity:
-                    type: integer
+                  key:
+                    description: Key is the key in the Kubernetes configmap being referenced
+                    type: string
                   name:
+                    description: |-
+                      Name is the name of the Kubernetes configmap being referenced.
+                      The configmap must be in the same namespace as the resource
                     type: string
-                  tier:
-                    type: string
+                required:
+                - key
+                - name
                 type: object
-              tags:
-                additionalProperties:
-                  type: string
+              principalType:
+                type: string
+              tenantId:
+                type: string
+              tenantIdFromConfig:
+                description: |-
+                  ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
+                  the resource it is on.
+                properties:
+                  key:
+                    description: Key is the key in the Kubernetes configmap being referenced
+                    type: string
+                  name:
+                    description: |-
+                      Name is the name of the Kubernetes configmap being referenced.
+                      The configmap must be in the same namespace as the resource
+                    type: string
+                required:
+                - key
+                - name
                 type: object
             required:
             - owner
             type: object
           status:
-            description: Storage version of v1api20240301.Replica_STATUS
+            description: Storage version of v20250801.FlexibleServersAdministrator_STATUS
             properties:
               $propertyBag:
                 additionalProperties:
@@ -580,42 +538,17 @@ spec:
                 type: array
               id:
                 type: string
-              location:
-                type: string
               name:
                 type: string
-              provisioningState:
+              objectId:
                 type: string
-              regionEndpointEnabled:
+              principalName:
                 type: string
-              resourceStopped:
+              principalType:
                 type: string
-              sku:
-                description: |-
-                  Storage version of v1api20240301.ResourceSku_STATUS
-                  The billing information of the resource.
-                properties:
-                  $propertyBag:
-                    additionalProperties:
-                      type: string
-                    description: |-
-                      PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
-                      resources, allowing for full fidelity round trip conversions
-                    type: object
-                  capacity:
-                    type: integer
-                  family:
-                    type: string
-                  name:
-                    type: string
-                  size:
-                    type: string
-                  tier:
-                    type: string
-                type: object
               systemData:
                 description: |-
-                  Storage version of v1api20240301.SystemData_STATUS
+                  Storage version of v20250801.SystemData_STATUS
                   Metadata pertaining to creation and last modification of the resource.
                 properties:
                   $propertyBag:
@@ -638,10 +571,8 @@ spec:
                   lastModifiedByType:
                     type: string
                 type: object
-              tags:
-                additionalProperties:
-                  type: string
-                type: object
+              tenantId:
+                type: string
               type:
                 type: string
             type: object
