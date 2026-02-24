@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.17.0
+    app.kubernetes.io/version: v2.18.0
   name: scheduledqueryrules.insights.azure.com
 spec:
   conversion:
@@ -1249,12 +1249,12 @@ spec:
     - jsonPath: .status.conditions[?(@.type=='Ready')].message
       name: Message
       type: string
-    name: v1api20240101preview
+    name: v1api20250101preview
     schema:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /monitor/resource-manager/Microsoft.Insights/preview/2024-01-01-preview/scheduledQueryRule_API.json
+          - Generated from: /monitor/resource-manager/Microsoft.Insights/preview/2025-01-01-preview/scheduledQueryRule_API.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}
         properties:
           apiVersion:
@@ -1316,7 +1316,7 @@ spec:
               autoMitigate:
                 description: |-
                   AutoMitigate: The flag that indicates whether the alert should be automatically resolved or not. The default is true.
-                  Relevant only for rules of the kind LogAlert.
+                  Relevant only for rules of kinds LogAlert and SimpleLogAlert.
                 type: boolean
               azureName:
                 description: |-
@@ -1340,8 +1340,8 @@ spec:
                         alertSensitivity:
                           description: |-
                             AlertSensitivity: The extent of deviation required to trigger an alert. Allowed values are 'Low', 'Medium' and 'High'.
-                            This will affect how tight the threshold is to the metric series pattern. Relevant and required only for dynamic
-                            threshold rules of the kind LogAlert.
+                            This will affect how tight the threshold is to the metric series pattern. Relevant only for dynamic threshold rules of
+                            the kind LogAlert.
                           type: string
                         criterionType:
                           description: 'CriterionType: Specifies the type of threshold criteria'
@@ -1401,6 +1401,11 @@ spec:
                         metricName:
                           description: 'MetricName: The name of the metric to be sent. Relevant and required only for rules of the kind LogToMetric.'
                           type: string
+                        minRecurrenceCount:
+                          description: |-
+                            MinRecurrenceCount: The minimum results count that should be found for triggering an alert. Relevant only for rules of
+                            the kind SimpleLogAlert.
+                          type: integer
                         operator:
                           description: 'Operator: The criteria operator. Relevant and required only for rules of the kind LogAlert.'
                           enum:
@@ -1513,9 +1518,9 @@ spec:
               kind:
                 description: 'Kind: Indicates the type of scheduled query rule. The default is LogAlert.'
                 enum:
-                - EventLogAlert
                 - LogAlert
                 - LogToMetric
+                - SimpleLogAlert
                 type: string
               location:
                 description: 'Location: The geo-location where the resource lives'
@@ -1610,7 +1615,9 @@ spec:
                     type: string
                 type: object
               resolveConfiguration:
-                description: 'ResolveConfiguration: Defines the configuration for resolving fired alerts. Relevant only for rules of the kind LogAlert.'
+                description: |-
+                  ResolveConfiguration: Defines the configuration for resolving fired alerts. Relevant only for rules of kinds LogAlert
+                  and SimpleLogAlert.
                 properties:
                   autoResolved:
                     description: 'AutoResolved: The flag that indicates whether or not to auto resolve a fired alert.'
@@ -1707,7 +1714,7 @@ spec:
               autoMitigate:
                 description: |-
                   AutoMitigate: The flag that indicates whether the alert should be automatically resolved or not. The default is true.
-                  Relevant only for rules of the kind LogAlert.
+                  Relevant only for rules of kinds LogAlert and SimpleLogAlert.
                 type: boolean
               checkWorkspaceAlertsStorageConfigured:
                 description: |-
@@ -1772,8 +1779,8 @@ spec:
                         alertSensitivity:
                           description: |-
                             AlertSensitivity: The extent of deviation required to trigger an alert. Allowed values are 'Low', 'Medium' and 'High'.
-                            This will affect how tight the threshold is to the metric series pattern. Relevant and required only for dynamic
-                            threshold rules of the kind LogAlert.
+                            This will affect how tight the threshold is to the metric series pattern. Relevant only for dynamic threshold rules of
+                            the kind LogAlert.
                           type: string
                         criterionType:
                           description: 'CriterionType: Specifies the type of threshold criteria'
@@ -1823,6 +1830,11 @@ spec:
                         metricName:
                           description: 'MetricName: The name of the metric to be sent. Relevant and required only for rules of the kind LogToMetric.'
                           type: string
+                        minRecurrenceCount:
+                          description: |-
+                            MinRecurrenceCount: The minimum results count that should be found for triggering an alert. Relevant only for rules of
+                            the kind SimpleLogAlert.
+                          type: integer
                         operator:
                           description: 'Operator: The criteria operator. Relevant and required only for rules of the kind LogAlert.'
                           type: string
@@ -1928,7 +1940,9 @@ spec:
                   WindowSize*NumberOfEvaluationPeriods). Relevant only for rules of the kind LogAlert.
                 type: string
               resolveConfiguration:
-                description: 'ResolveConfiguration: Defines the configuration for resolving fired alerts. Relevant only for rules of the kind LogAlert.'
+                description: |-
+                  ResolveConfiguration: Defines the configuration for resolving fired alerts. Relevant only for rules of kinds LogAlert
+                  and SimpleLogAlert.
                 properties:
                   autoResolved:
                     description: 'AutoResolved: The flag that indicates whether or not to auto resolve a fired alert.'
@@ -2017,13 +2031,13 @@ spec:
     - jsonPath: .status.conditions[?(@.type=='Ready')].message
       name: Message
       type: string
-    name: v1api20240101previewstorage
+    name: v1api20250101previewstorage
     schema:
       openAPIV3Schema:
         description: |-
-          Storage version of v1api20240101preview.ScheduledQueryRule
+          Storage version of v1api20250101preview.ScheduledQueryRule
           Generator information:
-          - Generated from: /monitor/resource-manager/Microsoft.Insights/preview/2024-01-01-preview/scheduledQueryRule_API.json
+          - Generated from: /monitor/resource-manager/Microsoft.Insights/preview/2025-01-01-preview/scheduledQueryRule_API.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}
         properties:
           apiVersion:
@@ -2044,7 +2058,7 @@ spec:
           metadata:
             type: object
           spec:
-            description: Storage version of v1api20240101preview.ScheduledQueryRule_Spec
+            description: Storage version of v1api20250101preview.ScheduledQueryRule_Spec
             properties:
               $propertyBag:
                 additionalProperties:
@@ -2055,7 +2069,7 @@ spec:
                 type: object
               actions:
                 description: |-
-                  Storage version of v1api20240101preview.Actions
+                  Storage version of v1api20250101preview.Actions
                   Actions to invoke when the alert fires.
                 properties:
                   $propertyBag:
@@ -2107,7 +2121,7 @@ spec:
                 type: boolean
               criteria:
                 description: |-
-                  Storage version of v1api20240101preview.ScheduledQueryRuleCriteria
+                  Storage version of v1api20250101preview.ScheduledQueryRuleCriteria
                   The rule criteria that defines the conditions of the scheduled query rule.
                 properties:
                   $propertyBag:
@@ -2120,7 +2134,7 @@ spec:
                   allOf:
                     items:
                       description: |-
-                        Storage version of v1api20240101preview.Condition
+                        Storage version of v1api20250101preview.Condition
                         A condition of the scheduled query rule.
                       properties:
                         $propertyBag:
@@ -2137,7 +2151,7 @@ spec:
                         dimensions:
                           items:
                             description: |-
-                              Storage version of v1api20240101preview.Dimension
+                              Storage version of v1api20250101preview.Dimension
                               Dimension splitting and filtering definition
                             properties:
                               $propertyBag:
@@ -2158,7 +2172,7 @@ spec:
                             type: object
                           type: array
                         failingPeriods:
-                          description: Storage version of v1api20240101preview.Condition_FailingPeriods
+                          description: Storage version of v1api20250101preview.Condition_FailingPeriods
                           properties:
                             $propertyBag:
                               additionalProperties:
@@ -2178,6 +2192,8 @@ spec:
                           type: string
                         metricName:
                           type: string
+                        minRecurrenceCount:
+                          type: integer
                         operator:
                           type: string
                         query:
@@ -2221,7 +2237,7 @@ spec:
                 type: string
               identity:
                 description: |-
-                  Storage version of v1api20240101preview.Identity
+                  Storage version of v1api20250101preview.Identity
                   Identity for the resource.
                 properties:
                   $propertyBag:
@@ -2236,7 +2252,7 @@ spec:
                   userAssignedIdentities:
                     items:
                       description: |-
-                        Storage version of v1api20240101preview.UserAssignedIdentityDetails
+                        Storage version of v1api20250101preview.UserAssignedIdentityDetails
                         Information about the user assigned identity for the resource
                       properties:
                         $propertyBag:
@@ -2277,7 +2293,7 @@ spec:
                 type: string
               operatorSpec:
                 description: |-
-                  Storage version of v1api20240101preview.ScheduledQueryRuleOperatorSpec
+                  Storage version of v1api20250101preview.ScheduledQueryRuleOperatorSpec
                   Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
                 properties:
                   $propertyBag:
@@ -2365,7 +2381,7 @@ spec:
                 type: object
               resolveConfiguration:
                 description: |-
-                  Storage version of v1api20240101preview.RuleResolveConfiguration
+                  Storage version of v1api20250101preview.RuleResolveConfiguration
                   TBD. Relevant only for rules of the kind LogAlert.
                 properties:
                   $propertyBag:
@@ -2420,7 +2436,7 @@ spec:
             - owner
             type: object
           status:
-            description: Storage version of v1api20240101preview.ScheduledQueryRule_STATUS
+            description: Storage version of v1api20250101preview.ScheduledQueryRule_STATUS
             properties:
               $propertyBag:
                 additionalProperties:
@@ -2431,7 +2447,7 @@ spec:
                 type: object
               actions:
                 description: |-
-                  Storage version of v1api20240101preview.Actions_STATUS
+                  Storage version of v1api20250101preview.Actions_STATUS
                   Actions to invoke when the alert fires.
                 properties:
                   $propertyBag:
@@ -2505,7 +2521,7 @@ spec:
                 type: string
               criteria:
                 description: |-
-                  Storage version of v1api20240101preview.ScheduledQueryRuleCriteria_STATUS
+                  Storage version of v1api20250101preview.ScheduledQueryRuleCriteria_STATUS
                   The rule criteria that defines the conditions of the scheduled query rule.
                 properties:
                   $propertyBag:
@@ -2518,7 +2534,7 @@ spec:
                   allOf:
                     items:
                       description: |-
-                        Storage version of v1api20240101preview.Condition_STATUS
+                        Storage version of v1api20250101preview.Condition_STATUS
                         A condition of the scheduled query rule.
                       properties:
                         $propertyBag:
@@ -2535,7 +2551,7 @@ spec:
                         dimensions:
                           items:
                             description: |-
-                              Storage version of v1api20240101preview.Dimension_STATUS
+                              Storage version of v1api20250101preview.Dimension_STATUS
                               Dimension splitting and filtering definition
                             properties:
                               $propertyBag:
@@ -2556,7 +2572,7 @@ spec:
                             type: object
                           type: array
                         failingPeriods:
-                          description: Storage version of v1api20240101preview.Condition_FailingPeriods_STATUS
+                          description: Storage version of v1api20250101preview.Condition_FailingPeriods_STATUS
                           properties:
                             $propertyBag:
                               additionalProperties:
@@ -2576,6 +2592,8 @@ spec:
                           type: string
                         metricName:
                           type: string
+                        minRecurrenceCount:
+                          type: integer
                         operator:
                           type: string
                         query:
@@ -2603,7 +2621,7 @@ spec:
                 type: string
               identity:
                 description: |-
-                  Storage version of v1api20240101preview.Identity_STATUS
+                  Storage version of v1api20250101preview.Identity_STATUS
                   Identity for the resource.
                 properties:
                   $propertyBag:
@@ -2622,7 +2640,7 @@ spec:
                   userAssignedIdentities:
                     additionalProperties:
                       description: |-
-                        Storage version of v1api20240101preview.UserIdentityProperties_STATUS
+                        Storage version of v1api20250101preview.UserIdentityProperties_STATUS
                         User assigned identity properties.
                       properties:
                         $propertyBag:
@@ -2655,7 +2673,7 @@ spec:
                 type: string
               resolveConfiguration:
                 description: |-
-                  Storage version of v1api20240101preview.RuleResolveConfiguration_STATUS
+                  Storage version of v1api20250101preview.RuleResolveConfiguration_STATUS
                   TBD. Relevant only for rules of the kind LogAlert.
                 properties:
                   $propertyBag:
@@ -2680,7 +2698,7 @@ spec:
                 type: boolean
               systemData:
                 description: |-
-                  Storage version of v1api20240101preview.SystemData_STATUS
+                  Storage version of v1api20250101preview.SystemData_STATUS
                   Metadata pertaining to creation and last modification of the resource.
                 properties:
                   $propertyBag:

@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.17.0
+    app.kubernetes.io/version: v2.18.0
   name: loadbalancers.network.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /network/resource-manager/Microsoft.Network/stable/2020-11-01/loadBalancer.json
+          - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2020-11-01/loadBalancer.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers/{loadBalancerName}
         properties:
           apiVersion:
@@ -1477,7 +1477,7 @@ spec:
         description: |-
           Storage version of v1api20201101.LoadBalancer
           Generator information:
-          - Generated from: /network/resource-manager/Microsoft.Network/stable/2020-11-01/loadBalancer.json
+          - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2020-11-01/loadBalancer.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers/{loadBalancerName}
         properties:
           apiVersion:
@@ -3053,7 +3053,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /network/resource-manager/Microsoft.Network/stable/2024-03-01/loadBalancer.json
+          - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2024-03-01/loadBalancer.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers/{loadBalancerName}
         properties:
           apiVersion:
@@ -4764,7 +4764,7 @@ spec:
         description: |-
           Storage version of v1api20240301.LoadBalancer
           Generator information:
-          - Generated from: /network/resource-manager/Microsoft.Network/stable/2024-03-01/loadBalancer.json
+          - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2024-03-01/loadBalancer.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/loadBalancers/{loadBalancerName}
         properties:
           apiVersion:

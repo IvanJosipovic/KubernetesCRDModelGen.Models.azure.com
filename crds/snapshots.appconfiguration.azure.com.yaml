@@ -7,7 +7,7 @@ metadata:
   labels:
     app.kubernetes.io/name: azure-service-operator
     app.kubernetes.io/version: v2.18.0
-  name: mongodbuserdefinitions.documentdb.azure.com
+  name: snapshots.appconfiguration.azure.com
 spec:
   conversion:
     strategy: Webhook
@@ -20,15 +20,15 @@ spec:
           port: 443
       conversionReviewVersions:
       - v1
-  group: documentdb.azure.com
+  group: appconfiguration.azure.com
   names:
     categories:
     - azure
-    - documentdb
-    kind: MongodbUserDefinition
-    listKind: MongodbUserDefinitionList
-    plural: mongodbuserdefinitions
-    singular: mongodbuserdefinition
+    - appconfiguration
+    kind: Snapshot
+    listKind: SnapshotList
+    plural: snapshots
+    singular: snapshot
   preserveUnknownFields: false
   scope: Namespaced
   versions:
@@ -45,13 +45,13 @@ spec:
     - jsonPath: .status.conditions[?(@.type=='Ready')].message
       name: Message
       type: string
-    name: v1api20240815
+    name: v20240601
     schema:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2024-08-15/mongorbac.json
-          - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbUserDefinitions/{mongoUserDefinitionId}
+          - Generated from: /appconfiguration/resource-manager/Microsoft.AppConfiguration/AppConfiguration/stable/2024-06-01/appconfiguration.json
+          - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppConfiguration/configurationStores/{configStoreName}/snapshots/{snapshotName}
         properties:
           apiVersion:
             description: |-
@@ -76,16 +76,34 @@ spec:
                 description: |-
                   AzureName: The name of the resource in Azure. This is often the same as the name of the resource in Kubernetes but it
                   doesn't have to be.
+                pattern: ^[^\x00-\x1F\x7F]+$
                 type: string
-              customData:
-                description: 'CustomData: A custom definition for the USer Definition.'
+              compositionType:
+                description: |-
+                  CompositionType: The composition type describes how the key-values within the snapshot are composed. The 'key'
+                  composition type ensures there are no two key-values containing the same key. The 'key_label' composition type ensures
+                  there are no two key-values containing the same key and label.
+                enum:
+                - Key
+                - Key_Label
                 type: string
-              databaseName:
-                description: 'DatabaseName: The database name for which access is being granted for this User Definition.'
-                type: string
-              mechanisms:
-                description: 'Mechanisms: The Mongo Auth mechanism. For now, we only support auth mechanism SCRAM-SHA-256.'
-                type: string
+              filters:
+                description: 'Filters: A list of filters used to filter the key-values included in the snapshot.'
+                items:
+                  description: Enables filtering of key-values.
+                  properties:
+                    key:
+                      description: 'Key: Filters key-values by their key field.'
+                      type: string
+                    label:
+                      description: 'Label: Filters key-values by their label field.'
+                      type: string
+                  required:
+                  - key
+                  type: object
+                maxItems: 3
+                minItems: 1
+                type: array
               operatorSpec:
                 description: |-
                   OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
@@ -156,7 +174,7 @@ spec:
                 description: |-
                   Owner: The owner of the resource. The owner controls where the resource goes when it is deployed. The owner also
                   controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
-                  reference to a documentdb.azure.com/DatabaseAccount resource
+                  reference to a appconfiguration.azure.com/ConfigurationStore resource
                 properties:
                   armId:
                     pattern: (?i)(^(/subscriptions/([^/]+)(/resourcegroups/([^/]+))?)?/providers/([^/]+)/([^/]+/[^/]+)(/([^/]+/[^/]+))*$|^/subscriptions/([^/]+)(/resourcegroups/([^/]+))?$)
@@ -165,42 +183,31 @@ spec:
                     description: This is the name of the Kubernetes resource to reference.
                     type: string
                 type: object
-              password:
-                description: 'Password: The password for User Definition. Response does not contain user password.'
-                properties:
-                  key:
-                    description: Key is the key in the Kubernetes secret being referenced
-                    type: string
-                  name:
-                    description: |-
-                      Name is the name of the Kubernetes secret being referenced.
-                      The secret must be in the same namespace as the resource
-                    type: string
-                required:
-                - key
-                - name
+              retentionPeriod:
+                description: |-
+                  RetentionPeriod: The amount of time, in seconds, that a snapshot will remain in the archived state before expiring. This
+                  property is only writable during the creation of a snapshot. If not specified, the default lifetime of key-value
+                  revisions will be used.
+                maximum: 7776000.0
+                minimum: 3600.0
+                type: integer
+              tags:
+                additionalProperties:
+                  type: string
+                description: 'Tags: The tags of the snapshot. NOTE: These are data plane tags, not Azure Resource Manager (ARM) tags.'
                 type: object
-              roles:
-                description: 'Roles: The set of roles inherited by the User Definition.'
-                items:
-                  description: The set of roles permitted through this Role Definition.
-                  properties:
-                    db:
-                      description: 'Db: The database name the role is applied.'
-                      type: string
-                    role:
-                      description: 'Role: The role name.'
-                      type: string
-                  type: object
-                type: array
-              userName:
-                description: 'UserName: The user name for User Definition.'
-                type: string
             required:
+            - filters
             - owner
             type: object
           status:
             properties:
+              compositionType:
+                description: |-
+                  CompositionType: The composition type describes how the key-values within the snapshot are composed. The 'key'
+                  composition type ensures there are no two key-values containing the same key. The 'key_label' composition type ensures
+                  there are no two key-values containing the same key and label.
+                type: string
               conditions:
                 description: 'Conditions: The observed state of the resource'
                 items:
@@ -245,39 +252,61 @@ spec:
                   - type
                   type: object
                 type: array
-              customData:
-                description: 'CustomData: A custom definition for the USer Definition.'
+              created:
+                description: 'Created: The time that the snapshot was created.'
                 type: string
-              databaseName:
-                description: 'DatabaseName: The database name for which access is being granted for this User Definition.'
+              etag:
+                description: 'Etag: A value representing the current state of the snapshot.'
                 type: string
-              id:
-                description: 'Id: The unique resource identifier of the database account.'
+              expires:
+                description: 'Expires: The time that the snapshot will expire.'
                 type: string
-              mechanisms:
-                description: 'Mechanisms: The Mongo Auth mechanism. For now, we only support auth mechanism SCRAM-SHA-256.'
-                type: string
-              name:
-                description: 'Name: The name of the database account.'
-                type: string
-              roles:
-                description: 'Roles: The set of roles inherited by the User Definition.'
+              filters:
+                description: 'Filters: A list of filters used to filter the key-values included in the snapshot.'
                 items:
-                  description: The set of roles permitted through this Role Definition.
+                  description: Enables filtering of key-values.
                   properties:
-                    db:
-                      description: 'Db: The database name the role is applied.'
+                    key:
+                      description: 'Key: Filters key-values by their key field.'
                       type: string
-                    role:
-                      description: 'Role: The role name.'
+                    label:
+                      description: 'Label: Filters key-values by their label field.'
                       type: string
+                  required:
+                  - key
                   type: object
                 type: array
-              type:
-                description: 'Type: The type of Azure resource.'
+              id:
+                description: 'Id: The resource ID.'
                 type: string
-              userName:
-                description: 'UserName: The user name for User Definition.'
+              itemsCount:
+                description: 'ItemsCount: The amount of key-values in the snapshot.'
+                type: integer
+              name:
+                description: 'Name: The name of the snapshot.'
+                type: string
+              provisioningState:
+                description: 'ProvisioningState: The provisioning state of the snapshot.'
+                type: string
+              retentionPeriod:
+                description: |-
+                  RetentionPeriod: The amount of time, in seconds, that a snapshot will remain in the archived state before expiring. This
+                  property is only writable during the creation of a snapshot. If not specified, the default lifetime of key-value
+                  revisions will be used.
+                type: integer
+              size:
+                description: 'Size: The size in bytes of the snapshot.'
+                type: integer
+              status:
+                description: 'Status: The current status of the snapshot.'
+                type: string
+              tags:
+                additionalProperties:
+                  type: string
+                description: 'Tags: The tags of the snapshot. NOTE: These are data plane tags, not Azure Resource Manager (ARM) tags.'
+                type: object
+              type:
+                description: 'Type: The type of the resource.'
                 type: string
             type: object
         type: object
@@ -298,14 +327,14 @@ spec:
     - jsonPath: .status.conditions[?(@.type=='Ready')].message
       name: Message
       type: string
-    name: v1api20240815storage
+    name: v20240601storage
     schema:
       openAPIV3Schema:
         description: |-
-          Storage version of v1api20240815.MongodbUserDefinition
+          Storage version of v20240601.Snapshot
           Generator information:
-          - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2024-08-15/mongorbac.json
-          - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbUserDefinitions/{mongoUserDefinitionId}
+          - Generated from: /appconfiguration/resource-manager/Microsoft.AppConfiguration/AppConfiguration/stable/2024-06-01/appconfiguration.json
+          - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppConfiguration/configurationStores/{configStoreName}/snapshots/{snapshotName}
         properties:
           apiVersion:
             description: |-
@@ -325,7 +354,7 @@ spec:
           metadata:
             type: object
           spec:
-            description: Storage version of v1api20240815.MongodbUserDefinition_Spec
+            description: Storage version of v20240601.Snapshot_Spec
             properties:
               $propertyBag:
                 additionalProperties:
@@ -339,15 +368,30 @@ spec:
                   AzureName: The name of the resource in Azure. This is often the same as the name of the resource in Kubernetes but it
                   doesn't have to be.
                 type: string
-              customData:
+              compositionType:
                 type: string
-              databaseName:
-                type: string
-              mechanisms:
-                type: string
+              filters:
+                items:
+                  description: |-
+                    Storage version of v20240601.KeyValueFilter
+                    Enables filtering of key-values.
+                  properties:
+                    $propertyBag:
+                      additionalProperties:
+                        type: string
+                      description: |-
+                        PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
+                        resources, allowing for full fidelity round trip conversions
+                      type: object
+                    key:
+                      type: string
+                    label:
+                      type: string
+                  type: object
+                type: array
               operatorSpec:
                 description: |-
-                  Storage version of v1api20240815.MongodbUserDefinitionOperatorSpec
+                  Storage version of v20240601.SnapshotOperatorSpec
                   Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
                 properties:
                   $propertyBag:
@@ -422,7 +466,7 @@ spec:
                 description: |-
                   Owner: The owner of the resource. The owner controls where the resource goes when it is deployed. The owner also
                   controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
-                  reference to a documentdb.azure.com/DatabaseAccount resource
+                  reference to a appconfiguration.azure.com/ConfigurationStore resource
                 properties:
                   armId:
                     pattern: (?i)(^(/subscriptions/([^/]+)(/resourcegroups/([^/]+))?)?/providers/([^/]+)/([^/]+/[^/]+)(/([^/]+/[^/]+))*$|^/subscriptions/([^/]+)(/resourcegroups/([^/]+))?$)
@@ -431,49 +475,17 @@ spec:
                     description: This is the name of the Kubernetes resource to reference.
                     type: string
                 type: object
-              password:
-                description: |-
-                  SecretReference is a reference to a Kubernetes secret and key in the same namespace as
-                  the resource it is on.
-                properties:
-                  key:
-                    description: Key is the key in the Kubernetes secret being referenced
-                    type: string
-                  name:
-                    description: |-
-                      Name is the name of the Kubernetes secret being referenced.
-                      The secret must be in the same namespace as the resource
-                    type: string
-                required:
-                - key
-                - name
+              retentionPeriod:
+                type: integer
+              tags:
+                additionalProperties:
+                  type: string
                 type: object
-              roles:
-                items:
-                  description: |-
-                    Storage version of v1api20240815.Role
-                    The set of roles permitted through this Role Definition.
-                  properties:
-                    $propertyBag:
-                      additionalProperties:
-                        type: string
-                      description: |-
-                        PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
-                        resources, allowing for full fidelity round trip conversions
-                      type: object
-                    db:
-                      type: string
-                    role:
-                      type: string
-                  type: object
-                type: array
-              userName:
-                type: string
             required:
             - owner
             type: object
           status:
-            description: Storage version of v1api20240815.MongodbUserDefinition_STATUS
+            description: Storage version of v20240601.Snapshot_STATUS
             properties:
               $propertyBag:
                 additionalProperties:
@@ -482,6 +494,8 @@ spec:
                   PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
                   resources, allowing for full fidelity round trip conversions
                 type: object
+              compositionType:
+                type: string
               conditions:
                 items:
                   description: Condition defines an extension to status (an observation) of a resource
@@ -525,21 +539,17 @@ spec:
                   - type
                   type: object
                 type: array
-              customData:
+              created:
                 type: string
-              databaseName:
+              etag:
                 type: string
-              id:
+              expires:
                 type: string
-              mechanisms:
-                type: string
-              name:
-                type: string
-              roles:
+              filters:
                 items:
                   description: |-
-                    Storage version of v1api20240815.Role_STATUS
-                    The set of roles permitted through this Role Definition.
+                    Storage version of v20240601.KeyValueFilter_STATUS
+                    Enables filtering of key-values.
                   properties:
                     $propertyBag:
                       additionalProperties:
@@ -548,15 +558,31 @@ spec:
                         PropertyBag is an unordered set of stashed information that used for properties not directly supported by storage
                         resources, allowing for full fidelity round trip conversions
                       type: object
-                    db:
+                    key:
                       type: string
-                    role:
+                    label:
                       type: string
                   type: object
                 type: array
-              type:
+              id:
                 type: string
-              userName:
+              itemsCount:
+                type: integer
+              name:
+                type: string
+              provisioningState:
+                type: string
+              retentionPeriod:
+                type: integer
+              size:
+                type: integer
+              status:
+                type: string
+              tags:
+                additionalProperties:
+                  type: string
+                type: object
+              type:
                 type: string
             type: object
         type: object
