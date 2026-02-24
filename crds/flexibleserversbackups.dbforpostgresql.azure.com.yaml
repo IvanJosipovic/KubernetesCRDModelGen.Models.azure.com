@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.17.0
+    app.kubernetes.io/version: v2.18.0
   name: flexibleserversbackups.dbforpostgresql.azure.com
 spec:
   conversion:
@@ -512,7 +512,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/BackupsAutomaticAndOnDemand.json
+          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/openapi.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/flexibleServers/{serverName}/backups/{backupName}
         properties:
           apiVersion:
@@ -737,7 +737,7 @@ spec:
         description: |-
           Storage version of v20250801.FlexibleServersBackup
           Generator information:
-          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/BackupsAutomaticAndOnDemand.json
+          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/openapi.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/flexibleServers/{serverName}/backups/{backupName}
         properties:
           apiVersion:

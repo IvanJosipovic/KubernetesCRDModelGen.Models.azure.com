@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.17.0
+    app.kubernetes.io/version: v2.18.0
   name: flexibleserversvirtualendpoints.dbforpostgresql.azure.com
 spec:
   conversion:
@@ -536,7 +536,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/VirtualEndpoints.json
+          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/openapi.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/flexibleServers/{serverName}/virtualendpoints/{virtualEndpointName}
         properties:
           apiVersion:
@@ -774,7 +774,7 @@ spec:
         description: |-
           Storage version of v20250801.FlexibleServersVirtualEndpoint
           Generator information:
-          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/VirtualEndpoints.json
+          - Generated from: /postgresql/resource-manager/Microsoft.DBforPostgreSQL/stable/2025-08-01/openapi.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/flexibleServers/{serverName}/virtualendpoints/{virtualEndpointName}
         properties:
           apiVersion:

@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.17.0
+    app.kubernetes.io/version: v2.18.0
   name: searchservices.search.azure.com
 spec:
   conversion:
@@ -50,7 +50,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /search/resource-manager/Microsoft.Search/stable/2022-09-01/search.json
+          - Generated from: /search/resource-manager/Microsoft.Search/Search/stable/2022-09-01/search.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
         properties:
           apiVersion:
@@ -636,7 +636,7 @@ spec:
         description: |-
           Storage version of v1api20220901.SearchService
           Generator information:
-          - Generated from: /search/resource-manager/Microsoft.Search/stable/2022-09-01/search.json
+          - Generated from: /search/resource-manager/Microsoft.Search/Search/stable/2022-09-01/search.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
         properties:
           apiVersion:
@@ -1249,7 +1249,7 @@ spec:
       openAPIV3Schema:
         description: |-
           Generator information:
-          - Generated from: /search/resource-manager/Microsoft.Search/stable/2023-11-01/search.json
+          - Generated from: /search/resource-manager/Microsoft.Search/Search/stable/2023-11-01/search.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
         properties:
           apiVersion:
@@ -1845,7 +1845,7 @@ spec:
         description: |-
           Storage version of v1api20231101.SearchService
           Generator information:
-          - Generated from: /search/resource-manager/Microsoft.Search/stable/2023-11-01/search.json
+          - Generated from: /search/resource-manager/Microsoft.Search/Search/stable/2023-11-01/search.json
           - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
         properties:
           apiVersion:
