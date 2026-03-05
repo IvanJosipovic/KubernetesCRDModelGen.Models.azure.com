@@ -22,10 +22,10 @@ spec:
       - v1
   group: redhatopenshift.azure.com
   names:
+    kind: OpenShiftCluster
     categories:
     - azure
     - redhatopenshift
-    kind: OpenShiftCluster
     listKind: OpenShiftClusterList
     plural: openshiftclusters
     singular: openshiftcluster

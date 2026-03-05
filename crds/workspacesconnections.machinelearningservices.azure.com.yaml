@@ -22,10 +22,10 @@ spec:
       - v1
   group: machinelearningservices.azure.com
   names:
+    kind: WorkspacesConnection
     categories:
     - azure
     - machinelearningservices
-    kind: WorkspacesConnection
     listKind: WorkspacesConnectionList
     plural: workspacesconnections
     singular: workspacesconnection

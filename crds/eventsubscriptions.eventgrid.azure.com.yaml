@@ -22,10 +22,10 @@ spec:
       - v1
   group: eventgrid.azure.com
   names:
+    kind: EventSubscription
     categories:
     - azure
     - eventgrid
-    kind: EventSubscription
     listKind: EventSubscriptionList
     plural: eventsubscriptions
     singular: eventsubscription

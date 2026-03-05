@@ -22,10 +22,10 @@ spec:
       - v1
   group: app.azure.com
   names:
+    kind: ManagedEnvironment
     categories:
     - azure
     - app
-    kind: ManagedEnvironment
     listKind: ManagedEnvironmentList
     plural: managedenvironments
     singular: managedenvironment

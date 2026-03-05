@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbformariadb.azure.com
   names:
+    kind: Configuration
     categories:
     - azure
     - dbformariadb
-    kind: Configuration
     listKind: ConfigurationList
     plural: configurations
     singular: configuration

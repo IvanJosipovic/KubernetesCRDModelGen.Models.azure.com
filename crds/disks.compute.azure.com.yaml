@@ -22,10 +22,10 @@ spec:
       - v1
   group: compute.azure.com
   names:
+    kind: Disk
     categories:
     - azure
     - compute
-    kind: Disk
     listKind: DiskList
     plural: disks
     singular: disk

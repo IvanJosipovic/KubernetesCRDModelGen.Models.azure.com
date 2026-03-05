@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: NetworkWatchersFlowLog
     categories:
     - azure
     - network
-    kind: NetworkWatchersFlowLog
     listKind: NetworkWatchersFlowLogList
     plural: networkwatchersflowlogs
     singular: networkwatchersflowlog

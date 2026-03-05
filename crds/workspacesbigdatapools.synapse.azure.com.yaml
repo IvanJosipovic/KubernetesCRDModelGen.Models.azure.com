@@ -22,10 +22,10 @@ spec:
       - v1
   group: synapse.azure.com
   names:
+    kind: WorkspacesBigDataPool
     categories:
     - azure
     - synapse
-    kind: WorkspacesBigDataPool
     listKind: WorkspacesBigDataPoolList
     plural: workspacesbigdatapools
     singular: workspacesbigdatapool

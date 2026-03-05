@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersDatabasesAuditingSetting
     categories:
     - azure
     - sql
-    kind: ServersDatabasesAuditingSetting
     listKind: ServersDatabasesAuditingSettingList
     plural: serversdatabasesauditingsettings
     singular: serversdatabasesauditingsetting

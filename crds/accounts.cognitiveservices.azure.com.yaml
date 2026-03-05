@@ -22,10 +22,10 @@ spec:
       - v1
   group: cognitiveservices.azure.com
   names:
+    kind: Account
     categories:
     - azure
     - cognitiveservices
-    kind: Account
     listKind: AccountList
     plural: accounts
     singular: account

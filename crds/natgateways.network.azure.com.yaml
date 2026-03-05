@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: NatGateway
     categories:
     - azure
     - network
-    kind: NatGateway
     listKind: NatGatewayList
     plural: natgateways
     singular: natgateway

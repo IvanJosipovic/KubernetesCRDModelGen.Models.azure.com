@@ -22,10 +22,10 @@ spec:
       - v1
   group: machinelearningservices.azure.com
   names:
+    kind: Registry
     categories:
     - azure
     - machinelearningservices
-    kind: Registry
     listKind: RegistryList
     plural: registries
     singular: registry

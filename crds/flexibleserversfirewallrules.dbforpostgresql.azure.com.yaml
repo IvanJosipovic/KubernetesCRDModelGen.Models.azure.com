@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbforpostgresql.azure.com
   names:
+    kind: FlexibleServersFirewallRule
     categories:
     - azure
     - dbforpostgresql
-    kind: FlexibleServersFirewallRule
     listKind: FlexibleServersFirewallRuleList
     plural: flexibleserversfirewallrules
     singular: flexibleserversfirewallrule

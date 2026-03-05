@@ -22,10 +22,10 @@ spec:
       - v1
   group: compute.azure.com
   names:
+    kind: DiskAccess
     categories:
     - azure
     - compute
-    kind: DiskAccess
     listKind: DiskAccessList
     plural: diskaccesses
     singular: diskaccess

@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: SqlDatabaseContainerTrigger
     categories:
     - azure
     - documentdb
-    kind: SqlDatabaseContainerTrigger
     listKind: SqlDatabaseContainerTriggerList
     plural: sqldatabasecontainertriggers
     singular: sqldatabasecontainertrigger

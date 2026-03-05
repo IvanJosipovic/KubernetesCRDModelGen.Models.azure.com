@@ -22,10 +22,10 @@ spec:
       - v1
   group: managedidentity.azure.com
   names:
+    kind: UserAssignedIdentity
     categories:
     - azure
     - managedidentity
-    kind: UserAssignedIdentity
     listKind: UserAssignedIdentityList
     plural: userassignedidentities
     singular: userassignedidentity

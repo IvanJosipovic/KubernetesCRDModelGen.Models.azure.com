@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: DnsZonesMXRecord
     categories:
     - azure
     - network
-    kind: DnsZonesMXRecord
     listKind: DnsZonesMXRecordList
     plural: dnszonesmxrecords
     singular: dnszonesmxrecord

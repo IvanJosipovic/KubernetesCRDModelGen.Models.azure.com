@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: PrivateLinkService
     categories:
     - azure
     - network
-    kind: PrivateLinkService
     listKind: PrivateLinkServiceList
     plural: privatelinkservices
     singular: privatelinkservice

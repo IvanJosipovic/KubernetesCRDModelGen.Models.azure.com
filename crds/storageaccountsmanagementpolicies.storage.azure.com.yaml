@@ -22,10 +22,10 @@ spec:
       - v1
   group: storage.azure.com
   names:
+    kind: StorageAccountsManagementPolicy
     categories:
     - azure
     - storage
-    kind: StorageAccountsManagementPolicy
     listKind: StorageAccountsManagementPolicyList
     plural: storageaccountsmanagementpolicies
     singular: storageaccountsmanagementpolicy

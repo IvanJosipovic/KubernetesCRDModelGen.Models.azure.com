@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersFailoverGroup
     categories:
     - azure
     - sql
-    kind: ServersFailoverGroup
     listKind: ServersFailoverGroupList
     plural: serversfailovergroups
     singular: serversfailovergroup

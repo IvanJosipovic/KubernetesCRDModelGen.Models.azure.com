@@ -22,10 +22,10 @@ spec:
       - v1
   group: compute.azure.com
   names:
+    kind: DiskEncryptionSet
     categories:
     - azure
     - compute
-    kind: DiskEncryptionSet
     listKind: DiskEncryptionSetList
     plural: diskencryptionsets
     singular: diskencryptionset

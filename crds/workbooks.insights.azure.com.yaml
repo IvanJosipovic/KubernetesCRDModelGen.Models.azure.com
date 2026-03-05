@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: Workbook
     categories:
     - azure
     - insights
-    kind: Workbook
     listKind: WorkbookList
     plural: workbooks
     singular: workbook

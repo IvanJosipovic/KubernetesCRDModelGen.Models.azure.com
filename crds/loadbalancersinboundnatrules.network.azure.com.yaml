@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: LoadBalancersInboundNatRule
     categories:
     - azure
     - network
-    kind: LoadBalancersInboundNatRule
     listKind: LoadBalancersInboundNatRuleList
     plural: loadbalancersinboundnatrules
     singular: loadbalancersinboundnatrule

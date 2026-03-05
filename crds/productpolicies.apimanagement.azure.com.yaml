@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: ProductPolicy
     categories:
     - azure
     - apimanagement
-    kind: ProductPolicy
     listKind: ProductPolicyList
     plural: productpolicies
     singular: productpolicy

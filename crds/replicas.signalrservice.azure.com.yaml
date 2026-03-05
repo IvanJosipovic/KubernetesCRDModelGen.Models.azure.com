@@ -22,10 +22,10 @@ spec:
       - v1
   group: signalrservice.azure.com
   names:
+    kind: Replica
     categories:
     - azure
     - signalrservice
-    kind: Replica
     listKind: ReplicaList
     plural: replicas
     singular: replica

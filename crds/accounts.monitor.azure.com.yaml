@@ -22,10 +22,10 @@ spec:
       - v1
   group: monitor.azure.com
   names:
+    kind: Account
     categories:
     - azure
     - monitor
-    kind: Account
     listKind: AccountList
     plural: accounts
     singular: account

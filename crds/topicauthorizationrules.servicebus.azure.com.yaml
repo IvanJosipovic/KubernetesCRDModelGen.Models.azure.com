@@ -22,10 +22,10 @@ spec:
       - v1
   group: servicebus.azure.com
   names:
+    kind: TopicAuthorizationRule
     categories:
     - azure
     - servicebus
-    kind: TopicAuthorizationRule
     listKind: TopicAuthorizationRuleList
     plural: topicauthorizationrules
     singular: topicauthorizationrule

@@ -22,10 +22,10 @@ spec:
       - v1
   group: app.azure.com
   names:
+    kind: AuthConfig
     categories:
     - azure
     - app
-    kind: AuthConfig
     listKind: AuthConfigList
     plural: authconfigs
     singular: authconfig

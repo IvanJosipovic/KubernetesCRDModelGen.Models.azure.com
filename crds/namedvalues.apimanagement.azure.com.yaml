@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: NamedValue
     categories:
     - azure
     - apimanagement
-    kind: NamedValue
     listKind: NamedValueList
     plural: namedvalues
     singular: namedvalue

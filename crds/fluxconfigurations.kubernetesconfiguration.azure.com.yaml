@@ -22,10 +22,10 @@ spec:
       - v1
   group: kubernetesconfiguration.azure.com
   names:
+    kind: FluxConfiguration
     categories:
     - azure
     - kubernetesconfiguration
-    kind: FluxConfiguration
     listKind: FluxConfigurationList
     plural: fluxconfigurations
     singular: fluxconfiguration

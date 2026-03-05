@@ -22,10 +22,10 @@ spec:
       - v1
   group: eventgrid.azure.com
   names:
+    kind: Topic
     categories:
     - azure
     - eventgrid
-    kind: Topic
     listKind: TopicList
     plural: topics
     singular: topic

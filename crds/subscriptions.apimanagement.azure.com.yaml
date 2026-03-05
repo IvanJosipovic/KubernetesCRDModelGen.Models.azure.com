@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: Subscription
     categories:
     - azure
     - apimanagement
-    kind: Subscription
     listKind: SubscriptionList
     plural: subscriptions
     singular: subscription

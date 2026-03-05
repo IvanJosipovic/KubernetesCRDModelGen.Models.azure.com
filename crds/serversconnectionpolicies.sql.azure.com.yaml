@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersConnectionPolicy
     categories:
     - azure
     - sql
-    kind: ServersConnectionPolicy
     listKind: ServersConnectionPolicyList
     plural: serversconnectionpolicies
     singular: serversconnectionpolicy

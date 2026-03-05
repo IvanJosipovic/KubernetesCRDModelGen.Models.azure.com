@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: PrivateDnsZone
     categories:
     - azure
     - network
-    kind: PrivateDnsZone
     listKind: PrivateDnsZoneList
     plural: privatednszones
     singular: privatednszone

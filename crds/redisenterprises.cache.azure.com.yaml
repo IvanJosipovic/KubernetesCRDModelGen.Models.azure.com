@@ -22,10 +22,10 @@ spec:
       - v1
   group: cache.azure.com
   names:
+    kind: RedisEnterprise
     categories:
     - azure
     - cache
-    kind: RedisEnterprise
     listKind: RedisEnterpriseList
     plural: redisenterprises
     singular: redisenterprise

@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: DataCollectionRuleAssociation
     categories:
     - azure
     - insights
-    kind: DataCollectionRuleAssociation
     listKind: DataCollectionRuleAssociationList
     plural: datacollectionruleassociations
     singular: datacollectionruleassociation

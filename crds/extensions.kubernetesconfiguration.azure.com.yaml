@@ -22,10 +22,10 @@ spec:
       - v1
   group: kubernetesconfiguration.azure.com
   names:
+    kind: Extension
     categories:
     - azure
     - kubernetesconfiguration
-    kind: Extension
     listKind: ExtensionList
     plural: extensions
     singular: extension

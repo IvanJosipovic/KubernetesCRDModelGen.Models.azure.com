@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersAzureADOnlyAuthentication
     categories:
     - azure
     - sql
-    kind: ServersAzureADOnlyAuthentication
     listKind: ServersAzureADOnlyAuthenticationList
     plural: serversazureadonlyauthentications
     singular: serversazureadonlyauthentication

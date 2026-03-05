@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: RouteTablesRoute
     categories:
     - azure
     - network
-    kind: RouteTablesRoute
     listKind: RouteTablesRouteList
     plural: routetablesroutes
     singular: routetablesroute

@@ -22,10 +22,10 @@ spec:
       - v1
   group: authorization.azure.com
   names:
+    kind: RoleDefinition
     categories:
     - azure
     - authorization
-    kind: RoleDefinition
     listKind: RoleDefinitionList
     plural: roledefinitions
     singular: roledefinition

@@ -22,10 +22,10 @@ spec:
       - v1
   group: containerservice.azure.com
   names:
+    kind: ManagedClustersAgentPool
     categories:
     - azure
     - containerservice
-    kind: ManagedClustersAgentPool
     listKind: ManagedClustersAgentPoolList
     plural: managedclustersagentpools
     singular: managedclustersagentpool

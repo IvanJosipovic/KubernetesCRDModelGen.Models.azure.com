@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: Server
     categories:
     - azure
     - sql
-    kind: Server
     listKind: ServerList
     plural: servers
     singular: server

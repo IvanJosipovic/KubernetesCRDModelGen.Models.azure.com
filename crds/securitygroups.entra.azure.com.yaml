@@ -22,11 +22,11 @@ spec:
       - v1
   group: entra.azure.com
   names:
+    kind: SecurityGroup
     categories:
     - azure
     - entra
     - aad
-    kind: SecurityGroup
     listKind: SecurityGroupList
     plural: securitygroups
     singular: securitygroup

@@ -22,10 +22,10 @@ spec:
       - v1
   group: storage.azure.com
   names:
+    kind: StorageAccountsQueueService
     categories:
     - azure
     - storage
-    kind: StorageAccountsQueueService
     listKind: StorageAccountsQueueServiceList
     plural: storageaccountsqueueservices
     singular: storageaccountsqueueservice

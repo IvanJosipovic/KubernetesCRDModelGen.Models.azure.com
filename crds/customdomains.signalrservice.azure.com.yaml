@@ -22,10 +22,10 @@ spec:
       - v1
   group: signalrservice.azure.com
   names:
+    kind: CustomDomain
     categories:
     - azure
     - signalrservice
-    kind: CustomDomain
     listKind: CustomDomainList
     plural: customdomains
     singular: customdomain

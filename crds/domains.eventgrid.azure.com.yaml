@@ -22,10 +22,10 @@ spec:
       - v1
   group: eventgrid.azure.com
   names:
+    kind: Domain
     categories:
     - azure
     - eventgrid
-    kind: Domain
     listKind: DomainList
     plural: domains
     singular: domain

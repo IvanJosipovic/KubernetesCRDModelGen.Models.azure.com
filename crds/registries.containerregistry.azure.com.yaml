@@ -22,10 +22,10 @@ spec:
       - v1
   group: containerregistry.azure.com
   names:
+    kind: Registry
     categories:
     - azure
     - containerregistry
-    kind: Registry
     listKind: RegistryList
     plural: registries
     singular: registry

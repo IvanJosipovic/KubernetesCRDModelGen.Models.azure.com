@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: PrivateEndpoint
     categories:
     - azure
     - network
-    kind: PrivateEndpoint
     listKind: PrivateEndpointList
     plural: privateendpoints
     singular: privateendpoint

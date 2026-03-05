@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbformysql.azure.com
   names:
+    kind: FlexibleServersFirewallRule
     categories:
     - azure
     - dbformysql
-    kind: FlexibleServersFirewallRule
     listKind: FlexibleServersFirewallRuleList
     plural: flexibleserversfirewallrules
     singular: flexibleserversfirewallrule

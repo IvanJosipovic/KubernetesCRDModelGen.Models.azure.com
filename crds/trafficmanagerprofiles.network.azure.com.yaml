@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: TrafficManagerProfile
     categories:
     - azure
     - network
-    kind: TrafficManagerProfile
     listKind: TrafficManagerProfileList
     plural: trafficmanagerprofiles
     singular: trafficmanagerprofile

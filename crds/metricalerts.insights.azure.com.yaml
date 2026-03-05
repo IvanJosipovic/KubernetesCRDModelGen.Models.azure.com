@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: MetricAlert
     categories:
     - azure
     - insights
-    kind: MetricAlert
     listKind: MetricAlertList
     plural: metricalerts
     singular: metricalert

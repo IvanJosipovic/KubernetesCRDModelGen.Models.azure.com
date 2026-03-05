@@ -22,10 +22,10 @@ spec:
       - v1
   group: search.azure.com
   names:
+    kind: SearchService
     categories:
     - azure
     - search
-    kind: SearchService
     listKind: SearchServiceList
     plural: searchservices
     singular: searchservice

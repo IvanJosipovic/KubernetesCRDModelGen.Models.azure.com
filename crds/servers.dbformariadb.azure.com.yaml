@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbformariadb.azure.com
   names:
+    kind: Server
     categories:
     - azure
     - dbformariadb
-    kind: Server
     listKind: ServerList
     plural: servers
     singular: server

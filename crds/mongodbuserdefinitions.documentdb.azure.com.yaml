@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: MongodbUserDefinition
     categories:
     - azure
     - documentdb
-    kind: MongodbUserDefinition
     listKind: MongodbUserDefinitionList
     plural: mongodbuserdefinitions
     singular: mongodbuserdefinition

@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: ActivityLogAlert
     categories:
     - azure
     - insights
-    kind: ActivityLogAlert
     listKind: ActivityLogAlertList
     plural: activitylogalerts
     singular: activitylogalert

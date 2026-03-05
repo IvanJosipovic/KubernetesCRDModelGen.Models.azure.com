@@ -22,10 +22,10 @@ spec:
       - v1
   group: web.azure.com
   names:
+    kind: ServerFarm
     categories:
     - azure
     - web
-    kind: ServerFarm
     listKind: ServerFarmList
     plural: serverfarms
     singular: serverfarm

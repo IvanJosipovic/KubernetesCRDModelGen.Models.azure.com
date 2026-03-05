@@ -22,10 +22,10 @@ spec:
       - v1
   group: signalrservice.azure.com
   names:
+    kind: SignalR
     categories:
     - azure
     - signalrservice
-    kind: SignalR
     listKind: SignalRList
     plural: signalrs
     singular: signalr

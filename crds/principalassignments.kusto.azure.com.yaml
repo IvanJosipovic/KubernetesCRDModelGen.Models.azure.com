@@ -22,10 +22,10 @@ spec:
       - v1
   group: kusto.azure.com
   names:
+    kind: PrincipalAssignment
     categories:
     - azure
     - kusto
-    kind: PrincipalAssignment
     listKind: PrincipalAssignmentList
     plural: principalassignments
     singular: principalassignment

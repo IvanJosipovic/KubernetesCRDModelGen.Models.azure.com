@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: PublicIPPrefix
     categories:
     - azure
     - network
-    kind: PublicIPPrefix
     listKind: PublicIPPrefixList
     plural: publicipprefixes
     singular: publicipprefix

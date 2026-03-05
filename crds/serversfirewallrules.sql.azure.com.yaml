@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersFirewallRule
     categories:
     - azure
     - sql
-    kind: ServersFirewallRule
     listKind: ServersFirewallRuleList
     plural: serversfirewallrules
     singular: serversfirewallrule

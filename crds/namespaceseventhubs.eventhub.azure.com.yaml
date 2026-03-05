@@ -22,10 +22,10 @@ spec:
       - v1
   group: eventhub.azure.com
   names:
+    kind: NamespacesEventhub
     categories:
     - azure
     - eventhub
-    kind: NamespacesEventhub
     listKind: NamespacesEventhubList
     plural: namespaceseventhubs
     singular: namespaceseventhub

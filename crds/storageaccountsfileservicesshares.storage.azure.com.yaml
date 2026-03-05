@@ -22,10 +22,10 @@ spec:
       - v1
   group: storage.azure.com
   names:
+    kind: StorageAccountsFileServicesShare
     categories:
     - azure
     - storage
-    kind: StorageAccountsFileServicesShare
     listKind: StorageAccountsFileServicesShareList
     plural: storageaccountsfileservicesshares
     singular: storageaccountsfileservicesshare

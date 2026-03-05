@@ -22,10 +22,10 @@ spec:
       - v1
   group: cdn.azure.com
   names:
+    kind: Route
     categories:
     - azure
     - cdn
-    kind: Route
     listKind: RouteList
     plural: routes
     singular: route

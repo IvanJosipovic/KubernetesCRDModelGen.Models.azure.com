@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: DnsForwardingRuleSetsForwardingRule
     categories:
     - azure
     - network
-    kind: DnsForwardingRuleSetsForwardingRule
     listKind: DnsForwardingRuleSetsForwardingRuleList
     plural: dnsforwardingrulesetsforwardingrules
     singular: dnsforwardingrulesetsforwardingrule

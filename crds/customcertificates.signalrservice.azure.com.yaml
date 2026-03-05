@@ -22,10 +22,10 @@ spec:
       - v1
   group: signalrservice.azure.com
   names:
+    kind: CustomCertificate
     categories:
     - azure
     - signalrservice
-    kind: CustomCertificate
     listKind: CustomCertificateList
     plural: customcertificates
     singular: customcertificate

@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: DiagnosticSetting
     categories:
     - azure
     - insights
-    kind: DiagnosticSetting
     listKind: DiagnosticSettingList
     plural: diagnosticsettings
     singular: diagnosticsetting

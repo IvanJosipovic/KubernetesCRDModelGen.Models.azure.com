@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbforpostgresql.azure.com
   names:
+    kind: FlexibleServersBackup
     categories:
     - azure
     - dbforpostgresql
-    kind: FlexibleServersBackup
     listKind: FlexibleServersBackupList
     plural: flexibleserversbackups
     singular: flexibleserversbackup

@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: AzureFirewall
     categories:
     - azure
     - network
-    kind: AzureFirewall
     listKind: AzureFirewallList
     plural: azurefirewalls
     singular: azurefirewall

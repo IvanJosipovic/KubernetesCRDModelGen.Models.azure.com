@@ -22,10 +22,10 @@ spec:
       - v1
   group: containerservice.azure.com
   names:
+    kind: Fleet
     categories:
     - azure
     - containerservice
-    kind: Fleet
     listKind: FleetList
     plural: fleets
     singular: fleet

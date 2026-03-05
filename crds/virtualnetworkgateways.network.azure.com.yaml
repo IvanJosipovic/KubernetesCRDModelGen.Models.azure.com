@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: VirtualNetworkGateway
     categories:
     - azure
     - network
-    kind: VirtualNetworkGateway
     listKind: VirtualNetworkGatewayList
     plural: virtualnetworkgateways
     singular: virtualnetworkgateway

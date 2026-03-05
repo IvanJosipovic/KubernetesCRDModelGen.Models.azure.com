@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: DnsResolver
     categories:
     - azure
     - network
-    kind: DnsResolver
     listKind: DnsResolverList
     plural: dnsresolvers
     singular: dnsresolver

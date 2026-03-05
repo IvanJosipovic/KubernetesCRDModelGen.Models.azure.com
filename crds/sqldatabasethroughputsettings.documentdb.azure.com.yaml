@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: SqlDatabaseThroughputSetting
     categories:
     - azure
     - documentdb
-    kind: SqlDatabaseThroughputSetting
     listKind: SqlDatabaseThroughputSettingList
     plural: sqldatabasethroughputsettings
     singular: sqldatabasethroughputsetting

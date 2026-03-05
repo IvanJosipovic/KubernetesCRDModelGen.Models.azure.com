@@ -22,10 +22,10 @@ spec:
       - v1
   group: appconfiguration.azure.com
   names:
+    kind: Snapshot
     categories:
     - azure
     - appconfiguration
-    kind: Snapshot
     listKind: SnapshotList
     plural: snapshots
     singular: snapshot

@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: NetworkWatcher
     categories:
     - azure
     - network
-    kind: NetworkWatcher
     listKind: NetworkWatcherList
     plural: networkwatchers
     singular: networkwatcher

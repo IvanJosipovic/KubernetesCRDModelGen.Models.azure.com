@@ -22,10 +22,10 @@ spec:
       - v1
   group: authorization.azure.com
   names:
+    kind: RoleAssignment
     categories:
     - azure
     - authorization
-    kind: RoleAssignment
     listKind: RoleAssignmentList
     plural: roleassignments
     singular: roleassignment

@@ -22,10 +22,10 @@ spec:
       - v1
   group: compute.azure.com
   names:
+    kind: CapacityReservation
     categories:
     - azure
     - compute
-    kind: CapacityReservation
     listKind: CapacityReservationList
     plural: capacityreservations
     singular: capacityreservation

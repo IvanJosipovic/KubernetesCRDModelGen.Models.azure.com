@@ -22,10 +22,10 @@ spec:
       - v1
   group: batch.azure.com
   names:
+    kind: BatchAccount
     categories:
     - azure
     - batch
-    kind: BatchAccount
     listKind: BatchAccountList
     plural: batchaccounts
     singular: batchaccount

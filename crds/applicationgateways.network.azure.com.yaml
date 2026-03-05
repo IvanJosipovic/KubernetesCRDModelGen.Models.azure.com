@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: ApplicationGateway
     categories:
     - azure
     - network
-    kind: ApplicationGateway
     listKind: ApplicationGatewayList
     plural: applicationgateways
     singular: applicationgateway

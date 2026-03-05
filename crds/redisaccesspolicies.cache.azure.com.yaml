@@ -22,10 +22,10 @@ spec:
       - v1
   group: cache.azure.com
   names:
+    kind: RedisAccessPolicy
     categories:
     - azure
     - cache
-    kind: RedisAccessPolicy
     listKind: RedisAccessPolicyList
     plural: redisaccesspolicies
     singular: redisaccesspolicy

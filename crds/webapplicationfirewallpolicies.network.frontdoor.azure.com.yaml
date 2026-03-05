@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.frontdoor.azure.com
   names:
+    kind: WebApplicationFirewallPolicy
     categories:
     - azure
     - networkfrontdoor
-    kind: WebApplicationFirewallPolicy
     listKind: WebApplicationFirewallPolicyList
     plural: webapplicationfirewallpolicies
     singular: webapplicationfirewallpolicy
