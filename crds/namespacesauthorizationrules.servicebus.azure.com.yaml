@@ -22,10 +22,10 @@ spec:
       - v1
   group: servicebus.azure.com
   names:
+    kind: NamespacesAuthorizationRule
     categories:
     - azure
     - servicebus
-    kind: NamespacesAuthorizationRule
     listKind: NamespacesAuthorizationRuleList
     plural: namespacesauthorizationrules
     singular: namespacesauthorizationrule

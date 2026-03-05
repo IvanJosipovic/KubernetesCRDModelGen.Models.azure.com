@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: DnsZonesPTRRecord
     categories:
     - azure
     - network
-    kind: DnsZonesPTRRecord
     listKind: DnsZonesPTRRecordList
     plural: dnszonesptrrecords
     singular: dnszonesptrrecord

@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: AutoscaleSetting
     categories:
     - azure
     - insights
-    kind: AutoscaleSetting
     listKind: AutoscaleSettingList
     plural: autoscalesettings
     singular: autoscalesetting

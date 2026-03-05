@@ -22,10 +22,10 @@ spec:
       - v1
   group: cognitiveservices.azure.com
   names:
+    kind: Deployment
     categories:
     - azure
     - cognitiveservices
-    kind: Deployment
     listKind: DeploymentList
     plural: deployments
     singular: deployment

@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: Backend
     categories:
     - azure
     - apimanagement
-    kind: Backend
     listKind: BackendList
     plural: backends
     singular: backend

@@ -22,10 +22,10 @@ spec:
       - v1
   group: cdn.azure.com
   names:
+    kind: Profile
     categories:
     - azure
     - cdn
-    kind: Profile
     listKind: ProfileList
     plural: profiles
     singular: profile

@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: DnsForwardingRuleSetsVirtualNetworkLink
     categories:
     - azure
     - network
-    kind: DnsForwardingRuleSetsVirtualNetworkLink
     listKind: DnsForwardingRuleSetsVirtualNetworkLinkList
     plural: dnsforwardingrulesetsvirtualnetworklinks
     singular: dnsforwardingrulesetsvirtualnetworklink

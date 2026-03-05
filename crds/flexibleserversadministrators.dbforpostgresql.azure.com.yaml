@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbforpostgresql.azure.com
   names:
+    kind: FlexibleServersAdministrator
     categories:
     - azure
     - dbforpostgresql
-    kind: FlexibleServersAdministrator
     listKind: FlexibleServersAdministratorList
     plural: flexibleserversadministrators
     singular: flexibleserversadministrator

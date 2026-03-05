@@ -22,10 +22,10 @@ spec:
       - v1
   group: dataprotection.azure.com
   names:
+    kind: BackupVaultsBackupPolicy
     categories:
     - azure
     - dataprotection
-    kind: BackupVaultsBackupPolicy
     listKind: BackupVaultsBackupPolicyList
     plural: backupvaultsbackuppolicies
     singular: backupvaultsbackuppolicy

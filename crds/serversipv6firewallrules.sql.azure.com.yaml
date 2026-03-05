@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersIPV6FirewallRule
     categories:
     - azure
     - sql
-    kind: ServersIPV6FirewallRule
     listKind: ServersIPV6FirewallRuleList
     plural: serversipv6firewallrules
     singular: serversipv6firewallrule

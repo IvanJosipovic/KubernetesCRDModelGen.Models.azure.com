@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: ProductApi
     categories:
     - azure
     - apimanagement
-    kind: ProductApi
     listKind: ProductApiList
     plural: productapis
     singular: productapi

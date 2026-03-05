@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: Webtest
     categories:
     - azure
     - insights
-    kind: Webtest
     listKind: WebtestList
     plural: webtests
     singular: webtest

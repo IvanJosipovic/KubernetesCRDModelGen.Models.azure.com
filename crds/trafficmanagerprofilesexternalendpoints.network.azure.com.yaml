@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: TrafficManagerProfilesExternalEndpoint
     categories:
     - azure
     - network
-    kind: TrafficManagerProfilesExternalEndpoint
     listKind: TrafficManagerProfilesExternalEndpointList
     plural: trafficmanagerprofilesexternalendpoints
     singular: trafficmanagerprofilesexternalendpoint

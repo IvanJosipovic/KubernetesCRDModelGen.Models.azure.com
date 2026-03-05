@@ -22,10 +22,10 @@ spec:
       - v1
   group: cache.azure.com
   names:
+    kind: RedisFirewallRule
     categories:
     - azure
     - cache
-    kind: RedisFirewallRule
     listKind: RedisFirewallRuleList
     plural: redisfirewallrules
     singular: redisfirewallrule

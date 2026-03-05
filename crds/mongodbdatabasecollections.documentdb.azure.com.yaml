@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: MongodbDatabaseCollection
     categories:
     - azure
     - documentdb
-    kind: MongodbDatabaseCollection
     listKind: MongodbDatabaseCollectionList
     plural: mongodbdatabasecollections
     singular: mongodbdatabasecollection

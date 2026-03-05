@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: PolicyFragment
     categories:
     - azure
     - apimanagement
-    kind: PolicyFragment
     listKind: PolicyFragmentList
     plural: policyfragments
     singular: policyfragment

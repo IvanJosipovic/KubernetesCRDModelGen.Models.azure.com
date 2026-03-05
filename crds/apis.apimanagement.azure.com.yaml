@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: Api
     categories:
     - azure
     - apimanagement
-    kind: Api
     listKind: ApiList
     plural: apis
     singular: api

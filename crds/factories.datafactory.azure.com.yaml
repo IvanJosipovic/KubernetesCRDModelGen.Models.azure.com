@@ -22,10 +22,10 @@ spec:
       - v1
   group: datafactory.azure.com
   names:
+    kind: Factory
     categories:
     - azure
     - datafactory
-    kind: Factory
     listKind: FactoryList
     plural: factories
     singular: factory

@@ -22,10 +22,10 @@ spec:
       - v1
   group: compute.azure.com
   names:
+    kind: Image
     categories:
     - azure
     - compute
-    kind: Image
     listKind: ImageList
     plural: images
     singular: image

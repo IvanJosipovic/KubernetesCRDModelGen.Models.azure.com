@@ -22,10 +22,10 @@ spec:
       - v1
   group: app.azure.com
   names:
+    kind: Job
     categories:
     - azure
     - app
-    kind: Job
     listKind: JobList
     plural: jobs
     singular: job

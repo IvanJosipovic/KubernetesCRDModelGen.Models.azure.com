@@ -22,10 +22,10 @@ spec:
       - v1
   group: cdn.azure.com
   names:
+    kind: AfdOriginGroup
     categories:
     - azure
     - cdn
-    kind: AfdOriginGroup
     listKind: AfdOriginGroupList
     plural: afdorigingroups
     singular: afdorigingroup

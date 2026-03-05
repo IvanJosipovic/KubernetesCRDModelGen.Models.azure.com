@@ -22,10 +22,10 @@ spec:
       - v1
   group: cdn.azure.com
   names:
+    kind: SecurityPolicy
     categories:
     - azure
     - cdn
-    kind: SecurityPolicy
     listKind: SecurityPolicyList
     plural: securitypolicies
     singular: securitypolicy

@@ -22,10 +22,10 @@ spec:
       - v1
   group: kusto.azure.com
   names:
+    kind: DataConnection
     categories:
     - azure
     - kusto
-    kind: DataConnection
     listKind: DataConnectionList
     plural: dataconnections
     singular: dataconnection

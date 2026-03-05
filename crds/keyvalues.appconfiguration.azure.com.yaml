@@ -22,10 +22,10 @@ spec:
       - v1
   group: appconfiguration.azure.com
   names:
+    kind: KeyValue
     categories:
     - azure
     - appconfiguration
-    kind: KeyValue
     listKind: KeyValueList
     plural: keyvalues
     singular: keyvalue

@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: DnsResolversInboundEndpoint
     categories:
     - azure
     - network
-    kind: DnsResolversInboundEndpoint
     listKind: DnsResolversInboundEndpointList
     plural: dnsresolversinboundendpoints
     singular: dnsresolversinboundendpoint

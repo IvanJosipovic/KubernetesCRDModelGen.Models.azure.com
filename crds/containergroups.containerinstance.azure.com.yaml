@@ -22,10 +22,10 @@ spec:
       - v1
   group: containerinstance.azure.com
   names:
+    kind: ContainerGroup
     categories:
     - azure
     - containerinstance
-    kind: ContainerGroup
     listKind: ContainerGroupList
     plural: containergroups
     singular: containergroup

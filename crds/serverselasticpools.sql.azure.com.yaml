@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersElasticPool
     categories:
     - azure
     - sql
-    kind: ServersElasticPool
     listKind: ServersElasticPoolList
     plural: serverselasticpools
     singular: serverselasticpool

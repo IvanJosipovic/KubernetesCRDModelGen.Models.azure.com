@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: AuthorizationProvidersAuthorizationsAccessPolicy
     categories:
     - azure
     - apimanagement
-    kind: AuthorizationProvidersAuthorizationsAccessPolicy
     listKind: AuthorizationProvidersAuthorizationsAccessPolicyList
     plural: authorizationprovidersauthorizationsaccesspolicies
     singular: authorizationprovidersauthorizationsaccesspolicy

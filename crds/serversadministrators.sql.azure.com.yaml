@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersAdministrator
     categories:
     - azure
     - sql
-    kind: ServersAdministrator
     listKind: ServersAdministratorList
     plural: serversadministrators
     singular: serversadministrator

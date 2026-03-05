@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersVirtualNetworkRule
     categories:
     - azure
     - sql
-    kind: ServersVirtualNetworkRule
     listKind: ServersVirtualNetworkRuleList
     plural: serversvirtualnetworkrules
     singular: serversvirtualnetworkrule

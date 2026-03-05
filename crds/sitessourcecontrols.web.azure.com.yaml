@@ -22,10 +22,10 @@ spec:
       - v1
   group: web.azure.com
   names:
+    kind: SitesSourcecontrol
     categories:
     - azure
     - web
-    kind: SitesSourcecontrol
     listKind: SitesSourcecontrolList
     plural: sitessourcecontrols
     singular: sitessourcecontrol

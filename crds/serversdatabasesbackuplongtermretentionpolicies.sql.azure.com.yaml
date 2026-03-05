@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersDatabasesBackupLongTermRetentionPolicy
     categories:
     - azure
     - sql
-    kind: ServersDatabasesBackupLongTermRetentionPolicy
     listKind: ServersDatabasesBackupLongTermRetentionPolicyList
     plural: serversdatabasesbackuplongtermretentionpolicies
     singular: serversdatabasesbackuplongtermretentionpolicy

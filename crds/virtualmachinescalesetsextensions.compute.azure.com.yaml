@@ -22,10 +22,10 @@ spec:
       - v1
   group: compute.azure.com
   names:
+    kind: VirtualMachineScaleSetsExtension
     categories:
     - azure
     - compute
-    kind: VirtualMachineScaleSetsExtension
     listKind: VirtualMachineScaleSetsExtensionList
     plural: virtualmachinescalesetsextensions
     singular: virtualmachinescalesetsextension

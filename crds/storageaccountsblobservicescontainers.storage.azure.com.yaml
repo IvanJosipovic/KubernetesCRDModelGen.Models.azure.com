@@ -22,10 +22,10 @@ spec:
       - v1
   group: storage.azure.com
   names:
+    kind: StorageAccountsBlobServicesContainer
     categories:
     - azure
     - storage
-    kind: StorageAccountsBlobServicesContainer
     listKind: StorageAccountsBlobServicesContainerList
     plural: storageaccountsblobservicescontainers
     singular: storageaccountsblobservicescontainer

@@ -22,10 +22,10 @@ spec:
       - v1
   group: cdn.azure.com
   names:
+    kind: Rule
     categories:
     - azure
     - cdn
-    kind: Rule
     listKind: RuleList
     plural: rules
     singular: rule

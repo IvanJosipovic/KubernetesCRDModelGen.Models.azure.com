@@ -22,10 +22,10 @@ spec:
       - v1
   group: kusto.azure.com
   names:
+    kind: Cluster
     categories:
     - azure
     - kusto
-    kind: Cluster
     listKind: ClusterList
     plural: clusters
     singular: cluster

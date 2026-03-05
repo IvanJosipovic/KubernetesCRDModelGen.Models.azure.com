@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: FirewallPolicy
     categories:
     - azure
     - network
-    kind: FirewallPolicy
     listKind: FirewallPolicyList
     plural: firewallpolicies
     singular: firewallpolicy

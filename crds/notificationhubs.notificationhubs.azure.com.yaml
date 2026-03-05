@@ -22,10 +22,10 @@ spec:
       - v1
   group: notificationhubs.azure.com
   names:
+    kind: NotificationHub
     categories:
     - azure
     - notificationhubs
-    kind: NotificationHub
     listKind: NotificationHubList
     plural: notificationhubs
     singular: notificationhub

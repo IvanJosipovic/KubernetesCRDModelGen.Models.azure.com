@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: ActionGroup
     categories:
     - azure
     - insights
-    kind: ActionGroup
     listKind: ActionGroupList
     plural: actiongroups
     singular: actiongroup

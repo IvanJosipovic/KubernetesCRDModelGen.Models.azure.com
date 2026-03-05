@@ -22,10 +22,10 @@ spec:
       - v1
   group: containerservice.azure.com
   names:
+    kind: FleetsAutoUpgradeProfile
     categories:
     - azure
     - containerservice
-    kind: FleetsAutoUpgradeProfile
     listKind: FleetsAutoUpgradeProfileList
     plural: fleetsautoupgradeprofiles
     singular: fleetsautoupgradeprofile

@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersDatabasesTransparentDataEncryption
     categories:
     - azure
     - sql
-    kind: ServersDatabasesTransparentDataEncryption
     listKind: ServersDatabasesTransparentDataEncryptionList
     plural: serversdatabasestransparentdataencryptions
     singular: serversdatabasestransparentdataencryption

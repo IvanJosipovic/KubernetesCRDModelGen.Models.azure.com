@@ -22,10 +22,10 @@ spec:
       - v1
   group: devices.azure.com
   names:
+    kind: IotHub
     categories:
     - azure
     - devices
-    kind: IotHub
     listKind: IotHubList
     plural: iothubs
     singular: iothub

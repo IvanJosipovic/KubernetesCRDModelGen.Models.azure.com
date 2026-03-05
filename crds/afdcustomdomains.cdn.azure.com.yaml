@@ -22,10 +22,10 @@ spec:
       - v1
   group: cdn.azure.com
   names:
+    kind: AfdCustomDomain
     categories:
     - azure
     - cdn
-    kind: AfdCustomDomain
     listKind: AfdCustomDomainList
     plural: afdcustomdomains
     singular: afdcustomdomain

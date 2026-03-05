@@ -22,10 +22,10 @@ spec:
       - v1
   group: app.azure.com
   names:
+    kind: ContainerApp
     categories:
     - azure
     - app
-    kind: ContainerApp
     listKind: ContainerAppList
     plural: containerapps
     singular: containerapp

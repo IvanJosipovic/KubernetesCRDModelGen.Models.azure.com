@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbformysql.azure.com
   names:
+    kind: User
     categories:
     - azure
     - dbformysql
-    kind: User
     listKind: UserList
     plural: users
     singular: user

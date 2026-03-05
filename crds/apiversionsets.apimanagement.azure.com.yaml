@@ -22,10 +22,10 @@ spec:
       - v1
   group: apimanagement.azure.com
   names:
+    kind: ApiVersionSet
     categories:
     - azure
     - apimanagement
-    kind: ApiVersionSet
     listKind: ApiVersionSetList
     plural: apiversionsets
     singular: apiversionset

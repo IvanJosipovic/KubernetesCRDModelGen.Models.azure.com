@@ -22,10 +22,10 @@ spec:
       - v1
   group: dataprotection.azure.com
   names:
+    kind: BackupVaultsBackupInstance
     categories:
     - azure
     - dataprotection
-    kind: BackupVaultsBackupInstance
     listKind: BackupVaultsBackupInstanceList
     plural: backupvaultsbackupinstances
     singular: backupvaultsbackupinstance

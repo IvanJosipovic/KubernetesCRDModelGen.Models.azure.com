@@ -22,10 +22,10 @@ spec:
       - v1
   group: servicebus.azure.com
   names:
+    kind: NamespacesQueue
     categories:
     - azure
     - servicebus
-    kind: NamespacesQueue
     listKind: NamespacesQueueList
     plural: namespacesqueues
     singular: namespacesqueue

@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersDatabase
     categories:
     - azure
     - sql
-    kind: ServersDatabase
     listKind: ServersDatabaseList
     plural: serversdatabases
     singular: serversdatabase

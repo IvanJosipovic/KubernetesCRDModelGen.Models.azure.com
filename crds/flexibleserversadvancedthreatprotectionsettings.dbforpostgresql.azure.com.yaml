@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbforpostgresql.azure.com
   names:
+    kind: FlexibleServersAdvancedThreatProtectionSettings
     categories:
     - azure
     - dbforpostgresql
-    kind: FlexibleServersAdvancedThreatProtectionSettings
     listKind: FlexibleServersAdvancedThreatProtectionSettingsList
     plural: flexibleserversadvancedthreatprotectionsettings
     singular: flexibleserversadvancedthreatprotectionsettings

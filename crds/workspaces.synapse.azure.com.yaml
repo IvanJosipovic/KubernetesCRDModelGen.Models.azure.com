@@ -22,10 +22,10 @@ spec:
       - v1
   group: synapse.azure.com
   names:
+    kind: Workspace
     categories:
     - azure
     - synapse
-    kind: Workspace
     listKind: WorkspaceList
     plural: workspaces
     singular: workspace

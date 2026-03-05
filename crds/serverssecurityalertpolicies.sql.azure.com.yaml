@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersSecurityAlertPolicy
     categories:
     - azure
     - sql
-    kind: ServersSecurityAlertPolicy
     listKind: ServersSecurityAlertPolicyList
     plural: serverssecurityalertpolicies
     singular: serverssecurityalertpolicy

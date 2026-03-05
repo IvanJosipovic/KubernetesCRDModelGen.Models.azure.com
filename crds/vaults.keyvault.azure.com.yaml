@@ -22,10 +22,10 @@ spec:
       - v1
   group: keyvault.azure.com
   names:
+    kind: Vault
     categories:
     - azure
     - keyvault
-    kind: Vault
     listKind: VaultList
     plural: vaults
     singular: vault

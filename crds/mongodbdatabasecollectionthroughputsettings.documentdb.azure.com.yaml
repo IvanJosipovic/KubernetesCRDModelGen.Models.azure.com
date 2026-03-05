@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: MongodbDatabaseCollectionThroughputSetting
     categories:
     - azure
     - documentdb
-    kind: MongodbDatabaseCollectionThroughputSetting
     listKind: MongodbDatabaseCollectionThroughputSettingList
     plural: mongodbdatabasecollectionthroughputsettings
     singular: mongodbdatabasecollectionthroughputsetting

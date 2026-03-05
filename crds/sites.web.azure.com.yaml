@@ -22,10 +22,10 @@ spec:
       - v1
   group: web.azure.com
   names:
+    kind: Site
     categories:
     - azure
     - web
-    kind: Site
     listKind: SiteList
     plural: sites
     singular: site

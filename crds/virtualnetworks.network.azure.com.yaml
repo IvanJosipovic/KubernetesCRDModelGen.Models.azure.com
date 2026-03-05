@@ -22,10 +22,10 @@ spec:
       - v1
   group: network.azure.com
   names:
+    kind: VirtualNetwork
     categories:
     - azure
     - network
-    kind: VirtualNetwork
     listKind: VirtualNetworkList
     plural: virtualnetworks
     singular: virtualnetwork

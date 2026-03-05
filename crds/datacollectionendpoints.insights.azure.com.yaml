@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: DataCollectionEndpoint
     categories:
     - azure
     - insights
-    kind: DataCollectionEndpoint
     listKind: DataCollectionEndpointList
     plural: datacollectionendpoints
     singular: datacollectionendpoint

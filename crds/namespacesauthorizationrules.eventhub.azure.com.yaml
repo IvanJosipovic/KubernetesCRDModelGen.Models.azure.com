@@ -22,10 +22,10 @@ spec:
       - v1
   group: eventhub.azure.com
   names:
+    kind: NamespacesAuthorizationRule
     categories:
     - azure
     - eventhub
-    kind: NamespacesAuthorizationRule
     listKind: NamespacesAuthorizationRuleList
     plural: namespacesauthorizationrules
     singular: namespacesauthorizationrule

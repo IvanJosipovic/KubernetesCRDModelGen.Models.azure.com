@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbformysql.azure.com
   names:
+    kind: FlexibleServersConfiguration
     categories:
     - azure
     - dbformysql
-    kind: FlexibleServersConfiguration
     listKind: FlexibleServersConfigurationList
     plural: flexibleserversconfigurations
     singular: flexibleserversconfiguration

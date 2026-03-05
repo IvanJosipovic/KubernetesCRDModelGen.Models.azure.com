@@ -22,10 +22,10 @@ spec:
       - v1
   group: quota.azure.com
   names:
+    kind: Quota
     categories:
     - azure
     - quota
-    kind: Quota
     listKind: QuotaList
     plural: quotas
     singular: quota

@@ -22,10 +22,10 @@ spec:
       - v1
   group: sql.azure.com
   names:
+    kind: ServersAdvancedThreatProtectionSetting
     categories:
     - azure
     - sql
-    kind: ServersAdvancedThreatProtectionSetting
     listKind: ServersAdvancedThreatProtectionSettingList
     plural: serversadvancedthreatprotectionsettings
     singular: serversadvancedthreatprotectionsetting

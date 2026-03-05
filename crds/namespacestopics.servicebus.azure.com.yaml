@@ -22,10 +22,10 @@ spec:
       - v1
   group: servicebus.azure.com
   names:
+    kind: NamespacesTopic
     categories:
     - azure
     - servicebus
-    kind: NamespacesTopic
     listKind: NamespacesTopicList
     plural: namespacestopics
     singular: namespacestopic

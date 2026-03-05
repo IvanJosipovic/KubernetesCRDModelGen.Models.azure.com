@@ -22,10 +22,10 @@ spec:
       - v1
   group: containerservice.azure.com
   names:
+    kind: MaintenanceConfiguration
     categories:
     - azure
     - containerservice
-    kind: MaintenanceConfiguration
     listKind: MaintenanceConfigurationList
     plural: maintenanceconfigurations
     singular: maintenanceconfiguration

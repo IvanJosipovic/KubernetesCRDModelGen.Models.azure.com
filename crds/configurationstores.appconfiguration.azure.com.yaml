@@ -22,10 +22,10 @@ spec:
       - v1
   group: appconfiguration.azure.com
   names:
+    kind: ConfigurationStore
     categories:
     - azure
     - appconfiguration
-    kind: ConfigurationStore
     listKind: ConfigurationStoreList
     plural: configurationstores
     singular: configurationstore

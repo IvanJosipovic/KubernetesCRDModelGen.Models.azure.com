@@ -22,10 +22,10 @@ spec:
       - v1
   group: cdn.azure.com
   names:
+    kind: ProfilesEndpoint
     categories:
     - azure
     - cdn
-    kind: ProfilesEndpoint
     listKind: ProfilesEndpointList
     plural: profilesendpoints
     singular: profilesendpoint

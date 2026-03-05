@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: ScheduledQueryRule
     categories:
     - azure
     - insights
-    kind: ScheduledQueryRule
     listKind: ScheduledQueryRuleList
     plural: scheduledqueryrules
     singular: scheduledqueryrule

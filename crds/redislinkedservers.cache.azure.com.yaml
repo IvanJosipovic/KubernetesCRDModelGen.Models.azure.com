@@ -22,10 +22,10 @@ spec:
       - v1
   group: cache.azure.com
   names:
+    kind: RedisLinkedServer
     categories:
     - azure
     - cache
-    kind: RedisLinkedServer
     listKind: RedisLinkedServerList
     plural: redislinkedservers
     singular: redislinkedserver

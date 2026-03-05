@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: SqlDatabase
     categories:
     - azure
     - documentdb
-    kind: SqlDatabase
     listKind: SqlDatabaseList
     plural: sqldatabases
     singular: sqldatabase

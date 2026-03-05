@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: DatabaseAccount
     categories:
     - azure
     - documentdb
-    kind: DatabaseAccount
     listKind: DatabaseAccountList
     plural: databaseaccounts
     singular: databaseaccount

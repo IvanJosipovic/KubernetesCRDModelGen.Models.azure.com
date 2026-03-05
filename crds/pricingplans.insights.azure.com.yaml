@@ -22,10 +22,10 @@ spec:
       - v1
   group: insights.azure.com
   names:
+    kind: PricingPlan
     categories:
     - azure
     - insights
-    kind: PricingPlan
     listKind: PricingPlanList
     plural: pricingplans
     singular: pricingplan

@@ -22,10 +22,10 @@ spec:
       - v1
   group: dbforpostgresql.azure.com
   names:
+    kind: FlexibleServersVirtualEndpoint
     categories:
     - azure
     - dbforpostgresql
-    kind: FlexibleServersVirtualEndpoint
     listKind: FlexibleServersVirtualEndpointList
     plural: flexibleserversvirtualendpoints
     singular: flexibleserversvirtualendpoint

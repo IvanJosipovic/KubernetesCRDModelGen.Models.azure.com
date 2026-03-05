@@ -22,10 +22,10 @@ spec:
       - v1
   group: resources.azure.com
   names:
+    kind: ResourceGroup
     categories:
     - azure
     - resources
-    kind: ResourceGroup
     listKind: ResourceGroupList
     plural: resourcegroups
     singular: resourcegroup

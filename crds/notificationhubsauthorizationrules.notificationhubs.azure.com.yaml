@@ -22,10 +22,10 @@ spec:
       - v1
   group: notificationhubs.azure.com
   names:
+    kind: NotificationHubsAuthorizationRule
     categories:
     - azure
     - notificationhubs
-    kind: NotificationHubsAuthorizationRule
     listKind: NotificationHubsAuthorizationRuleList
     plural: notificationhubsauthorizationrules
     singular: notificationhubsauthorizationrule

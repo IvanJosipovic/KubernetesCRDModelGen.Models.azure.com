@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: MongoCluster
     categories:
     - azure
     - documentdb
-    kind: MongoCluster
     listKind: MongoClusterList
     plural: mongoclusters
     singular: mongocluster

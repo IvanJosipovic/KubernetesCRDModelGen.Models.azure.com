@@ -22,10 +22,10 @@ spec:
       - v1
   group: documentdb.azure.com
   names:
+    kind: FirewallRule
     categories:
     - azure
     - documentdb
-    kind: FirewallRule
     listKind: FirewallRuleList
     plural: firewallrules
     singular: firewallrule

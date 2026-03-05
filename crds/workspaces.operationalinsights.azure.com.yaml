@@ -22,10 +22,10 @@ spec:
       - v1
   group: operationalinsights.azure.com
   names:
+    kind: Workspace
     categories:
     - azure
     - operationalinsights
-    kind: Workspace
     listKind: WorkspaceList
     plural: workspaces
     singular: workspace

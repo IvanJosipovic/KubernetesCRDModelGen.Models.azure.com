@@ -22,10 +22,10 @@ spec:
       - v1
   group: alertsmanagement.azure.com
   names:
+    kind: PrometheusRuleGroup
     categories:
     - azure
     - alertsmanagement
-    kind: PrometheusRuleGroup
     listKind: PrometheusRuleGroupList
     plural: prometheusrulegroups
     singular: prometheusrulegroup

@@ -22,10 +22,10 @@ spec:
       - v1
   group: cache.azure.com
   names:
+    kind: Redis
     categories:
     - azure
     - cache
-    kind: Redis
     listKind: RedisList
     plural: redis
     singular: redis

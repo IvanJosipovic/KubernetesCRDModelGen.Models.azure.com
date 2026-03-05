@@ -22,10 +22,10 @@ spec:
       - v1
   group: storage.azure.com
   names:
+    kind: StorageAccountsTableService
     categories:
     - azure
     - storage
-    kind: StorageAccountsTableService
     listKind: StorageAccountsTableServiceList
     plural: storageaccountstableservices
     singular: storageaccountstableservice

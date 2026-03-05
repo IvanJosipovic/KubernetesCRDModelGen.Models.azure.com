@@ -22,10 +22,10 @@ spec:
       - v1
   group: containerservice.azure.com
   names:
+    kind: TrustedAccessRoleBinding
     categories:
     - azure
     - containerservice
-    kind: TrustedAccessRoleBinding
     listKind: TrustedAccessRoleBindingList
     plural: trustedaccessrolebindings
     singular: trustedaccessrolebinding
