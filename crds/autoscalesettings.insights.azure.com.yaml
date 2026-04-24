@@ -6,7 +6,7 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.19.0
   labels:
     app.kubernetes.io/name: azure-service-operator
-    app.kubernetes.io/version: v2.18.0
+    app.kubernetes.io/version: v2.19.0
   name: autoscalesettings.insights.azure.com
 spec:
   conversion:
@@ -124,6 +124,21 @@ spec:
                           serviceUri:
                             description: 'ServiceUri: the service address to receive the notification.'
                             type: string
+                          serviceUriFromSecret:
+                            description: 'ServiceUriFromSecret: the service address to receive the notification.'
+                            properties:
+                              key:
+                                description: Key is the key in the Kubernetes secret being referenced
+                                type: string
+                              name:
+                                description: |-
+                                  Name is the name of the Kubernetes secret being referenced.
+                                  The secret must be in the same namespace as the resource
+                                type: string
+                            required:
+                            - key
+                            - name
+                            type: object
                         type: object
                       type: array
                   required:
@@ -668,9 +683,6 @@ spec:
                               type: string
                             description: 'Properties: a property bag of settings. This value can be empty.'
                             type: object
-                          serviceUri:
-                            description: 'ServiceUri: the service address to receive the notification.'
-                            type: string
                         type: object
                       type: array
                   type: object
@@ -1146,6 +1158,23 @@ spec:
                             type: object
                           serviceUri:
                             type: string
+                          serviceUriFromSecret:
+                            description: |-
+                              SecretReference is a reference to a Kubernetes secret and key in the same namespace as
+                              the resource it is on.
+                            properties:
+                              key:
+                                description: Key is the key in the Kubernetes secret being referenced
+                                type: string
+                              name:
+                                description: |-
+                                  Name is the name of the Kubernetes secret being referenced.
+                                  The secret must be in the same namespace as the resource
+                                type: string
+                            required:
+                            - key
+                            - name
+                            type: object
                         type: object
                       type: array
                   type: object
@@ -1607,8 +1636,6 @@ spec:
                             additionalProperties:
                               type: string
                             type: object
-                          serviceUri:
-                            type: string
                         type: object
                       type: array
                   type: object
