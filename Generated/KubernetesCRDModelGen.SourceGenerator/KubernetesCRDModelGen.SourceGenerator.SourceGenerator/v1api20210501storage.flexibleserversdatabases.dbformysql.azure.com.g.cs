@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.dbformysql.azure.com;
 /// - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2021-05-01/mysql.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/databases/{databaseName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210501storageFlexibleServersDatabaseList : IKubernetesObject<V1ListMeta>, IItems<V1api20210501storageFlexibleServersDatabase>
@@ -38,7 +38,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseList : IKubernet
 
     /// <summary>List of V1api20210501storageFlexibleServersDatabase objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20210501storageFlexibleServersDatabase>? Items { get; set; }
+    public required IList<V1api20210501storageFlexibleServersDatabase> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseList : IKubernet
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210501storageFlexibleServersDatabaseSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseSpecOperatorSpec
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210501storageFlexibleServersDatabaseSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseSpecOperatorSpec
 /// Storage version of v1api20210501.FlexibleServersDatabaseOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210501storageFlexibleServersDatabaseSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a dbformysql.azure.com/FlexibleServer resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210501storageFlexibleServersDatabaseSpecOwner
 {
@@ -147,7 +147,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseSpecOwner
 }
 
 /// <summary>Storage version of v1api20210501.FlexibleServersDatabase_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210501storageFlexibleServersDatabaseSpec
 {
@@ -191,7 +191,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210501storageFlexibleServersDatabaseStatusConditions
 {
@@ -240,7 +240,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseStatusConditions
 /// Storage version of v1api20210501.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210501storageFlexibleServersDatabaseStatusSystemData
 {
@@ -271,7 +271,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseStatusSystemData
 }
 
 /// <summary>Storage version of v1api20210501.FlexibleServersDatabase_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210501storageFlexibleServersDatabaseStatus
 {
@@ -314,7 +314,7 @@ public partial class V1api20210501storageFlexibleServersDatabaseStatus
 /// - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/stable/2021-05-01/mysql.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/databases/{databaseName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210501storageFlexibleServersDatabase : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20210501storageFlexibleServersDatabaseSpec?>, IStatus<V1api20210501storageFlexibleServersDatabaseStatus?>

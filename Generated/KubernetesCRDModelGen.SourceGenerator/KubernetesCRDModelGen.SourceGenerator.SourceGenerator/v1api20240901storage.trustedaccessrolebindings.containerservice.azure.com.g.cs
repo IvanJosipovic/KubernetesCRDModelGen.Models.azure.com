@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.containerservice.azure.com;
 /// - Generated from: /containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2024-09-01/managedClusters.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/managedClusters/{resourceName}/trustedAccessRoleBindings/{trustedAccessRoleBindingName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240901storageTrustedAccessRoleBindingList : IKubernetesObject<V1ListMeta>, IItems<V1api20240901storageTrustedAccessRoleBinding>
@@ -38,7 +38,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingList : IKuberne
 
     /// <summary>List of V1api20240901storageTrustedAccessRoleBinding objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20240901storageTrustedAccessRoleBinding>? Items { get; set; }
+    public required IList<V1api20240901storageTrustedAccessRoleBinding> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingList : IKuberne
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingSpecOperatorSpe
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingSpecOperatorSpe
 /// Storage version of v1api20240901.TrustedAccessRoleBindingOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingSpecOperatorSpe
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a containerservice.azure.com/ManagedCluster resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingSpecOwner
 {
@@ -147,7 +147,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingSpecOwner
 }
 
 /// <summary>SourceResourceReference: The ARM resource ID of source resource that trusted access is configured for.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingSpecSourceResourceReference
 {
@@ -173,7 +173,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingSpecSourceResou
 }
 
 /// <summary>Storage version of v1api20240901.TrustedAccessRoleBinding_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingSpec
 {
@@ -218,7 +218,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingStatusConditions
 {
@@ -267,7 +267,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingStatusCondition
 /// Storage version of v1api20240901.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingStatusSystemData
 {
@@ -298,7 +298,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingStatusSystemDat
 }
 
 /// <summary>Storage version of v1api20240901.TrustedAccessRoleBinding_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240901storageTrustedAccessRoleBindingStatus
 {
@@ -344,7 +344,7 @@ public partial class V1api20240901storageTrustedAccessRoleBindingStatus
 /// - Generated from: /containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2024-09-01/managedClusters.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/managedClusters/{resourceName}/trustedAccessRoleBindings/{trustedAccessRoleBindingName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240901storageTrustedAccessRoleBinding : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240901storageTrustedAccessRoleBindingSpec?>, IStatus<V1api20240901storageTrustedAccessRoleBindingStatus?>

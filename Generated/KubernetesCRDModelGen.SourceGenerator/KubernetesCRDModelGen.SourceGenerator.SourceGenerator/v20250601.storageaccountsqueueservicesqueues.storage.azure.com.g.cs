@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.storage.azure.com;
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2025-06-01/openapi.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default/queues/{queueName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250601StorageAccountsQueueServicesQueueList : IKubernetesObject<V1ListMeta>, IItems<V20250601StorageAccountsQueueServicesQueue>
@@ -37,7 +37,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueList : IKubernete
 
     /// <summary>List of V20250601StorageAccountsQueueServicesQueue objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20250601StorageAccountsQueueServicesQueue>? Items { get; set; }
+    public required IList<V20250601StorageAccountsQueueServicesQueue> Items { get; set; }
 }
 
 /// <summary>
@@ -45,7 +45,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueList : IKubernete
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsQueueServicesQueueSpecOperatorSpecConfigMapExpressions
 {
@@ -78,7 +78,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueSpecOperatorSpecC
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsQueueServicesQueueSpecOperatorSpecSecretExpressions
 {
@@ -110,7 +110,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueSpecOperatorSpecS
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsQueueServicesQueueSpecOperatorSpec
 {
@@ -128,7 +128,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a storage.azure.com/StorageAccountsQueueService resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsQueueServicesQueueSpecOwner
 {
@@ -140,7 +140,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueSpecOwner
     public string? Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsQueueServicesQueueSpec
 {
@@ -172,7 +172,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsQueueServicesQueueStatusConditions
 {
@@ -218,7 +218,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueStatusConditions
 }
 
 /// <summary>SystemData: Azure Resource Manager metadata containing createdBy and modifiedBy information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsQueueServicesQueueStatusSystemData
 {
@@ -247,7 +247,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueStatusSystemData
     public string? LastModifiedByType { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsQueueServicesQueueStatus
 {
@@ -291,7 +291,7 @@ public partial class V20250601StorageAccountsQueueServicesQueueStatus
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2025-06-01/openapi.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default/queues/{queueName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250601StorageAccountsQueueServicesQueue : IKubernetesObject<V1ObjectMeta>, ISpec<V20250601StorageAccountsQueueServicesQueueSpec?>, IStatus<V20250601StorageAccountsQueueServicesQueueStatus?>

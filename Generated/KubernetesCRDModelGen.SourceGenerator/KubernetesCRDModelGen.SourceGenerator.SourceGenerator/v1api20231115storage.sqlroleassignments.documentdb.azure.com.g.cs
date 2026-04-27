@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.documentdb.azure.com;
 /// - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2023-11-15/rbac.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlRoleAssignments/{roleAssignmentId}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20231115storageSqlRoleAssignmentList : IKubernetesObject<V1ListMeta>, IItems<V1api20231115storageSqlRoleAssignment>
@@ -38,7 +38,7 @@ public partial class V1api20231115storageSqlRoleAssignmentList : IKubernetesObje
 
     /// <summary>List of V1api20231115storageSqlRoleAssignment objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20231115storageSqlRoleAssignment>? Items { get; set; }
+    public required IList<V1api20231115storageSqlRoleAssignment> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20231115storageSqlRoleAssignmentList : IKubernetesObje
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231115storageSqlRoleAssignmentSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V1api20231115storageSqlRoleAssignmentSpecOperatorSpecConfig
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231115storageSqlRoleAssignmentSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V1api20231115storageSqlRoleAssignmentSpecOperatorSpecSecret
 /// Storage version of v1api20231115.SqlRoleAssignmentOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231115storageSqlRoleAssignmentSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V1api20231115storageSqlRoleAssignmentSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a documentdb.azure.com/DatabaseAccount resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231115storageSqlRoleAssignmentSpecOwner
 {
@@ -150,7 +150,7 @@ public partial class V1api20231115storageSqlRoleAssignmentSpecOwner
 /// ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231115storageSqlRoleAssignmentSpecPrincipalIdFromConfig
 {
@@ -167,7 +167,7 @@ public partial class V1api20231115storageSqlRoleAssignmentSpecPrincipalIdFromCon
 }
 
 /// <summary>Storage version of v1api20231115.SqlRoleAssignment_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231115storageSqlRoleAssignmentSpec
 {
@@ -221,7 +221,7 @@ public partial class V1api20231115storageSqlRoleAssignmentSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231115storageSqlRoleAssignmentStatusConditions
 {
@@ -267,7 +267,7 @@ public partial class V1api20231115storageSqlRoleAssignmentStatusConditions
 }
 
 /// <summary>Storage version of v1api20231115.SqlRoleAssignment_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231115storageSqlRoleAssignmentStatus
 {
@@ -306,7 +306,7 @@ public partial class V1api20231115storageSqlRoleAssignmentStatus
 /// - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2023-11-15/rbac.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlRoleAssignments/{roleAssignmentId}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20231115storageSqlRoleAssignment : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20231115storageSqlRoleAssignmentSpec?>, IStatus<V1api20231115storageSqlRoleAssignmentStatus?>

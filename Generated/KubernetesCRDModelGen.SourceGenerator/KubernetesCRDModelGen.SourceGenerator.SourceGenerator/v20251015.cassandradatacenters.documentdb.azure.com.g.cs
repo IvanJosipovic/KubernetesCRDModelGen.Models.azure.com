@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.documentdb.azure.com;
 /// - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2025-10-15/managedCassandra.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/cassandraClusters/{clusterName}/dataCenters/{dataCenterName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20251015CassandraDataCenterList : IKubernetesObject<V1ListMeta>, IItems<V20251015CassandraDataCenter>
@@ -37,7 +37,7 @@ public partial class V20251015CassandraDataCenterList : IKubernetesObject<V1List
 
     /// <summary>List of V20251015CassandraDataCenter objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20251015CassandraDataCenter>? Items { get; set; }
+    public required IList<V20251015CassandraDataCenter> Items { get; set; }
 }
 
 /// <summary>
@@ -45,7 +45,7 @@ public partial class V20251015CassandraDataCenterList : IKubernetesObject<V1List
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecOperatorSpecConfigMapExpressions
 {
@@ -78,7 +78,7 @@ public partial class V20251015CassandraDataCenterSpecOperatorSpecConfigMapExpres
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecOperatorSpecSecretExpressions
 {
@@ -110,7 +110,7 @@ public partial class V20251015CassandraDataCenterSpecOperatorSpecSecretExpressio
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecOperatorSpec
 {
@@ -128,7 +128,7 @@ public partial class V20251015CassandraDataCenterSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a documentdb.azure.com/CassandraCluster resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecOwner
 {
@@ -141,7 +141,7 @@ public partial class V20251015CassandraDataCenterSpecOwner
 }
 
 /// <summary>Pem: PEM formatted public key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecPropertiesAuthenticationMethodLdapPropertiesServerCertificatesPem
 {
@@ -157,7 +157,7 @@ public partial class V20251015CassandraDataCenterSpecPropertiesAuthenticationMet
     public required string Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecPropertiesAuthenticationMethodLdapPropertiesServerCertificates
 {
@@ -167,7 +167,7 @@ public partial class V20251015CassandraDataCenterSpecPropertiesAuthenticationMet
 }
 
 /// <summary>ServiceUserPassword: Password of the look up user.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecPropertiesAuthenticationMethodLdapPropertiesServiceUserPassword
 {
@@ -184,7 +184,7 @@ public partial class V20251015CassandraDataCenterSpecPropertiesAuthenticationMet
 }
 
 /// <summary>AuthenticationMethodLdapProperties: Ldap authentication method properties. This feature is in preview.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecPropertiesAuthenticationMethodLdapProperties
 {
@@ -230,7 +230,7 @@ public partial class V20251015CassandraDataCenterSpecPropertiesAuthenticationMet
 /// BackupStorageCustomerKeyUriFromConfig: Indicates the Key Uri of the customer key to use for encryption of the backup
 /// storage account.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecPropertiesBackupStorageCustomerKeyUriFromConfig
 {
@@ -253,7 +253,7 @@ public partial class V20251015CassandraDataCenterSpecPropertiesBackupStorageCust
 /// &apos;/subscriptions/&lt;subscription id&gt;/resourceGroups/&lt;resource group&gt;/providers/Microsoft.Network/virtualNetworks/&lt;virtual
 /// network&gt;/subnets/&lt;subnet&gt; &apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecPropertiesDelegatedSubnetReference
 {
@@ -282,7 +282,7 @@ public partial class V20251015CassandraDataCenterSpecPropertiesDelegatedSubnetRe
 /// ManagedDiskCustomerKeyUriReference: Key uri to use for encryption of managed disks. Ensure the system assigned identity
 /// of the cluster has been assigned appropriate permissions(key get/wrap/unwrap permissions) on the key.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecPropertiesManagedDiskCustomerKeyUriReference
 {
@@ -308,7 +308,7 @@ public partial class V20251015CassandraDataCenterSpecPropertiesManagedDiskCustom
 }
 
 /// <summary>PrivateEndpointIpAddressFromConfig: Ip of the VPN Endpoint for this data center.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecPropertiesPrivateEndpointIpAddressFromConfig
 {
@@ -325,7 +325,7 @@ public partial class V20251015CassandraDataCenterSpecPropertiesPrivateEndpointIp
 }
 
 /// <summary>Properties: Properties of a managed Cassandra data center.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpecProperties
 {
@@ -412,7 +412,7 @@ public partial class V20251015CassandraDataCenterSpecProperties
     public string? Sku { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterSpec
 {
@@ -444,7 +444,7 @@ public partial class V20251015CassandraDataCenterSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterStatusConditions
 {
@@ -489,14 +489,14 @@ public partial class V20251015CassandraDataCenterStatusConditions
     public required string Type { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterStatusPropertiesAuthenticationMethodLdapPropertiesServerCertificates
 {
 }
 
 /// <summary>AuthenticationMethodLdapProperties: Ldap authentication method properties. This feature is in preview.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterStatusPropertiesAuthenticationMethodLdapProperties
 {
@@ -535,7 +535,7 @@ public partial class V20251015CassandraDataCenterStatusPropertiesAuthenticationM
 }
 
 /// <summary>ProvisionError: Error related to resource provisioning.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterStatusPropertiesProvisionError
 {
@@ -556,7 +556,7 @@ public partial class V20251015CassandraDataCenterStatusPropertiesProvisionError
     public string? Target { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterStatusPropertiesSeedNodes
 {
@@ -566,7 +566,7 @@ public partial class V20251015CassandraDataCenterStatusPropertiesSeedNodes
 }
 
 /// <summary>Properties: Properties of a managed Cassandra data center.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterStatusProperties
 {
@@ -661,7 +661,7 @@ public partial class V20251015CassandraDataCenterStatusProperties
     public string? Sku { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20251015CassandraDataCenterStatus
 {
@@ -691,7 +691,7 @@ public partial class V20251015CassandraDataCenterStatus
 /// - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2025-10-15/managedCassandra.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/cassandraClusters/{clusterName}/dataCenters/{dataCenterName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20251015CassandraDataCenter : IKubernetesObject<V1ObjectMeta>, ISpec<V20251015CassandraDataCenterSpec?>, IStatus<V20251015CassandraDataCenterStatus?>

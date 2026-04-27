@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.app.azure.com;
 /// - Generated from: /app/resource-manager/Microsoft.App/ContainerApps/stable/2025-01-01/Jobs.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/jobs/{jobName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20250101JobList : IKubernetesObject<V1ListMeta>, IItems<V1api20250101Job>
@@ -37,11 +37,11 @@ public partial class V1api20250101JobList : IKubernetesObject<V1ListMeta>, IItem
 
     /// <summary>List of V1api20250101Job objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20250101Job>? Items { get; set; }
+    public required IList<V1api20250101Job> Items { get; set; }
 }
 
 /// <summary>Auth Secrets for Scale Rule</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationEventTriggerConfigScaleRulesAuth
 {
@@ -58,7 +58,7 @@ public partial class V1api20250101JobSpecConfigurationEventTriggerConfigScaleRul
 /// IdentityReference: The resource ID of a user-assigned managed identity that is assigned to the Container App, or
 /// &apos;system&apos; for system-assigned identity.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationEventTriggerConfigScaleRulesIdentityReference
 {
@@ -87,7 +87,7 @@ public partial class V1api20250101JobSpecConfigurationEventTriggerConfigScaleRul
 }
 
 /// <summary>Scaling rule.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationEventTriggerConfigScaleRules
 {
@@ -119,7 +119,7 @@ public partial class V1api20250101JobSpecConfigurationEventTriggerConfigScaleRul
 }
 
 /// <summary>Scale: Scaling configurations for event driven jobs.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationEventTriggerConfigScale
 {
@@ -140,7 +140,7 @@ public partial class V1api20250101JobSpecConfigurationEventTriggerConfigScale
 }
 
 /// <summary>EventTriggerConfig: Trigger configuration of an event driven job.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationEventTriggerConfig
 {
@@ -159,7 +159,7 @@ public partial class V1api20250101JobSpecConfigurationEventTriggerConfig
 /// IdentityReference: The resource ID of a user-assigned managed identity that is assigned to the Container App, or
 /// &apos;system&apos; for system-assigned identity.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationIdentitySettingsIdentityReference
 {
@@ -188,7 +188,7 @@ public partial class V1api20250101JobSpecConfigurationIdentitySettingsIdentityRe
 }
 
 /// <summary>Lifecycle: Use to select the lifecycle stages of a Container App during which the Managed Identity should be available.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20250101JobSpecConfigurationIdentitySettingsLifecycleEnum>))]
 public enum V1api20250101JobSpecConfigurationIdentitySettingsLifecycleEnum
 {
@@ -203,7 +203,7 @@ public enum V1api20250101JobSpecConfigurationIdentitySettingsLifecycleEnum
 }
 
 /// <summary>Optional settings for a Managed Identity that is assigned to the Container App.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationIdentitySettings
 {
@@ -223,7 +223,7 @@ public partial class V1api20250101JobSpecConfigurationIdentitySettings
 /// ManualTriggerConfig: Manual trigger configuration for a single execution job. Properties replicaCompletionCount and
 /// parallelism would be set to 1 by default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationManualTriggerConfig
 {
@@ -238,7 +238,7 @@ public partial class V1api20250101JobSpecConfigurationManualTriggerConfig
 /// IdentityReference: A Managed Identity to use to authenticate with Azure Container Registry. For user-assigned
 /// identities, use the full user-assigned identity Resource ID. For system-assigned identities, use &apos;system&apos;
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationRegistriesIdentityReference
 {
@@ -267,7 +267,7 @@ public partial class V1api20250101JobSpecConfigurationRegistriesIdentityReferenc
 }
 
 /// <summary>Container App Private Registry</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationRegistries
 {
@@ -295,7 +295,7 @@ public partial class V1api20250101JobSpecConfigurationRegistries
 /// ScheduleTriggerConfig: Cron formatted repeating trigger schedule (&quot;* * * * *&quot;) for cronjobs. Properties completions and
 /// parallelism would be set to 1 by default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationScheduleTriggerConfig
 {
@@ -314,7 +314,7 @@ public partial class V1api20250101JobSpecConfigurationScheduleTriggerConfig
 /// IdentityReference: Resource ID of a managed identity to authenticate with Azure Key Vault, or System to use a
 /// system-assigned identity.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationSecretsIdentityReference
 {
@@ -343,7 +343,7 @@ public partial class V1api20250101JobSpecConfigurationSecretsIdentityReference
 }
 
 /// <summary>Value: Secret Value.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationSecretsValue
 {
@@ -360,7 +360,7 @@ public partial class V1api20250101JobSpecConfigurationSecretsValue
 }
 
 /// <summary>Secret definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfigurationSecrets
 {
@@ -385,7 +385,7 @@ public partial class V1api20250101JobSpecConfigurationSecrets
 }
 
 /// <summary>TriggerType: Trigger type of the job</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20250101JobSpecConfigurationTriggerTypeEnum>))]
 public enum V1api20250101JobSpecConfigurationTriggerTypeEnum
 {
@@ -398,7 +398,7 @@ public enum V1api20250101JobSpecConfigurationTriggerTypeEnum
 }
 
 /// <summary>Configuration: Container Apps Job configuration properties.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecConfiguration
 {
@@ -449,7 +449,7 @@ public partial class V1api20250101JobSpecConfiguration
 }
 
 /// <summary>EnvironmentReference: Resource ID of environment.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecEnvironmentReference
 {
@@ -475,7 +475,7 @@ public partial class V1api20250101JobSpecEnvironmentReference
 }
 
 /// <summary>Type: Type of managed service identity (where both SystemAssigned and UserAssigned types are allowed).</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20250101JobSpecIdentityTypeEnum>))]
 public enum V1api20250101JobSpecIdentityTypeEnum
 {
@@ -490,7 +490,7 @@ public enum V1api20250101JobSpecIdentityTypeEnum
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecIdentityUserAssignedIdentitiesReference
 {
@@ -516,7 +516,7 @@ public partial class V1api20250101JobSpecIdentityUserAssignedIdentitiesReference
 }
 
 /// <summary>Information about the user assigned identity for the resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecIdentityUserAssignedIdentities
 {
@@ -529,7 +529,7 @@ public partial class V1api20250101JobSpecIdentityUserAssignedIdentities
 /// Identity: Managed identities needed by a container app job to interact with other Azure services to not maintain any
 /// secrets or credentials in code.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecIdentity
 {
@@ -546,7 +546,7 @@ public partial class V1api20250101JobSpecIdentity
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecOperatorSpecConfigMapExpressions
 {
@@ -579,7 +579,7 @@ public partial class V1api20250101JobSpecOperatorSpecConfigMapExpressions
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecOperatorSpecSecretExpressions
 {
@@ -611,7 +611,7 @@ public partial class V1api20250101JobSpecOperatorSpecSecretExpressions
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecOperatorSpec
 {
@@ -629,7 +629,7 @@ public partial class V1api20250101JobSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecOwner
 {
@@ -642,7 +642,7 @@ public partial class V1api20250101JobSpecOwner
 }
 
 /// <summary>Container App container environment variable.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateContainersEnv
 {
@@ -659,7 +659,7 @@ public partial class V1api20250101JobSpecTemplateContainersEnv
     public string? Value { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateContainersProbesHttpGetHttpHeaders
 {
@@ -673,7 +673,7 @@ public partial class V1api20250101JobSpecTemplateContainersProbesHttpGetHttpHead
 }
 
 /// <summary>Scheme: Scheme to use for connecting to the host. Defaults to HTTP.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20250101JobSpecTemplateContainersProbesHttpGetSchemeEnum>))]
 public enum V1api20250101JobSpecTemplateContainersProbesHttpGetSchemeEnum
 {
@@ -684,7 +684,7 @@ public enum V1api20250101JobSpecTemplateContainersProbesHttpGetSchemeEnum
 }
 
 /// <summary>HttpGet: HTTPGet specifies the http request to perform.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateContainersProbesHttpGet
 {
@@ -713,7 +713,7 @@ public partial class V1api20250101JobSpecTemplateContainersProbesHttpGet
 }
 
 /// <summary>TcpSocket: TCPSocket specifies an action involving a TCP port. TCP hooks not yet supported.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateContainersProbesTcpSocket
 {
@@ -730,7 +730,7 @@ public partial class V1api20250101JobSpecTemplateContainersProbesTcpSocket
 }
 
 /// <summary>Type: The type of probe.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20250101JobSpecTemplateContainersProbesTypeEnum>))]
 public enum V1api20250101JobSpecTemplateContainersProbesTypeEnum
 {
@@ -746,7 +746,7 @@ public enum V1api20250101JobSpecTemplateContainersProbesTypeEnum
 /// Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive
 /// traffic.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateContainersProbes
 {
@@ -811,7 +811,7 @@ public partial class V1api20250101JobSpecTemplateContainersProbes
 }
 
 /// <summary>Resources: Container resource requirements.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateContainersResources
 {
@@ -825,7 +825,7 @@ public partial class V1api20250101JobSpecTemplateContainersResources
 }
 
 /// <summary>Volume mount for the Container App.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateContainersVolumeMounts
 {
@@ -843,7 +843,7 @@ public partial class V1api20250101JobSpecTemplateContainersVolumeMounts
 }
 
 /// <summary>Container App container definition</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateContainers
 {
@@ -881,7 +881,7 @@ public partial class V1api20250101JobSpecTemplateContainers
 }
 
 /// <summary>Container App container environment variable.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateInitContainersEnv
 {
@@ -899,7 +899,7 @@ public partial class V1api20250101JobSpecTemplateInitContainersEnv
 }
 
 /// <summary>Resources: Container resource requirements.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateInitContainersResources
 {
@@ -913,7 +913,7 @@ public partial class V1api20250101JobSpecTemplateInitContainersResources
 }
 
 /// <summary>Volume mount for the Container App.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateInitContainersVolumeMounts
 {
@@ -931,7 +931,7 @@ public partial class V1api20250101JobSpecTemplateInitContainersVolumeMounts
 }
 
 /// <summary>Container App base container definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateInitContainers
 {
@@ -965,7 +965,7 @@ public partial class V1api20250101JobSpecTemplateInitContainers
 }
 
 /// <summary>Secret to be added to volume.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateVolumesSecrets
 {
@@ -979,7 +979,7 @@ public partial class V1api20250101JobSpecTemplateVolumesSecrets
 }
 
 /// <summary>StorageType: Storage type for the volume. If not provided, use EmptyDir.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20250101JobSpecTemplateVolumesStorageTypeEnum>))]
 public enum V1api20250101JobSpecTemplateVolumesStorageTypeEnum
 {
@@ -994,7 +994,7 @@ public enum V1api20250101JobSpecTemplateVolumesStorageTypeEnum
 }
 
 /// <summary>Volume definitions for the Container App.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplateVolumes
 {
@@ -1026,7 +1026,7 @@ public partial class V1api20250101JobSpecTemplateVolumes
 }
 
 /// <summary>Template: Container Apps job definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpecTemplate
 {
@@ -1043,7 +1043,7 @@ public partial class V1api20250101JobSpecTemplate
     public IList<V1api20250101JobSpecTemplateVolumes>? Volumes { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobSpec
 {
@@ -1102,7 +1102,7 @@ public partial class V1api20250101JobSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConditions
 {
@@ -1148,7 +1148,7 @@ public partial class V1api20250101JobStatusConditions
 }
 
 /// <summary>Auth Secrets for Scale Rule</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationEventTriggerConfigScaleRulesAuth
 {
@@ -1162,7 +1162,7 @@ public partial class V1api20250101JobStatusConfigurationEventTriggerConfigScaleR
 }
 
 /// <summary>Scaling rule.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationEventTriggerConfigScaleRules
 {
@@ -1194,7 +1194,7 @@ public partial class V1api20250101JobStatusConfigurationEventTriggerConfigScaleR
 }
 
 /// <summary>Scale: Scaling configurations for event driven jobs.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationEventTriggerConfigScale
 {
@@ -1215,7 +1215,7 @@ public partial class V1api20250101JobStatusConfigurationEventTriggerConfigScale
 }
 
 /// <summary>EventTriggerConfig: Trigger configuration of an event driven job.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationEventTriggerConfig
 {
@@ -1231,7 +1231,7 @@ public partial class V1api20250101JobStatusConfigurationEventTriggerConfig
 }
 
 /// <summary>Optional settings for a Managed Identity that is assigned to the Container App.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationIdentitySettings
 {
@@ -1251,7 +1251,7 @@ public partial class V1api20250101JobStatusConfigurationIdentitySettings
 /// ManualTriggerConfig: Manual trigger configuration for a single execution job. Properties replicaCompletionCount and
 /// parallelism would be set to 1 by default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationManualTriggerConfig
 {
@@ -1263,7 +1263,7 @@ public partial class V1api20250101JobStatusConfigurationManualTriggerConfig
 }
 
 /// <summary>Container App Private Registry</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationRegistries
 {
@@ -1291,7 +1291,7 @@ public partial class V1api20250101JobStatusConfigurationRegistries
 /// ScheduleTriggerConfig: Cron formatted repeating trigger schedule (&quot;* * * * *&quot;) for cronjobs. Properties completions and
 /// parallelism would be set to 1 by default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationScheduleTriggerConfig
 {
@@ -1307,7 +1307,7 @@ public partial class V1api20250101JobStatusConfigurationScheduleTriggerConfig
 }
 
 /// <summary>Secret definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfigurationSecrets
 {
@@ -1328,7 +1328,7 @@ public partial class V1api20250101JobStatusConfigurationSecrets
 }
 
 /// <summary>Configuration: Container Apps Job configuration properties.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusConfiguration
 {
@@ -1379,7 +1379,7 @@ public partial class V1api20250101JobStatusConfiguration
 }
 
 /// <summary>User assigned identity properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusIdentityUserAssignedIdentities
 {
@@ -1396,7 +1396,7 @@ public partial class V1api20250101JobStatusIdentityUserAssignedIdentities
 /// Identity: Managed identities needed by a container app job to interact with other Azure services to not maintain any
 /// secrets or credentials in code.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusIdentity
 {
@@ -1423,7 +1423,7 @@ public partial class V1api20250101JobStatusIdentity
 }
 
 /// <summary>SystemData: Azure Resource Manager metadata containing createdBy and modifiedBy information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusSystemData
 {
@@ -1453,7 +1453,7 @@ public partial class V1api20250101JobStatusSystemData
 }
 
 /// <summary>Container App container environment variable.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateContainersEnv
 {
@@ -1470,7 +1470,7 @@ public partial class V1api20250101JobStatusTemplateContainersEnv
     public string? Value { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateContainersProbesHttpGetHttpHeaders
 {
@@ -1484,7 +1484,7 @@ public partial class V1api20250101JobStatusTemplateContainersProbesHttpGetHttpHe
 }
 
 /// <summary>HttpGet: HTTPGet specifies the http request to perform.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateContainersProbesHttpGet
 {
@@ -1513,7 +1513,7 @@ public partial class V1api20250101JobStatusTemplateContainersProbesHttpGet
 }
 
 /// <summary>TcpSocket: TCPSocket specifies an action involving a TCP port. TCP hooks not yet supported.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateContainersProbesTcpSocket
 {
@@ -1533,7 +1533,7 @@ public partial class V1api20250101JobStatusTemplateContainersProbesTcpSocket
 /// Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive
 /// traffic.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateContainersProbes
 {
@@ -1598,7 +1598,7 @@ public partial class V1api20250101JobStatusTemplateContainersProbes
 }
 
 /// <summary>Resources: Container resource requirements.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateContainersResources
 {
@@ -1616,7 +1616,7 @@ public partial class V1api20250101JobStatusTemplateContainersResources
 }
 
 /// <summary>Volume mount for the Container App.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateContainersVolumeMounts
 {
@@ -1634,7 +1634,7 @@ public partial class V1api20250101JobStatusTemplateContainersVolumeMounts
 }
 
 /// <summary>Container App container definition</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateContainers
 {
@@ -1672,7 +1672,7 @@ public partial class V1api20250101JobStatusTemplateContainers
 }
 
 /// <summary>Container App container environment variable.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateInitContainersEnv
 {
@@ -1690,7 +1690,7 @@ public partial class V1api20250101JobStatusTemplateInitContainersEnv
 }
 
 /// <summary>Resources: Container resource requirements.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateInitContainersResources
 {
@@ -1708,7 +1708,7 @@ public partial class V1api20250101JobStatusTemplateInitContainersResources
 }
 
 /// <summary>Volume mount for the Container App.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateInitContainersVolumeMounts
 {
@@ -1726,7 +1726,7 @@ public partial class V1api20250101JobStatusTemplateInitContainersVolumeMounts
 }
 
 /// <summary>Container App base container definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateInitContainers
 {
@@ -1760,7 +1760,7 @@ public partial class V1api20250101JobStatusTemplateInitContainers
 }
 
 /// <summary>Secret to be added to volume.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateVolumesSecrets
 {
@@ -1774,7 +1774,7 @@ public partial class V1api20250101JobStatusTemplateVolumesSecrets
 }
 
 /// <summary>Volume definitions for the Container App.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplateVolumes
 {
@@ -1806,7 +1806,7 @@ public partial class V1api20250101JobStatusTemplateVolumes
 }
 
 /// <summary>Template: Container Apps job definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatusTemplate
 {
@@ -1824,7 +1824,7 @@ public partial class V1api20250101JobStatusTemplate
 }
 
 /// <summary>Container App Job</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101JobStatus
 {
@@ -1900,7 +1900,7 @@ public partial class V1api20250101JobStatus
 /// - Generated from: /app/resource-manager/Microsoft.App/ContainerApps/stable/2025-01-01/Jobs.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/jobs/{jobName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20250101Job : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20250101JobSpec?>, IStatus<V1api20250101JobStatus?>

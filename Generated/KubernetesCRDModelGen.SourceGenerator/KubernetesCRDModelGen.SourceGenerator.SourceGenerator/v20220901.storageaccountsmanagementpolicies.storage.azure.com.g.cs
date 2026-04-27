@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.storage.azure.com;
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2022-09-01/storage.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/managementPolicies/default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20220901StorageAccountsManagementPolicyList : IKubernetesObject<V1ListMeta>, IItems<V20220901StorageAccountsManagementPolicy>
@@ -37,7 +37,7 @@ public partial class V20220901StorageAccountsManagementPolicyList : IKubernetesO
 
     /// <summary>List of V20220901StorageAccountsManagementPolicy objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20220901StorageAccountsManagementPolicy>? Items { get; set; }
+    public required IList<V20220901StorageAccountsManagementPolicy> Items { get; set; }
 }
 
 /// <summary>
@@ -45,7 +45,7 @@ public partial class V20220901StorageAccountsManagementPolicyList : IKubernetesO
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecOperatorSpecConfigMapExpressions
 {
@@ -78,7 +78,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecOperatorSpecCon
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecOperatorSpecSecretExpressions
 {
@@ -110,7 +110,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecOperatorSpecSec
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecOperatorSpec
 {
@@ -128,7 +128,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a storage.azure.com/StorageAccount resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecOwner
 {
@@ -141,7 +141,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecOwner
 }
 
 /// <summary>Delete: The function to delete the blob</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsBaseBlobDelete
 {
@@ -170,7 +170,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToArchive: The function to tier blobs to archive storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsBaseBlobTierToArchive
 {
@@ -199,7 +199,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToCold: The function to tier blobs to cold storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsBaseBlobTierToCold
 {
@@ -228,7 +228,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToCool: The function to tier blobs to cool storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsBaseBlobTierToCool
 {
@@ -260,7 +260,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 /// TierToHot: The function to tier blobs to hot storage. This action can only be used with Premium Block Blob Storage
 /// Accounts
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsBaseBlobTierToHot
 {
@@ -289,7 +289,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>BaseBlob: The management policy action for base blob</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsBaseBlob
 {
@@ -325,7 +325,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Delete: The function to delete the blob snapshot</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsSnapshotDelete
 {
@@ -343,7 +343,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToArchive: The function to tier blob snapshot to archive storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsSnapshotTierToArchive
 {
@@ -361,7 +361,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToCold: The function to tier blobs to cold storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsSnapshotTierToCold
 {
@@ -379,7 +379,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToCool: The function to tier blob snapshot to cool storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsSnapshotTierToCool
 {
@@ -400,7 +400,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 /// TierToHot: The function to tier blobs to hot storage. This action can only be used with Premium Block Blob Storage
 /// Accounts
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsSnapshotTierToHot
 {
@@ -418,7 +418,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Snapshot: The management policy action for snapshot</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsSnapshot
 {
@@ -447,7 +447,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Delete: The function to delete the blob version</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsVersionDelete
 {
@@ -465,7 +465,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToArchive: The function to tier blob version to archive storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsVersionTierToArchive
 {
@@ -483,7 +483,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToCold: The function to tier blobs to cold storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsVersionTierToCold
 {
@@ -501,7 +501,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>TierToCool: The function to tier blob version to cool storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsVersionTierToCool
 {
@@ -522,7 +522,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 /// TierToHot: The function to tier blobs to hot storage. This action can only be used with Premium Block Blob Storage
 /// Accounts
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsVersionTierToHot
 {
@@ -540,7 +540,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Version: The management policy action for version</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActionsVersion
 {
@@ -569,7 +569,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Actions: An object that defines the action set.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionActions
 {
@@ -587,7 +587,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Blob index tag based filtering for blob objects</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionFiltersBlobIndexMatch
 {
@@ -608,7 +608,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Filters: An object that defines the filter set.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinitionFilters
 {
@@ -629,7 +629,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Definition: An object that defines the Lifecycle rule.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefinition
 {
@@ -643,7 +643,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRulesDefi
 }
 
 /// <summary>Type: The valid value is Lifecycle</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220901StorageAccountsManagementPolicySpecPolicyRulesTypeEnum>))]
 public enum V20220901StorageAccountsManagementPolicySpecPolicyRulesTypeEnum
 {
@@ -652,7 +652,7 @@ public enum V20220901StorageAccountsManagementPolicySpecPolicyRulesTypeEnum
 }
 
 /// <summary>An object that wraps the Lifecycle rule. Each rule is uniquely defined by name.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicyRules
 {
@@ -680,7 +680,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicyRules
 /// Policy: The Storage Account ManagementPolicy, in JSON format. See more details in:
 /// https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-managment-concepts.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpecPolicy
 {
@@ -692,7 +692,7 @@ public partial class V20220901StorageAccountsManagementPolicySpecPolicy
     public required IList<V20220901StorageAccountsManagementPolicySpecPolicyRules> Rules { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicySpec
 {
@@ -720,7 +720,7 @@ public partial class V20220901StorageAccountsManagementPolicySpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusConditions
 {
@@ -766,7 +766,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusConditions
 }
 
 /// <summary>Delete: The function to delete the blob</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsBaseBlobDelete
 {
@@ -795,7 +795,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToArchive: The function to tier blobs to archive storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsBaseBlobTierToArchive
 {
@@ -824,7 +824,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToCold: The function to tier blobs to cold storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsBaseBlobTierToCold
 {
@@ -853,7 +853,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToCool: The function to tier blobs to cool storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsBaseBlobTierToCool
 {
@@ -885,7 +885,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 /// TierToHot: The function to tier blobs to hot storage. This action can only be used with Premium Block Blob Storage
 /// Accounts
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsBaseBlobTierToHot
 {
@@ -914,7 +914,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>BaseBlob: The management policy action for base blob</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsBaseBlob
 {
@@ -950,7 +950,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>Delete: The function to delete the blob snapshot</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsSnapshotDelete
 {
@@ -968,7 +968,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToArchive: The function to tier blob snapshot to archive storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsSnapshotTierToArchive
 {
@@ -986,7 +986,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToCold: The function to tier blobs to cold storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsSnapshotTierToCold
 {
@@ -1004,7 +1004,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToCool: The function to tier blob snapshot to cool storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsSnapshotTierToCool
 {
@@ -1025,7 +1025,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 /// TierToHot: The function to tier blobs to hot storage. This action can only be used with Premium Block Blob Storage
 /// Accounts
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsSnapshotTierToHot
 {
@@ -1043,7 +1043,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>Snapshot: The management policy action for snapshot</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsSnapshot
 {
@@ -1072,7 +1072,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>Delete: The function to delete the blob version</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsVersionDelete
 {
@@ -1090,7 +1090,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToArchive: The function to tier blob version to archive storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsVersionTierToArchive
 {
@@ -1108,7 +1108,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToCold: The function to tier blobs to cold storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsVersionTierToCold
 {
@@ -1126,7 +1126,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>TierToCool: The function to tier blob version to cool storage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsVersionTierToCool
 {
@@ -1147,7 +1147,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 /// TierToHot: The function to tier blobs to hot storage. This action can only be used with Premium Block Blob Storage
 /// Accounts
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsVersionTierToHot
 {
@@ -1165,7 +1165,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>Version: The management policy action for version</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActionsVersion
 {
@@ -1194,7 +1194,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>Actions: An object that defines the action set.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionActions
 {
@@ -1212,7 +1212,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>Blob index tag based filtering for blob objects</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionFiltersBlobIndexMatch
 {
@@ -1233,7 +1233,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>Filters: An object that defines the filter set.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinitionFilters
 {
@@ -1254,7 +1254,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>Definition: An object that defines the Lifecycle rule.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDefinition
 {
@@ -1268,7 +1268,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRulesDe
 }
 
 /// <summary>An object that wraps the Lifecycle rule. Each rule is uniquely defined by name.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRules
 {
@@ -1296,7 +1296,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicyRules
 /// Policy: The Storage Account ManagementPolicy, in JSON format. See more details in:
 /// https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-managment-concepts.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatusPolicy
 {
@@ -1308,7 +1308,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatusPolicy
     public IList<V20220901StorageAccountsManagementPolicyStatusPolicyRules>? Rules { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsManagementPolicyStatus
 {
@@ -1348,7 +1348,7 @@ public partial class V20220901StorageAccountsManagementPolicyStatus
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2022-09-01/storage.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/managementPolicies/default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20220901StorageAccountsManagementPolicy : IKubernetesObject<V1ObjectMeta>, ISpec<V20220901StorageAccountsManagementPolicySpec?>, IStatus<V20220901StorageAccountsManagementPolicyStatus?>

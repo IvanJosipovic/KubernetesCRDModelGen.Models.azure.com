@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.cdn.azure.com;
 /// - Generated from: /cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2023-05-01/afdx.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/securityPolicies/{securityPolicyName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20230501SecurityPolicyList : IKubernetesObject<V1ListMeta>, IItems<V1api20230501SecurityPolicy>
@@ -37,7 +37,7 @@ public partial class V1api20230501SecurityPolicyList : IKubernetesObject<V1ListM
 
     /// <summary>List of V1api20230501SecurityPolicy objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20230501SecurityPolicy>? Items { get; set; }
+    public required IList<V1api20230501SecurityPolicy> Items { get; set; }
 }
 
 /// <summary>
@@ -45,7 +45,7 @@ public partial class V1api20230501SecurityPolicyList : IKubernetesObject<V1ListM
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecOperatorSpecConfigMapExpressions
 {
@@ -78,7 +78,7 @@ public partial class V1api20230501SecurityPolicySpecOperatorSpecConfigMapExpress
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecOperatorSpecSecretExpressions
 {
@@ -110,7 +110,7 @@ public partial class V1api20230501SecurityPolicySpecOperatorSpecSecretExpression
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecOperatorSpec
 {
@@ -128,7 +128,7 @@ public partial class V1api20230501SecurityPolicySpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a cdn.azure.com/Profile resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecOwner
 {
@@ -141,7 +141,7 @@ public partial class V1api20230501SecurityPolicySpecOwner
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFirewallAssociationsDomainsReference
 {
@@ -167,7 +167,7 @@ public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFire
 }
 
 /// <summary>Reference to another resource along with its state.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFirewallAssociationsDomains
 {
@@ -177,7 +177,7 @@ public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFire
 }
 
 /// <summary>settings for security policy patterns to match</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFirewallAssociations
 {
@@ -191,7 +191,7 @@ public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFire
 }
 
 /// <summary>Type: The type of the Security policy to create.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230501SecurityPolicySpecParametersWebApplicationFirewallTypeEnum>))]
 public enum V1api20230501SecurityPolicySpecParametersWebApplicationFirewallTypeEnum
 {
@@ -200,7 +200,7 @@ public enum V1api20230501SecurityPolicySpecParametersWebApplicationFirewallTypeE
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFirewallWafPolicyReference
 {
@@ -226,7 +226,7 @@ public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFire
 }
 
 /// <summary>WafPolicy: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFirewallWafPolicy
 {
@@ -236,7 +236,7 @@ public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFire
 }
 
 /// <summary>WebApplicationFirewall: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFirewall
 {
@@ -254,7 +254,7 @@ public partial class V1api20230501SecurityPolicySpecParametersWebApplicationFire
 }
 
 /// <summary>Parameters: object which contains security policy parameters</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpecParameters
 {
@@ -263,7 +263,7 @@ public partial class V1api20230501SecurityPolicySpecParameters
     public V1api20230501SecurityPolicySpecParametersWebApplicationFirewall? WebApplicationFirewall { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicySpec
 {
@@ -295,7 +295,7 @@ public partial class V1api20230501SecurityPolicySpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicyStatusConditions
 {
@@ -341,7 +341,7 @@ public partial class V1api20230501SecurityPolicyStatusConditions
 }
 
 /// <summary>Reference to another resource along with its state.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicyStatusParametersWebApplicationFirewallAssociationsDomains
 {
@@ -351,7 +351,7 @@ public partial class V1api20230501SecurityPolicyStatusParametersWebApplicationFi
 }
 
 /// <summary>settings for security policy patterns to match</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicyStatusParametersWebApplicationFirewallAssociations
 {
@@ -365,7 +365,7 @@ public partial class V1api20230501SecurityPolicyStatusParametersWebApplicationFi
 }
 
 /// <summary>WafPolicy: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicyStatusParametersWebApplicationFirewallWafPolicy
 {
@@ -375,7 +375,7 @@ public partial class V1api20230501SecurityPolicyStatusParametersWebApplicationFi
 }
 
 /// <summary>WebApplicationFirewall: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicyStatusParametersWebApplicationFirewall
 {
@@ -393,7 +393,7 @@ public partial class V1api20230501SecurityPolicyStatusParametersWebApplicationFi
 }
 
 /// <summary>Parameters: object which contains security policy parameters</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicyStatusParameters
 {
@@ -403,7 +403,7 @@ public partial class V1api20230501SecurityPolicyStatusParameters
 }
 
 /// <summary>SystemData: Read only system data</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicyStatusSystemData
 {
@@ -432,7 +432,7 @@ public partial class V1api20230501SecurityPolicyStatusSystemData
     public string? LastModifiedByType { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230501SecurityPolicyStatus
 {
@@ -477,7 +477,7 @@ public partial class V1api20230501SecurityPolicyStatus
 /// - Generated from: /cdn/resource-manager/Microsoft.Cdn/Cdn/stable/2023-05-01/afdx.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cdn/profiles/{profileName}/securityPolicies/{securityPolicyName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20230501SecurityPolicy : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20230501SecurityPolicySpec?>, IStatus<V1api20230501SecurityPolicyStatus?>

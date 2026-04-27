@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.documentdb.azure.com;
 /// - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2024-08-15/cosmos-db.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/throughputSettings/default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingList : IKubernetesObject<V1ListMeta>, IItems<V1api20240815storageSqlDatabaseContainerThroughputSetting>
@@ -38,7 +38,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingLi
 
     /// <summary>List of V1api20240815storageSqlDatabaseContainerThroughputSetting objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20240815storageSqlDatabaseContainerThroughputSetting>? Items { get; set; }
+    public required IList<V1api20240815storageSqlDatabaseContainerThroughputSetting> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingLi
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 /// Storage version of v1api20240815.SqlDatabaseContainerThroughputSettingOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a documentdb.azure.com/SqlDatabaseContainer resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpecOwner
 {
@@ -150,7 +150,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 /// Storage version of v1api20240815.ThroughputPolicyResource
 /// Cosmos DB resource throughput policy
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpecResourceAutoscaleSettingsAutoUpgradePolicyThroughputPolicy
 {
@@ -172,7 +172,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 /// Storage version of v1api20240815.AutoUpgradePolicyResource
 /// Cosmos DB resource auto-upgrade policy
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpecResourceAutoscaleSettingsAutoUpgradePolicy
 {
@@ -195,7 +195,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 /// Storage version of v1api20240815.AutoscaleSettingsResource
 /// Cosmos DB provisioned throughput settings object
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpecResourceAutoscaleSettings
 {
@@ -221,7 +221,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 /// Storage version of v1api20240815.ThroughputSettingsResource
 /// Cosmos DB resource throughput object. Either throughput is required or autoscaleSettings is required, but not both.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpecResource
 {
@@ -244,7 +244,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 }
 
 /// <summary>Storage version of v1api20240815.SqlDatabaseContainerThroughputSetting_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSpec
 {
@@ -288,7 +288,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSp
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingStatusConditions
 {
@@ -337,7 +337,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSt
 /// Storage version of v1api20240815.ThroughputPolicyResource_STATUS
 /// Cosmos DB resource throughput policy
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingStatusResourceAutoscaleSettingsAutoUpgradePolicyThroughputPolicy
 {
@@ -359,7 +359,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSt
 /// Storage version of v1api20240815.AutoUpgradePolicyResource_STATUS
 /// Cosmos DB resource auto-upgrade policy
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingStatusResourceAutoscaleSettingsAutoUpgradePolicy
 {
@@ -382,7 +382,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSt
 /// Storage version of v1api20240815.AutoscaleSettingsResource_STATUS
 /// Cosmos DB provisioned throughput settings object
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingStatusResourceAutoscaleSettings
 {
@@ -408,7 +408,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSt
 }
 
 /// <summary>Storage version of v1api20240815.ThroughputSettingsGetProperties_Resource_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingStatusResource
 {
@@ -452,7 +452,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSt
 }
 
 /// <summary>Storage version of v1api20240815.SqlDatabaseContainerThroughputSetting_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingStatus
 {
@@ -492,7 +492,7 @@ public partial class V1api20240815storageSqlDatabaseContainerThroughputSettingSt
 /// - Generated from: /cosmos-db/resource-manager/Microsoft.DocumentDB/DocumentDB/stable/2024-08-15/cosmos-db.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/throughputSettings/default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240815storageSqlDatabaseContainerThroughputSetting : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240815storageSqlDatabaseContainerThroughputSettingSpec?>, IStatus<V1api20240815storageSqlDatabaseContainerThroughputSettingStatus?>

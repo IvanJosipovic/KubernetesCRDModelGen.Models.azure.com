@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2024-03-01/networkSecurityGroup.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityGroups/{networkSecurityGroupName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240301storageNetworkSecurityGroupList : IKubernetesObject<V1ListMeta>, IItems<V1api20240301storageNetworkSecurityGroup>
@@ -38,7 +38,7 @@ public partial class V1api20240301storageNetworkSecurityGroupList : IKubernetesO
 
     /// <summary>List of V1api20240301storageNetworkSecurityGroup objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20240301storageNetworkSecurityGroup>? Items { get; set; }
+    public required IList<V1api20240301storageNetworkSecurityGroup> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20240301storageNetworkSecurityGroupList : IKubernetesO
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V1api20240301storageNetworkSecurityGroupSpecOperatorSpecCon
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V1api20240301storageNetworkSecurityGroupSpecOperatorSpecSec
 /// Storage version of v1api20240301.NetworkSecurityGroupOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V1api20240301storageNetworkSecurityGroupSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupSpecOwner
 {
@@ -147,7 +147,7 @@ public partial class V1api20240301storageNetworkSecurityGroupSpecOwner
 }
 
 /// <summary>Storage version of v1api20240301.NetworkSecurityGroup_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupSpec
 {
@@ -194,7 +194,7 @@ public partial class V1api20240301storageNetworkSecurityGroupSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupStatusConditions
 {
@@ -243,7 +243,7 @@ public partial class V1api20240301storageNetworkSecurityGroupStatusConditions
 /// Storage version of v1api20240301.SecurityRule_STATUS
 /// Network security rule.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupStatusDefaultSecurityRules
 {
@@ -262,7 +262,7 @@ public partial class V1api20240301storageNetworkSecurityGroupStatusDefaultSecuri
 /// Storage version of v1api20240301.NetworkInterface_STATUS_NetworkSecurityGroup_SubResourceEmbedded
 /// A network interface in a resource group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupStatusNetworkInterfaces
 {
@@ -281,7 +281,7 @@ public partial class V1api20240301storageNetworkSecurityGroupStatusNetworkInterf
 /// Storage version of v1api20240301.Subnet_STATUS_NetworkSecurityGroup_SubResourceEmbedded
 /// Subnet in a virtual network resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupStatusSubnets
 {
@@ -300,7 +300,7 @@ public partial class V1api20240301storageNetworkSecurityGroupStatusSubnets
 /// Storage version of v1api20240301.NetworkSecurityGroup_STATUS
 /// NetworkSecurityGroup resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageNetworkSecurityGroupStatus
 {
@@ -357,7 +357,7 @@ public partial class V1api20240301storageNetworkSecurityGroupStatus
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2024-03-01/networkSecurityGroup.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/networkSecurityGroups/{networkSecurityGroupName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240301storageNetworkSecurityGroup : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240301storageNetworkSecurityGroupSpec?>, IStatus<V1api20240301storageNetworkSecurityGroupStatus?>

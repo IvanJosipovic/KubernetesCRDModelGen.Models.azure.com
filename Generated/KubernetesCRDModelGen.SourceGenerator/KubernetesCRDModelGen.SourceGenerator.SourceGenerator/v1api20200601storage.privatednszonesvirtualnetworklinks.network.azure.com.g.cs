@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /privatedns/resource-manager/Microsoft.Network/PrivateDns/stable/2020-06-01/privatedns.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateDnsZones/{privateZoneName}/virtualNetworkLinks/{virtualNetworkLinkName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkList : IKubernetesObject<V1ListMeta>, IItems<V1api20200601storagePrivateDnsZonesVirtualNetworkLink>
@@ -38,7 +38,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkList :
 
     /// <summary>List of V1api20200601storagePrivateDnsZonesVirtualNetworkLink objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20200601storagePrivateDnsZonesVirtualNetworkLink>? Items { get; set; }
+    public required IList<V1api20200601storagePrivateDnsZonesVirtualNetworkLink> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkList :
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecOp
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecOp
 /// Storage version of v1api20200601.PrivateDnsZonesVirtualNetworkLinkOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecOp
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a network.azure.com/PrivateDnsZone resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecOwner
 {
@@ -147,7 +147,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecOw
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecVirtualNetworkReference
 {
@@ -176,7 +176,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecVi
 /// Storage version of v1api20200601.SubResource
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecVirtualNetwork
 {
@@ -193,7 +193,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpecVi
 }
 
 /// <summary>Storage version of v1api20200601.PrivateDnsZonesVirtualNetworkLink_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpec
 {
@@ -250,7 +250,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkStatusConditions
 {
@@ -299,7 +299,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkStatus
 /// Storage version of v1api20200601.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkStatusVirtualNetwork
 {
@@ -315,7 +315,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkStatus
 }
 
 /// <summary>Storage version of v1api20200601.PrivateDnsZonesVirtualNetworkLink_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkStatus
 {
@@ -370,7 +370,7 @@ public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLinkStatus
 /// - Generated from: /privatedns/resource-manager/Microsoft.Network/PrivateDns/stable/2020-06-01/privatedns.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateDnsZones/{privateZoneName}/virtualNetworkLinks/{virtualNetworkLinkName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20200601storagePrivateDnsZonesVirtualNetworkLink : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20200601storagePrivateDnsZonesVirtualNetworkLinkSpec?>, IStatus<V1api20200601storagePrivateDnsZonesVirtualNetworkLinkStatus?>

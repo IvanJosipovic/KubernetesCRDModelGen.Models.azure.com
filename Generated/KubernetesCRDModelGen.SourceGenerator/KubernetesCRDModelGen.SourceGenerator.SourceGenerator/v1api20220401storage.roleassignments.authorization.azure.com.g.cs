@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.authorization.azure.com;
 /// - Generated from: /authorization/resource-manager/Microsoft.Authorization/stable/2022-04-01/authorization-RoleAssignmentsCalls.json
 /// - ARM URI: /{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20220401storageRoleAssignmentList : IKubernetesObject<V1ListMeta>, IItems<V1api20220401storageRoleAssignment>
@@ -38,11 +38,11 @@ public partial class V1api20220401storageRoleAssignmentList : IKubernetesObject<
 
     /// <summary>List of V1api20220401storageRoleAssignment objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20220401storageRoleAssignment>? Items { get; set; }
+    public required IList<V1api20220401storageRoleAssignment> Items { get; set; }
 }
 
 /// <summary>DelegatedManagedIdentityResourceReference: Id of the delegated managed identity resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentSpecDelegatedManagedIdentityResourceReference
 {
@@ -72,7 +72,7 @@ public partial class V1api20220401storageRoleAssignmentSpecDelegatedManagedIdent
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentSpecOperatorSpecConfigMapExpressions
 {
@@ -105,7 +105,7 @@ public partial class V1api20220401storageRoleAssignmentSpecOperatorSpecConfigMap
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentSpecOperatorSpecSecretExpressions
 {
@@ -137,7 +137,7 @@ public partial class V1api20220401storageRoleAssignmentSpecOperatorSpecSecretExp
 /// Storage version of v1api20220401.RoleAssignmentOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentSpecOperatorSpec
 {
@@ -163,7 +163,7 @@ public partial class V1api20220401storageRoleAssignmentSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. This resource is an
 /// extension resource, which means that any other Azure resource can be its owner.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentSpecOwner
 {
@@ -188,7 +188,7 @@ public partial class V1api20220401storageRoleAssignmentSpecOwner
 /// ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentSpecPrincipalIdFromConfig
 {
@@ -205,7 +205,7 @@ public partial class V1api20220401storageRoleAssignmentSpecPrincipalIdFromConfig
 }
 
 /// <summary>RoleDefinitionReference: The role definition ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentSpecRoleDefinitionReference
 {
@@ -234,7 +234,7 @@ public partial class V1api20220401storageRoleAssignmentSpecRoleDefinitionReferen
 }
 
 /// <summary>Storage version of v1api20220401.RoleAssignment_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentSpec
 {
@@ -302,7 +302,7 @@ public partial class V1api20220401storageRoleAssignmentSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentStatusConditions
 {
@@ -351,7 +351,7 @@ public partial class V1api20220401storageRoleAssignmentStatusConditions
 /// Storage version of v1api20220401.RoleAssignment_STATUS
 /// Role Assignments
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageRoleAssignmentStatus
 {
@@ -417,7 +417,7 @@ public partial class V1api20220401storageRoleAssignmentStatus
 /// - Generated from: /authorization/resource-manager/Microsoft.Authorization/stable/2022-04-01/authorization-RoleAssignmentsCalls.json
 /// - ARM URI: /{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20220401storageRoleAssignment : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20220401storageRoleAssignmentSpec?>, IStatus<V1api20220401storageRoleAssignmentStatus?>

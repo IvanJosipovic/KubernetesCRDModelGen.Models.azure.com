@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.alertsmanagement.azure.com;
 /// - Generated from: /alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/stable/2023-03-01/PrometheusRuleGroups.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AlertsManagement/prometheusRuleGroups/{ruleGroupName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20230301storagePrometheusRuleGroupList : IKubernetesObject<V1ListMeta>, IItems<V20230301storagePrometheusRuleGroup>
@@ -38,7 +38,7 @@ public partial class V20230301storagePrometheusRuleGroupList : IKubernetesObject
 
     /// <summary>List of V20230301storagePrometheusRuleGroup objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20230301storagePrometheusRuleGroup>? Items { get; set; }
+    public required IList<V20230301storagePrometheusRuleGroup> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V20230301storagePrometheusRuleGroupList : IKubernetesObject
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecOperatorSpecConfigMa
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecOperatorSpecSecretEx
 /// Storage version of v20230301.PrometheusRuleGroupOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecOwner
 {
@@ -147,7 +147,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecOwner
 }
 
 /// <summary>ActionGroupReference: The resource id of the action group to use.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecRulesActionsActionGroupReference
 {
@@ -176,7 +176,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecRulesActionsActionGr
 /// Storage version of v20230301.PrometheusRuleGroupAction
 /// An alert action. Only relevant for alerts.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecRulesActions
 {
@@ -199,7 +199,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecRulesActions
 /// Storage version of v20230301.PrometheusRuleResolveConfiguration
 /// Specifies the Prometheus alert rule configuration.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecRulesResolveConfiguration
 {
@@ -221,7 +221,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecRulesResolveConfigur
 /// Storage version of v20230301.PrometheusRule
 /// An Azure Prometheus alerting or recording rule.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecRules
 {
@@ -268,7 +268,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecRules
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpecScopesReferences
 {
@@ -294,7 +294,7 @@ public partial class V20230301storagePrometheusRuleGroupSpecScopesReferences
 }
 
 /// <summary>Storage version of v20230301.PrometheusRuleGroup_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupSpec
 {
@@ -356,7 +356,7 @@ public partial class V20230301storagePrometheusRuleGroupSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupStatusConditions
 {
@@ -405,7 +405,7 @@ public partial class V20230301storagePrometheusRuleGroupStatusConditions
 /// Storage version of v20230301.PrometheusRuleGroupAction_STATUS
 /// An alert action. Only relevant for alerts.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupStatusRulesActions
 {
@@ -427,7 +427,7 @@ public partial class V20230301storagePrometheusRuleGroupStatusRulesActions
 /// Storage version of v20230301.PrometheusRuleResolveConfiguration_STATUS
 /// Specifies the Prometheus alert rule configuration.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupStatusRulesResolveConfiguration
 {
@@ -449,7 +449,7 @@ public partial class V20230301storagePrometheusRuleGroupStatusRulesResolveConfig
 /// Storage version of v20230301.PrometheusRule_STATUS
 /// An Azure Prometheus alerting or recording rule.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupStatusRules
 {
@@ -499,7 +499,7 @@ public partial class V20230301storagePrometheusRuleGroupStatusRules
 /// Storage version of v20230301.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupStatusSystemData
 {
@@ -530,7 +530,7 @@ public partial class V20230301storagePrometheusRuleGroupStatusSystemData
 }
 
 /// <summary>Storage version of v20230301.PrometheusRuleGroup_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230301storagePrometheusRuleGroupStatus
 {
@@ -591,7 +591,7 @@ public partial class V20230301storagePrometheusRuleGroupStatus
 /// - Generated from: /alertsmanagement/resource-manager/Microsoft.AlertsManagement/PrometheusRuleGroups/stable/2023-03-01/PrometheusRuleGroups.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AlertsManagement/prometheusRuleGroups/{ruleGroupName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20230301storagePrometheusRuleGroup : IKubernetesObject<V1ObjectMeta>, ISpec<V20230301storagePrometheusRuleGroupSpec?>, IStatus<V20230301storagePrometheusRuleGroupStatus?>

@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.servicebus.azure.com;
 /// - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2024-01-01/AuthorizationRules.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/authorizationRules/{authorizationRuleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240101storageTopicAuthorizationRuleList : IKubernetesObject<V1ListMeta>, IItems<V1api20240101storageTopicAuthorizationRule>
@@ -38,7 +38,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleList : IKubernete
 
     /// <summary>List of V1api20240101storageTopicAuthorizationRule objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20240101storageTopicAuthorizationRule>? Items { get; set; }
+    public required IList<V1api20240101storageTopicAuthorizationRule> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleList : IKubernete
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecC
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecSecretExpressions
 {
@@ -112,7 +112,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecS
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecSecretsPrimaryConnectionString
 {
@@ -133,7 +133,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecS
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecSecretsPrimaryKey
 {
@@ -154,7 +154,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecS
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecSecretsSecondaryConnectionString
 {
@@ -175,7 +175,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecS
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecSecretsSecondaryKey
 {
@@ -192,7 +192,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecS
 }
 
 /// <summary>Storage version of v1api20240101.TopicAuthorizationRuleOperatorSecrets</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecSecrets
 {
@@ -240,7 +240,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpecS
 /// Storage version of v1api20240101.TopicAuthorizationRuleOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpec
 {
@@ -267,7 +267,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a servicebus.azure.com/NamespacesTopic resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpecOwner
 {
@@ -280,7 +280,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpecOwner
 }
 
 /// <summary>Storage version of v1api20240101.TopicAuthorizationRule_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleSpec
 {
@@ -321,7 +321,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleStatusConditions
 {
@@ -370,7 +370,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleStatusConditions
 /// Storage version of v1api20240101.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleStatusSystemData
 {
@@ -401,7 +401,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleStatusSystemData
 }
 
 /// <summary>Storage version of v1api20240101.TopicAuthorizationRule_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101storageTopicAuthorizationRuleStatus
 {
@@ -444,7 +444,7 @@ public partial class V1api20240101storageTopicAuthorizationRuleStatus
 /// - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2024-01-01/AuthorizationRules.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/authorizationRules/{authorizationRuleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240101storageTopicAuthorizationRule : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240101storageTopicAuthorizationRuleSpec?>, IStatus<V1api20240101storageTopicAuthorizationRuleStatus?>

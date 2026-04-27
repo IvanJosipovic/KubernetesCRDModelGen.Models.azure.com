@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.storage.azure.com;
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2022-09-01/file.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20220901StorageAccountsFileServiceList : IKubernetesObject<V1ListMeta>, IItems<V20220901StorageAccountsFileService>
@@ -37,10 +37,10 @@ public partial class V20220901StorageAccountsFileServiceList : IKubernetesObject
 
     /// <summary>List of V20220901StorageAccountsFileService objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20220901StorageAccountsFileService>? Items { get; set; }
+    public required IList<V20220901StorageAccountsFileService> Items { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220901StorageAccountsFileServiceSpecCorsCorsRulesAllowedMethodsEnum>))]
 public enum V20220901StorageAccountsFileServiceSpecCorsCorsRulesAllowedMethodsEnum
 {
@@ -63,7 +63,7 @@ public enum V20220901StorageAccountsFileServiceSpecCorsCorsRulesAllowedMethodsEn
 }
 
 /// <summary>Specifies a CORS rule for the Blob service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecCorsCorsRules
 {
@@ -105,7 +105,7 @@ public partial class V20220901StorageAccountsFileServiceSpecCorsCorsRules
 /// CorsRule elements are included in the request body, all CORS rules will be deleted, and CORS will be disabled for the
 /// File service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecCors
 {
@@ -119,7 +119,7 @@ public partial class V20220901StorageAccountsFileServiceSpecCors
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecOperatorSpecConfigMapExpressions
 {
@@ -152,7 +152,7 @@ public partial class V20220901StorageAccountsFileServiceSpecOperatorSpecConfigMa
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecOperatorSpecSecretExpressions
 {
@@ -184,7 +184,7 @@ public partial class V20220901StorageAccountsFileServiceSpecOperatorSpecSecretEx
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecOperatorSpec
 {
@@ -202,7 +202,7 @@ public partial class V20220901StorageAccountsFileServiceSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a storage.azure.com/StorageAccount resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecOwner
 {
@@ -215,7 +215,7 @@ public partial class V20220901StorageAccountsFileServiceSpecOwner
 }
 
 /// <summary>Multichannel: Multichannel setting. Applies to Premium FileStorage only.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecProtocolSettingsSmbMultichannel
 {
@@ -225,7 +225,7 @@ public partial class V20220901StorageAccountsFileServiceSpecProtocolSettingsSmbM
 }
 
 /// <summary>Smb: Setting for SMB protocol</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecProtocolSettingsSmb
 {
@@ -263,7 +263,7 @@ public partial class V20220901StorageAccountsFileServiceSpecProtocolSettingsSmb
 }
 
 /// <summary>ProtocolSettings: Protocol settings for file service</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecProtocolSettings
 {
@@ -273,7 +273,7 @@ public partial class V20220901StorageAccountsFileServiceSpecProtocolSettings
 }
 
 /// <summary>ShareDeleteRetentionPolicy: The file service properties for share soft delete.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpecShareDeleteRetentionPolicy
 {
@@ -297,7 +297,7 @@ public partial class V20220901StorageAccountsFileServiceSpecShareDeleteRetention
     public bool? Enabled { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceSpec
 {
@@ -334,7 +334,7 @@ public partial class V20220901StorageAccountsFileServiceSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatusConditions
 {
@@ -380,7 +380,7 @@ public partial class V20220901StorageAccountsFileServiceStatusConditions
 }
 
 /// <summary>Specifies a CORS rule for the Blob service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatusCorsCorsRules
 {
@@ -422,7 +422,7 @@ public partial class V20220901StorageAccountsFileServiceStatusCorsCorsRules
 /// CorsRule elements are included in the request body, all CORS rules will be deleted, and CORS will be disabled for the
 /// File service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatusCors
 {
@@ -432,7 +432,7 @@ public partial class V20220901StorageAccountsFileServiceStatusCors
 }
 
 /// <summary>Multichannel: Multichannel setting. Applies to Premium FileStorage only.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatusProtocolSettingsSmbMultichannel
 {
@@ -442,7 +442,7 @@ public partial class V20220901StorageAccountsFileServiceStatusProtocolSettingsSm
 }
 
 /// <summary>Smb: Setting for SMB protocol</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatusProtocolSettingsSmb
 {
@@ -480,7 +480,7 @@ public partial class V20220901StorageAccountsFileServiceStatusProtocolSettingsSm
 }
 
 /// <summary>ProtocolSettings: Protocol settings for file service</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatusProtocolSettings
 {
@@ -490,7 +490,7 @@ public partial class V20220901StorageAccountsFileServiceStatusProtocolSettings
 }
 
 /// <summary>ShareDeleteRetentionPolicy: The file service properties for share soft delete.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatusShareDeleteRetentionPolicy
 {
@@ -515,7 +515,7 @@ public partial class V20220901StorageAccountsFileServiceStatusShareDeleteRetenti
 }
 
 /// <summary>Sku: Sku name and tier.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatusSku
 {
@@ -531,7 +531,7 @@ public partial class V20220901StorageAccountsFileServiceStatusSku
     public string? Tier { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901StorageAccountsFileServiceStatus
 {
@@ -580,7 +580,7 @@ public partial class V20220901StorageAccountsFileServiceStatus
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2022-09-01/file.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/fileServices/default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20220901StorageAccountsFileService : IKubernetesObject<V1ObjectMeta>, ISpec<V20220901StorageAccountsFileServiceSpec?>, IStatus<V20220901StorageAccountsFileServiceStatus?>

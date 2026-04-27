@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.insights.azure.com;
 /// - Generated from: /monitor/resource-manager/Microsoft.Insights/stable/2023-03-11/dataCollectionRuleAssociations_API.json
 /// - ARM URI: /{resourceUri}/providers/Microsoft.Insights/dataCollectionRuleAssociations/{associationName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20230311DataCollectionRuleAssociationList : IKubernetesObject<V1ListMeta>, IItems<V1api20230311DataCollectionRuleAssociation>
@@ -37,11 +37,11 @@ public partial class V1api20230311DataCollectionRuleAssociationList : IKubernete
 
     /// <summary>List of V1api20230311DataCollectionRuleAssociation objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20230311DataCollectionRuleAssociation>? Items { get; set; }
+    public required IList<V1api20230311DataCollectionRuleAssociation> Items { get; set; }
 }
 
 /// <summary>DataCollectionEndpointReference: The resource ID of the data collection endpoint that is to be associated.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationSpecDataCollectionEndpointReference
 {
@@ -67,7 +67,7 @@ public partial class V1api20230311DataCollectionRuleAssociationSpecDataCollectio
 }
 
 /// <summary>DataCollectionRuleReference: The resource ID of the data collection rule that is to be associated.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationSpecDataCollectionRuleReference
 {
@@ -97,7 +97,7 @@ public partial class V1api20230311DataCollectionRuleAssociationSpecDataCollectio
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationSpecOperatorSpecConfigMapExpressions
 {
@@ -130,7 +130,7 @@ public partial class V1api20230311DataCollectionRuleAssociationSpecOperatorSpecC
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationSpecOperatorSpecSecretExpressions
 {
@@ -162,7 +162,7 @@ public partial class V1api20230311DataCollectionRuleAssociationSpecOperatorSpecS
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationSpecOperatorSpec
 {
@@ -180,7 +180,7 @@ public partial class V1api20230311DataCollectionRuleAssociationSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. This resource is an
 /// extension resource, which means that any other Azure resource can be its owner.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationSpecOwner
 {
@@ -201,7 +201,7 @@ public partial class V1api20230311DataCollectionRuleAssociationSpecOwner
     public string? Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationSpec
 {
@@ -241,7 +241,7 @@ public partial class V1api20230311DataCollectionRuleAssociationSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationStatusConditions
 {
@@ -287,7 +287,7 @@ public partial class V1api20230311DataCollectionRuleAssociationStatusConditions
 }
 
 /// <summary>Metadata: Metadata about the resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationStatusMetadata
 {
@@ -305,7 +305,7 @@ public partial class V1api20230311DataCollectionRuleAssociationStatusMetadata
 }
 
 /// <summary>SystemData: Metadata pertaining to creation and last modification of the resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationStatusSystemData
 {
@@ -335,7 +335,7 @@ public partial class V1api20230311DataCollectionRuleAssociationStatusSystemData
 }
 
 /// <summary>Definition of generic ARM proxy resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230311DataCollectionRuleAssociationStatus
 {
@@ -389,7 +389,7 @@ public partial class V1api20230311DataCollectionRuleAssociationStatus
 /// - Generated from: /monitor/resource-manager/Microsoft.Insights/stable/2023-03-11/dataCollectionRuleAssociations_API.json
 /// - ARM URI: /{resourceUri}/providers/Microsoft.Insights/dataCollectionRuleAssociations/{associationName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20230311DataCollectionRuleAssociation : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20230311DataCollectionRuleAssociationSpec?>, IStatus<V1api20230311DataCollectionRuleAssociationStatus?>

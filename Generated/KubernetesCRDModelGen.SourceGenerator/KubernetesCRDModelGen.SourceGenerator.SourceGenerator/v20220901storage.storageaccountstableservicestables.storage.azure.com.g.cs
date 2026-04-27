@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.storage.azure.com;
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2022-09-01/table.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default/tables/{tableName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20220901storageStorageAccountsTableServicesTableList : IKubernetesObject<V1ListMeta>, IItems<V20220901storageStorageAccountsTableServicesTable>
@@ -38,7 +38,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableList : IKu
 
     /// <summary>List of V20220901storageStorageAccountsTableServicesTable objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20220901storageStorageAccountsTableServicesTable>? Items { get; set; }
+    public required IList<V20220901storageStorageAccountsTableServicesTable> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableList : IKu
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableSpecOperat
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableSpecOperat
 /// Storage version of v20220901.StorageAccountsTableServicesTableOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableSpecOperat
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a storage.azure.com/StorageAccountsTableService resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableSpecOwner
 {
@@ -150,7 +150,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableSpecOwner
 /// Storage version of v20220901.TableAccessPolicy
 /// Table Access Policy Properties Object.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableSpecSignedIdentifiersAccessPolicy
 {
@@ -172,7 +172,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableSpecSigned
 }
 
 /// <summary>Reference: unique-64-character-value of the stored access policy.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableSpecSignedIdentifiersReference
 {
@@ -201,7 +201,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableSpecSigned
 /// Storage version of v20220901.TableSignedIdentifier
 /// Object to set Table Access Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableSpecSignedIdentifiers
 {
@@ -225,7 +225,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableSpecSigned
 }
 
 /// <summary>Storage version of v20220901.StorageAccountsTableServicesTable_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableSpec
 {
@@ -266,7 +266,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableStatusConditions
 {
@@ -315,7 +315,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableStatusCond
 /// Storage version of v20220901.TableAccessPolicy_STATUS
 /// Table Access Policy Properties Object.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableStatusSignedIdentifiersAccessPolicy
 {
@@ -340,7 +340,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableStatusSign
 /// Storage version of v20220901.TableSignedIdentifier_STATUS
 /// Object to set Table Access Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableStatusSignedIdentifiers
 {
@@ -363,7 +363,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableStatusSign
 }
 
 /// <summary>Storage version of v20220901.StorageAccountsTableServicesTable_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220901storageStorageAccountsTableServicesTableStatus
 {
@@ -399,7 +399,7 @@ public partial class V20220901storageStorageAccountsTableServicesTableStatus
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2022-09-01/table.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/tableServices/default/tables/{tableName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20220901storageStorageAccountsTableServicesTable : IKubernetesObject<V1ObjectMeta>, ISpec<V20220901storageStorageAccountsTableServicesTableSpec?>, IStatus<V20220901storageStorageAccountsTableServicesTableStatus?>

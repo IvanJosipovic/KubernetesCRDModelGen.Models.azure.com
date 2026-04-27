@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.dbformysql.azure.com;
 /// - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/preview/2025-06-01-preview/openapi.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleList : IKubernetesObject<V1ListMeta>, IItems<V20250601previewstorageFlexibleServersFirewallRule>
@@ -38,7 +38,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleList : IK
 
     /// <summary>List of V20250601previewstorageFlexibleServersFirewallRule objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20250601previewstorageFlexibleServersFirewallRule>? Items { get; set; }
+    public required IList<V20250601previewstorageFlexibleServersFirewallRule> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleList : IK
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleSpecOpera
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleSpecOpera
 /// Storage version of v20250601preview.FlexibleServersFirewallRuleOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleSpecOpera
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a dbformysql.azure.com/FlexibleServer resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleSpecOwner
 {
@@ -147,7 +147,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleSpecOwner
 }
 
 /// <summary>Storage version of v20250601preview.FlexibleServersFirewallRule_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleSpec
 {
@@ -191,7 +191,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleStatusConditions
 {
@@ -240,7 +240,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleStatusCon
 /// Storage version of v20250601preview.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleStatusSystemData
 {
@@ -271,7 +271,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleStatusSys
 }
 
 /// <summary>Storage version of v20250601preview.FlexibleServersFirewallRule_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601previewstorageFlexibleServersFirewallRuleStatus
 {
@@ -314,7 +314,7 @@ public partial class V20250601previewstorageFlexibleServersFirewallRuleStatus
 /// - Generated from: /mysql/resource-manager/Microsoft.DBforMySQL/FlexibleServers/preview/2025-06-01-preview/openapi.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250601previewstorageFlexibleServersFirewallRule : IKubernetesObject<V1ObjectMeta>, ISpec<V20250601previewstorageFlexibleServersFirewallRuleSpec?>, IStatus<V20250601previewstorageFlexibleServersFirewallRuleStatus?>

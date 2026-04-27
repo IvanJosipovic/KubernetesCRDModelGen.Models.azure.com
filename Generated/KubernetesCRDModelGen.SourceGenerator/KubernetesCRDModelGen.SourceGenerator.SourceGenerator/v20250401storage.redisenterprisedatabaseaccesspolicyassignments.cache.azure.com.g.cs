@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.cache.azure.com;
 /// - Generated from: /redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise/stable/2025-04-01/redisenterprise.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redisEnterprise/{clusterName}/databases/{databaseName}/accessPolicyAssignments/{accessPolicyAssignmentName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentList : IKubernetesObject<V1ListMeta>, IItems<V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignment>
@@ -38,7 +38,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 
     /// <summary>List of V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignment objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignment>? Items { get; set; }
+    public required IList<V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignment> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 /// Storage version of v20250401.RedisEnterpriseDatabaseAccessPolicyAssignmentOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a cache.azure.com/RedisEnterpriseDatabase resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentSpecOwner
 {
@@ -150,7 +150,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 /// ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentSpecUserObjectIdFromConfig
 {
@@ -167,7 +167,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 }
 
 /// <summary>Storage version of v20250401.AccessPolicyAssignmentProperties_User</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentSpecUser
 {
@@ -190,7 +190,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 }
 
 /// <summary>Storage version of v20250401.RedisEnterpriseDatabaseAccessPolicyAssignment_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentSpec
 {
@@ -235,7 +235,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentStatusConditions
 {
@@ -281,7 +281,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 }
 
 /// <summary>Storage version of v20250401.AccessPolicyAssignmentProperties_User_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentStatusUser
 {
@@ -297,7 +297,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 }
 
 /// <summary>Storage version of v20250401.RedisEnterpriseDatabaseAccessPolicyAssignment_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentStatus
 {
@@ -337,7 +337,7 @@ public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignme
 /// - Generated from: /redisenterprise/resource-manager/Microsoft.Cache/RedisEnterprise/stable/2025-04-01/redisenterprise.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redisEnterprise/{clusterName}/databases/{databaseName}/accessPolicyAssignments/{accessPolicyAssignmentName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignment : IKubernetesObject<V1ObjectMeta>, ISpec<V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentSpec?>, IStatus<V20250401storageRedisEnterpriseDatabaseAccessPolicyAssignmentStatus?>

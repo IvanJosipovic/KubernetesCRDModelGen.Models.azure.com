@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.compute.azure.com;
 /// - Generated from: /compute/resource-manager/Microsoft.Compute/ComputeRP/stable/2024-11-01/ComputeRP.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20241101AvailabilitySetList : IKubernetesObject<V1ListMeta>, IItems<V1api20241101AvailabilitySet>
@@ -37,7 +37,7 @@ public partial class V1api20241101AvailabilitySetList : IKubernetesObject<V1List
 
     /// <summary>List of V1api20241101AvailabilitySet objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20241101AvailabilitySet>? Items { get; set; }
+    public required IList<V1api20241101AvailabilitySet> Items { get; set; }
 }
 
 /// <summary>
@@ -45,7 +45,7 @@ public partial class V1api20241101AvailabilitySetList : IKubernetesObject<V1List
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecOperatorSpecConfigMapExpressions
 {
@@ -78,7 +78,7 @@ public partial class V1api20241101AvailabilitySetSpecOperatorSpecConfigMapExpres
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecOperatorSpecSecretExpressions
 {
@@ -110,7 +110,7 @@ public partial class V1api20241101AvailabilitySetSpecOperatorSpecSecretExpressio
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecOperatorSpec
 {
@@ -128,7 +128,7 @@ public partial class V1api20241101AvailabilitySetSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecOwner
 {
@@ -141,7 +141,7 @@ public partial class V1api20241101AvailabilitySetSpecOwner
 }
 
 /// <summary>Reference: Resource Id</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecProximityPlacementGroupReference
 {
@@ -170,7 +170,7 @@ public partial class V1api20241101AvailabilitySetSpecProximityPlacementGroupRefe
 /// ProximityPlacementGroup: Specifies information about the proximity placement group that the availability set should be
 /// assigned to. Minimum api-version: 2018-04-01.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecProximityPlacementGroup
 {
@@ -183,7 +183,7 @@ public partial class V1api20241101AvailabilitySetSpecProximityPlacementGroup
 /// EventGridAndResourceGraph: The configuration parameters used while creating eventGridAndResourceGraph Scheduled Event
 /// setting.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicyScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph
 {
@@ -196,7 +196,7 @@ public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicySchedu
 /// ScheduledEventsAdditionalPublishingTargets: The configuration parameters used while publishing
 /// scheduledEventsAdditionalPublishingTargets.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicyScheduledEventsAdditionalPublishingTargets
 {
@@ -212,7 +212,7 @@ public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicySchedu
 /// UserInitiatedReboot: The configuration parameters used while creating userInitiatedReboot scheduled event setting
 /// creation.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicyUserInitiatedReboot
 {
@@ -225,7 +225,7 @@ public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicyUserIn
 /// UserInitiatedRedeploy: The configuration parameters used while creating userInitiatedRedeploy scheduled event setting
 /// creation.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicyUserInitiatedRedeploy
 {
@@ -238,7 +238,7 @@ public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicyUserIn
 /// ScheduledEventsPolicy: Specifies Redeploy, Reboot and ScheduledEventsAdditionalPublishingTargets Scheduled Event related
 /// configurations for the availability set.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicy
 {
@@ -269,7 +269,7 @@ public partial class V1api20241101AvailabilitySetSpecScheduledEventsPolicy
 /// values. Use &apos;Aligned&apos; for virtual machines with managed disks and &apos;Classic&apos; for virtual machines with unmanaged disks.
 /// Default value is &apos;Classic&apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpecSku
 {
@@ -291,7 +291,7 @@ public partial class V1api20241101AvailabilitySetSpecSku
     public string? Tier { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetSpec
 {
@@ -357,7 +357,7 @@ public partial class V1api20241101AvailabilitySetSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusConditions
 {
@@ -406,7 +406,7 @@ public partial class V1api20241101AvailabilitySetStatusConditions
 /// ProximityPlacementGroup: Specifies information about the proximity placement group that the availability set should be
 /// assigned to. Minimum api-version: 2018-04-01.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusProximityPlacementGroup
 {
@@ -419,7 +419,7 @@ public partial class V1api20241101AvailabilitySetStatusProximityPlacementGroup
 /// EventGridAndResourceGraph: The configuration parameters used while creating eventGridAndResourceGraph Scheduled Event
 /// setting.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicyScheduledEventsAdditionalPublishingTargetsEventGridAndResourceGraph
 {
@@ -432,7 +432,7 @@ public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicySche
 /// ScheduledEventsAdditionalPublishingTargets: The configuration parameters used while publishing
 /// scheduledEventsAdditionalPublishingTargets.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicyScheduledEventsAdditionalPublishingTargets
 {
@@ -448,7 +448,7 @@ public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicySche
 /// UserInitiatedReboot: The configuration parameters used while creating userInitiatedReboot scheduled event setting
 /// creation.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicyUserInitiatedReboot
 {
@@ -461,7 +461,7 @@ public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicyUser
 /// UserInitiatedRedeploy: The configuration parameters used while creating userInitiatedRedeploy scheduled event setting
 /// creation.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicyUserInitiatedRedeploy
 {
@@ -474,7 +474,7 @@ public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicyUser
 /// ScheduledEventsPolicy: Specifies Redeploy, Reboot and ScheduledEventsAdditionalPublishingTargets Scheduled Event related
 /// configurations for the availability set.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicy
 {
@@ -505,7 +505,7 @@ public partial class V1api20241101AvailabilitySetStatusScheduledEventsPolicy
 /// values. Use &apos;Aligned&apos; for virtual machines with managed disks and &apos;Classic&apos; for virtual machines with unmanaged disks.
 /// Default value is &apos;Classic&apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusSku
 {
@@ -528,7 +528,7 @@ public partial class V1api20241101AvailabilitySetStatusSku
 }
 
 /// <summary>Instance view status.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusStatuses
 {
@@ -554,7 +554,7 @@ public partial class V1api20241101AvailabilitySetStatusStatuses
 }
 
 /// <summary>SystemData: Azure Resource Manager metadata containing createdBy and modifiedBy information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusSystemData
 {
@@ -587,7 +587,7 @@ public partial class V1api20241101AvailabilitySetStatusSystemData
 /// DefaultVirtualMachineScaleSet: The default Virtual Machine ScaleSet Uri that the Availability Set will be moved to upon
 /// triggering a seamless migration via the ConvertToVirtualMachineScaleSet API.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMigrationInfoDefaultVirtualMachineScaleSetInfoDefaultVirtualMachineScaleSet
 {
@@ -600,7 +600,7 @@ public partial class V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMig
 /// DefaultVirtualMachineScaleSetInfo: Indicates the target Virtual Machine ScaleSet properties upon triggering a seamless
 /// migration without downtime of the VMs via the ConvertToVirtualMachineScaleSet API.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMigrationInfoDefaultVirtualMachineScaleSetInfo
 {
@@ -620,7 +620,7 @@ public partial class V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMig
 }
 
 /// <summary>MigrateToVirtualMachineScaleSet: Specifies the Virtual Machine Scale Set that the Availability Set is migrated to.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMigrationInfoMigrateToVirtualMachineScaleSet
 {
@@ -630,7 +630,7 @@ public partial class V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMig
 }
 
 /// <summary>VirtualMachineScaleSetMigrationInfo: Describes the migration properties on the Availability Set.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMigrationInfo
 {
@@ -646,7 +646,7 @@ public partial class V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMig
     public V1api20241101AvailabilitySetStatusVirtualMachineScaleSetMigrationInfoMigrateToVirtualMachineScaleSet? MigrateToVirtualMachineScaleSet { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatusVirtualMachines
 {
@@ -664,7 +664,7 @@ public partial class V1api20241101AvailabilitySetStatusVirtualMachines
 /// Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates). Currently, a VM can only be added to
 /// an availability set at creation time. An existing VM cannot be added to an availability set.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101AvailabilitySetStatus
 {
@@ -747,7 +747,7 @@ public partial class V1api20241101AvailabilitySetStatus
 /// - Generated from: /compute/resource-manager/Microsoft.Compute/ComputeRP/stable/2024-11-01/ComputeRP.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20241101AvailabilitySet : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20241101AvailabilitySetSpec?>, IStatus<V1api20241101AvailabilitySetStatus?>

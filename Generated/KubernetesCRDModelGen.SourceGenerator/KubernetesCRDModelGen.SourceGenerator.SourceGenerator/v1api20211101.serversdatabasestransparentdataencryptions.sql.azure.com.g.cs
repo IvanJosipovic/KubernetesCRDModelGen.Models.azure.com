@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.sql.azure.com;
 /// - Generated from: /sql/resource-manager/Microsoft.Sql/stable/2021-11-01/TransparentDataEncryptions.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/transparentDataEncryption/{tdeName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryptionList : IKubernetesObject<V1ListMeta>, IItems<V1api20211101ServersDatabasesTransparentDataEncryption>
@@ -37,7 +37,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionList 
 
     /// <summary>List of V1api20211101ServersDatabasesTransparentDataEncryption objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20211101ServersDatabasesTransparentDataEncryption>? Items { get; set; }
+    public required IList<V1api20211101ServersDatabasesTransparentDataEncryption> Items { get; set; }
 }
 
 /// <summary>
@@ -45,7 +45,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionList 
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpecOperatorSpecConfigMapExpressions
 {
@@ -78,7 +78,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpecO
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpecOperatorSpecSecretExpressions
 {
@@ -110,7 +110,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpecO
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpecOperatorSpec
 {
@@ -128,7 +128,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpecO
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a sql.azure.com/ServersDatabase resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpecOwner
 {
@@ -141,7 +141,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpecO
 }
 
 /// <summary>State: Specifies the state of the transparent data encryption.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabasesTransparentDataEncryptionSpecStateEnum>))]
 public enum V1api20211101ServersDatabasesTransparentDataEncryptionSpecStateEnum
 {
@@ -151,7 +151,7 @@ public enum V1api20211101ServersDatabasesTransparentDataEncryptionSpecStateEnum
     Enabled
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpec
 {
@@ -176,7 +176,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryptionStatusConditions
 {
@@ -221,7 +221,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionStatu
     public required string Type { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryptionStatus
 {
@@ -251,7 +251,7 @@ public partial class V1api20211101ServersDatabasesTransparentDataEncryptionStatu
 /// - Generated from: /sql/resource-manager/Microsoft.Sql/stable/2021-11-01/TransparentDataEncryptions.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}/transparentDataEncryption/{tdeName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20211101ServersDatabasesTransparentDataEncryption : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20211101ServersDatabasesTransparentDataEncryptionSpec?>, IStatus<V1api20211101ServersDatabasesTransparentDataEncryptionStatus?>

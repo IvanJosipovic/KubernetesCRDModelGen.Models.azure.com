@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2020-11-01/publicIpAddress.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/publicIPAddresses/{publicIpAddressName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20201101PublicIPAddressList : IKubernetesObject<V1ListMeta>, IItems<V1api20201101PublicIPAddress>
@@ -37,11 +37,11 @@ public partial class V1api20201101PublicIPAddressList : IKubernetesObject<V1List
 
     /// <summary>List of V1api20201101PublicIPAddress objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20201101PublicIPAddress>? Items { get; set; }
+    public required IList<V1api20201101PublicIPAddress> Items { get; set; }
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecDdosSettingsDdosCustomPolicyReference
 {
@@ -67,7 +67,7 @@ public partial class V1api20201101PublicIPAddressSpecDdosSettingsDdosCustomPolic
 }
 
 /// <summary>DdosCustomPolicy: The DDoS custom policy associated with the public IP.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecDdosSettingsDdosCustomPolicy
 {
@@ -80,7 +80,7 @@ public partial class V1api20201101PublicIPAddressSpecDdosSettingsDdosCustomPolic
 /// ProtectionCoverage: The DDoS protection policy customizability of the public IP. Only standard coverage will have the
 /// ability to be customized.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20201101PublicIPAddressSpecDdosSettingsProtectionCoverageEnum>))]
 public enum V1api20201101PublicIPAddressSpecDdosSettingsProtectionCoverageEnum
 {
@@ -91,7 +91,7 @@ public enum V1api20201101PublicIPAddressSpecDdosSettingsProtectionCoverageEnum
 }
 
 /// <summary>DdosSettings: The DDoS protection custom policy associated with the public IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecDdosSettings
 {
@@ -112,7 +112,7 @@ public partial class V1api20201101PublicIPAddressSpecDdosSettings
 }
 
 /// <summary>DnsSettings: The FQDN of the DNS record associated with the public IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecDnsSettings
 {
@@ -141,7 +141,7 @@ public partial class V1api20201101PublicIPAddressSpecDnsSettings
 }
 
 /// <summary>Type: The type of the extended location.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20201101PublicIPAddressSpecExtendedLocationTypeEnum>))]
 public enum V1api20201101PublicIPAddressSpecExtendedLocationTypeEnum
 {
@@ -150,7 +150,7 @@ public enum V1api20201101PublicIPAddressSpecExtendedLocationTypeEnum
 }
 
 /// <summary>ExtendedLocation: The extended location of the public ip address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecExtendedLocation
 {
@@ -164,7 +164,7 @@ public partial class V1api20201101PublicIPAddressSpecExtendedLocation
 }
 
 /// <summary>Contains the IpTag associated with the object.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecIpTags
 {
@@ -178,7 +178,7 @@ public partial class V1api20201101PublicIPAddressSpecIpTags
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecLinkedPublicIPAddressReference
 {
@@ -204,7 +204,7 @@ public partial class V1api20201101PublicIPAddressSpecLinkedPublicIPAddressRefere
 }
 
 /// <summary>LinkedPublicIPAddress: The linked public IP address of the public IP address resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecLinkedPublicIPAddress
 {
@@ -214,7 +214,7 @@ public partial class V1api20201101PublicIPAddressSpecLinkedPublicIPAddress
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecNatGatewayReference
 {
@@ -240,7 +240,7 @@ public partial class V1api20201101PublicIPAddressSpecNatGatewayReference
 }
 
 /// <summary>NatGateway: The NatGateway for the Public IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecNatGateway
 {
@@ -254,7 +254,7 @@ public partial class V1api20201101PublicIPAddressSpecNatGateway
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecOperatorSpecConfigMapExpressions
 {
@@ -287,7 +287,7 @@ public partial class V1api20201101PublicIPAddressSpecOperatorSpecConfigMapExpres
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecOperatorSpecSecretExpressions
 {
@@ -319,7 +319,7 @@ public partial class V1api20201101PublicIPAddressSpecOperatorSpecSecretExpressio
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecOperatorSpec
 {
@@ -337,7 +337,7 @@ public partial class V1api20201101PublicIPAddressSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecOwner
 {
@@ -350,7 +350,7 @@ public partial class V1api20201101PublicIPAddressSpecOwner
 }
 
 /// <summary>PublicIPAddressVersion: The public IP address version.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20201101PublicIPAddressSpecPublicIPAddressVersionEnum>))]
 public enum V1api20201101PublicIPAddressSpecPublicIPAddressVersionEnum
 {
@@ -361,7 +361,7 @@ public enum V1api20201101PublicIPAddressSpecPublicIPAddressVersionEnum
 }
 
 /// <summary>PublicIPAllocationMethod: The public IP address allocation method.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20201101PublicIPAddressSpecPublicIPAllocationMethodEnum>))]
 public enum V1api20201101PublicIPAddressSpecPublicIPAllocationMethodEnum
 {
@@ -372,7 +372,7 @@ public enum V1api20201101PublicIPAddressSpecPublicIPAllocationMethodEnum
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecPublicIPPrefixReference
 {
@@ -398,7 +398,7 @@ public partial class V1api20201101PublicIPAddressSpecPublicIPPrefixReference
 }
 
 /// <summary>PublicIPPrefix: The Public IP Prefix this Public IP Address should be allocated from.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecPublicIPPrefix
 {
@@ -408,7 +408,7 @@ public partial class V1api20201101PublicIPAddressSpecPublicIPPrefix
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecServicePublicIPAddressReference
 {
@@ -434,7 +434,7 @@ public partial class V1api20201101PublicIPAddressSpecServicePublicIPAddressRefer
 }
 
 /// <summary>ServicePublicIPAddress: The service public IP address of the public IP address resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecServicePublicIPAddress
 {
@@ -444,7 +444,7 @@ public partial class V1api20201101PublicIPAddressSpecServicePublicIPAddress
 }
 
 /// <summary>Name: Name of a public IP address SKU.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20201101PublicIPAddressSpecSkuNameEnum>))]
 public enum V1api20201101PublicIPAddressSpecSkuNameEnum
 {
@@ -455,7 +455,7 @@ public enum V1api20201101PublicIPAddressSpecSkuNameEnum
 }
 
 /// <summary>Tier: Tier of a public IP address SKU.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20201101PublicIPAddressSpecSkuTierEnum>))]
 public enum V1api20201101PublicIPAddressSpecSkuTierEnum
 {
@@ -466,7 +466,7 @@ public enum V1api20201101PublicIPAddressSpecSkuTierEnum
 }
 
 /// <summary>Sku: The public IP address SKU.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpecSku
 {
@@ -479,7 +479,7 @@ public partial class V1api20201101PublicIPAddressSpecSku
     public V1api20201101PublicIPAddressSpecSkuTierEnum? Tier { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressSpec
 {
@@ -571,7 +571,7 @@ public partial class V1api20201101PublicIPAddressSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusConditions
 {
@@ -617,7 +617,7 @@ public partial class V1api20201101PublicIPAddressStatusConditions
 }
 
 /// <summary>DdosCustomPolicy: The DDoS custom policy associated with the public IP.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusDdosSettingsDdosCustomPolicy
 {
@@ -627,7 +627,7 @@ public partial class V1api20201101PublicIPAddressStatusDdosSettingsDdosCustomPol
 }
 
 /// <summary>DdosSettings: The DDoS protection custom policy associated with the public IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusDdosSettings
 {
@@ -648,7 +648,7 @@ public partial class V1api20201101PublicIPAddressStatusDdosSettings
 }
 
 /// <summary>DnsSettings: The FQDN of the DNS record associated with the public IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusDnsSettings
 {
@@ -677,7 +677,7 @@ public partial class V1api20201101PublicIPAddressStatusDnsSettings
 }
 
 /// <summary>ExtendedLocation: The extended location of the public ip address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusExtendedLocation
 {
@@ -691,7 +691,7 @@ public partial class V1api20201101PublicIPAddressStatusExtendedLocation
 }
 
 /// <summary>IpConfiguration: The IP configuration associated with the public IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusIpConfiguration
 {
@@ -701,7 +701,7 @@ public partial class V1api20201101PublicIPAddressStatusIpConfiguration
 }
 
 /// <summary>Contains the IpTag associated with the object.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusIpTags
 {
@@ -715,7 +715,7 @@ public partial class V1api20201101PublicIPAddressStatusIpTags
 }
 
 /// <summary>NatGateway: The NatGateway for the Public IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusNatGateway
 {
@@ -725,7 +725,7 @@ public partial class V1api20201101PublicIPAddressStatusNatGateway
 }
 
 /// <summary>PublicIPPrefix: The Public IP Prefix this Public IP Address should be allocated from.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusPublicIPPrefix
 {
@@ -735,7 +735,7 @@ public partial class V1api20201101PublicIPAddressStatusPublicIPPrefix
 }
 
 /// <summary>Sku: The public IP address SKU.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatusSku
 {
@@ -749,7 +749,7 @@ public partial class V1api20201101PublicIPAddressStatusSku
 }
 
 /// <summary>Public IP address resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101PublicIPAddressStatus
 {
@@ -851,7 +851,7 @@ public partial class V1api20201101PublicIPAddressStatus
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2020-11-01/publicIpAddress.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/publicIPAddresses/{publicIpAddressName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20201101PublicIPAddress : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20201101PublicIPAddressSpec?>, IStatus<V1api20201101PublicIPAddressStatus?>

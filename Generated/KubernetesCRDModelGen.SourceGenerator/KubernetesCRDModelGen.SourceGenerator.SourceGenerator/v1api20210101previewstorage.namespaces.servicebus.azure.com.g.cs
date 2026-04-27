@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.servicebus.azure.com;
 /// - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/preview/2021-01-01-preview/namespace-preview.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210101previewstorageNamespaceList : IKubernetesObject<V1ListMeta>, IItems<V1api20210101previewstorageNamespace>
@@ -38,11 +38,11 @@ public partial class V1api20210101previewstorageNamespaceList : IKubernetesObjec
 
     /// <summary>List of V1api20210101previewstorageNamespace objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20210101previewstorageNamespace>? Items { get; set; }
+    public required IList<V1api20210101previewstorageNamespace> Items { get; set; }
 }
 
 /// <summary>UserAssignedIdentityReference: ARM ID of user Identity selected for encryption</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecEncryptionKeyVaultPropertiesIdentityUserAssignedIdentityReference
 {
@@ -68,7 +68,7 @@ public partial class V1api20210101previewstorageNamespaceSpecEncryptionKeyVaultP
 }
 
 /// <summary>Storage version of v1api20210101preview.UserAssignedIdentityProperties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecEncryptionKeyVaultPropertiesIdentity
 {
@@ -88,7 +88,7 @@ public partial class V1api20210101previewstorageNamespaceSpecEncryptionKeyVaultP
 /// Storage version of v1api20210101preview.KeyVaultProperties
 /// Properties to configure keyVault Properties
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecEncryptionKeyVaultProperties
 {
@@ -117,7 +117,7 @@ public partial class V1api20210101previewstorageNamespaceSpecEncryptionKeyVaultP
 /// Storage version of v1api20210101preview.Encryption
 /// Properties to configure Encryption
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecEncryption
 {
@@ -139,7 +139,7 @@ public partial class V1api20210101previewstorageNamespaceSpecEncryption
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecIdentityUserAssignedIdentitiesReference
 {
@@ -168,7 +168,7 @@ public partial class V1api20210101previewstorageNamespaceSpecIdentityUserAssigne
 /// Storage version of v1api20210101preview.UserAssignedIdentityDetails
 /// Information about the user assigned identity for the resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecIdentityUserAssignedIdentities
 {
@@ -188,7 +188,7 @@ public partial class V1api20210101previewstorageNamespaceSpecIdentityUserAssigne
 /// Storage version of v1api20210101preview.Identity
 /// Properties to configure User Assigned Identities for Bring your Own Keys
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecIdentity
 {
@@ -211,7 +211,7 @@ public partial class V1api20210101previewstorageNamespaceSpecIdentity
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecConfigMapExpressions
 {
@@ -244,7 +244,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecConfigM
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecretExpressions
 {
@@ -277,7 +277,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecretE
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecretsEndpoint
 {
@@ -298,7 +298,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecrets
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecretsPrimaryConnectionString
 {
@@ -319,7 +319,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecrets
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecretsPrimaryKey
 {
@@ -340,7 +340,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecrets
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecretsSecondaryConnectionString
 {
@@ -361,7 +361,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecrets
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecretsSecondaryKey
 {
@@ -378,7 +378,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecrets
 }
 
 /// <summary>Storage version of v1api20210101preview.NamespaceOperatorSecrets</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecrets
 {
@@ -434,7 +434,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpecSecrets
 /// Storage version of v1api20210101preview.NamespaceOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOperatorSpec
 {
@@ -461,7 +461,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecOwner
 {
@@ -477,7 +477,7 @@ public partial class V1api20210101previewstorageNamespaceSpecOwner
 /// Storage version of v1api20210101preview.SBSku
 /// SKU of the namespace.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpecSku
 {
@@ -499,7 +499,7 @@ public partial class V1api20210101previewstorageNamespaceSpecSku
 }
 
 /// <summary>Storage version of v1api20210101preview.Namespace_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceSpec
 {
@@ -567,7 +567,7 @@ public partial class V1api20210101previewstorageNamespaceSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusConditions
 {
@@ -613,7 +613,7 @@ public partial class V1api20210101previewstorageNamespaceStatusConditions
 }
 
 /// <summary>Storage version of v1api20210101preview.UserAssignedIdentityProperties_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusEncryptionKeyVaultPropertiesIdentity
 {
@@ -632,7 +632,7 @@ public partial class V1api20210101previewstorageNamespaceStatusEncryptionKeyVaul
 /// Storage version of v1api20210101preview.KeyVaultProperties_STATUS
 /// Properties to configure keyVault Properties
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusEncryptionKeyVaultProperties
 {
@@ -661,7 +661,7 @@ public partial class V1api20210101previewstorageNamespaceStatusEncryptionKeyVaul
 /// Storage version of v1api20210101preview.Encryption_STATUS
 /// Properties to configure Encryption
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusEncryption
 {
@@ -686,7 +686,7 @@ public partial class V1api20210101previewstorageNamespaceStatusEncryption
 /// Storage version of v1api20210101preview.DictionaryValue_STATUS
 /// Recognized Dictionary value.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusIdentityUserAssignedIdentities
 {
@@ -708,7 +708,7 @@ public partial class V1api20210101previewstorageNamespaceStatusIdentityUserAssig
 /// Storage version of v1api20210101preview.Identity_STATUS
 /// Properties to configure User Assigned Identities for Bring your Own Keys
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusIdentity
 {
@@ -736,7 +736,7 @@ public partial class V1api20210101previewstorageNamespaceStatusIdentity
 /// Storage version of v1api20210101preview.PrivateEndpointConnection_STATUS
 /// Properties of the PrivateEndpointConnection.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusPrivateEndpointConnections
 {
@@ -755,7 +755,7 @@ public partial class V1api20210101previewstorageNamespaceStatusPrivateEndpointCo
 /// Storage version of v1api20210101preview.SBSku_STATUS
 /// SKU of the namespace.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusSku
 {
@@ -780,7 +780,7 @@ public partial class V1api20210101previewstorageNamespaceStatusSku
 /// Storage version of v1api20210101preview.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatusSystemData
 {
@@ -811,7 +811,7 @@ public partial class V1api20210101previewstorageNamespaceStatusSystemData
 }
 
 /// <summary>Storage version of v1api20210101preview.Namespace_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210101previewstorageNamespaceStatus
 {
@@ -899,7 +899,7 @@ public partial class V1api20210101previewstorageNamespaceStatus
 /// - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/preview/2021-01-01-preview/namespace-preview.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210101previewstorageNamespace : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20210101previewstorageNamespaceSpec?>, IStatus<V1api20210101previewstorageNamespaceStatus?>

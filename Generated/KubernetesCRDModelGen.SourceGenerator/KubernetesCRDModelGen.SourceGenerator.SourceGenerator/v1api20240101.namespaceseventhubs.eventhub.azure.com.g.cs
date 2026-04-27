@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.eventhub.azure.com;
 /// - Generated from: /eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2024-01-01/eventhubs.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/eventhubs/{eventHubName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240101NamespacesEventhubList : IKubernetesObject<V1ListMeta>, IItems<V1api20240101NamespacesEventhub>
@@ -37,11 +37,11 @@ public partial class V1api20240101NamespacesEventhubList : IKubernetesObject<V1L
 
     /// <summary>List of V1api20240101NamespacesEventhub objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20240101NamespacesEventhub>? Items { get; set; }
+    public required IList<V1api20240101NamespacesEventhub> Items { get; set; }
 }
 
 /// <summary>Type: Type of Azure Active Directory Managed Identity.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240101NamespacesEventhubSpecCaptureDescriptionDestinationIdentityTypeEnum>))]
 public enum V1api20240101NamespacesEventhubSpecCaptureDescriptionDestinationIdentityTypeEnum
 {
@@ -56,7 +56,7 @@ public enum V1api20240101NamespacesEventhubSpecCaptureDescriptionDestinationIden
 /// UserAssignedIdentity. If type is SystemAssigned, then the System Assigned Identity Associated with the namespace will be
 /// used.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecCaptureDescriptionDestinationIdentityUserAssignedIdentityReference
 {
@@ -82,7 +82,7 @@ public partial class V1api20240101NamespacesEventhubSpecCaptureDescriptionDestin
 }
 
 /// <summary>Identity: A value that indicates whether capture description is enabled.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecCaptureDescriptionDestinationIdentity
 {
@@ -100,7 +100,7 @@ public partial class V1api20240101NamespacesEventhubSpecCaptureDescriptionDestin
 }
 
 /// <summary>StorageAccountResourceReference: Resource id of the storage account to be used to create the blobs</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecCaptureDescriptionDestinationStorageAccountResourceReference
 {
@@ -126,7 +126,7 @@ public partial class V1api20240101NamespacesEventhubSpecCaptureDescriptionDestin
 }
 
 /// <summary>Destination: Properties of Destination where capture will be stored. (Storage Account, Blob Names)</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecCaptureDescriptionDestination
 {
@@ -171,7 +171,7 @@ public partial class V1api20240101NamespacesEventhubSpecCaptureDescriptionDestin
 /// Encoding: Enumerates the possible values for the encoding format of capture description. Note: &apos;AvroDeflate&apos; will be
 /// deprecated in New API Version
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240101NamespacesEventhubSpecCaptureDescriptionEncodingEnum>))]
 public enum V1api20240101NamespacesEventhubSpecCaptureDescriptionEncodingEnum
 {
@@ -182,7 +182,7 @@ public enum V1api20240101NamespacesEventhubSpecCaptureDescriptionEncodingEnum
 }
 
 /// <summary>CaptureDescription: Properties of capture description</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecCaptureDescription
 {
@@ -225,7 +225,7 @@ public partial class V1api20240101NamespacesEventhubSpecCaptureDescription
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecOperatorSpecConfigMapExpressions
 {
@@ -258,7 +258,7 @@ public partial class V1api20240101NamespacesEventhubSpecOperatorSpecConfigMapExp
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecOperatorSpecSecretExpressions
 {
@@ -290,7 +290,7 @@ public partial class V1api20240101NamespacesEventhubSpecOperatorSpecSecretExpres
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecOperatorSpec
 {
@@ -308,7 +308,7 @@ public partial class V1api20240101NamespacesEventhubSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a eventhub.azure.com/Namespace resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecOwner
 {
@@ -321,7 +321,7 @@ public partial class V1api20240101NamespacesEventhubSpecOwner
 }
 
 /// <summary>CleanupPolicy: Enumerates the possible values for cleanup policy</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240101NamespacesEventhubSpecRetentionDescriptionCleanupPolicyEnum>))]
 public enum V1api20240101NamespacesEventhubSpecRetentionDescriptionCleanupPolicyEnum
 {
@@ -332,7 +332,7 @@ public enum V1api20240101NamespacesEventhubSpecRetentionDescriptionCleanupPolicy
 }
 
 /// <summary>RetentionDescription: Event Hub retention settings</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpecRetentionDescription
 {
@@ -357,7 +357,7 @@ public partial class V1api20240101NamespacesEventhubSpecRetentionDescription
     public int? TombstoneRetentionTimeInHours { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubSpec
 {
@@ -405,7 +405,7 @@ public partial class V1api20240101NamespacesEventhubSpec
 }
 
 /// <summary>Identity: A value that indicates whether capture description is enabled.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubStatusCaptureDescriptionDestinationIdentity
 {
@@ -422,7 +422,7 @@ public partial class V1api20240101NamespacesEventhubStatusCaptureDescriptionDest
 }
 
 /// <summary>Destination: Properties of Destination where capture will be stored. (Storage Account, Blob Names)</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubStatusCaptureDescriptionDestination
 {
@@ -464,7 +464,7 @@ public partial class V1api20240101NamespacesEventhubStatusCaptureDescriptionDest
 }
 
 /// <summary>CaptureDescription: Properties of capture description</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubStatusCaptureDescription
 {
@@ -503,7 +503,7 @@ public partial class V1api20240101NamespacesEventhubStatusCaptureDescription
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubStatusConditions
 {
@@ -549,7 +549,7 @@ public partial class V1api20240101NamespacesEventhubStatusConditions
 }
 
 /// <summary>RetentionDescription: Event Hub retention settings</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubStatusRetentionDescription
 {
@@ -575,7 +575,7 @@ public partial class V1api20240101NamespacesEventhubStatusRetentionDescription
 }
 
 /// <summary>SystemData: The system meta data relating to this resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubStatusSystemData
 {
@@ -604,7 +604,7 @@ public partial class V1api20240101NamespacesEventhubStatusSystemData
     public string? LastModifiedByType { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesEventhubStatus
 {
@@ -677,7 +677,7 @@ public partial class V1api20240101NamespacesEventhubStatus
 /// - Generated from: /eventhub/resource-manager/Microsoft.EventHub/Eventhub/stable/2024-01-01/eventhubs.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/namespaces/{namespaceName}/eventhubs/{eventHubName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240101NamespacesEventhub : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240101NamespacesEventhubSpec?>, IStatus<V1api20240101NamespacesEventhubStatus?>
