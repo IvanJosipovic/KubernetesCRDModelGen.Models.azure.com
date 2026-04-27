@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.storage.azure.com;
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2021-04-01/queue.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210401storageStorageAccountsQueueServiceList : IKubernetesObject<V1ListMeta>, IItems<V1api20210401storageStorageAccountsQueueService>
@@ -38,14 +38,14 @@ public partial class V1api20210401storageStorageAccountsQueueServiceList : IKube
 
     /// <summary>List of V1api20210401storageStorageAccountsQueueService objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20210401storageStorageAccountsQueueService>? Items { get; set; }
+    public required IList<V1api20210401storageStorageAccountsQueueService> Items { get; set; }
 }
 
 /// <summary>
 /// Storage version of v1api20210401.CorsRule
 /// Specifies a CORS rule for the Blob service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceSpecCorsCorsRules
 {
@@ -76,7 +76,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceSpecCorsCors
 /// Storage version of v1api20210401.CorsRules
 /// Sets the CORS rules. You can include up to five CorsRule elements in the request.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceSpecCors
 {
@@ -96,7 +96,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceSpecCors
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceSpecOperatorSpecConfigMapExpressions
 {
@@ -129,7 +129,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceSpecOperator
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceSpecOperatorSpecSecretExpressions
 {
@@ -161,7 +161,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceSpecOperator
 /// Storage version of v1api20210401.StorageAccountsQueueServiceOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceSpecOperatorSpec
 {
@@ -184,7 +184,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceSpecOperator
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a storage.azure.com/StorageAccount resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceSpecOwner
 {
@@ -197,7 +197,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceSpecOwner
 }
 
 /// <summary>Storage version of v1api20210401.StorageAccountsQueueService_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceSpec
 {
@@ -235,7 +235,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceStatusConditions
 {
@@ -284,7 +284,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceStatusCondit
 /// Storage version of v1api20210401.CorsRule_STATUS
 /// Specifies a CORS rule for the Blob service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceStatusCorsCorsRules
 {
@@ -315,7 +315,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceStatusCorsCo
 /// Storage version of v1api20210401.CorsRules_STATUS
 /// Sets the CORS rules. You can include up to five CorsRule elements in the request.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceStatusCors
 {
@@ -331,7 +331,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceStatusCors
 }
 
 /// <summary>Storage version of v1api20210401.StorageAccountsQueueService_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401storageStorageAccountsQueueServiceStatus
 {
@@ -368,7 +368,7 @@ public partial class V1api20210401storageStorageAccountsQueueServiceStatus
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2021-04-01/queue.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/queueServices/default
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210401storageStorageAccountsQueueService : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20210401storageStorageAccountsQueueServiceSpec?>, IStatus<V1api20210401storageStorageAccountsQueueServiceStatus?>

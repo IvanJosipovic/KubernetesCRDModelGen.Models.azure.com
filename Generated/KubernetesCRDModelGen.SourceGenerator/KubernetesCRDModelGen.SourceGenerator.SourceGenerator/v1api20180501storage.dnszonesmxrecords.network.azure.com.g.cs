@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /dns/resource-manager/Microsoft.Network/Dns/stable/2018-05-01/dns.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/MX/{relativeRecordSetName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20180501storageDnsZonesMXRecordList : IKubernetesObject<V1ListMeta>, IItems<V1api20180501storageDnsZonesMXRecord>
@@ -38,14 +38,14 @@ public partial class V1api20180501storageDnsZonesMXRecordList : IKubernetesObjec
 
     /// <summary>List of V1api20180501storageDnsZonesMXRecord objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20180501storageDnsZonesMXRecord>? Items { get; set; }
+    public required IList<V1api20180501storageDnsZonesMXRecord> Items { get; set; }
 }
 
 /// <summary>
 /// Storage version of v1api20180501.AaaaRecord
 /// An AAAA record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecAAAARecords
 {
@@ -64,7 +64,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecAAAARecords
 /// Storage version of v1api20180501.ARecord
 /// An A record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecARecords
 {
@@ -83,7 +83,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecARecords
 /// Storage version of v1api20180501.CnameRecord
 /// A CNAME record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecCNAMERecord
 {
@@ -102,7 +102,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecCNAMERecord
 /// Storage version of v1api20180501.MxRecord
 /// An MX record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecMXRecords
 {
@@ -124,7 +124,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecMXRecords
 /// Storage version of v1api20180501.NsRecord
 /// An NS record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecNSRecords
 {
@@ -143,7 +143,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecNSRecords
 /// Storage version of v1api20180501.PtrRecord
 /// A PTR record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecPTRRecords
 {
@@ -162,7 +162,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecPTRRecords
 /// Storage version of v1api20180501.SoaRecord
 /// An SOA record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecSOARecord
 {
@@ -199,7 +199,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecSOARecord
 /// Storage version of v1api20180501.SrvRecord
 /// An SRV record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecSRVRecords
 {
@@ -227,7 +227,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecSRVRecords
 /// Storage version of v1api20180501.TxtRecord
 /// A TXT record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecTXTRecords
 {
@@ -246,7 +246,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecTXTRecords
 /// Storage version of v1api20180501.CaaRecord
 /// A CAA record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecCaaRecords
 {
@@ -272,7 +272,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecCaaRecords
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecOperatorSpecConfigMapExpressions
 {
@@ -305,7 +305,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecOperatorSpecConfigM
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecOperatorSpecSecretExpressions
 {
@@ -337,7 +337,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecOperatorSpecSecretE
 /// Storage version of v1api20180501.DnsZonesMXRecordOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecOperatorSpec
 {
@@ -360,7 +360,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a network.azure.com/DnsZone resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecOwner
 {
@@ -373,7 +373,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecOwner
 }
 
 /// <summary>Reference: Resource Id.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecTargetResourceReference
 {
@@ -402,7 +402,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecTargetResourceRefer
 /// Storage version of v1api20180501.SubResource
 /// A reference to a another resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpecTargetResource
 {
@@ -419,7 +419,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpecTargetResource
 }
 
 /// <summary>Storage version of v1api20180501.DnsZonesMXRecord_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordSpec
 {
@@ -511,7 +511,7 @@ public partial class V1api20180501storageDnsZonesMXRecordSpec
 /// Storage version of v1api20180501.AaaaRecord_STATUS
 /// An AAAA record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusAAAARecords
 {
@@ -530,7 +530,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusAAAARecords
 /// Storage version of v1api20180501.ARecord_STATUS
 /// An A record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusARecords
 {
@@ -549,7 +549,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusARecords
 /// Storage version of v1api20180501.CnameRecord_STATUS
 /// A CNAME record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusCNAMERecord
 {
@@ -568,7 +568,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusCNAMERecord
 /// Storage version of v1api20180501.MxRecord_STATUS
 /// An MX record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusMXRecords
 {
@@ -590,7 +590,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusMXRecords
 /// Storage version of v1api20180501.NsRecord_STATUS
 /// An NS record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusNSRecords
 {
@@ -609,7 +609,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusNSRecords
 /// Storage version of v1api20180501.PtrRecord_STATUS
 /// A PTR record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusPTRRecords
 {
@@ -628,7 +628,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusPTRRecords
 /// Storage version of v1api20180501.SoaRecord_STATUS
 /// An SOA record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusSOARecord
 {
@@ -665,7 +665,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusSOARecord
 /// Storage version of v1api20180501.SrvRecord_STATUS
 /// An SRV record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusSRVRecords
 {
@@ -693,7 +693,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusSRVRecords
 /// Storage version of v1api20180501.TxtRecord_STATUS
 /// A TXT record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusTXTRecords
 {
@@ -712,7 +712,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusTXTRecords
 /// Storage version of v1api20180501.CaaRecord_STATUS
 /// A CAA record.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusCaaRecords
 {
@@ -734,7 +734,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusCaaRecords
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusConditions
 {
@@ -783,7 +783,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusConditions
 /// Storage version of v1api20180501.SubResource_STATUS
 /// A reference to a another resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatusTargetResource
 {
@@ -799,7 +799,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatusTargetResource
 }
 
 /// <summary>Storage version of v1api20180501.DnsZonesMXRecord_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180501storageDnsZonesMXRecordStatus
 {
@@ -889,7 +889,7 @@ public partial class V1api20180501storageDnsZonesMXRecordStatus
 /// - Generated from: /dns/resource-manager/Microsoft.Network/Dns/stable/2018-05-01/dns.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/MX/{relativeRecordSetName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20180501storageDnsZonesMXRecord : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20180501storageDnsZonesMXRecordSpec?>, IStatus<V1api20180501storageDnsZonesMXRecordStatus?>

@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.appconfiguration.azure.com;
 /// - Generated from: /appconfiguration/resource-manager/Microsoft.AppConfiguration/AppConfiguration/stable/2024-06-01/appconfiguration.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppConfiguration/configurationStores/{configStoreName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20240601storageConfigurationStoreList : IKubernetesObject<V1ListMeta>, IItems<V20240601storageConfigurationStore>
@@ -38,14 +38,14 @@ public partial class V20240601storageConfigurationStoreList : IKubernetesObject<
 
     /// <summary>List of V20240601storageConfigurationStore objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20240601storageConfigurationStore>? Items { get; set; }
+    public required IList<V20240601storageConfigurationStore> Items { get; set; }
 }
 
 /// <summary>
 /// Storage version of v20240601.DataPlaneProxyProperties
 /// The data plane proxy settings for a configuration store.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecDataPlaneProxy
 {
@@ -67,7 +67,7 @@ public partial class V20240601storageConfigurationStoreSpecDataPlaneProxy
 /// Storage version of v20240601.KeyVaultProperties
 /// Settings concerning key vault encryption for a configuration store.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecEncryptionKeyVaultProperties
 {
@@ -89,7 +89,7 @@ public partial class V20240601storageConfigurationStoreSpecEncryptionKeyVaultPro
 /// Storage version of v20240601.EncryptionProperties
 /// The encryption settings for a configuration store.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecEncryption
 {
@@ -109,7 +109,7 @@ public partial class V20240601storageConfigurationStoreSpecEncryption
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecIdentityUserAssignedIdentitiesReference
 {
@@ -138,7 +138,7 @@ public partial class V20240601storageConfigurationStoreSpecIdentityUserAssignedI
 /// Storage version of v20240601.UserAssignedIdentityDetails
 /// Information about the user assigned identity for the resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecIdentityUserAssignedIdentities
 {
@@ -158,7 +158,7 @@ public partial class V20240601storageConfigurationStoreSpecIdentityUserAssignedI
 /// Storage version of v20240601.ResourceIdentity
 /// An identity that can be associated with a resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecIdentity
 {
@@ -181,7 +181,7 @@ public partial class V20240601storageConfigurationStoreSpecIdentity
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecConfigMapExpressions
 {
@@ -214,7 +214,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecConfigMap
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretExpressions
 {
@@ -247,7 +247,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretExp
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPrimaryConnectionString
 {
@@ -268,7 +268,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPr
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPrimaryKey
 {
@@ -289,7 +289,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPr
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPrimaryKeyID
 {
@@ -310,7 +310,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPr
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPrimaryReadOnlyConnectionString
 {
@@ -331,7 +331,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPr
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPrimaryReadOnlyKey
 {
@@ -352,7 +352,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPr
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPrimaryReadOnlyKeyID
 {
@@ -373,7 +373,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsPr
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSecondaryConnectionString
 {
@@ -394,7 +394,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSe
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSecondaryKey
 {
@@ -415,7 +415,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSe
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSecondaryKeyID
 {
@@ -436,7 +436,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSe
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSecondaryReadOnlyConnectionString
 {
@@ -457,7 +457,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSe
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSecondaryReadOnlyKey
 {
@@ -478,7 +478,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSe
 /// Note: This is similar to: ConfigMapDestination in configmaps.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSecondaryReadOnlyKeyID
 {
@@ -495,7 +495,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecretsSe
 }
 
 /// <summary>Storage version of v20240601.ConfigurationStoreOperatorSecrets</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecrets
 {
@@ -607,7 +607,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpecSecrets
 /// Storage version of v20240601.ConfigurationStoreOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOperatorSpec
 {
@@ -634,7 +634,7 @@ public partial class V20240601storageConfigurationStoreSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecOwner
 {
@@ -650,7 +650,7 @@ public partial class V20240601storageConfigurationStoreSpecOwner
 /// Storage version of v20240601.Sku
 /// Describes a configuration store SKU.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpecSku
 {
@@ -666,7 +666,7 @@ public partial class V20240601storageConfigurationStoreSpecSku
 }
 
 /// <summary>Storage version of v20240601.ConfigurationStore_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreSpec
 {
@@ -756,7 +756,7 @@ public partial class V20240601storageConfigurationStoreSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusConditions
 {
@@ -805,7 +805,7 @@ public partial class V20240601storageConfigurationStoreStatusConditions
 /// Storage version of v20240601.DataPlaneProxyProperties_STATUS
 /// The data plane proxy settings for a configuration store.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusDataPlaneProxy
 {
@@ -827,7 +827,7 @@ public partial class V20240601storageConfigurationStoreStatusDataPlaneProxy
 /// Storage version of v20240601.KeyVaultProperties_STATUS
 /// Settings concerning key vault encryption for a configuration store.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusEncryptionKeyVaultProperties
 {
@@ -849,7 +849,7 @@ public partial class V20240601storageConfigurationStoreStatusEncryptionKeyVaultP
 /// Storage version of v20240601.EncryptionProperties_STATUS
 /// The encryption settings for a configuration store.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusEncryption
 {
@@ -872,7 +872,7 @@ public partial class V20240601storageConfigurationStoreStatusEncryption
 /// Storage version of v20240601.UserIdentity_STATUS
 /// A resource identity that is managed by the user of the service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusIdentityUserAssignedIdentities
 {
@@ -894,7 +894,7 @@ public partial class V20240601storageConfigurationStoreStatusIdentityUserAssigne
 /// Storage version of v20240601.ResourceIdentity_STATUS
 /// An identity that can be associated with a resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusIdentity
 {
@@ -922,7 +922,7 @@ public partial class V20240601storageConfigurationStoreStatusIdentity
 /// Storage version of v20240601.PrivateEndpoint_STATUS
 /// Private endpoint which a connection belongs to.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusPrivateEndpointConnectionsPrivateEndpoint
 {
@@ -941,7 +941,7 @@ public partial class V20240601storageConfigurationStoreStatusPrivateEndpointConn
 /// Storage version of v20240601.PrivateLinkServiceConnectionState_STATUS
 /// The state of a private link service connection.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusPrivateEndpointConnectionsPrivateLinkServiceConnectionState
 {
@@ -966,7 +966,7 @@ public partial class V20240601storageConfigurationStoreStatusPrivateEndpointConn
 /// Storage version of v20240601.PrivateEndpointConnectionReference_STATUS
 /// A reference to a related private endpoint connection.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusPrivateEndpointConnections
 {
@@ -1008,7 +1008,7 @@ public partial class V20240601storageConfigurationStoreStatusPrivateEndpointConn
 /// Storage version of v20240601.Sku_STATUS
 /// Describes a configuration store SKU.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusSku
 {
@@ -1027,7 +1027,7 @@ public partial class V20240601storageConfigurationStoreStatusSku
 /// Storage version of v20240601.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatusSystemData
 {
@@ -1062,7 +1062,7 @@ public partial class V20240601storageConfigurationStoreStatusSystemData
 /// The configuration store along with all resource properties. The Configuration Store will have all information to begin
 /// utilizing it.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20240601storageConfigurationStoreStatus
 {
@@ -1163,7 +1163,7 @@ public partial class V20240601storageConfigurationStoreStatus
 /// - Generated from: /appconfiguration/resource-manager/Microsoft.AppConfiguration/AppConfiguration/stable/2024-06-01/appconfiguration.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppConfiguration/configurationStores/{configStoreName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20240601storageConfigurationStore : IKubernetesObject<V1ObjectMeta>, ISpec<V20240601storageConfigurationStoreSpec?>, IStatus<V20240601storageConfigurationStoreStatus?>

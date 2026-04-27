@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.app.azure.com;
 /// - Generated from: /app/resource-manager/Microsoft.App/ContainerApps/stable/2025-01-01/AuthConfigs.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}/authConfigs/{authConfigName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20250101storageAuthConfigList : IKubernetesObject<V1ListMeta>, IItems<V1api20250101storageAuthConfig>
@@ -38,7 +38,7 @@ public partial class V1api20250101storageAuthConfigList : IKubernetesObject<V1Li
 
     /// <summary>List of V1api20250101storageAuthConfig objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20250101storageAuthConfig>? Items { get; set; }
+    public required IList<V1api20250101storageAuthConfig> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20250101storageAuthConfigList : IKubernetesObject<V1Li
 /// The configuration settings of the secrets references of encryption key and signing key for ContainerApp Service
 /// Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecEncryptionSettings
 {
@@ -69,7 +69,7 @@ public partial class V1api20250101storageAuthConfigSpecEncryptionSettings
 /// The configuration settings that determines the validation flow of users using ContainerApp Service
 /// Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecGlobalValidation
 {
@@ -94,7 +94,7 @@ public partial class V1api20250101storageAuthConfigSpecGlobalValidation
 /// Storage version of v1api20250101.ForwardProxy
 /// The configuration settings of a forward proxy used to make the requests.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecHttpSettingsForwardProxy
 {
@@ -119,7 +119,7 @@ public partial class V1api20250101storageAuthConfigSpecHttpSettingsForwardProxy
 /// Storage version of v1api20250101.HttpSettingsRoutes
 /// The configuration settings of the paths HTTP requests.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecHttpSettingsRoutes
 {
@@ -139,7 +139,7 @@ public partial class V1api20250101storageAuthConfigSpecHttpSettingsRoutes
 /// The configuration settings of the HTTP requests for authentication and authorization requests made against ContainerApp
 /// Service Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecHttpSettings
 {
@@ -172,7 +172,7 @@ public partial class V1api20250101storageAuthConfigSpecHttpSettings
 /// Storage version of v1api20250101.LoginScopes
 /// The configuration settings of the login flow, including the scopes that should be requested.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAppleLogin
 {
@@ -191,7 +191,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAppleLog
 /// Storage version of v1api20250101.AppleRegistration
 /// The configuration settings of the registration for the Apple provider
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAppleRegistration
 {
@@ -213,7 +213,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAppleReg
 /// Storage version of v1api20250101.Apple
 /// The configuration settings of the Apple provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersApple
 {
@@ -246,7 +246,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersApple
 /// Storage version of v1api20250101.AzureActiveDirectoryLogin
 /// The configuration settings of the Azure Active Directory login flow.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureActiveDirectoryLogin
 {
@@ -268,7 +268,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureAct
 /// Storage version of v1api20250101.AzureActiveDirectoryRegistration
 /// The configuration settings of the Azure Active Directory app registration.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureActiveDirectoryRegistration
 {
@@ -302,7 +302,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureAct
 /// Storage version of v1api20250101.AllowedPrincipals
 /// The configuration settings of the Azure Active Directory allowed principals.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureActiveDirectoryValidationDefaultAuthorizationPolicyAllowedPrincipals
 {
@@ -324,7 +324,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureAct
 /// Storage version of v1api20250101.DefaultAuthorizationPolicy
 /// The configuration settings of the Azure Active Directory default authorization policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureActiveDirectoryValidationDefaultAuthorizationPolicy
 {
@@ -350,7 +350,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureAct
 /// Storage version of v1api20250101.JwtClaimChecks
 /// The configuration settings of the checks that should be made while validating the JWT Claims.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureActiveDirectoryValidationJwtClaimChecks
 {
@@ -372,7 +372,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureAct
 /// Storage version of v1api20250101.AzureActiveDirectoryValidation
 /// The configuration settings of the Azure Active Directory token validation flow.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureActiveDirectoryValidation
 {
@@ -405,7 +405,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureAct
 /// Storage version of v1api20250101.AzureActiveDirectory
 /// The configuration settings of the Azure Active directory provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureActiveDirectory
 {
@@ -448,7 +448,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureAct
 /// Storage version of v1api20250101.AzureStaticWebAppsRegistration
 /// The configuration settings of the registration for the Azure Static Web Apps provider
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureStaticWebAppsRegistration
 {
@@ -467,7 +467,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureSta
 /// Storage version of v1api20250101.AzureStaticWebApps
 /// The configuration settings of the Azure Static Web Apps provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureStaticWebApps
 {
@@ -493,7 +493,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersAzureSta
 /// Storage version of v1api20250101.OpenIdConnectLogin
 /// The configuration settings of the login flow of the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOpenIdConnectProvidersLogin
 {
@@ -515,7 +515,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOp
 /// Storage version of v1api20250101.OpenIdConnectClientCredential
 /// The authentication client credentials of the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOpenIdConnectProvidersRegistrationClientCredential
 {
@@ -537,7 +537,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOp
 /// Storage version of v1api20250101.OpenIdConnectConfig
 /// The configuration settings of the endpoints used for the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOpenIdConnectProvidersRegistrationOpenIdConnectConfiguration
 {
@@ -568,7 +568,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOp
 /// Storage version of v1api20250101.OpenIdConnectRegistration
 /// The configuration settings of the app registration for the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOpenIdConnectProvidersRegistration
 {
@@ -601,7 +601,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOp
 /// Storage version of v1api20250101.CustomOpenIdConnectProvider
 /// The configuration settings of the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOpenIdConnectProviders
 {
@@ -634,7 +634,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersCustomOp
 /// Storage version of v1api20250101.LoginScopes
 /// The configuration settings of the login flow, including the scopes that should be requested.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersFacebookLogin
 {
@@ -653,7 +653,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersFacebook
 /// Storage version of v1api20250101.AppRegistration
 /// The configuration settings of the app registration for providers that have app ids and app secrets
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersFacebookRegistration
 {
@@ -675,7 +675,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersFacebook
 /// Storage version of v1api20250101.Facebook
 /// The configuration settings of the Facebook provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersFacebook
 {
@@ -711,7 +711,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersFacebook
 /// Storage version of v1api20250101.LoginScopes
 /// The configuration settings of the login flow, including the scopes that should be requested.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGitHubLogin
 {
@@ -730,7 +730,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGitHubLo
 /// Storage version of v1api20250101.ClientRegistration
 /// The configuration settings of the app registration for providers that have client ids and client secrets
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGitHubRegistration
 {
@@ -752,7 +752,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGitHubRe
 /// Storage version of v1api20250101.GitHub
 /// The configuration settings of the GitHub provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGitHub
 {
@@ -785,7 +785,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGitHub
 /// Storage version of v1api20250101.LoginScopes
 /// The configuration settings of the login flow, including the scopes that should be requested.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGoogleLogin
 {
@@ -804,7 +804,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGoogleLo
 /// Storage version of v1api20250101.ClientRegistration
 /// The configuration settings of the app registration for providers that have client ids and client secrets
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGoogleRegistration
 {
@@ -826,7 +826,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGoogleRe
 /// Storage version of v1api20250101.AllowedAudiencesValidation
 /// The configuration settings of the Allowed Audiences validation flow.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGoogleValidation
 {
@@ -845,7 +845,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGoogleVa
 /// Storage version of v1api20250101.Google
 /// The configuration settings of the Google provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGoogle
 {
@@ -885,7 +885,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersGoogle
 /// Storage version of v1api20250101.TwitterRegistration
 /// The configuration settings of the app registration for the Twitter provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersTwitterRegistration
 {
@@ -907,7 +907,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersTwitterR
 /// Storage version of v1api20250101.Twitter
 /// The configuration settings of the Twitter provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProvidersTwitter
 {
@@ -934,7 +934,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProvidersTwitter
 /// The configuration settings of each of the identity providers used to configure ContainerApp Service
 /// Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecIdentityProviders
 {
@@ -1002,7 +1002,7 @@ public partial class V1api20250101storageAuthConfigSpecIdentityProviders
 /// Storage version of v1api20250101.CookieExpiration
 /// The configuration settings of the session cookie&apos;s expiration.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecLoginCookieExpiration
 {
@@ -1024,7 +1024,7 @@ public partial class V1api20250101storageAuthConfigSpecLoginCookieExpiration
 /// Storage version of v1api20250101.Nonce
 /// The configuration settings of the nonce used in the login flow.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecLoginNonce
 {
@@ -1046,7 +1046,7 @@ public partial class V1api20250101storageAuthConfigSpecLoginNonce
 /// Storage version of v1api20250101.LoginRoutes
 /// The routes that specify the endpoints used for login and logout requests.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecLoginRoutes
 {
@@ -1065,7 +1065,7 @@ public partial class V1api20250101storageAuthConfigSpecLoginRoutes
 /// Storage version of v1api20250101.BlobStorageTokenStore
 /// The configuration settings of the storage of the tokens if blob storage is used.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecLoginTokenStoreAzureBlobStorage
 {
@@ -1084,7 +1084,7 @@ public partial class V1api20250101storageAuthConfigSpecLoginTokenStoreAzureBlobS
 /// Storage version of v1api20250101.TokenStore
 /// The configuration settings of the token store.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecLoginTokenStore
 {
@@ -1113,7 +1113,7 @@ public partial class V1api20250101storageAuthConfigSpecLoginTokenStore
 /// Storage version of v1api20250101.Login
 /// The configuration settings of the login flow of users using ContainerApp Service Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecLogin
 {
@@ -1164,7 +1164,7 @@ public partial class V1api20250101storageAuthConfigSpecLogin
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecOperatorSpecConfigMapExpressions
 {
@@ -1197,7 +1197,7 @@ public partial class V1api20250101storageAuthConfigSpecOperatorSpecConfigMapExpr
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecOperatorSpecSecretExpressions
 {
@@ -1229,7 +1229,7 @@ public partial class V1api20250101storageAuthConfigSpecOperatorSpecSecretExpress
 /// Storage version of v1api20250101.AuthConfigOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecOperatorSpec
 {
@@ -1252,7 +1252,7 @@ public partial class V1api20250101storageAuthConfigSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a app.azure.com/ContainerApp resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecOwner
 {
@@ -1268,7 +1268,7 @@ public partial class V1api20250101storageAuthConfigSpecOwner
 /// Storage version of v1api20250101.AuthPlatform
 /// The configuration settings of the platform of ContainerApp Service Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpecPlatform
 {
@@ -1287,7 +1287,7 @@ public partial class V1api20250101storageAuthConfigSpecPlatform
 }
 
 /// <summary>Storage version of v1api20250101.AuthConfig_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigSpec
 {
@@ -1371,7 +1371,7 @@ public partial class V1api20250101storageAuthConfigSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusConditions
 {
@@ -1421,7 +1421,7 @@ public partial class V1api20250101storageAuthConfigStatusConditions
 /// The configuration settings of the secrets references of encryption key and signing key for ContainerApp Service
 /// Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusEncryptionSettings
 {
@@ -1444,7 +1444,7 @@ public partial class V1api20250101storageAuthConfigStatusEncryptionSettings
 /// The configuration settings that determines the validation flow of users using ContainerApp Service
 /// Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusGlobalValidation
 {
@@ -1469,7 +1469,7 @@ public partial class V1api20250101storageAuthConfigStatusGlobalValidation
 /// Storage version of v1api20250101.ForwardProxy_STATUS
 /// The configuration settings of a forward proxy used to make the requests.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusHttpSettingsForwardProxy
 {
@@ -1494,7 +1494,7 @@ public partial class V1api20250101storageAuthConfigStatusHttpSettingsForwardProx
 /// Storage version of v1api20250101.HttpSettingsRoutes_STATUS
 /// The configuration settings of the paths HTTP requests.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusHttpSettingsRoutes
 {
@@ -1514,7 +1514,7 @@ public partial class V1api20250101storageAuthConfigStatusHttpSettingsRoutes
 /// The configuration settings of the HTTP requests for authentication and authorization requests made against ContainerApp
 /// Service Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusHttpSettings
 {
@@ -1547,7 +1547,7 @@ public partial class V1api20250101storageAuthConfigStatusHttpSettings
 /// Storage version of v1api20250101.LoginScopes_STATUS
 /// The configuration settings of the login flow, including the scopes that should be requested.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAppleLogin
 {
@@ -1566,7 +1566,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAppleL
 /// Storage version of v1api20250101.AppleRegistration_STATUS
 /// The configuration settings of the registration for the Apple provider
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAppleRegistration
 {
@@ -1588,7 +1588,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAppleR
 /// Storage version of v1api20250101.Apple_STATUS
 /// The configuration settings of the Apple provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersApple
 {
@@ -1621,7 +1621,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersApple
 /// Storage version of v1api20250101.AzureActiveDirectoryLogin_STATUS
 /// The configuration settings of the Azure Active Directory login flow.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureActiveDirectoryLogin
 {
@@ -1643,7 +1643,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureA
 /// Storage version of v1api20250101.AzureActiveDirectoryRegistration_STATUS
 /// The configuration settings of the Azure Active Directory app registration.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureActiveDirectoryRegistration
 {
@@ -1677,7 +1677,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureA
 /// Storage version of v1api20250101.AllowedPrincipals_STATUS
 /// The configuration settings of the Azure Active Directory allowed principals.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureActiveDirectoryValidationDefaultAuthorizationPolicyAllowedPrincipals
 {
@@ -1699,7 +1699,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureA
 /// Storage version of v1api20250101.DefaultAuthorizationPolicy_STATUS
 /// The configuration settings of the Azure Active Directory default authorization policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureActiveDirectoryValidationDefaultAuthorizationPolicy
 {
@@ -1725,7 +1725,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureA
 /// Storage version of v1api20250101.JwtClaimChecks_STATUS
 /// The configuration settings of the checks that should be made while validating the JWT Claims.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureActiveDirectoryValidationJwtClaimChecks
 {
@@ -1747,7 +1747,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureA
 /// Storage version of v1api20250101.AzureActiveDirectoryValidation_STATUS
 /// The configuration settings of the Azure Active Directory token validation flow.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureActiveDirectoryValidation
 {
@@ -1780,7 +1780,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureA
 /// Storage version of v1api20250101.AzureActiveDirectory_STATUS
 /// The configuration settings of the Azure Active directory provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureActiveDirectory
 {
@@ -1823,7 +1823,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureA
 /// Storage version of v1api20250101.AzureStaticWebAppsRegistration_STATUS
 /// The configuration settings of the registration for the Azure Static Web Apps provider
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureStaticWebAppsRegistration
 {
@@ -1842,7 +1842,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureS
 /// Storage version of v1api20250101.AzureStaticWebApps_STATUS
 /// The configuration settings of the Azure Static Web Apps provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureStaticWebApps
 {
@@ -1868,7 +1868,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersAzureS
 /// Storage version of v1api20250101.OpenIdConnectLogin_STATUS
 /// The configuration settings of the login flow of the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustomOpenIdConnectProvidersLogin
 {
@@ -1890,7 +1890,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustom
 /// Storage version of v1api20250101.OpenIdConnectClientCredential_STATUS
 /// The authentication client credentials of the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustomOpenIdConnectProvidersRegistrationClientCredential
 {
@@ -1912,7 +1912,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustom
 /// Storage version of v1api20250101.OpenIdConnectConfig_STATUS
 /// The configuration settings of the endpoints used for the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustomOpenIdConnectProvidersRegistrationOpenIdConnectConfiguration
 {
@@ -1943,7 +1943,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustom
 /// Storage version of v1api20250101.OpenIdConnectRegistration_STATUS
 /// The configuration settings of the app registration for the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustomOpenIdConnectProvidersRegistration
 {
@@ -1976,7 +1976,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustom
 /// Storage version of v1api20250101.CustomOpenIdConnectProvider_STATUS
 /// The configuration settings of the custom Open ID Connect provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustomOpenIdConnectProviders
 {
@@ -2009,7 +2009,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersCustom
 /// Storage version of v1api20250101.LoginScopes_STATUS
 /// The configuration settings of the login flow, including the scopes that should be requested.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersFacebookLogin
 {
@@ -2028,7 +2028,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersFacebo
 /// Storage version of v1api20250101.AppRegistration_STATUS
 /// The configuration settings of the app registration for providers that have app ids and app secrets
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersFacebookRegistration
 {
@@ -2050,7 +2050,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersFacebo
 /// Storage version of v1api20250101.Facebook_STATUS
 /// The configuration settings of the Facebook provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersFacebook
 {
@@ -2086,7 +2086,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersFacebo
 /// Storage version of v1api20250101.LoginScopes_STATUS
 /// The configuration settings of the login flow, including the scopes that should be requested.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGitHubLogin
 {
@@ -2105,7 +2105,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGitHub
 /// Storage version of v1api20250101.ClientRegistration_STATUS
 /// The configuration settings of the app registration for providers that have client ids and client secrets
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGitHubRegistration
 {
@@ -2127,7 +2127,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGitHub
 /// Storage version of v1api20250101.GitHub_STATUS
 /// The configuration settings of the GitHub provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGitHub
 {
@@ -2160,7 +2160,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGitHub
 /// Storage version of v1api20250101.LoginScopes_STATUS
 /// The configuration settings of the login flow, including the scopes that should be requested.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGoogleLogin
 {
@@ -2179,7 +2179,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGoogle
 /// Storage version of v1api20250101.ClientRegistration_STATUS
 /// The configuration settings of the app registration for providers that have client ids and client secrets
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGoogleRegistration
 {
@@ -2201,7 +2201,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGoogle
 /// Storage version of v1api20250101.AllowedAudiencesValidation_STATUS
 /// The configuration settings of the Allowed Audiences validation flow.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGoogleValidation
 {
@@ -2220,7 +2220,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGoogle
 /// Storage version of v1api20250101.Google_STATUS
 /// The configuration settings of the Google provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGoogle
 {
@@ -2260,7 +2260,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersGoogle
 /// Storage version of v1api20250101.TwitterRegistration_STATUS
 /// The configuration settings of the app registration for the Twitter provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersTwitterRegistration
 {
@@ -2282,7 +2282,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersTwitte
 /// Storage version of v1api20250101.Twitter_STATUS
 /// The configuration settings of the Twitter provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProvidersTwitter
 {
@@ -2309,7 +2309,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProvidersTwitte
 /// The configuration settings of each of the identity providers used to configure ContainerApp Service
 /// Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusIdentityProviders
 {
@@ -2377,7 +2377,7 @@ public partial class V1api20250101storageAuthConfigStatusIdentityProviders
 /// Storage version of v1api20250101.CookieExpiration_STATUS
 /// The configuration settings of the session cookie&apos;s expiration.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusLoginCookieExpiration
 {
@@ -2399,7 +2399,7 @@ public partial class V1api20250101storageAuthConfigStatusLoginCookieExpiration
 /// Storage version of v1api20250101.Nonce_STATUS
 /// The configuration settings of the nonce used in the login flow.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusLoginNonce
 {
@@ -2421,7 +2421,7 @@ public partial class V1api20250101storageAuthConfigStatusLoginNonce
 /// Storage version of v1api20250101.LoginRoutes_STATUS
 /// The routes that specify the endpoints used for login and logout requests.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusLoginRoutes
 {
@@ -2440,7 +2440,7 @@ public partial class V1api20250101storageAuthConfigStatusLoginRoutes
 /// Storage version of v1api20250101.BlobStorageTokenStore_STATUS
 /// The configuration settings of the storage of the tokens if blob storage is used.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusLoginTokenStoreAzureBlobStorage
 {
@@ -2459,7 +2459,7 @@ public partial class V1api20250101storageAuthConfigStatusLoginTokenStoreAzureBlo
 /// Storage version of v1api20250101.TokenStore_STATUS
 /// The configuration settings of the token store.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusLoginTokenStore
 {
@@ -2488,7 +2488,7 @@ public partial class V1api20250101storageAuthConfigStatusLoginTokenStore
 /// Storage version of v1api20250101.Login_STATUS
 /// The configuration settings of the login flow of users using ContainerApp Service Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusLogin
 {
@@ -2538,7 +2538,7 @@ public partial class V1api20250101storageAuthConfigStatusLogin
 /// Storage version of v1api20250101.AuthPlatform_STATUS
 /// The configuration settings of the platform of ContainerApp Service Authentication/Authorization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusPlatform
 {
@@ -2560,7 +2560,7 @@ public partial class V1api20250101storageAuthConfigStatusPlatform
 /// Storage version of v1api20250101.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatusSystemData
 {
@@ -2591,7 +2591,7 @@ public partial class V1api20250101storageAuthConfigStatusSystemData
 }
 
 /// <summary>Storage version of v1api20250101.AuthConfig_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250101storageAuthConfigStatus
 {
@@ -2674,7 +2674,7 @@ public partial class V1api20250101storageAuthConfigStatus
 /// - Generated from: /app/resource-manager/Microsoft.App/ContainerApps/stable/2025-01-01/AuthConfigs.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.App/containerApps/{containerAppName}/authConfigs/{authConfigName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20250101storageAuthConfig : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20250101storageAuthConfigSpec?>, IStatus<V1api20250101storageAuthConfigStatus?>

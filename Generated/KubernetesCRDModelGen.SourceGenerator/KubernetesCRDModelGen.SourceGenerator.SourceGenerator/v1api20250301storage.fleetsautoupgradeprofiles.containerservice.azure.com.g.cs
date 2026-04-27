@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.containerservice.azure.com;
 /// - Generated from: /containerservice/resource-manager/Microsoft.ContainerService/fleet/stable/2025-03-01/fleets.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/fleets/{fleetName}/autoUpgradeProfiles/{autoUpgradeProfileName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileList : IKubernetesObject<V1ListMeta>, IItems<V1api20250301storageFleetsAutoUpgradeProfile>
@@ -38,14 +38,14 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileList : IKuberne
 
     /// <summary>List of V1api20250301storageFleetsAutoUpgradeProfile objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20250301storageFleetsAutoUpgradeProfile>? Items { get; set; }
+    public required IList<V1api20250301storageFleetsAutoUpgradeProfile> Items { get; set; }
 }
 
 /// <summary>
 /// Storage version of v1api20250301.AutoUpgradeNodeImageSelection
 /// The node image upgrade to be applied to the target clusters in auto upgrade.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecNodeImageSelection
 {
@@ -65,7 +65,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecNodeImageSe
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecOperatorSpecConfigMapExpressions
 {
@@ -98,7 +98,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecOperatorSpe
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecOperatorSpecSecretExpressions
 {
@@ -130,7 +130,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecOperatorSpe
 /// Storage version of v1api20250301.FleetsAutoUpgradeProfileOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecOperatorSpec
 {
@@ -153,7 +153,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecOperatorSpe
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a containerservice.azure.com/Fleet resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecOwner
 {
@@ -169,7 +169,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecOwner
 /// UpdateStrategyReference: The resource id of the UpdateStrategy resource to reference. If not specified, the auto upgrade
 /// will run on all clusters which are members of the fleet.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecUpdateStrategyReference
 {
@@ -195,7 +195,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileSpecUpdateStrat
 }
 
 /// <summary>Storage version of v1api20250301.FleetsAutoUpgradeProfile_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileSpec
 {
@@ -256,7 +256,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileSpec
 /// Storage version of v1api20250301.ErrorAdditionalInfo_STATUS
 /// The resource management error additional info.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgradeProfileStatusLastTriggerErrorAdditionalInfo
 {
@@ -278,7 +278,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgra
 /// Storage version of v1api20250301.ErrorAdditionalInfo_STATUS
 /// The resource management error additional info.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgradeProfileStatusLastTriggerErrorDetailsAdditionalInfo
 {
@@ -297,7 +297,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgra
 }
 
 /// <summary>Storage version of v1api20250301.ErrorDetail_STATUS_Unrolled</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgradeProfileStatusLastTriggerErrorDetails
 {
@@ -325,7 +325,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgra
 /// Storage version of v1api20250301.ErrorDetail_STATUS
 /// The error detail.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgradeProfileStatusLastTriggerError
 {
@@ -356,7 +356,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgra
 /// Storage version of v1api20250301.AutoUpgradeProfileStatus_STATUS
 /// AutoUpgradeProfileStatus is the status of an auto upgrade profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgradeProfileStatus
 {
@@ -385,7 +385,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusAutoUpgra
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusConditions
 {
@@ -434,7 +434,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusCondition
 /// Storage version of v1api20250301.AutoUpgradeNodeImageSelection_STATUS
 /// The node image upgrade to be applied to the target clusters in auto upgrade.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusNodeImageSelection
 {
@@ -453,7 +453,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusNodeImage
 /// Storage version of v1api20250301.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusSystemData
 {
@@ -484,7 +484,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatusSystemDat
 }
 
 /// <summary>Storage version of v1api20250301.FleetsAutoUpgradeProfile_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250301storageFleetsAutoUpgradeProfileStatus
 {
@@ -550,7 +550,7 @@ public partial class V1api20250301storageFleetsAutoUpgradeProfileStatus
 /// - Generated from: /containerservice/resource-manager/Microsoft.ContainerService/fleet/stable/2025-03-01/fleets.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/fleets/{fleetName}/autoUpgradeProfiles/{autoUpgradeProfileName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20250301storageFleetsAutoUpgradeProfile : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20250301storageFleetsAutoUpgradeProfileSpec?>, IStatus<V1api20250301storageFleetsAutoUpgradeProfileStatus?>

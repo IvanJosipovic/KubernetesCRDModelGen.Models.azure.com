@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.storage.azure.com;
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2025-06-01/openapi.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250601StorageAccountsBlobServicesContainerList : IKubernetesObject<V1ListMeta>, IItems<V20250601StorageAccountsBlobServicesContainer>
@@ -37,14 +37,14 @@ public partial class V20250601StorageAccountsBlobServicesContainerList : IKubern
 
     /// <summary>List of V20250601StorageAccountsBlobServicesContainer objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20250601StorageAccountsBlobServicesContainer>? Items { get; set; }
+    public required IList<V20250601StorageAccountsBlobServicesContainer> Items { get; set; }
 }
 
 /// <summary>
 /// ImmutableStorageWithVersioning: The object level immutability property of the container. The property is immutable and
 /// can only be set to true at the container creation time. Existing containers must undergo a migration process.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerSpecImmutableStorageWithVersioning
 {
@@ -58,7 +58,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerSpecImmutableS
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerSpecOperatorSpecConfigMapExpressions
 {
@@ -91,7 +91,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerSpecOperatorSp
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerSpecOperatorSpecSecretExpressions
 {
@@ -123,7 +123,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerSpecOperatorSp
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerSpecOperatorSpec
 {
@@ -141,7 +141,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerSpecOperatorSp
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a storage.azure.com/StorageAccountsBlobService resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerSpecOwner
 {
@@ -154,7 +154,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerSpecOwner
 }
 
 /// <summary>PublicAccess: Specifies whether data in the container may be accessed publicly and the level of access.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20250601StorageAccountsBlobServicesContainerSpecPublicAccessEnum>))]
 public enum V20250601StorageAccountsBlobServicesContainerSpecPublicAccessEnum
 {
@@ -166,7 +166,7 @@ public enum V20250601StorageAccountsBlobServicesContainerSpecPublicAccessEnum
     None
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerSpec
 {
@@ -225,7 +225,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatusConditions
 {
@@ -271,7 +271,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatusConditio
 }
 
 /// <summary>An update history of the ImmutabilityPolicy of a blob container.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatusImmutabilityPolicyUpdateHistory
 {
@@ -323,7 +323,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatusImmutabi
 }
 
 /// <summary>ImmutabilityPolicy: The ImmutabilityPolicy property of the container.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatusImmutabilityPolicy
 {
@@ -370,7 +370,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatusImmutabi
 /// ImmutableStorageWithVersioning: The object level immutability property of the container. The property is immutable and
 /// can only be set to true at the container creation time. Existing containers must undergo a migration process.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatusImmutableStorageWithVersioning
 {
@@ -388,7 +388,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatusImmutabl
 }
 
 /// <summary>ProtectedAppendWritesHistory: Protected append blob writes history.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatusLegalHoldProtectedAppendWritesHistory
 {
@@ -405,7 +405,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatusLegalHol
 }
 
 /// <summary>A tag of the LegalHold of a blob container.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatusLegalHoldTags
 {
@@ -431,7 +431,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatusLegalHol
 }
 
 /// <summary>LegalHold: The LegalHold property of the container.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatusLegalHold
 {
@@ -453,7 +453,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatusLegalHol
 }
 
 /// <summary>SystemData: Azure Resource Manager metadata containing createdBy and modifiedBy information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatusSystemData
 {
@@ -482,7 +482,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatusSystemDa
     public string? LastModifiedByType { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250601StorageAccountsBlobServicesContainerStatus
 {
@@ -609,7 +609,7 @@ public partial class V20250601StorageAccountsBlobServicesContainerStatus
 /// - Generated from: /storage/resource-manager/Microsoft.Storage/stable/2025-06-01/openapi.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Storage/storageAccounts/{accountName}/blobServices/default/containers/{containerName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250601StorageAccountsBlobServicesContainer : IKubernetesObject<V1ObjectMeta>, ISpec<V20250601StorageAccountsBlobServicesContainerSpec?>, IStatus<V20250601StorageAccountsBlobServicesContainerStatus?>

@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.devices.azure.com;
 /// - Generated from: /iothub/resource-manager/Microsoft.Devices/IoTHub/stable/2021-07-02/iothub.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210702IotHubList : IKubernetesObject<V1ListMeta>, IItems<V1api20210702IotHub>
@@ -37,14 +37,14 @@ public partial class V1api20210702IotHubList : IKubernetesObject<V1ListMeta>, II
 
     /// <summary>List of V1api20210702IotHub objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20210702IotHub>? Items { get; set; }
+    public required IList<V1api20210702IotHub> Items { get; set; }
 }
 
 /// <summary>
 /// Type: The type of identity used for the resource. The type &apos;SystemAssigned, UserAssigned&apos; includes both an implicitly
 /// created identity and a set of user assigned identities. The type &apos;None&apos; will remove any identities from the service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecIdentityTypeEnum>))]
 public enum V1api20210702IotHubSpecIdentityTypeEnum
 {
@@ -59,7 +59,7 @@ public enum V1api20210702IotHubSpecIdentityTypeEnum
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecIdentityUserAssignedIdentitiesReference
 {
@@ -85,7 +85,7 @@ public partial class V1api20210702IotHubSpecIdentityUserAssignedIdentitiesRefere
 }
 
 /// <summary>Information about the user assigned identity for the resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecIdentityUserAssignedIdentities
 {
@@ -95,7 +95,7 @@ public partial class V1api20210702IotHubSpecIdentityUserAssignedIdentities
 }
 
 /// <summary>Identity: The managed identities for the IotHub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecIdentity
 {
@@ -115,7 +115,7 @@ public partial class V1api20210702IotHubSpecIdentity
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecConfigMapExpressions
 {
@@ -148,7 +148,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecConfigMapExpressions
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretExpressions
 {
@@ -180,7 +180,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretExpressions
 /// DevicePrimaryKey: indicates where the DevicePrimaryKey secret should be placed. If omitted, the secret will not be
 /// retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsDevicePrimaryKey
 {
@@ -200,7 +200,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsDevicePrimaryKey
 /// DeviceSecondaryKey: indicates where the DeviceSecondaryKey secret should be placed. If omitted, the secret will not be
 /// retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsDeviceSecondaryKey
 {
@@ -220,7 +220,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsDeviceSecondaryKe
 /// IotHubOwnerPrimaryKey: indicates where the IotHubOwnerPrimaryKey secret should be placed. If omitted, the secret will
 /// not be retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsIotHubOwnerPrimaryKey
 {
@@ -240,7 +240,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsIotHubOwnerPrimar
 /// IotHubOwnerSecondaryKey: indicates where the IotHubOwnerSecondaryKey secret should be placed. If omitted, the secret
 /// will not be retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsIotHubOwnerSecondaryKey
 {
@@ -260,7 +260,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsIotHubOwnerSecond
 /// RegistryReadPrimaryKey: indicates where the RegistryReadPrimaryKey secret should be placed. If omitted, the secret will
 /// not be retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsRegistryReadPrimaryKey
 {
@@ -280,7 +280,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsRegistryReadPrima
 /// RegistryReadSecondaryKey: indicates where the RegistryReadSecondaryKey secret should be placed. If omitted, the secret
 /// will not be retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsRegistryReadSecondaryKey
 {
@@ -300,7 +300,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsRegistryReadSecon
 /// RegistryReadWritePrimaryKey: indicates where the RegistryReadWritePrimaryKey secret should be placed. If omitted, the
 /// secret will not be retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsRegistryReadWritePrimaryKey
 {
@@ -320,7 +320,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsRegistryReadWrite
 /// RegistryReadWriteSecondaryKey: indicates where the RegistryReadWriteSecondaryKey secret should be placed. If omitted,
 /// the secret will not be retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsRegistryReadWriteSecondaryKey
 {
@@ -340,7 +340,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsRegistryReadWrite
 /// ServicePrimaryKey: indicates where the ServicePrimaryKey secret should be placed. If omitted, the secret will not be
 /// retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsServicePrimaryKey
 {
@@ -360,7 +360,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsServicePrimaryKey
 /// ServiceSecondaryKey: indicates where the ServiceSecondaryKey secret should be placed. If omitted, the secret will not be
 /// retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecretsServiceSecondaryKey
 {
@@ -377,7 +377,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecretsServiceSecondaryK
 }
 
 /// <summary>Secrets: configures where to place Azure generated secrets.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpecSecrets
 {
@@ -456,7 +456,7 @@ public partial class V1api20210702IotHubSpecOperatorSpecSecrets
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOperatorSpec
 {
@@ -478,7 +478,7 @@ public partial class V1api20210702IotHubSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecOwner
 {
@@ -491,7 +491,7 @@ public partial class V1api20210702IotHubSpecOwner
 }
 
 /// <summary>Rights: The permissions assigned to the shared access policy.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesAuthorizationPoliciesRightsEnum>))]
 public enum V1api20210702IotHubSpecPropertiesAuthorizationPoliciesRightsEnum
 {
@@ -528,7 +528,7 @@ public enum V1api20210702IotHubSpecPropertiesAuthorizationPoliciesRightsEnum
 }
 
 /// <summary>The properties of an IoT hub shared access policy.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesAuthorizationPolicies
 {
@@ -542,7 +542,7 @@ public partial class V1api20210702IotHubSpecPropertiesAuthorizationPolicies
 }
 
 /// <summary>Feedback: The properties of the feedback queue for cloud-to-device messages.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesCloudToDeviceFeedback
 {
@@ -569,7 +569,7 @@ public partial class V1api20210702IotHubSpecPropertiesCloudToDeviceFeedback
 }
 
 /// <summary>CloudToDevice: The IoT hub cloud-to-device messaging properties.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesCloudToDevice
 {
@@ -593,7 +593,7 @@ public partial class V1api20210702IotHubSpecPropertiesCloudToDevice
 }
 
 /// <summary>The properties of the provisioned Event Hub-compatible endpoint used by the IoT hub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesEventHubEndpoints
 {
@@ -613,7 +613,7 @@ public partial class V1api20210702IotHubSpecPropertiesEventHubEndpoints
 }
 
 /// <summary>Features: The capabilities and features enabled for the IoT hub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesFeaturesEnum>))]
 public enum V1api20210702IotHubSpecPropertiesFeaturesEnum
 {
@@ -624,7 +624,7 @@ public enum V1api20210702IotHubSpecPropertiesFeaturesEnum
 }
 
 /// <summary>Action: The desired action for requests captured by this rule.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesIpFilterRulesActionEnum>))]
 public enum V1api20210702IotHubSpecPropertiesIpFilterRulesActionEnum
 {
@@ -635,7 +635,7 @@ public enum V1api20210702IotHubSpecPropertiesIpFilterRulesActionEnum
 }
 
 /// <summary>The IP filter rules for the IoT hub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesIpFilterRules
 {
@@ -653,7 +653,7 @@ public partial class V1api20210702IotHubSpecPropertiesIpFilterRules
 }
 
 /// <summary>The properties of the messaging endpoints used by this IoT hub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesMessagingEndpoints
 {
@@ -677,7 +677,7 @@ public partial class V1api20210702IotHubSpecPropertiesMessagingEndpoints
 }
 
 /// <summary>DefaultAction: Default Action for Network Rule Set</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesNetworkRuleSetsDefaultActionEnum>))]
 public enum V1api20210702IotHubSpecPropertiesNetworkRuleSetsDefaultActionEnum
 {
@@ -688,7 +688,7 @@ public enum V1api20210702IotHubSpecPropertiesNetworkRuleSetsDefaultActionEnum
 }
 
 /// <summary>Action: IP Filter Action</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesNetworkRuleSetsIpRulesActionEnum>))]
 public enum V1api20210702IotHubSpecPropertiesNetworkRuleSetsIpRulesActionEnum
 {
@@ -697,7 +697,7 @@ public enum V1api20210702IotHubSpecPropertiesNetworkRuleSetsIpRulesActionEnum
 }
 
 /// <summary>IP Rule to be applied as part of Network Rule Set</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesNetworkRuleSetsIpRules
 {
@@ -715,7 +715,7 @@ public partial class V1api20210702IotHubSpecPropertiesNetworkRuleSetsIpRules
 }
 
 /// <summary>NetworkRuleSets: Network Rule Set Properties of IotHub</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesNetworkRuleSets
 {
@@ -733,7 +733,7 @@ public partial class V1api20210702IotHubSpecPropertiesNetworkRuleSets
 }
 
 /// <summary>PublicNetworkAccess: Whether requests from Public Network are allowed</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesPublicNetworkAccessEnum>))]
 public enum V1api20210702IotHubSpecPropertiesPublicNetworkAccessEnum
 {
@@ -744,7 +744,7 @@ public enum V1api20210702IotHubSpecPropertiesPublicNetworkAccessEnum
 }
 
 /// <summary>AuthenticationType: Method used to authenticate against the event hub endpoint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsAuthenticationTypeEnum>))]
 public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsAuthenticationTypeEnum
 {
@@ -755,7 +755,7 @@ public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsAuthentica
 }
 
 /// <summary>ConnectionString: The connection string of the event hub endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsConnectionString
 {
@@ -772,7 +772,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsC
 }
 
 /// <summary>Identity: Managed identity properties of routing event hub endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsIdentity
 {
@@ -782,7 +782,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsI
 }
 
 /// <summary>Reference: Id of the event hub endpoint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsReference
 {
@@ -808,7 +808,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubsR
 }
 
 /// <summary>The properties related to an event hub endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubs
 {
@@ -854,7 +854,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsEventHubs
 }
 
 /// <summary>AuthenticationType: Method used to authenticate against the service bus queue endpoint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusQueuesAuthenticationTypeEnum>))]
 public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusQueuesAuthenticationTypeEnum
 {
@@ -865,7 +865,7 @@ public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusQueuesAut
 }
 
 /// <summary>ConnectionString: The connection string of the service bus queue endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusQueuesConnectionString
 {
@@ -882,7 +882,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBus
 }
 
 /// <summary>Identity: Managed identity properties of routing service bus queue endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusQueuesIdentity
 {
@@ -892,7 +892,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBus
 }
 
 /// <summary>Reference: Id of the service bus queue endpoint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusQueuesReference
 {
@@ -918,7 +918,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBus
 }
 
 /// <summary>The properties related to service bus queue endpoint types.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusQueues
 {
@@ -964,7 +964,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBus
 }
 
 /// <summary>AuthenticationType: Method used to authenticate against the service bus topic endpoint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusTopicsAuthenticationTypeEnum>))]
 public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusTopicsAuthenticationTypeEnum
 {
@@ -975,7 +975,7 @@ public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusTopicsAut
 }
 
 /// <summary>ConnectionString: The connection string of the service bus topic endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusTopicsConnectionString
 {
@@ -992,7 +992,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBus
 }
 
 /// <summary>Identity: Managed identity properties of routing service bus topic endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusTopicsIdentity
 {
@@ -1002,7 +1002,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBus
 }
 
 /// <summary>Reference: Id of the service bus topic endpoint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusTopicsReference
 {
@@ -1028,7 +1028,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBus
 }
 
 /// <summary>The properties related to service bus topic endpoint types.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBusTopics
 {
@@ -1074,7 +1074,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsServiceBus
 }
 
 /// <summary>AuthenticationType: Method used to authenticate against the storage endpoint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersAuthenticationTypeEnum>))]
 public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersAuthenticationTypeEnum
 {
@@ -1085,7 +1085,7 @@ public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersAu
 }
 
 /// <summary>ConnectionString: The connection string of the storage account.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersConnectionString
 {
@@ -1105,7 +1105,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageCon
 /// Encoding: Encoding that is used to serialize messages to blobs. Supported values are &apos;avro&apos;, &apos;avrodeflate&apos;, and &apos;JSON&apos;.
 /// Default value is &apos;avro&apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersEncodingEnum>))]
 public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersEncodingEnum
 {
@@ -1118,7 +1118,7 @@ public enum V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersEn
 }
 
 /// <summary>Identity: Managed identity properties of routing storage endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersIdentity
 {
@@ -1128,7 +1128,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageCon
 }
 
 /// <summary>Reference: Id of the storage container endpoint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainersReference
 {
@@ -1154,7 +1154,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageCon
 }
 
 /// <summary>The properties related to a storage container endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageContainers
 {
@@ -1232,7 +1232,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpointsStorageCon
 /// rules. A  maximum of 10 custom endpoints are allowed across all endpoint types for paid hubs and only 1 custom endpoint
 /// is allowed  across all endpoint types for free hubs.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEndpoints
 {
@@ -1263,7 +1263,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEndpoints
 }
 
 /// <summary>The properties of an enrichment that your IoT hub applies to messages delivered to endpoints.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingEnrichments
 {
@@ -1281,7 +1281,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingEnrichments
 }
 
 /// <summary>Source: The source to which the routing rule is to be applied to. For example, DeviceMessages</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesRoutingFallbackRouteSourceEnum>))]
 public enum V1api20210702IotHubSpecPropertiesRoutingFallbackRouteSourceEnum
 {
@@ -1294,7 +1294,7 @@ public enum V1api20210702IotHubSpecPropertiesRoutingFallbackRouteSourceEnum
 /// the &apos;routes&apos; section are met. This is an optional parameter. When this property is not present in the template, the
 /// fallback route is disabled by default.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingFallbackRoute
 {
@@ -1330,7 +1330,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingFallbackRoute
 }
 
 /// <summary>Source: The source that the routing rule is to be applied to, such as DeviceMessages.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesRoutingRoutesSourceEnum>))]
 public enum V1api20210702IotHubSpecPropertiesRoutingRoutesSourceEnum
 {
@@ -1349,7 +1349,7 @@ public enum V1api20210702IotHubSpecPropertiesRoutingRoutesSourceEnum
 }
 
 /// <summary>The properties of a routing rule that your IoT hub uses to route messages to endpoints.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRoutingRoutes
 {
@@ -1387,7 +1387,7 @@ public partial class V1api20210702IotHubSpecPropertiesRoutingRoutes
 /// Routing: The routing related properties of the IoT hub. See:
 /// https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesRouting
 {
@@ -1424,7 +1424,7 @@ public partial class V1api20210702IotHubSpecPropertiesRouting
 }
 
 /// <summary>AuthenticationType: Specifies authentication type being used for connecting to the storage account.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecPropertiesStorageEndpointsAuthenticationTypeEnum>))]
 public enum V1api20210702IotHubSpecPropertiesStorageEndpointsAuthenticationTypeEnum
 {
@@ -1435,7 +1435,7 @@ public enum V1api20210702IotHubSpecPropertiesStorageEndpointsAuthenticationTypeE
 }
 
 /// <summary>ConnectionString: The connection string for the Azure Storage account to which files are uploaded.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesStorageEndpointsConnectionString
 {
@@ -1452,7 +1452,7 @@ public partial class V1api20210702IotHubSpecPropertiesStorageEndpointsConnection
 }
 
 /// <summary>Identity: Managed identity properties of storage endpoint for file upload.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesStorageEndpointsIdentity
 {
@@ -1462,7 +1462,7 @@ public partial class V1api20210702IotHubSpecPropertiesStorageEndpointsIdentity
 }
 
 /// <summary>The properties of the Azure Storage endpoint for file upload.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecPropertiesStorageEndpoints
 {
@@ -1494,7 +1494,7 @@ public partial class V1api20210702IotHubSpecPropertiesStorageEndpoints
 }
 
 /// <summary>Properties: IotHub properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecProperties
 {
@@ -1596,7 +1596,7 @@ public partial class V1api20210702IotHubSpecProperties
 }
 
 /// <summary>Name: The name of the SKU.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210702IotHubSpecSkuNameEnum>))]
 public enum V1api20210702IotHubSpecSkuNameEnum
 {
@@ -1617,7 +1617,7 @@ public enum V1api20210702IotHubSpecSkuNameEnum
 }
 
 /// <summary>Sku: IotHub SKU info</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpecSku
 {
@@ -1633,7 +1633,7 @@ public partial class V1api20210702IotHubSpecSku
     public required V1api20210702IotHubSpecSkuNameEnum Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubSpec
 {
@@ -1681,7 +1681,7 @@ public partial class V1api20210702IotHubSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusConditions
 {
@@ -1726,7 +1726,7 @@ public partial class V1api20210702IotHubStatusConditions
     public required string Type { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusIdentityUserAssignedIdentities
 {
@@ -1738,7 +1738,7 @@ public partial class V1api20210702IotHubStatusIdentityUserAssignedIdentities
 }
 
 /// <summary>Identity: The managed identities for the IotHub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusIdentity
 {
@@ -1762,7 +1762,7 @@ public partial class V1api20210702IotHubStatusIdentity
 }
 
 /// <summary>The properties of an IoT hub shared access policy.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesAuthorizationPolicies
 {
@@ -1776,7 +1776,7 @@ public partial class V1api20210702IotHubStatusPropertiesAuthorizationPolicies
 }
 
 /// <summary>Feedback: The properties of the feedback queue for cloud-to-device messages.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesCloudToDeviceFeedback
 {
@@ -1803,7 +1803,7 @@ public partial class V1api20210702IotHubStatusPropertiesCloudToDeviceFeedback
 }
 
 /// <summary>CloudToDevice: The IoT hub cloud-to-device messaging properties.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesCloudToDevice
 {
@@ -1827,7 +1827,7 @@ public partial class V1api20210702IotHubStatusPropertiesCloudToDevice
 }
 
 /// <summary>The properties of the provisioned Event Hub-compatible endpoint used by the IoT hub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesEventHubEndpoints
 {
@@ -1859,7 +1859,7 @@ public partial class V1api20210702IotHubStatusPropertiesEventHubEndpoints
 }
 
 /// <summary>The IP filter rules for the IoT hub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesIpFilterRules
 {
@@ -1877,7 +1877,7 @@ public partial class V1api20210702IotHubStatusPropertiesIpFilterRules
 }
 
 /// <summary>Public representation of one of the locations where a resource is provisioned.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesLocations
 {
@@ -1895,7 +1895,7 @@ public partial class V1api20210702IotHubStatusPropertiesLocations
 }
 
 /// <summary>The properties of the messaging endpoints used by this IoT hub.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesMessagingEndpoints
 {
@@ -1919,7 +1919,7 @@ public partial class V1api20210702IotHubStatusPropertiesMessagingEndpoints
 }
 
 /// <summary>IP Rule to be applied as part of Network Rule Set</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesNetworkRuleSetsIpRules
 {
@@ -1937,7 +1937,7 @@ public partial class V1api20210702IotHubStatusPropertiesNetworkRuleSetsIpRules
 }
 
 /// <summary>NetworkRuleSets: Network Rule Set Properties of IotHub</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesNetworkRuleSets
 {
@@ -1955,7 +1955,7 @@ public partial class V1api20210702IotHubStatusPropertiesNetworkRuleSets
 }
 
 /// <summary>The private endpoint connection of an IotHub</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesPrivateEndpointConnections
 {
@@ -1965,7 +1965,7 @@ public partial class V1api20210702IotHubStatusPropertiesPrivateEndpointConnectio
 }
 
 /// <summary>Identity: Managed identity properties of routing event hub endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsEventHubsIdentity
 {
@@ -1975,7 +1975,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsEventHub
 }
 
 /// <summary>The properties related to an event hub endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsEventHubs
 {
@@ -2017,7 +2017,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsEventHub
 }
 
 /// <summary>Identity: Managed identity properties of routing service bus queue endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsServiceBusQueuesIdentity
 {
@@ -2027,7 +2027,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsServiceB
 }
 
 /// <summary>The properties related to service bus queue endpoint types.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsServiceBusQueues
 {
@@ -2069,7 +2069,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsServiceB
 }
 
 /// <summary>Identity: Managed identity properties of routing service bus topic endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsServiceBusTopicsIdentity
 {
@@ -2079,7 +2079,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsServiceB
 }
 
 /// <summary>The properties related to service bus topic endpoint types.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsServiceBusTopics
 {
@@ -2121,7 +2121,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsServiceB
 }
 
 /// <summary>Identity: Managed identity properties of routing storage endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsStorageContainersIdentity
 {
@@ -2131,7 +2131,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsStorageC
 }
 
 /// <summary>The properties related to a storage container endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsStorageContainers
 {
@@ -2205,7 +2205,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpointsStorageC
 /// rules. A  maximum of 10 custom endpoints are allowed across all endpoint types for paid hubs and only 1 custom endpoint
 /// is allowed  across all endpoint types for free hubs.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEndpoints
 {
@@ -2236,7 +2236,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEndpoints
 }
 
 /// <summary>The properties of an enrichment that your IoT hub applies to messages delivered to endpoints.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingEnrichments
 {
@@ -2258,7 +2258,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingEnrichments
 /// the &apos;routes&apos; section are met. This is an optional parameter. When this property is not present in the template, the
 /// fallback route is disabled by default.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingFallbackRoute
 {
@@ -2294,7 +2294,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingFallbackRoute
 }
 
 /// <summary>The properties of a routing rule that your IoT hub uses to route messages to endpoints.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRoutingRoutes
 {
@@ -2332,7 +2332,7 @@ public partial class V1api20210702IotHubStatusPropertiesRoutingRoutes
 /// Routing: The routing related properties of the IoT hub. See:
 /// https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesRouting
 {
@@ -2369,7 +2369,7 @@ public partial class V1api20210702IotHubStatusPropertiesRouting
 }
 
 /// <summary>Identity: Managed identity properties of storage endpoint for file upload.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesStorageEndpointsIdentity
 {
@@ -2379,7 +2379,7 @@ public partial class V1api20210702IotHubStatusPropertiesStorageEndpointsIdentity
 }
 
 /// <summary>The properties of the Azure Storage endpoint for file upload.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusPropertiesStorageEndpoints
 {
@@ -2407,7 +2407,7 @@ public partial class V1api20210702IotHubStatusPropertiesStorageEndpoints
 }
 
 /// <summary>Properties: IotHub properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusProperties
 {
@@ -2529,7 +2529,7 @@ public partial class V1api20210702IotHubStatusProperties
 }
 
 /// <summary>Sku: IotHub SKU info</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusSku
 {
@@ -2550,7 +2550,7 @@ public partial class V1api20210702IotHubStatusSku
 }
 
 /// <summary>SystemData: The system meta data relating to this resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatusSystemData
 {
@@ -2579,7 +2579,7 @@ public partial class V1api20210702IotHubStatusSystemData
     public string? LastModifiedByType { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210702IotHubStatus
 {
@@ -2636,7 +2636,7 @@ public partial class V1api20210702IotHubStatus
 /// - Generated from: /iothub/resource-manager/Microsoft.Devices/IoTHub/stable/2021-07-02/iothub.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Devices/IotHubs/{resourceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210702IotHub : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20210702IotHubSpec?>, IStatus<V1api20210702IotHubStatus?>

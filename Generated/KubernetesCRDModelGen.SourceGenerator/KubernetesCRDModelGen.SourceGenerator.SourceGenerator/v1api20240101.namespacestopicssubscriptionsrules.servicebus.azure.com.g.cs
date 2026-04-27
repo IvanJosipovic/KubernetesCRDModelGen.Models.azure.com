@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.servicebus.azure.com;
 /// - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2024-01-01/Rules.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/subscriptions/{subscriptionName}/rules/{ruleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleList : IKubernetesObject<V1ListMeta>, IItems<V1api20240101NamespacesTopicsSubscriptionsRule>
@@ -37,14 +37,14 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleList : IKuber
 
     /// <summary>List of V1api20240101NamespacesTopicsSubscriptionsRule objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20240101NamespacesTopicsSubscriptionsRule>? Items { get; set; }
+    public required IList<V1api20240101NamespacesTopicsSubscriptionsRule> Items { get; set; }
 }
 
 /// <summary>
 /// Action: Represents the filter actions which are allowed for the transformation of a message that have been matched by a
 /// filter expression.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecAction
 {
@@ -65,7 +65,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecAction
 }
 
 /// <summary>CorrelationFilter: Properties of correlationFilter</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecCorrelationFilter
 {
@@ -111,7 +111,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecCorrelati
 }
 
 /// <summary>FilterType: Filter type that is evaluated against a BrokeredMessage.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240101NamespacesTopicsSubscriptionsRuleSpecFilterTypeEnum>))]
 public enum V1api20240101NamespacesTopicsSubscriptionsRuleSpecFilterTypeEnum
 {
@@ -126,7 +126,7 @@ public enum V1api20240101NamespacesTopicsSubscriptionsRuleSpecFilterTypeEnum
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecOperatorSpecConfigMapExpressions
 {
@@ -159,7 +159,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecOperatorS
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecOperatorSpecSecretExpressions
 {
@@ -191,7 +191,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecOperatorS
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecOperatorSpec
 {
@@ -209,7 +209,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecOperatorS
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a servicebus.azure.com/NamespacesTopicsSubscription resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecOwner
 {
@@ -222,7 +222,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecOwner
 }
 
 /// <summary>SqlFilter: Properties of sqlFilter</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecSqlFilter
 {
@@ -242,7 +242,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpecSqlFilter
     public string? SqlExpression { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpec
 {
@@ -292,7 +292,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleSpec
 /// Action: Represents the filter actions which are allowed for the transformation of a message that have been matched by a
 /// filter expression.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusAction
 {
@@ -313,7 +313,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusAction
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusConditions
 {
@@ -359,7 +359,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusConditi
 }
 
 /// <summary>CorrelationFilter: Properties of correlationFilter</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusCorrelationFilter
 {
@@ -405,7 +405,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusCorrela
 }
 
 /// <summary>SqlFilter: Properties of sqlFilter</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusSqlFilter
 {
@@ -426,7 +426,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusSqlFilt
 }
 
 /// <summary>SystemData: The system meta data relating to this resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusSystemData
 {
@@ -455,7 +455,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatusSystemD
     public string? LastModifiedByType { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatus
 {
@@ -511,7 +511,7 @@ public partial class V1api20240101NamespacesTopicsSubscriptionsRuleStatus
 /// - Generated from: /servicebus/resource-manager/Microsoft.ServiceBus/ServiceBus/stable/2024-01-01/Rules.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}/subscriptions/{subscriptionName}/rules/{ruleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240101NamespacesTopicsSubscriptionsRule : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240101NamespacesTopicsSubscriptionsRuleSpec?>, IStatus<V1api20240101NamespacesTopicsSubscriptionsRuleStatus?>
