@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2025-03-01/privateEndpoint.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250301storagePrivateEndpointList : IKubernetesObject<V1ListMeta>, IItems<V20250301storagePrivateEndpoint>
@@ -38,11 +38,11 @@ public partial class V20250301storagePrivateEndpointList : IKubernetesObject<V1L
 
     /// <summary>List of V20250301storagePrivateEndpoint objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20250301storagePrivateEndpoint>? Items { get; set; }
+    public required IList<V20250301storagePrivateEndpoint> Items { get; set; }
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecApplicationSecurityGroupsReference
 {
@@ -71,7 +71,7 @@ public partial class V20250301storagePrivateEndpointSpecApplicationSecurityGroup
 /// Storage version of v20250301.ApplicationSecurityGroupSpec_PrivateEndpoint_SubResourceEmbedded
 /// An application security group in a resource group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecApplicationSecurityGroups
 {
@@ -91,7 +91,7 @@ public partial class V20250301storagePrivateEndpointSpecApplicationSecurityGroup
 /// Storage version of v20250301.ExtendedLocation
 /// ExtendedLocation complex type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecExtendedLocation
 {
@@ -113,7 +113,7 @@ public partial class V20250301storagePrivateEndpointSpecExtendedLocation
 /// Storage version of v20250301.PrivateEndpointIPConfiguration
 /// An IP Configuration of the private endpoint.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecIpConfigurations
 {
@@ -141,7 +141,7 @@ public partial class V20250301storagePrivateEndpointSpecIpConfigurations
 /// Storage version of v20250301.PrivateLinkServiceConnectionState
 /// A collection of information about the state of the connection between service consumer and provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecManualPrivateLinkServiceConnectionsPrivateLinkServiceConnectionState
 {
@@ -163,7 +163,7 @@ public partial class V20250301storagePrivateEndpointSpecManualPrivateLinkService
 }
 
 /// <summary>PrivateLinkServiceReference: The resource id of private link service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecManualPrivateLinkServiceConnectionsPrivateLinkServiceReference
 {
@@ -195,7 +195,7 @@ public partial class V20250301storagePrivateEndpointSpecManualPrivateLinkService
 /// Storage version of v20250301.PrivateLinkServiceConnection
 /// PrivateLinkServiceConnection resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecManualPrivateLinkServiceConnections
 {
@@ -232,7 +232,7 @@ public partial class V20250301storagePrivateEndpointSpecManualPrivateLinkService
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecOperatorSpecConfigMapExpressions
 {
@@ -265,7 +265,7 @@ public partial class V20250301storagePrivateEndpointSpecOperatorSpecConfigMapExp
 /// Note: This is similar to: SecretDestination in secrets.go.
 /// Changes to one may need to be made to the others as well.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecOperatorSpecConfigMapsPrimaryNicPrivateIpAddress
 {
@@ -282,7 +282,7 @@ public partial class V20250301storagePrivateEndpointSpecOperatorSpecConfigMapsPr
 }
 
 /// <summary>Storage version of v20250301.PrivateEndpointOperatorConfigMaps</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecOperatorSpecConfigMaps
 {
@@ -307,7 +307,7 @@ public partial class V20250301storagePrivateEndpointSpecOperatorSpecConfigMaps
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecOperatorSpecSecretExpressions
 {
@@ -339,7 +339,7 @@ public partial class V20250301storagePrivateEndpointSpecOperatorSpecSecretExpres
 /// Storage version of v20250301.PrivateEndpointOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecOperatorSpec
 {
@@ -366,7 +366,7 @@ public partial class V20250301storagePrivateEndpointSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecOwner
 {
@@ -382,7 +382,7 @@ public partial class V20250301storagePrivateEndpointSpecOwner
 /// Storage version of v20250301.PrivateLinkServiceConnectionState
 /// A collection of information about the state of the connection between service consumer and provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecPrivateLinkServiceConnectionsPrivateLinkServiceConnectionState
 {
@@ -404,7 +404,7 @@ public partial class V20250301storagePrivateEndpointSpecPrivateLinkServiceConnec
 }
 
 /// <summary>PrivateLinkServiceReference: The resource id of private link service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecPrivateLinkServiceConnectionsPrivateLinkServiceReference
 {
@@ -436,7 +436,7 @@ public partial class V20250301storagePrivateEndpointSpecPrivateLinkServiceConnec
 /// Storage version of v20250301.PrivateLinkServiceConnection
 /// PrivateLinkServiceConnection resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecPrivateLinkServiceConnections
 {
@@ -469,7 +469,7 @@ public partial class V20250301storagePrivateEndpointSpecPrivateLinkServiceConnec
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecSubnetReference
 {
@@ -498,7 +498,7 @@ public partial class V20250301storagePrivateEndpointSpecSubnetReference
 /// Storage version of v20250301.Subnet_PrivateEndpoint_SubResourceEmbedded
 /// Subnet in a virtual network resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpecSubnet
 {
@@ -515,7 +515,7 @@ public partial class V20250301storagePrivateEndpointSpecSubnet
 }
 
 /// <summary>Storage version of v20250301.PrivateEndpoint_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointSpec
 {
@@ -594,7 +594,7 @@ public partial class V20250301storagePrivateEndpointSpec
 /// Storage version of v20250301.ApplicationSecurityGroup_STATUS_PrivateEndpoint_SubResourceEmbedded
 /// An application security group in a resource group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusApplicationSecurityGroups
 {
@@ -610,7 +610,7 @@ public partial class V20250301storagePrivateEndpointStatusApplicationSecurityGro
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusConditions
 {
@@ -659,7 +659,7 @@ public partial class V20250301storagePrivateEndpointStatusConditions
 /// Storage version of v20250301.CustomDnsConfigPropertiesFormat_STATUS
 /// Contains custom Dns resolution configuration from customer.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusCustomDnsConfigs
 {
@@ -681,7 +681,7 @@ public partial class V20250301storagePrivateEndpointStatusCustomDnsConfigs
 /// Storage version of v20250301.ExtendedLocation_STATUS
 /// ExtendedLocation complex type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusExtendedLocation
 {
@@ -703,7 +703,7 @@ public partial class V20250301storagePrivateEndpointStatusExtendedLocation
 /// Storage version of v20250301.PrivateEndpointIPConfiguration_STATUS
 /// An IP Configuration of the private endpoint.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusIpConfigurations
 {
@@ -737,7 +737,7 @@ public partial class V20250301storagePrivateEndpointStatusIpConfigurations
 /// Storage version of v20250301.PrivateLinkServiceConnectionState_STATUS
 /// A collection of information about the state of the connection between service consumer and provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusManualPrivateLinkServiceConnectionsPrivateLinkServiceConnectionState
 {
@@ -762,7 +762,7 @@ public partial class V20250301storagePrivateEndpointStatusManualPrivateLinkServi
 /// Storage version of v20250301.PrivateLinkServiceConnection_STATUS
 /// PrivateLinkServiceConnection resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusManualPrivateLinkServiceConnections
 {
@@ -809,7 +809,7 @@ public partial class V20250301storagePrivateEndpointStatusManualPrivateLinkServi
 /// Storage version of v20250301.NetworkInterface_STATUS_PrivateEndpoint_SubResourceEmbedded
 /// A network interface in a resource group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusNetworkInterfaces
 {
@@ -828,7 +828,7 @@ public partial class V20250301storagePrivateEndpointStatusNetworkInterfaces
 /// Storage version of v20250301.PrivateLinkServiceConnectionState_STATUS
 /// A collection of information about the state of the connection between service consumer and provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusPrivateLinkServiceConnectionsPrivateLinkServiceConnectionState
 {
@@ -853,7 +853,7 @@ public partial class V20250301storagePrivateEndpointStatusPrivateLinkServiceConn
 /// Storage version of v20250301.PrivateLinkServiceConnection_STATUS
 /// PrivateLinkServiceConnection resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusPrivateLinkServiceConnections
 {
@@ -900,7 +900,7 @@ public partial class V20250301storagePrivateEndpointStatusPrivateLinkServiceConn
 /// Storage version of v20250301.Subnet_STATUS_PrivateEndpoint_SubResourceEmbedded
 /// Subnet in a virtual network resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatusSubnet
 {
@@ -919,7 +919,7 @@ public partial class V20250301storagePrivateEndpointStatusSubnet
 /// Storage version of v20250301.PrivateEndpoint_STATUS
 /// Private endpoint resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20250301storagePrivateEndpointStatus
 {
@@ -999,7 +999,7 @@ public partial class V20250301storagePrivateEndpointStatus
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2025-03-01/privateEndpoint.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20250301storagePrivateEndpoint : IKubernetesObject<V1ObjectMeta>, ISpec<V20250301storagePrivateEndpointSpec?>, IStatus<V20250301storagePrivateEndpointStatus?>

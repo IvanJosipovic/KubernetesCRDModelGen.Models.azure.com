@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /trafficmanager/resource-manager/Microsoft.Network/TrafficManager/stable/2022-04-01/trafficmanager.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}/ExternalEndpoints/{endpointName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointList : IKubernetesObject<V1ListMeta>, IItems<V1api20220401storageTrafficManagerProfilesExternalEndpoint>
@@ -38,14 +38,14 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointL
 
     /// <summary>List of V1api20220401storageTrafficManagerProfilesExternalEndpoint objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20220401storageTrafficManagerProfilesExternalEndpoint>? Items { get; set; }
+    public required IList<V1api20220401storageTrafficManagerProfilesExternalEndpoint> Items { get; set; }
 }
 
 /// <summary>
 /// Storage version of v1api20220401.EndpointPropertiesCustomHeadersItem
 /// Custom header name and value.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointSpecCustomHeaders
 {
@@ -68,7 +68,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointSpecOperatorSpecConfigMapExpressions
 {
@@ -101,7 +101,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointSpecOperatorSpecSecretExpressions
 {
@@ -133,7 +133,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// Storage version of v1api20220401.TrafficManagerProfilesExternalEndpointOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointSpecOperatorSpec
 {
@@ -156,7 +156,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a network.azure.com/TrafficManagerProfile resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointSpecOwner
 {
@@ -172,7 +172,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// Storage version of v1api20220401.EndpointPropertiesSubnetsItem
 /// Subnet first address, scope, and/or last address.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointSpecSubnets
 {
@@ -197,7 +197,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// TargetResourceReference: The Azure Resource URI of the of the endpoint. Not applicable to endpoints of type
 /// &apos;ExternalEndpoints&apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointSpecTargetResourceReference
 {
@@ -223,7 +223,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 }
 
 /// <summary>Storage version of v1api20220401.TrafficManagerProfilesExternalEndpoint_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointSpec
 {
@@ -310,7 +310,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointStatusConditions
 {
@@ -359,7 +359,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// Storage version of v1api20220401.EndpointPropertiesCustomHeadersItem_STATUS
 /// Custom header name and value.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointStatusCustomHeaders
 {
@@ -381,7 +381,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// Storage version of v1api20220401.EndpointPropertiesSubnetsItem_STATUS
 /// Subnet first address, scope, and/or last address.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointStatusSubnets
 {
@@ -403,7 +403,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 }
 
 /// <summary>Storage version of v1api20220401.TrafficManagerProfilesExternalEndpoint_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointStatus
 {
@@ -475,7 +475,7 @@ public partial class V1api20220401storageTrafficManagerProfilesExternalEndpointS
 /// - Generated from: /trafficmanager/resource-manager/Microsoft.Network/TrafficManager/stable/2022-04-01/trafficmanager.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}/ExternalEndpoints/{endpointName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20220401storageTrafficManagerProfilesExternalEndpoint : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20220401storageTrafficManagerProfilesExternalEndpointSpec?>, IStatus<V1api20220401storageTrafficManagerProfilesExternalEndpointStatus?>

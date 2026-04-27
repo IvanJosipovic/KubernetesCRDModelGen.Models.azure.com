@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.documentdb.azure.com;
 /// - Generated from: /mongocluster/resource-manager/Microsoft.DocumentDB/MongoCluster/stable/2024-07-01/mongoCluster.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/mongoClusters/{mongoClusterName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240701storageMongoClusterList : IKubernetesObject<V1ListMeta>, IItems<V1api20240701storageMongoCluster>
@@ -38,7 +38,7 @@ public partial class V1api20240701storageMongoClusterList : IKubernetesObject<V1
 
     /// <summary>List of V1api20240701storageMongoCluster objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20240701storageMongoCluster>? Items { get; set; }
+    public required IList<V1api20240701storageMongoCluster> Items { get; set; }
 }
 
 /// <summary>
@@ -46,7 +46,7 @@ public partial class V1api20240701storageMongoClusterList : IKubernetesObject<V1
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecOperatorSpecConfigMapExpressions
 {
@@ -79,7 +79,7 @@ public partial class V1api20240701storageMongoClusterSpecOperatorSpecConfigMapEx
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecOperatorSpecSecretExpressions
 {
@@ -111,7 +111,7 @@ public partial class V1api20240701storageMongoClusterSpecOperatorSpecSecretExpre
 /// Storage version of v1api20240701.MongoClusterOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecOperatorSpec
 {
@@ -134,7 +134,7 @@ public partial class V1api20240701storageMongoClusterSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecOwner
 {
@@ -150,7 +150,7 @@ public partial class V1api20240701storageMongoClusterSpecOwner
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesAdministratorPassword
 {
@@ -170,7 +170,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesAdministrator
 /// Storage version of v1api20240701.AdministratorProperties
 /// The local administrator login properties.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesAdministrator
 {
@@ -197,7 +197,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesAdministrator
 /// The compute properties of the cluster. This includes the virtual-cores/memory and scaling options applied to servers in
 /// the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesCompute
 {
@@ -216,7 +216,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesCompute
 /// Storage version of v1api20240701.HighAvailabilityProperties
 /// The high availability properties of the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesHighAvailability
 {
@@ -232,7 +232,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesHighAvailabil
 }
 
 /// <summary>SourceResourceReference: The id of the replication source cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesReplicaParametersSourceResourceReference
 {
@@ -261,7 +261,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesReplicaParame
 /// Storage version of v1api20240701.MongoClusterReplicaParameters
 /// Parameters used for replica operations.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesReplicaParameters
 {
@@ -281,7 +281,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesReplicaParame
 }
 
 /// <summary>SourceResourceReference: Resource ID to locate the source cluster to restore</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesRestoreParametersSourceResourceReference
 {
@@ -310,7 +310,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesRestoreParame
 /// Storage version of v1api20240701.MongoClusterRestoreParameters
 /// Parameters used for restore operations
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesRestoreParameters
 {
@@ -333,7 +333,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesRestoreParame
 /// Storage version of v1api20240701.ShardingProperties
 /// The sharding properties of the cluster. This includes the shard count and scaling options for the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesSharding
 {
@@ -352,7 +352,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesSharding
 /// Storage version of v1api20240701.StorageProperties
 /// The storage properties of the cluster. This includes the data storage size and scaling applied to servers in the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecPropertiesStorage
 {
@@ -371,7 +371,7 @@ public partial class V1api20240701storageMongoClusterSpecPropertiesStorage
 /// Storage version of v1api20240701.MongoClusterProperties
 /// The properties of a mongo cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpecProperties
 {
@@ -446,7 +446,7 @@ public partial class V1api20240701storageMongoClusterSpecProperties
 }
 
 /// <summary>Storage version of v1api20240701.MongoCluster_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterSpec
 {
@@ -497,7 +497,7 @@ public partial class V1api20240701storageMongoClusterSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusConditions
 {
@@ -546,7 +546,7 @@ public partial class V1api20240701storageMongoClusterStatusConditions
 /// Storage version of v1api20240701.AdministratorProperties_STATUS
 /// The local administrator login properties.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesAdministrator
 {
@@ -565,7 +565,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesAdministrat
 /// Storage version of v1api20240701.BackupProperties_STATUS
 /// The backup properties of the cluster. This includes the earliest restore time and retention settings.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesBackup
 {
@@ -585,7 +585,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesBackup
 /// The compute properties of the cluster. This includes the virtual-cores/memory and scaling options applied to servers in
 /// the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesCompute
 {
@@ -604,7 +604,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesCompute
 /// Storage version of v1api20240701.HighAvailabilityProperties_STATUS
 /// The high availability properties of the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesHighAvailability
 {
@@ -623,7 +623,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesHighAvailab
 /// Storage version of v1api20240701.PrivateEndpointConnection_STATUS
 /// The private endpoint connection resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesPrivateEndpointConnections
 {
@@ -642,7 +642,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesPrivateEndp
 /// Storage version of v1api20240701.ReplicationProperties_STATUS
 /// Replica properties of the mongo cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesReplica
 {
@@ -667,7 +667,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesReplica
 /// Storage version of v1api20240701.MongoClusterReplicaParameters_STATUS
 /// Parameters used for replica operations.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesReplicaParameters
 {
@@ -689,7 +689,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesReplicaPara
 /// Storage version of v1api20240701.MongoClusterRestoreParameters_STATUS
 /// Parameters used for restore operations
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesRestoreParameters
 {
@@ -711,7 +711,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesRestorePara
 /// Storage version of v1api20240701.ShardingProperties_STATUS
 /// The sharding properties of the cluster. This includes the shard count and scaling options for the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesSharding
 {
@@ -730,7 +730,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesSharding
 /// Storage version of v1api20240701.StorageProperties_STATUS
 /// The storage properties of the cluster. This includes the data storage size and scaling applied to servers in the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusPropertiesStorage
 {
@@ -749,7 +749,7 @@ public partial class V1api20240701storageMongoClusterStatusPropertiesStorage
 /// Storage version of v1api20240701.MongoClusterProperties_STATUS
 /// The properties of a mongo cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusProperties
 {
@@ -856,7 +856,7 @@ public partial class V1api20240701storageMongoClusterStatusProperties
 /// Storage version of v1api20240701.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatusSystemData
 {
@@ -890,7 +890,7 @@ public partial class V1api20240701storageMongoClusterStatusSystemData
 /// Storage version of v1api20240701.MongoCluster_STATUS
 /// Represents a mongo cluster resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240701storageMongoClusterStatus
 {
@@ -940,7 +940,7 @@ public partial class V1api20240701storageMongoClusterStatus
 /// - Generated from: /mongocluster/resource-manager/Microsoft.DocumentDB/MongoCluster/stable/2024-07-01/mongoCluster.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/mongoClusters/{mongoClusterName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240701storageMongoCluster : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240701storageMongoClusterSpec?>, IStatus<V1api20240701storageMongoClusterStatus?>

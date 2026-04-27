@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.datafactory.azure.com;
 /// - Generated from: /datafactory/resource-manager/Microsoft.DataFactory/DataFactory/stable/2018-06-01/datafactory.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20180601FactoryList : IKubernetesObject<V1ListMeta>, IItems<V1api20180601Factory>
@@ -37,11 +37,11 @@ public partial class V1api20180601FactoryList : IKubernetesObject<V1ListMeta>, I
 
     /// <summary>List of V1api20180601Factory objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V1api20180601Factory>? Items { get; set; }
+    public required IList<V1api20180601Factory> Items { get; set; }
 }
 
 /// <summary>UserAssignedIdentityReference: The resource id of the user assigned identity to authenticate to customer&apos;s key vault.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecEncryptionIdentityUserAssignedIdentityReference
 {
@@ -70,7 +70,7 @@ public partial class V1api20180601FactorySpecEncryptionIdentityUserAssignedIdent
 /// Identity: User assigned identity to use to authenticate to customer&apos;s key vault. If not provided Managed Service
 /// Identity will be used.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecEncryptionIdentity
 {
@@ -80,7 +80,7 @@ public partial class V1api20180601FactorySpecEncryptionIdentity
 }
 
 /// <summary>Encryption: Properties to enable Customer Managed Key for the factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecEncryption
 {
@@ -105,7 +105,7 @@ public partial class V1api20180601FactorySpecEncryption
 }
 
 /// <summary>Type: Global Parameter type.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180601FactorySpecGlobalParametersTypeEnum>))]
 public enum V1api20180601FactorySpecGlobalParametersTypeEnum
 {
@@ -124,7 +124,7 @@ public enum V1api20180601FactorySpecGlobalParametersTypeEnum
 }
 
 /// <summary>Definition of a single parameter for an entity.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecGlobalParameters
 {
@@ -138,7 +138,7 @@ public partial class V1api20180601FactorySpecGlobalParameters
 }
 
 /// <summary>Type: The identity type.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180601FactorySpecIdentityTypeEnum>))]
 public enum V1api20180601FactorySpecIdentityTypeEnum
 {
@@ -151,7 +151,7 @@ public enum V1api20180601FactorySpecIdentityTypeEnum
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecIdentityUserAssignedIdentitiesReference
 {
@@ -177,7 +177,7 @@ public partial class V1api20180601FactorySpecIdentityUserAssignedIdentitiesRefer
 }
 
 /// <summary>Information about the user assigned identity for the resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecIdentityUserAssignedIdentities
 {
@@ -187,7 +187,7 @@ public partial class V1api20180601FactorySpecIdentityUserAssignedIdentities
 }
 
 /// <summary>Identity: Managed service identity of the factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecIdentity
 {
@@ -205,7 +205,7 @@ public partial class V1api20180601FactorySpecIdentity
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecOperatorSpecConfigMapExpressions
 {
@@ -238,7 +238,7 @@ public partial class V1api20180601FactorySpecOperatorSpecConfigMapExpressions
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecOperatorSpecSecretExpressions
 {
@@ -270,7 +270,7 @@ public partial class V1api20180601FactorySpecOperatorSpecSecretExpressions
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecOperatorSpec
 {
@@ -288,7 +288,7 @@ public partial class V1api20180601FactorySpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecOwner
 {
@@ -301,7 +301,7 @@ public partial class V1api20180601FactorySpecOwner
 }
 
 /// <summary>PublicNetworkAccess: Whether or not public network access is allowed for the data factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180601FactorySpecPublicNetworkAccessEnum>))]
 public enum V1api20180601FactorySpecPublicNetworkAccessEnum
 {
@@ -312,7 +312,7 @@ public enum V1api20180601FactorySpecPublicNetworkAccessEnum
 }
 
 /// <summary>PurviewResourceReference: Purview resource id.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecPurviewConfigurationPurviewResourceReference
 {
@@ -338,7 +338,7 @@ public partial class V1api20180601FactorySpecPurviewConfigurationPurviewResource
 }
 
 /// <summary>PurviewConfiguration: Purview information of the factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecPurviewConfiguration
 {
@@ -348,7 +348,7 @@ public partial class V1api20180601FactorySpecPurviewConfiguration
 }
 
 /// <summary>ClientSecret: GitHub bring your own app client secret information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecRepoConfigurationFactoryGitHubConfigurationClientSecret
 {
@@ -362,7 +362,7 @@ public partial class V1api20180601FactorySpecRepoConfigurationFactoryGitHubConfi
 }
 
 /// <summary>Type: Type of repo configuration.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180601FactorySpecRepoConfigurationFactoryGitHubConfigurationTypeEnum>))]
 public enum V1api20180601FactorySpecRepoConfigurationFactoryGitHubConfigurationTypeEnum
 {
@@ -371,7 +371,7 @@ public enum V1api20180601FactorySpecRepoConfigurationFactoryGitHubConfigurationT
 }
 
 /// <summary>FactoryGitHub: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecRepoConfigurationFactoryGitHubConfiguration
 {
@@ -417,7 +417,7 @@ public partial class V1api20180601FactorySpecRepoConfigurationFactoryGitHubConfi
 }
 
 /// <summary>Type: Type of repo configuration.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180601FactorySpecRepoConfigurationFactoryVSTSConfigurationTypeEnum>))]
 public enum V1api20180601FactorySpecRepoConfigurationFactoryVSTSConfigurationTypeEnum
 {
@@ -426,7 +426,7 @@ public enum V1api20180601FactorySpecRepoConfigurationFactoryVSTSConfigurationTyp
 }
 
 /// <summary>FactoryVSTS: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecRepoConfigurationFactoryVSTSConfiguration
 {
@@ -468,7 +468,7 @@ public partial class V1api20180601FactorySpecRepoConfigurationFactoryVSTSConfigu
 }
 
 /// <summary>RepoConfiguration: Git repo information of the factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpecRepoConfiguration
 {
@@ -481,7 +481,7 @@ public partial class V1api20180601FactorySpecRepoConfiguration
     public V1api20180601FactorySpecRepoConfigurationFactoryVSTSConfiguration? FactoryVSTSConfiguration { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactorySpec
 {
@@ -544,7 +544,7 @@ public partial class V1api20180601FactorySpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusConditions
 {
@@ -593,7 +593,7 @@ public partial class V1api20180601FactoryStatusConditions
 /// Identity: User assigned identity to use to authenticate to customer&apos;s key vault. If not provided Managed Service
 /// Identity will be used.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusEncryptionIdentity
 {
@@ -603,7 +603,7 @@ public partial class V1api20180601FactoryStatusEncryptionIdentity
 }
 
 /// <summary>Encryption: Properties to enable Customer Managed Key for the factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusEncryption
 {
@@ -628,7 +628,7 @@ public partial class V1api20180601FactoryStatusEncryption
 }
 
 /// <summary>Definition of a single parameter for an entity.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusGlobalParameters
 {
@@ -642,7 +642,7 @@ public partial class V1api20180601FactoryStatusGlobalParameters
 }
 
 /// <summary>Identity: Managed service identity of the factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusIdentity
 {
@@ -664,7 +664,7 @@ public partial class V1api20180601FactoryStatusIdentity
 }
 
 /// <summary>PurviewConfiguration: Purview information of the factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusPurviewConfiguration
 {
@@ -674,7 +674,7 @@ public partial class V1api20180601FactoryStatusPurviewConfiguration
 }
 
 /// <summary>ClientSecret: GitHub bring your own app client secret information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusRepoConfigurationFactoryGitHubConfigurationClientSecret
 {
@@ -688,7 +688,7 @@ public partial class V1api20180601FactoryStatusRepoConfigurationFactoryGitHubCon
 }
 
 /// <summary>FactoryGitHub: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusRepoConfigurationFactoryGitHubConfiguration
 {
@@ -734,7 +734,7 @@ public partial class V1api20180601FactoryStatusRepoConfigurationFactoryGitHubCon
 }
 
 /// <summary>FactoryVSTS: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusRepoConfigurationFactoryVSTSConfiguration
 {
@@ -776,7 +776,7 @@ public partial class V1api20180601FactoryStatusRepoConfigurationFactoryVSTSConfi
 }
 
 /// <summary>RepoConfiguration: Git repo information of the factory.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatusRepoConfiguration
 {
@@ -790,7 +790,7 @@ public partial class V1api20180601FactoryStatusRepoConfiguration
 }
 
 /// <summary>Factory resource type.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180601FactoryStatus
 {
@@ -867,7 +867,7 @@ public partial class V1api20180601FactoryStatus
 /// - Generated from: /datafactory/resource-manager/Microsoft.DataFactory/DataFactory/stable/2018-06-01/datafactory.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20180601Factory : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20180601FactorySpec?>, IStatus<V1api20180601FactoryStatus?>

@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.apimanagement.azure.com;
 /// - Generated from: /apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement/stable/2022-08-01/apimdeployment.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20220801ServiceList : IKubernetesObject<V1ListMeta>, IItems<V20220801Service>
@@ -37,11 +37,11 @@ public partial class V20220801ServiceList : IKubernetesObject<V1ListMeta>, IItem
 
     /// <summary>List of V20220801Service objects.</summary>
     [JsonPropertyName("items")]
-    public IList<V20220801Service>? Items { get; set; }
+    public required IList<V20220801Service> Items { get; set; }
 }
 
 /// <summary>NatGatewayState: Property can be used to enable NAT Gateway for this API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecAdditionalLocationsNatGatewayStateEnum>))]
 public enum V20220801ServiceSpecAdditionalLocationsNatGatewayStateEnum
 {
@@ -55,7 +55,7 @@ public enum V20220801ServiceSpecAdditionalLocationsNatGatewayStateEnum
 /// PublicIpAddressReference: Public Standard SKU IP V4 based IP address to be associated with Virtual Network deployed
 /// service in the location. Supported only for Premium SKU being deployed in Virtual Network.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecAdditionalLocationsPublicIpAddressReference
 {
@@ -81,7 +81,7 @@ public partial class V20220801ServiceSpecAdditionalLocationsPublicIpAddressRefer
 }
 
 /// <summary>Name: Name of the Sku.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecAdditionalLocationsSkuNameEnum>))]
 public enum V20220801ServiceSpecAdditionalLocationsSkuNameEnum
 {
@@ -100,7 +100,7 @@ public enum V20220801ServiceSpecAdditionalLocationsSkuNameEnum
 }
 
 /// <summary>Sku: SKU properties of the API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecAdditionalLocationsSku
 {
@@ -114,7 +114,7 @@ public partial class V20220801ServiceSpecAdditionalLocationsSku
 }
 
 /// <summary>SubnetResourceReference: The full resource ID of a subnet in a virtual network to deploy the API Management service in.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecAdditionalLocationsVirtualNetworkConfigurationSubnetResourceReference
 {
@@ -140,7 +140,7 @@ public partial class V20220801ServiceSpecAdditionalLocationsVirtualNetworkConfig
 }
 
 /// <summary>VirtualNetworkConfiguration: Virtual network configuration for the location.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecAdditionalLocationsVirtualNetworkConfiguration
 {
@@ -150,7 +150,7 @@ public partial class V20220801ServiceSpecAdditionalLocationsVirtualNetworkConfig
 }
 
 /// <summary>Description of an additional API Management resource location.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecAdditionalLocations
 {
@@ -190,7 +190,7 @@ public partial class V20220801ServiceSpecAdditionalLocations
 }
 
 /// <summary>ApiVersionConstraint: Control Plane Apis version constraint for the API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecApiVersionConstraint
 {
@@ -203,7 +203,7 @@ public partial class V20220801ServiceSpecApiVersionConstraint
 /// ExpiryFromConfig: Expiration date of the certificate. The date conforms to the following format: `yyyy-MM-ddTHH:mm:ssZ`
 /// as specified by the ISO 8601 standard.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecCertificatesCertificateExpiryFromConfig
 {
@@ -220,7 +220,7 @@ public partial class V20220801ServiceSpecCertificatesCertificateExpiryFromConfig
 }
 
 /// <summary>SubjectFromConfig: Subject of the certificate.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecCertificatesCertificateSubjectFromConfig
 {
@@ -237,7 +237,7 @@ public partial class V20220801ServiceSpecCertificatesCertificateSubjectFromConfi
 }
 
 /// <summary>ThumbprintFromConfig: Thumbprint of the certificate.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecCertificatesCertificateThumbprintFromConfig
 {
@@ -254,7 +254,7 @@ public partial class V20220801ServiceSpecCertificatesCertificateThumbprintFromCo
 }
 
 /// <summary>Certificate: Certificate information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecCertificatesCertificate
 {
@@ -290,7 +290,7 @@ public partial class V20220801ServiceSpecCertificatesCertificate
 }
 
 /// <summary>CertificatePassword: Certificate Password.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecCertificatesCertificatePassword
 {
@@ -310,7 +310,7 @@ public partial class V20220801ServiceSpecCertificatesCertificatePassword
 /// StoreName: The System.Security.Cryptography.x509certificates.StoreName certificate store location. Only Root and
 /// CertificateAuthority are valid locations.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecCertificatesStoreNameEnum>))]
 public enum V20220801ServiceSpecCertificatesStoreNameEnum
 {
@@ -321,7 +321,7 @@ public enum V20220801ServiceSpecCertificatesStoreNameEnum
 }
 
 /// <summary>Certificate configuration which consist of non-trusted intermediates and root certificates.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecCertificates
 {
@@ -349,7 +349,7 @@ public partial class V20220801ServiceSpecCertificates
 /// ExpiryFromConfig: Expiration date of the certificate. The date conforms to the following format: `yyyy-MM-ddTHH:mm:ssZ`
 /// as specified by the ISO 8601 standard.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecHostnameConfigurationsCertificateExpiryFromConfig
 {
@@ -366,7 +366,7 @@ public partial class V20220801ServiceSpecHostnameConfigurationsCertificateExpiry
 }
 
 /// <summary>SubjectFromConfig: Subject of the certificate.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecHostnameConfigurationsCertificateSubjectFromConfig
 {
@@ -383,7 +383,7 @@ public partial class V20220801ServiceSpecHostnameConfigurationsCertificateSubjec
 }
 
 /// <summary>ThumbprintFromConfig: Thumbprint of the certificate.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecHostnameConfigurationsCertificateThumbprintFromConfig
 {
@@ -400,7 +400,7 @@ public partial class V20220801ServiceSpecHostnameConfigurationsCertificateThumbp
 }
 
 /// <summary>Certificate: Certificate information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecHostnameConfigurationsCertificate
 {
@@ -436,7 +436,7 @@ public partial class V20220801ServiceSpecHostnameConfigurationsCertificate
 }
 
 /// <summary>CertificatePassword: Certificate Password.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecHostnameConfigurationsCertificatePassword
 {
@@ -453,7 +453,7 @@ public partial class V20220801ServiceSpecHostnameConfigurationsCertificatePasswo
 }
 
 /// <summary>CertificateSource: Certificate Source.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecHostnameConfigurationsCertificateSourceEnum>))]
 public enum V20220801ServiceSpecHostnameConfigurationsCertificateSourceEnum
 {
@@ -468,7 +468,7 @@ public enum V20220801ServiceSpecHostnameConfigurationsCertificateSourceEnum
 }
 
 /// <summary>CertificateStatus: Certificate Status.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecHostnameConfigurationsCertificateStatusEnum>))]
 public enum V20220801ServiceSpecHostnameConfigurationsCertificateStatusEnum
 {
@@ -484,7 +484,7 @@ public enum V20220801ServiceSpecHostnameConfigurationsCertificateStatusEnum
 /// IdentityClientIdFromConfig: System or User Assigned Managed identity clientId as generated by Azure AD, which has GET
 /// access to the keyVault containing the SSL certificate.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecHostnameConfigurationsIdentityClientIdFromConfig
 {
@@ -501,7 +501,7 @@ public partial class V20220801ServiceSpecHostnameConfigurationsIdentityClientIdF
 }
 
 /// <summary>Type: Hostname type.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecHostnameConfigurationsTypeEnum>))]
 public enum V20220801ServiceSpecHostnameConfigurationsTypeEnum
 {
@@ -518,7 +518,7 @@ public enum V20220801ServiceSpecHostnameConfigurationsTypeEnum
 }
 
 /// <summary>Custom hostname configuration.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecHostnameConfigurations
 {
@@ -590,7 +590,7 @@ public partial class V20220801ServiceSpecHostnameConfigurations
 /// Type: The type of identity used for the resource. The type &apos;SystemAssigned, UserAssigned&apos; includes both an implicitly
 /// created identity and a set of user assigned identities. The type &apos;None&apos; will remove any identities from the service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecIdentityTypeEnum>))]
 public enum V20220801ServiceSpecIdentityTypeEnum
 {
@@ -605,7 +605,7 @@ public enum V20220801ServiceSpecIdentityTypeEnum
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecIdentityUserAssignedIdentitiesReference
 {
@@ -631,7 +631,7 @@ public partial class V20220801ServiceSpecIdentityUserAssignedIdentitiesReference
 }
 
 /// <summary>Information about the user assigned identity for the resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecIdentityUserAssignedIdentities
 {
@@ -641,7 +641,7 @@ public partial class V20220801ServiceSpecIdentityUserAssignedIdentities
 }
 
 /// <summary>Identity: Managed service identity of the Api Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecIdentity
 {
@@ -663,7 +663,7 @@ public partial class V20220801ServiceSpecIdentity
 }
 
 /// <summary>NatGatewayState: Property can be used to enable NAT Gateway for this API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecNatGatewayStateEnum>))]
 public enum V20220801ServiceSpecNatGatewayStateEnum
 {
@@ -678,7 +678,7 @@ public enum V20220801ServiceSpecNatGatewayStateEnum
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecOperatorSpecConfigMapExpressions
 {
@@ -711,7 +711,7 @@ public partial class V20220801ServiceSpecOperatorSpecConfigMapExpressions
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecOperatorSpecSecretExpressions
 {
@@ -743,7 +743,7 @@ public partial class V20220801ServiceSpecOperatorSpecSecretExpressions
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecOperatorSpec
 {
@@ -761,7 +761,7 @@ public partial class V20220801ServiceSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecOwner
 {
@@ -777,7 +777,7 @@ public partial class V20220801ServiceSpecOwner
 /// PublicIpAddressReference: Public Standard SKU IP V4 based IP address to be associated with Virtual Network deployed
 /// service in the region. Supported only for Developer and Premium SKU being deployed in Virtual Network.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecPublicIpAddressReference
 {
@@ -807,7 +807,7 @@ public partial class V20220801ServiceSpecPublicIpAddressReference
 /// optional but if passed in, must be &apos;Enabled&apos; or &apos;Disabled&apos;. If &apos;Disabled&apos;, private endpoints are the exclusive access
 /// method. Default value is &apos;Enabled&apos;
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecPublicNetworkAccessEnum>))]
 public enum V20220801ServiceSpecPublicNetworkAccessEnum
 {
@@ -818,7 +818,7 @@ public enum V20220801ServiceSpecPublicNetworkAccessEnum
 }
 
 /// <summary>Name: Name of the Sku.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecSkuNameEnum>))]
 public enum V20220801ServiceSpecSkuNameEnum
 {
@@ -837,7 +837,7 @@ public enum V20220801ServiceSpecSkuNameEnum
 }
 
 /// <summary>Sku: SKU properties of the API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecSku
 {
@@ -851,7 +851,7 @@ public partial class V20220801ServiceSpecSku
 }
 
 /// <summary>SubnetResourceReference: The full resource ID of a subnet in a virtual network to deploy the API Management service in.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecVirtualNetworkConfigurationSubnetResourceReference
 {
@@ -877,7 +877,7 @@ public partial class V20220801ServiceSpecVirtualNetworkConfigurationSubnetResour
 }
 
 /// <summary>VirtualNetworkConfiguration: Virtual network configuration of the API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpecVirtualNetworkConfiguration
 {
@@ -892,7 +892,7 @@ public partial class V20220801ServiceSpecVirtualNetworkConfiguration
 /// up inside a Virtual Network having an Internet Facing Endpoint, and Internal means that API Management deployment is
 /// setup inside a Virtual Network having an Intranet Facing Endpoint only.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20220801ServiceSpecVirtualNetworkTypeEnum>))]
 public enum V20220801ServiceSpecVirtualNetworkTypeEnum
 {
@@ -904,7 +904,7 @@ public enum V20220801ServiceSpecVirtualNetworkTypeEnum
     None
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceSpec
 {
@@ -1063,7 +1063,7 @@ public partial class V20220801ServiceSpec
 }
 
 /// <summary>Sku: SKU properties of the API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusAdditionalLocationsSku
 {
@@ -1077,7 +1077,7 @@ public partial class V20220801ServiceStatusAdditionalLocationsSku
 }
 
 /// <summary>VirtualNetworkConfiguration: Virtual network configuration for the location.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusAdditionalLocationsVirtualNetworkConfiguration
 {
@@ -1095,7 +1095,7 @@ public partial class V20220801ServiceStatusAdditionalLocationsVirtualNetworkConf
 }
 
 /// <summary>Description of an additional API Management resource location.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusAdditionalLocations
 {
@@ -1165,7 +1165,7 @@ public partial class V20220801ServiceStatusAdditionalLocations
 }
 
 /// <summary>ApiVersionConstraint: Control Plane Apis version constraint for the API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusApiVersionConstraint
 {
@@ -1175,7 +1175,7 @@ public partial class V20220801ServiceStatusApiVersionConstraint
 }
 
 /// <summary>Certificate: Certificate information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusCertificatesCertificate
 {
@@ -1196,7 +1196,7 @@ public partial class V20220801ServiceStatusCertificatesCertificate
 }
 
 /// <summary>Certificate configuration which consist of non-trusted intermediates and root certificates.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusCertificates
 {
@@ -1217,7 +1217,7 @@ public partial class V20220801ServiceStatusCertificates
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusConditions
 {
@@ -1263,7 +1263,7 @@ public partial class V20220801ServiceStatusConditions
 }
 
 /// <summary>Certificate: Certificate information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusHostnameConfigurationsCertificate
 {
@@ -1284,7 +1284,7 @@ public partial class V20220801ServiceStatusHostnameConfigurationsCertificate
 }
 
 /// <summary>Custom hostname configuration.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusHostnameConfigurations
 {
@@ -1341,7 +1341,7 @@ public partial class V20220801ServiceStatusHostnameConfigurations
     public string? Type { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusIdentityUserAssignedIdentities
 {
@@ -1355,7 +1355,7 @@ public partial class V20220801ServiceStatusIdentityUserAssignedIdentities
 }
 
 /// <summary>Identity: Managed service identity of the Api Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusIdentity
 {
@@ -1385,7 +1385,7 @@ public partial class V20220801ServiceStatusIdentity
 }
 
 /// <summary>PrivateEndpoint: The resource of private end point.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusPrivateEndpointConnectionsPrivateEndpoint
 {
@@ -1397,7 +1397,7 @@ public partial class V20220801ServiceStatusPrivateEndpointConnectionsPrivateEndp
 /// PrivateLinkServiceConnectionState: A collection of information about the state of the connection between service
 /// consumer and provider.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusPrivateEndpointConnectionsPrivateLinkServiceConnectionState
 {
@@ -1415,7 +1415,7 @@ public partial class V20220801ServiceStatusPrivateEndpointConnectionsPrivateLink
 }
 
 /// <summary>Remote Private Endpoint Connection resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusPrivateEndpointConnections
 {
@@ -1452,7 +1452,7 @@ public partial class V20220801ServiceStatusPrivateEndpointConnections
 }
 
 /// <summary>Sku: SKU properties of the API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusSku
 {
@@ -1466,7 +1466,7 @@ public partial class V20220801ServiceStatusSku
 }
 
 /// <summary>SystemData: Metadata pertaining to creation and last modification of the resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusSystemData
 {
@@ -1496,7 +1496,7 @@ public partial class V20220801ServiceStatusSystemData
 }
 
 /// <summary>VirtualNetworkConfiguration: Virtual network configuration of the API Management service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatusVirtualNetworkConfiguration
 {
@@ -1513,7 +1513,7 @@ public partial class V20220801ServiceStatusVirtualNetworkConfiguration
     public string? Vnetid { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20220801ServiceStatus
 {
@@ -1752,7 +1752,7 @@ public partial class V20220801ServiceStatus
 /// - Generated from: /apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement/stable/2022-08-01/apimdeployment.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.2+8c7b4a3647c1e77cd3e3152af5701ec2357dafe9")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20220801Service : IKubernetesObject<V1ObjectMeta>, ISpec<V20220801ServiceSpec?>, IStatus<V20220801ServiceStatus?>
