@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.kubernetesconfiguration.azure.com;
 /// - Generated from: /kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/stable/2024-11-01/fluxconfiguration.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{clusterRp}/{clusterResourceName}/{clusterName}/providers/Microsoft.KubernetesConfiguration/fluxConfigurations/{fluxConfigurationName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20241101storageFluxConfigurationList : IKubernetesObject<V1ListMeta>, IItems<V1api20241101storageFluxConfiguration>
@@ -45,7 +45,7 @@ public partial class V1api20241101storageFluxConfigurationList : IKubernetesObje
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobAccountKey
 {
@@ -65,7 +65,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobAccountKe
 /// Storage version of v1api20241101.ManagedIdentityDefinition
 /// Parameters to authenticate using a Managed Identity.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobManagedIdentity
 {
@@ -84,7 +84,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobManagedId
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobSasToken
 {
@@ -104,7 +104,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobSasToken
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePrincipalClientCertificate
 {
@@ -124,7 +124,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePr
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePrincipalClientCertificatePassword
 {
@@ -144,7 +144,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePr
 /// ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePrincipalClientIdFromConfig
 {
@@ -164,7 +164,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePr
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePrincipalClientSecret
 {
@@ -184,7 +184,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePr
 /// ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePrincipalTenantIdFromConfig
 {
@@ -204,7 +204,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePr
 /// Storage version of v1api20241101.ServicePrincipalDefinition
 /// Parameters to authenticate using Service Principal.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePrincipal
 {
@@ -264,7 +264,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlobServicePr
 /// Storage version of v1api20241101.AzureBlobDefinition
 /// Parameters to reconcile to the AzureBlob source kind type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecAzureBlob
 {
@@ -323,7 +323,7 @@ public partial class V1api20241101storageFluxConfigurationSpecAzureBlob
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecBucketAccessKey
 {
@@ -343,7 +343,7 @@ public partial class V1api20241101storageFluxConfigurationSpecBucketAccessKey
 /// Storage version of v1api20241101.BucketDefinition
 /// Parameters to reconcile to the Bucket source kind type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecBucket
 {
@@ -384,7 +384,7 @@ public partial class V1api20241101storageFluxConfigurationSpecBucket
 /// SecretMapReference is a reference to a Kubernetes secret in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecConfigurationProtectedSettings
 {
@@ -400,7 +400,7 @@ public partial class V1api20241101storageFluxConfigurationSpecConfigurationProte
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecGitRepositoryHttpsCACert
 {
@@ -420,7 +420,7 @@ public partial class V1api20241101storageFluxConfigurationSpecGitRepositoryHttps
 /// Storage version of v1api20241101.RepositoryRefDefinition
 /// The source reference for the GitRepository object.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecGitRepositoryRepositoryRef
 {
@@ -448,7 +448,7 @@ public partial class V1api20241101storageFluxConfigurationSpecGitRepositoryRepos
 /// Storage version of v1api20241101.GitRepositoryDefinition
 /// Parameters to reconcile to the GitRepository source kind type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecGitRepository
 {
@@ -499,7 +499,7 @@ public partial class V1api20241101storageFluxConfigurationSpecGitRepository
 /// Storage version of v1api20241101.SubstituteFromDefinition
 /// Array of ConfigMaps/Secrets from which the variables are substituted for this Kustomization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecKustomizationsPostBuildSubstituteFrom
 {
@@ -524,7 +524,7 @@ public partial class V1api20241101storageFluxConfigurationSpecKustomizationsPost
 /// Storage version of v1api20241101.PostBuildDefinition
 /// The postBuild definitions defining variable substitutions for this Kustomization after kustomize build.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecKustomizationsPostBuild
 {
@@ -546,7 +546,7 @@ public partial class V1api20241101storageFluxConfigurationSpecKustomizationsPost
 /// Storage version of v1api20241101.KustomizationDefinition
 /// The Kustomization defining how to reconcile the artifact pulled by the source type on the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecKustomizations
 {
@@ -593,7 +593,7 @@ public partial class V1api20241101storageFluxConfigurationSpecKustomizations
 /// Storage version of v1api20241101.LayerSelectorDefinition
 /// Parameters to specify which layer to pull from the OCI artifact. By default, the first layer in the artifact is pulled.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryLayerSelector
 {
@@ -615,7 +615,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryLayer
 /// Storage version of v1api20241101.OCIRepositoryRefDefinition
 /// The source reference for the OCIRepository object.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryRepositoryRef
 {
@@ -640,7 +640,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryRepos
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryTlsConfigCaCertificate
 {
@@ -660,7 +660,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryTlsCo
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryTlsConfigClientCertificate
 {
@@ -680,7 +680,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryTlsCo
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryTlsConfigPrivateKey
 {
@@ -700,7 +700,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryTlsCo
 /// Storage version of v1api20241101.TlsConfigDefinition
 /// Parameters to authenticate using TLS config for OCI repository.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryTlsConfig
 {
@@ -737,7 +737,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryTlsCo
 /// Storage version of v1api20241101.MatchOidcIdentityDefinition
 /// MatchOIDCIdentity defines the criteria for matching the identity while verifying an OCI artifact.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryVerifyMatchOidcIdentity
 {
@@ -759,7 +759,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryVerif
 /// Storage version of v1api20241101.VerifyDefinition
 /// Parameters to verify the authenticity of an OCI Artifact.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryVerify
 {
@@ -784,7 +784,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepositoryVerif
 /// Storage version of v1api20241101.OCIRepositoryDefinition
 /// Parameters to reconcile to the OCIRepository source kind type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOciRepository
 {
@@ -850,7 +850,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOciRepository
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOperatorSpecConfigMapExpressions
 {
@@ -883,7 +883,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOperatorSpecConfig
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOperatorSpecSecretExpressions
 {
@@ -915,7 +915,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOperatorSpecSecret
 /// Storage version of v1api20241101.FluxConfigurationOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOperatorSpec
 {
@@ -938,7 +938,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. This resource is an
 /// extension resource, which means that any other Azure resource can be its owner.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpecOwner
 {
@@ -960,7 +960,7 @@ public partial class V1api20241101storageFluxConfigurationSpecOwner
 }
 
 /// <summary>Storage version of v1api20241101.FluxConfiguration_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationSpec
 {
@@ -1057,7 +1057,7 @@ public partial class V1api20241101storageFluxConfigurationSpec
 /// Storage version of v1api20241101.ManagedIdentityDefinition_STATUS
 /// Parameters to authenticate using a Managed Identity.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusAzureBlobManagedIdentity
 {
@@ -1076,7 +1076,7 @@ public partial class V1api20241101storageFluxConfigurationStatusAzureBlobManaged
 /// Storage version of v1api20241101.ServicePrincipalDefinition_STATUS
 /// Parameters to authenticate using Service Principal.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusAzureBlobServicePrincipal
 {
@@ -1101,7 +1101,7 @@ public partial class V1api20241101storageFluxConfigurationStatusAzureBlobService
 /// Storage version of v1api20241101.AzureBlobDefinition_STATUS
 /// Parameters to reconcile to the AzureBlob source kind type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusAzureBlob
 {
@@ -1146,7 +1146,7 @@ public partial class V1api20241101storageFluxConfigurationStatusAzureBlob
 /// Storage version of v1api20241101.BucketDefinition_STATUS
 /// Parameters to reconcile to the Bucket source kind type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusBucket
 {
@@ -1177,7 +1177,7 @@ public partial class V1api20241101storageFluxConfigurationStatusBucket
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusConditions
 {
@@ -1226,7 +1226,7 @@ public partial class V1api20241101storageFluxConfigurationStatusConditions
 /// Storage version of v1api20241101.RepositoryRefDefinition_STATUS
 /// The source reference for the GitRepository object.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusGitRepositoryRepositoryRef
 {
@@ -1254,7 +1254,7 @@ public partial class V1api20241101storageFluxConfigurationStatusGitRepositoryRep
 /// Storage version of v1api20241101.GitRepositoryDefinition_STATUS
 /// Parameters to reconcile to the GitRepository source kind type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusGitRepository
 {
@@ -1298,7 +1298,7 @@ public partial class V1api20241101storageFluxConfigurationStatusGitRepository
 /// Storage version of v1api20241101.SubstituteFromDefinition_STATUS
 /// Array of ConfigMaps/Secrets from which the variables are substituted for this Kustomization.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusKustomizationsPostBuildSubstituteFrom
 {
@@ -1323,7 +1323,7 @@ public partial class V1api20241101storageFluxConfigurationStatusKustomizationsPo
 /// Storage version of v1api20241101.PostBuildDefinition_STATUS
 /// The postBuild definitions defining variable substitutions for this Kustomization after kustomize build.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusKustomizationsPostBuild
 {
@@ -1345,7 +1345,7 @@ public partial class V1api20241101storageFluxConfigurationStatusKustomizationsPo
 /// Storage version of v1api20241101.KustomizationDefinition_STATUS
 /// The Kustomization defining how to reconcile the artifact pulled by the source type on the cluster.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusKustomizations
 {
@@ -1395,7 +1395,7 @@ public partial class V1api20241101storageFluxConfigurationStatusKustomizations
 /// Storage version of v1api20241101.LayerSelectorDefinition_STATUS
 /// Parameters to specify which layer to pull from the OCI artifact. By default, the first layer in the artifact is pulled.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryLayerSelector
 {
@@ -1417,7 +1417,7 @@ public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryLay
 /// Storage version of v1api20241101.OCIRepositoryRefDefinition_STATUS
 /// The source reference for the OCIRepository object.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryRepositoryRef
 {
@@ -1442,7 +1442,7 @@ public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryRep
 /// Storage version of v1api20241101.TlsConfigDefinition_STATUS
 /// Parameters to authenticate using TLS config for OCI repository.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryTlsConfig
 {
@@ -1458,7 +1458,7 @@ public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryTls
 /// Storage version of v1api20241101.MatchOidcIdentityDefinition_STATUS
 /// MatchOIDCIdentity defines the criteria for matching the identity while verifying an OCI artifact.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryVerifyMatchOidcIdentity
 {
@@ -1480,7 +1480,7 @@ public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryVer
 /// Storage version of v1api20241101.VerifyDefinition_STATUS
 /// Parameters to verify the authenticity of an OCI Artifact.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryVerify
 {
@@ -1505,7 +1505,7 @@ public partial class V1api20241101storageFluxConfigurationStatusOciRepositoryVer
 /// Storage version of v1api20241101.OCIRepositoryDefinition_STATUS
 /// Parameters to reconcile to the OCIRepository source kind type.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusOciRepository
 {
@@ -1570,7 +1570,7 @@ public partial class V1api20241101storageFluxConfigurationStatusOciRepository
 /// Storage version of v1api20241101.ObjectReferenceDefinition_STATUS
 /// Object reference to a Kubernetes object on a cluster
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusStatusesAppliedBy
 {
@@ -1592,7 +1592,7 @@ public partial class V1api20241101storageFluxConfigurationStatusStatusesAppliedB
 /// Storage version of v1api20241101.ObjectReferenceDefinition_STATUS
 /// Object reference to a Kubernetes object on a cluster
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusStatusesHelmReleasePropertiesHelmChartRef
 {
@@ -1614,7 +1614,7 @@ public partial class V1api20241101storageFluxConfigurationStatusStatusesHelmRele
 /// Storage version of v1api20241101.HelmReleasePropertiesDefinition_STATUS
 /// Properties for HelmRelease objects
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusStatusesHelmReleaseProperties
 {
@@ -1649,7 +1649,7 @@ public partial class V1api20241101storageFluxConfigurationStatusStatusesHelmRele
 /// Storage version of v1api20241101.ObjectStatusConditionDefinition_STATUS
 /// Status condition of Kubernetes object
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusStatusesStatusConditions
 {
@@ -1680,7 +1680,7 @@ public partial class V1api20241101storageFluxConfigurationStatusStatusesStatusCo
 /// Storage version of v1api20241101.ObjectStatusDefinition_STATUS
 /// Statuses of objects deployed by the user-specified kustomizations from the git repository.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatusStatuses
 {
@@ -1725,7 +1725,7 @@ public partial class V1api20241101storageFluxConfigurationStatusStatuses
 /// Storage version of v1api20241101.FluxConfiguration_STATUS
 /// The Flux Configuration object returned in Get &amp; Put response.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20241101storageFluxConfigurationStatus
 {
@@ -1828,7 +1828,7 @@ public partial class V1api20241101storageFluxConfigurationStatus
 /// - Generated from: /kubernetesconfiguration/resource-manager/Microsoft.KubernetesConfiguration/fluxConfigurations/stable/2024-11-01/fluxconfiguration.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{clusterRp}/{clusterResourceName}/{clusterName}/providers/Microsoft.KubernetesConfiguration/fluxConfigurations/{fluxConfigurationName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20241101storageFluxConfiguration : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20241101storageFluxConfigurationSpec?>, IStatus<V1api20241101storageFluxConfigurationStatus?>

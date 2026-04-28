@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2024-03-01/firewallPolicy.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/firewallPolicies/{firewallPolicyName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240301storageFirewallPolicyList : IKubernetesObject<V1ListMeta>, IItems<V1api20240301storageFirewallPolicy>
@@ -42,7 +42,7 @@ public partial class V1api20240301storageFirewallPolicyList : IKubernetesObject<
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecBasePolicyReference
 {
@@ -71,7 +71,7 @@ public partial class V1api20240301storageFirewallPolicySpecBasePolicyReference
 /// Storage version of v1api20240301.SubResource
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecBasePolicy
 {
@@ -91,7 +91,7 @@ public partial class V1api20240301storageFirewallPolicySpecBasePolicy
 /// Storage version of v1api20240301.DnsSettings
 /// DNS Proxy Settings in Firewall Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecDnsSettings
 {
@@ -116,7 +116,7 @@ public partial class V1api20240301storageFirewallPolicySpecDnsSettings
 /// Storage version of v1api20240301.ExplicitProxy
 /// Explicit Proxy Settings in Firewall Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecExplicitProxy
 {
@@ -147,7 +147,7 @@ public partial class V1api20240301storageFirewallPolicySpecExplicitProxy
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecIdentityUserAssignedIdentitiesReference
 {
@@ -176,7 +176,7 @@ public partial class V1api20240301storageFirewallPolicySpecIdentityUserAssignedI
 /// Storage version of v1api20240301.UserAssignedIdentityDetails
 /// Information about the user assigned identity for the resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecIdentityUserAssignedIdentities
 {
@@ -196,7 +196,7 @@ public partial class V1api20240301storageFirewallPolicySpecIdentityUserAssignedI
 /// Storage version of v1api20240301.ManagedServiceIdentity
 /// Identity for the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecIdentity
 {
@@ -215,7 +215,7 @@ public partial class V1api20240301storageFirewallPolicySpecIdentity
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsResourcesDefaultWorkspaceIdReference
 {
@@ -244,7 +244,7 @@ public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsR
 /// Storage version of v1api20240301.SubResource
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsResourcesDefaultWorkspaceId
 {
@@ -261,7 +261,7 @@ public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsR
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsResourcesWorkspacesWorkspaceIdReference
 {
@@ -290,7 +290,7 @@ public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsR
 /// Storage version of v1api20240301.SubResource
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsResourcesWorkspacesWorkspaceId
 {
@@ -310,7 +310,7 @@ public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsR
 /// Storage version of v1api20240301.FirewallPolicyLogAnalyticsWorkspace
 /// Log Analytics Workspace for Firewall Policy Insights.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsResourcesWorkspaces
 {
@@ -336,7 +336,7 @@ public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsR
 /// Storage version of v1api20240301.FirewallPolicyLogAnalyticsResources
 /// Log Analytics Resources for Firewall Policy Insights.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsResources
 {
@@ -362,7 +362,7 @@ public partial class V1api20240301storageFirewallPolicySpecInsightsLogAnalyticsR
 /// Storage version of v1api20240301.FirewallPolicyInsights
 /// Firewall Policy Insights.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecInsights
 {
@@ -391,7 +391,7 @@ public partial class V1api20240301storageFirewallPolicySpecInsights
 /// Storage version of v1api20240301.FirewallPolicyIntrusionDetectionBypassTrafficSpecifications
 /// Intrusion detection bypass traffic specification.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecIntrusionDetectionConfigurationBypassTrafficSettings
 {
@@ -431,7 +431,7 @@ public partial class V1api20240301storageFirewallPolicySpecIntrusionDetectionCon
 /// Storage version of v1api20240301.FirewallPolicyIntrusionDetectionSignatureSpecification
 /// Intrusion detection signatures specification states.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecIntrusionDetectionConfigurationSignatureOverrides
 {
@@ -453,7 +453,7 @@ public partial class V1api20240301storageFirewallPolicySpecIntrusionDetectionCon
 /// Storage version of v1api20240301.FirewallPolicyIntrusionDetectionConfiguration
 /// The operation for configuring intrusion detection.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecIntrusionDetectionConfiguration
 {
@@ -478,7 +478,7 @@ public partial class V1api20240301storageFirewallPolicySpecIntrusionDetectionCon
 /// Storage version of v1api20240301.FirewallPolicyIntrusionDetection
 /// Configuration for intrusion detection mode and rules.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecIntrusionDetection
 {
@@ -508,7 +508,7 @@ public partial class V1api20240301storageFirewallPolicySpecIntrusionDetection
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecOperatorSpecConfigMapExpressions
 {
@@ -541,7 +541,7 @@ public partial class V1api20240301storageFirewallPolicySpecOperatorSpecConfigMap
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecOperatorSpecSecretExpressions
 {
@@ -573,7 +573,7 @@ public partial class V1api20240301storageFirewallPolicySpecOperatorSpecSecretExp
 /// Storage version of v1api20240301.FirewallPolicyOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecOperatorSpec
 {
@@ -596,7 +596,7 @@ public partial class V1api20240301storageFirewallPolicySpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecOwner
 {
@@ -612,7 +612,7 @@ public partial class V1api20240301storageFirewallPolicySpecOwner
 /// Storage version of v1api20240301.FirewallPolicySku
 /// SKU of Firewall policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecSku
 {
@@ -631,7 +631,7 @@ public partial class V1api20240301storageFirewallPolicySpecSku
 /// Storage version of v1api20240301.FirewallPolicySNAT
 /// The private IP addresses/IP ranges to which traffic will not be SNAT.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecSnat
 {
@@ -653,7 +653,7 @@ public partial class V1api20240301storageFirewallPolicySpecSnat
 /// Storage version of v1api20240301.FirewallPolicySQL
 /// SQL Settings in Firewall Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecSql
 {
@@ -672,7 +672,7 @@ public partial class V1api20240301storageFirewallPolicySpecSql
 /// Storage version of v1api20240301.FirewallPolicyThreatIntelWhitelist
 /// ThreatIntel Whitelist for Firewall Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecThreatIntelWhitelist
 {
@@ -694,7 +694,7 @@ public partial class V1api20240301storageFirewallPolicySpecThreatIntelWhitelist
 /// Storage version of v1api20240301.FirewallPolicyCertificateAuthority
 /// Trusted Root certificates properties for tls.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecTransportSecurityCertificateAuthority
 {
@@ -716,7 +716,7 @@ public partial class V1api20240301storageFirewallPolicySpecTransportSecurityCert
 /// Storage version of v1api20240301.FirewallPolicyTransportSecurity
 /// Configuration needed to perform TLS termination &amp; initiation.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpecTransportSecurity
 {
@@ -736,7 +736,7 @@ public partial class V1api20240301storageFirewallPolicySpecTransportSecurity
 }
 
 /// <summary>Storage version of v1api20240301.FirewallPolicy_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicySpec
 {
@@ -863,7 +863,7 @@ public partial class V1api20240301storageFirewallPolicySpec
 /// Storage version of v1api20240301.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusBasePolicy
 {
@@ -882,7 +882,7 @@ public partial class V1api20240301storageFirewallPolicyStatusBasePolicy
 /// Storage version of v1api20240301.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusChildPolicies
 {
@@ -898,7 +898,7 @@ public partial class V1api20240301storageFirewallPolicyStatusChildPolicies
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusConditions
 {
@@ -947,7 +947,7 @@ public partial class V1api20240301storageFirewallPolicyStatusConditions
 /// Storage version of v1api20240301.DnsSettings_STATUS
 /// DNS Proxy Settings in Firewall Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusDnsSettings
 {
@@ -972,7 +972,7 @@ public partial class V1api20240301storageFirewallPolicyStatusDnsSettings
 /// Storage version of v1api20240301.ExplicitProxy_STATUS
 /// Explicit Proxy Settings in Firewall Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusExplicitProxy
 {
@@ -1006,7 +1006,7 @@ public partial class V1api20240301storageFirewallPolicyStatusExplicitProxy
 /// Storage version of v1api20240301.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusFirewalls
 {
@@ -1022,7 +1022,7 @@ public partial class V1api20240301storageFirewallPolicyStatusFirewalls
 }
 
 /// <summary>Storage version of v1api20240301.ManagedServiceIdentity_UserAssignedIdentities_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusIdentityUserAssignedIdentities
 {
@@ -1044,7 +1044,7 @@ public partial class V1api20240301storageFirewallPolicyStatusIdentityUserAssigne
 /// Storage version of v1api20240301.ManagedServiceIdentity_STATUS
 /// Identity for the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusIdentity
 {
@@ -1072,7 +1072,7 @@ public partial class V1api20240301storageFirewallPolicyStatusIdentity
 /// Storage version of v1api20240301.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusInsightsLogAnalyticsResourcesDefaultWorkspaceId
 {
@@ -1091,7 +1091,7 @@ public partial class V1api20240301storageFirewallPolicyStatusInsightsLogAnalytic
 /// Storage version of v1api20240301.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusInsightsLogAnalyticsResourcesWorkspacesWorkspaceId
 {
@@ -1110,7 +1110,7 @@ public partial class V1api20240301storageFirewallPolicyStatusInsightsLogAnalytic
 /// Storage version of v1api20240301.FirewallPolicyLogAnalyticsWorkspace_STATUS
 /// Log Analytics Workspace for Firewall Policy Insights.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusInsightsLogAnalyticsResourcesWorkspaces
 {
@@ -1136,7 +1136,7 @@ public partial class V1api20240301storageFirewallPolicyStatusInsightsLogAnalytic
 /// Storage version of v1api20240301.FirewallPolicyLogAnalyticsResources_STATUS
 /// Log Analytics Resources for Firewall Policy Insights.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusInsightsLogAnalyticsResources
 {
@@ -1162,7 +1162,7 @@ public partial class V1api20240301storageFirewallPolicyStatusInsightsLogAnalytic
 /// Storage version of v1api20240301.FirewallPolicyInsights_STATUS
 /// Firewall Policy Insights.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusInsights
 {
@@ -1191,7 +1191,7 @@ public partial class V1api20240301storageFirewallPolicyStatusInsights
 /// Storage version of v1api20240301.FirewallPolicyIntrusionDetectionBypassTrafficSpecifications_STATUS
 /// Intrusion detection bypass traffic specification.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusIntrusionDetectionConfigurationBypassTrafficSettings
 {
@@ -1231,7 +1231,7 @@ public partial class V1api20240301storageFirewallPolicyStatusIntrusionDetectionC
 /// Storage version of v1api20240301.FirewallPolicyIntrusionDetectionSignatureSpecification_STATUS
 /// Intrusion detection signatures specification states.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusIntrusionDetectionConfigurationSignatureOverrides
 {
@@ -1253,7 +1253,7 @@ public partial class V1api20240301storageFirewallPolicyStatusIntrusionDetectionC
 /// Storage version of v1api20240301.FirewallPolicyIntrusionDetectionConfiguration_STATUS
 /// The operation for configuring intrusion detection.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusIntrusionDetectionConfiguration
 {
@@ -1278,7 +1278,7 @@ public partial class V1api20240301storageFirewallPolicyStatusIntrusionDetectionC
 /// Storage version of v1api20240301.FirewallPolicyIntrusionDetection_STATUS
 /// Configuration for intrusion detection mode and rules.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusIntrusionDetection
 {
@@ -1307,7 +1307,7 @@ public partial class V1api20240301storageFirewallPolicyStatusIntrusionDetection
 /// Storage version of v1api20240301.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusRuleCollectionGroups
 {
@@ -1326,7 +1326,7 @@ public partial class V1api20240301storageFirewallPolicyStatusRuleCollectionGroup
 /// Storage version of v1api20240301.FirewallPolicySku_STATUS
 /// SKU of Firewall policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusSku
 {
@@ -1345,7 +1345,7 @@ public partial class V1api20240301storageFirewallPolicyStatusSku
 /// Storage version of v1api20240301.FirewallPolicySNAT_STATUS
 /// The private IP addresses/IP ranges to which traffic will not be SNAT.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusSnat
 {
@@ -1367,7 +1367,7 @@ public partial class V1api20240301storageFirewallPolicyStatusSnat
 /// Storage version of v1api20240301.FirewallPolicySQL_STATUS
 /// SQL Settings in Firewall Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusSql
 {
@@ -1386,7 +1386,7 @@ public partial class V1api20240301storageFirewallPolicyStatusSql
 /// Storage version of v1api20240301.FirewallPolicyThreatIntelWhitelist_STATUS
 /// ThreatIntel Whitelist for Firewall Policy.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusThreatIntelWhitelist
 {
@@ -1408,7 +1408,7 @@ public partial class V1api20240301storageFirewallPolicyStatusThreatIntelWhitelis
 /// Storage version of v1api20240301.FirewallPolicyCertificateAuthority_STATUS
 /// Trusted Root certificates properties for tls.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusTransportSecurityCertificateAuthority
 {
@@ -1430,7 +1430,7 @@ public partial class V1api20240301storageFirewallPolicyStatusTransportSecurityCe
 /// Storage version of v1api20240301.FirewallPolicyTransportSecurity_STATUS
 /// Configuration needed to perform TLS termination &amp; initiation.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatusTransportSecurity
 {
@@ -1453,7 +1453,7 @@ public partial class V1api20240301storageFirewallPolicyStatusTransportSecurity
 /// Storage version of v1api20240301.FirewallPolicy_STATUS
 /// FirewallPolicy Resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301storageFirewallPolicyStatus
 {
@@ -1587,7 +1587,7 @@ public partial class V1api20240301storageFirewallPolicyStatus
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2024-03-01/firewallPolicy.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/firewallPolicies/{firewallPolicyName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240301storageFirewallPolicy : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240301storageFirewallPolicySpec?>, IStatus<V1api20240301storageFirewallPolicyStatus?>

@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.sql.azure.com;
 /// - Generated from: /sql/resource-manager/Microsoft.Sql/stable/2021-11-01/Databases.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20211101ServersDatabaseList : IKubernetesObject<V1ListMeta>, IItems<V1api20211101ServersDatabase>
@@ -41,7 +41,7 @@ public partial class V1api20211101ServersDatabaseList : IKubernetesObject<V1List
 }
 
 /// <summary>CatalogCollation: Collation of the metadata catalog.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabaseSpecCatalogCollationEnum>))]
 public enum V1api20211101ServersDatabaseSpecCatalogCollationEnum
 {
@@ -70,7 +70,7 @@ public enum V1api20211101ServersDatabaseSpecCatalogCollationEnum
 /// recoveryServicesRecoveryPointResourceId must be specified as the recovery point resource ID.
 /// Copy, Secondary, and RestoreLongTermRetentionBackup are not supported for DataWarehouse edition.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabaseSpecCreateModeEnum>))]
 public enum V1api20211101ServersDatabaseSpecCreateModeEnum
 {
@@ -97,7 +97,7 @@ public enum V1api20211101ServersDatabaseSpecCreateModeEnum
 }
 
 /// <summary>ElasticPoolReference: The resource identifier of the elastic pool containing this database.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecElasticPoolReference
 {
@@ -123,7 +123,7 @@ public partial class V1api20211101ServersDatabaseSpecElasticPoolReference
 }
 
 /// <summary>Type: The identity type</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabaseSpecIdentityTypeEnum>))]
 public enum V1api20211101ServersDatabaseSpecIdentityTypeEnum
 {
@@ -134,7 +134,7 @@ public enum V1api20211101ServersDatabaseSpecIdentityTypeEnum
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecIdentityUserAssignedIdentitiesReference
 {
@@ -160,7 +160,7 @@ public partial class V1api20211101ServersDatabaseSpecIdentityUserAssignedIdentit
 }
 
 /// <summary>Information about the user assigned identity for the resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecIdentityUserAssignedIdentities
 {
@@ -170,7 +170,7 @@ public partial class V1api20211101ServersDatabaseSpecIdentityUserAssignedIdentit
 }
 
 /// <summary>Identity: The Azure Active Directory identity of the database.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecIdentity
 {
@@ -187,7 +187,7 @@ public partial class V1api20211101ServersDatabaseSpecIdentity
 /// LicenseType: The license type to apply for this database. `LicenseIncluded` if you need a license, or `BasePrice` if you
 /// have a license and are eligible for the Azure Hybrid Benefit.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabaseSpecLicenseTypeEnum>))]
 public enum V1api20211101ServersDatabaseSpecLicenseTypeEnum
 {
@@ -201,7 +201,7 @@ public enum V1api20211101ServersDatabaseSpecLicenseTypeEnum
 /// LongTermRetentionBackupResourceReference: The resource identifier of the long term retention backup associated with
 /// create operation of this database.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecLongTermRetentionBackupResourceReference
 {
@@ -231,7 +231,7 @@ public partial class V1api20211101ServersDatabaseSpecLongTermRetentionBackupReso
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecOperatorSpecConfigMapExpressions
 {
@@ -264,7 +264,7 @@ public partial class V1api20211101ServersDatabaseSpecOperatorSpecConfigMapExpres
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecOperatorSpecSecretExpressions
 {
@@ -296,7 +296,7 @@ public partial class V1api20211101ServersDatabaseSpecOperatorSpecSecretExpressio
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecOperatorSpec
 {
@@ -314,7 +314,7 @@ public partial class V1api20211101ServersDatabaseSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a sql.azure.com/Server resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecOwner
 {
@@ -331,7 +331,7 @@ public partial class V1api20211101ServersDatabaseSpecOwner
 /// connection string may be routed to a readonly secondary replica in the same region. Not applicable to a Hyperscale
 /// database within an elastic pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabaseSpecReadScaleEnum>))]
 public enum V1api20211101ServersDatabaseSpecReadScaleEnum
 {
@@ -345,7 +345,7 @@ public enum V1api20211101ServersDatabaseSpecReadScaleEnum
 /// RecoverableDatabaseReference: The resource identifier of the recoverable database associated with create operation of
 /// this database.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecRecoverableDatabaseReference
 {
@@ -374,7 +374,7 @@ public partial class V1api20211101ServersDatabaseSpecRecoverableDatabaseReferenc
 /// RecoveryServicesRecoveryPointReference: The resource identifier of the recovery point associated with create operation
 /// of this database.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecRecoveryServicesRecoveryPointReference
 {
@@ -400,7 +400,7 @@ public partial class V1api20211101ServersDatabaseSpecRecoveryServicesRecoveryPoi
 }
 
 /// <summary>RequestedBackupStorageRedundancy: The storage account type to be used to store backups for this database.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabaseSpecRequestedBackupStorageRedundancyEnum>))]
 public enum V1api20211101ServersDatabaseSpecRequestedBackupStorageRedundancyEnum
 {
@@ -418,7 +418,7 @@ public enum V1api20211101ServersDatabaseSpecRequestedBackupStorageRedundancyEnum
 /// RestorableDroppedDatabaseReference: The resource identifier of the restorable dropped database associated with create
 /// operation of this database.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecRestorableDroppedDatabaseReference
 {
@@ -444,7 +444,7 @@ public partial class V1api20211101ServersDatabaseSpecRestorableDroppedDatabaseRe
 }
 
 /// <summary>SampleName: The name of the sample schema to apply when creating this database.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabaseSpecSampleNameEnum>))]
 public enum V1api20211101ServersDatabaseSpecSampleNameEnum
 {
@@ -457,7 +457,7 @@ public enum V1api20211101ServersDatabaseSpecSampleNameEnum
 }
 
 /// <summary>SecondaryType: The secondary type of the database if it is a secondary.  Valid values are Geo and Named.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20211101ServersDatabaseSpecSecondaryTypeEnum>))]
 public enum V1api20211101ServersDatabaseSpecSecondaryTypeEnum
 {
@@ -479,7 +479,7 @@ public enum V1api20211101ServersDatabaseSpecSecondaryTypeEnum
 /// Get-AzSqlServerServiceObjective -Location &lt;location&gt;
 /// ````
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecSku
 {
@@ -508,7 +508,7 @@ public partial class V1api20211101ServersDatabaseSpecSku
 /// SourceDatabaseReference: The resource identifier of the source database associated with create operation of this
 /// database.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecSourceDatabaseReference
 {
@@ -548,7 +548,7 @@ public partial class V1api20211101ServersDatabaseSpecSourceDatabaseReference
 /// “x-ms-authorization-auxiliary” header see
 /// https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/authenticate-multi-tenant
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpecSourceResourceReference
 {
@@ -573,7 +573,7 @@ public partial class V1api20211101ServersDatabaseSpecSourceResourceReference
     public string? Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseSpec
 {
@@ -800,7 +800,7 @@ public partial class V1api20211101ServersDatabaseSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseStatusConditions
 {
@@ -846,7 +846,7 @@ public partial class V1api20211101ServersDatabaseStatusConditions
 }
 
 /// <summary>CurrentSku: The name and tier of the SKU.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseStatusCurrentSku
 {
@@ -872,7 +872,7 @@ public partial class V1api20211101ServersDatabaseStatusCurrentSku
 }
 
 /// <summary>Azure Active Directory identity configuration for a resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseStatusIdentityUserAssignedIdentities
 {
@@ -886,7 +886,7 @@ public partial class V1api20211101ServersDatabaseStatusIdentityUserAssignedIdent
 }
 
 /// <summary>Identity: The Azure Active Directory identity of the database.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseStatusIdentity
 {
@@ -915,7 +915,7 @@ public partial class V1api20211101ServersDatabaseStatusIdentity
 /// Get-AzSqlServerServiceObjective -Location &lt;location&gt;
 /// ````
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseStatusSku
 {
@@ -940,7 +940,7 @@ public partial class V1api20211101ServersDatabaseStatusSku
     public string? Tier { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211101ServersDatabaseStatus
 {
@@ -1235,7 +1235,7 @@ public partial class V1api20211101ServersDatabaseStatus
 /// - Generated from: /sql/resource-manager/Microsoft.Sql/stable/2021-11-01/Databases.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{serverName}/databases/{databaseName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20211101ServersDatabase : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20211101ServersDatabaseSpec?>, IStatus<V1api20211101ServersDatabaseStatus?>

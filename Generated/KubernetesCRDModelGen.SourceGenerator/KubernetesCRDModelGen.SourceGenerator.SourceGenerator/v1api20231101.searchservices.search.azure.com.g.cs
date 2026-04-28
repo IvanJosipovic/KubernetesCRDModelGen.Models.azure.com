@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.search.azure.com;
 /// - Generated from: /search/resource-manager/Microsoft.Search/Search/stable/2023-11-01/search.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20231101SearchServiceList : IKubernetesObject<V1ListMeta>, IItems<V1api20231101SearchService>
@@ -44,7 +44,7 @@ public partial class V1api20231101SearchServiceList : IKubernetesObject<V1ListMe
 /// AadAuthFailureMode: Describes what response the data plane API of a search service would send for requests that failed
 /// authentication.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20231101SearchServiceSpecAuthOptionsAadOrApiKeyAadAuthFailureModeEnum>))]
 public enum V1api20231101SearchServiceSpecAuthOptionsAadOrApiKeyAadAuthFailureModeEnum
 {
@@ -58,7 +58,7 @@ public enum V1api20231101SearchServiceSpecAuthOptionsAadOrApiKeyAadAuthFailureMo
 /// AadOrApiKey: Indicates that either the API key or an access token from a Microsoft Entra ID tenant can be used for
 /// authentication.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecAuthOptionsAadOrApiKey
 {
@@ -74,7 +74,7 @@ public partial class V1api20231101SearchServiceSpecAuthOptionsAadOrApiKey
 /// AuthOptions: Defines the options for how the data plane API of a search service authenticates requests. This cannot be
 /// set if &apos;disableLocalAuth&apos; is set to true.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecAuthOptions
 {
@@ -87,7 +87,7 @@ public partial class V1api20231101SearchServiceSpecAuthOptions
 }
 
 /// <summary>Enforcement: Describes how a search service should enforce having one or more non-customer-encrypted resources.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20231101SearchServiceSpecEncryptionWithCmkEnforcementEnum>))]
 public enum V1api20231101SearchServiceSpecEncryptionWithCmkEnforcementEnum
 {
@@ -103,7 +103,7 @@ public enum V1api20231101SearchServiceSpecEncryptionWithCmkEnforcementEnum
 /// EncryptionWithCmk: Specifies any policy regarding encryption of resources (such as indexes) using customer manager keys
 /// within a search service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecEncryptionWithCmk
 {
@@ -117,7 +117,7 @@ public partial class V1api20231101SearchServiceSpecEncryptionWithCmk
 /// that allow up to 1000 indexes, which is much higher than the maximum indexes allowed for any other SKU. For the
 /// standard3 SKU, the value is either &apos;default&apos; or &apos;highDensity&apos;. For all other SKUs, this value must be &apos;default&apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20231101SearchServiceSpecHostingModeEnum>))]
 public enum V1api20231101SearchServiceSpecHostingModeEnum
 {
@@ -128,7 +128,7 @@ public enum V1api20231101SearchServiceSpecHostingModeEnum
 }
 
 /// <summary>Type: The identity type.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20231101SearchServiceSpecIdentityTypeEnum>))]
 public enum V1api20231101SearchServiceSpecIdentityTypeEnum
 {
@@ -139,7 +139,7 @@ public enum V1api20231101SearchServiceSpecIdentityTypeEnum
 }
 
 /// <summary>Identity: The identity of the resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecIdentity
 {
@@ -149,7 +149,7 @@ public partial class V1api20231101SearchServiceSpecIdentity
 }
 
 /// <summary>The IP restriction rule of the search service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecNetworkRuleSetIpRules
 {
@@ -162,7 +162,7 @@ public partial class V1api20231101SearchServiceSpecNetworkRuleSetIpRules
 }
 
 /// <summary>NetworkRuleSet: Network-specific rules that determine how the search service may be reached.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecNetworkRuleSet
 {
@@ -179,7 +179,7 @@ public partial class V1api20231101SearchServiceSpecNetworkRuleSet
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecConfigMapExpressions
 {
@@ -211,7 +211,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecConfigMapExpressi
 /// IdentityPrincipalId: indicates where the IdentityPrincipalId config map should be placed. If omitted, no config map will
 /// be created.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecConfigMapsIdentityPrincipalId
 {
@@ -231,7 +231,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecConfigMapsIdentit
 /// IdentityTenantId: indicates where the IdentityTenantId config map should be placed. If omitted, no config map will be
 /// created.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecConfigMapsIdentityTenantId
 {
@@ -248,7 +248,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecConfigMapsIdentit
 }
 
 /// <summary>ConfigMaps: configures where to place operator written ConfigMaps.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecConfigMaps
 {
@@ -272,7 +272,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecConfigMaps
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecSecretExpressions
 {
@@ -304,7 +304,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecSecretExpressions
 /// AdminPrimaryKey: indicates where the AdminPrimaryKey secret should be placed. If omitted, the secret will not be
 /// retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecSecretsAdminPrimaryKey
 {
@@ -324,7 +324,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecSecretsAdminPrima
 /// AdminSecondaryKey: indicates where the AdminSecondaryKey secret should be placed. If omitted, the secret will not be
 /// retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecSecretsAdminSecondaryKey
 {
@@ -341,7 +341,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecSecretsAdminSecon
 }
 
 /// <summary>QueryKey: indicates where the QueryKey secret should be placed. If omitted, the secret will not be retrieved from Azure.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecSecretsQueryKey
 {
@@ -358,7 +358,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecSecretsQueryKey
 }
 
 /// <summary>Secrets: configures where to place Azure generated secrets.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpecSecrets
 {
@@ -385,7 +385,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpecSecrets
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOperatorSpec
 {
@@ -411,7 +411,7 @@ public partial class V1api20231101SearchServiceSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecOwner
 {
@@ -428,7 +428,7 @@ public partial class V1api20231101SearchServiceSpecOwner
 /// templates. If set to &apos;disabled&apos;, traffic over public interface is not allowed, and private endpoint connections would be
 /// the exclusive access method.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20231101SearchServiceSpecPublicNetworkAccessEnum>))]
 public enum V1api20231101SearchServiceSpecPublicNetworkAccessEnum
 {
@@ -442,7 +442,7 @@ public enum V1api20231101SearchServiceSpecPublicNetworkAccessEnum
 /// SemanticSearch: Sets options that control the availability of semantic search. This configuration is only possible for
 /// certain search SKUs in certain locations.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20231101SearchServiceSpecSemanticSearchEnum>))]
 public enum V1api20231101SearchServiceSpecSemanticSearchEnum
 {
@@ -462,7 +462,7 @@ public enum V1api20231101SearchServiceSpecSemanticSearchEnum
 /// &apos;storage_optimized_l1&apos;: Supports 1TB per partition, up to 12 partitions. &apos;storage_optimized_l2&apos;: Supports 2TB per
 /// partition, up to 12 partitions.&apos;
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20231101SearchServiceSpecSkuNameEnum>))]
 public enum V1api20231101SearchServiceSpecSkuNameEnum
 {
@@ -486,7 +486,7 @@ public enum V1api20231101SearchServiceSpecSkuNameEnum
 /// Sku: The SKU of the search service, which determines billing rate and capacity limits. This property is required when
 /// creating a new search service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpecSku
 {
@@ -502,7 +502,7 @@ public partial class V1api20231101SearchServiceSpecSku
     public V1api20231101SearchServiceSpecSkuNameEnum? Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceSpec
 {
@@ -615,7 +615,7 @@ public partial class V1api20231101SearchServiceSpec
 /// AadOrApiKey: Indicates that either the API key or an access token from a Microsoft Entra ID tenant can be used for
 /// authentication.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusAuthOptionsAadOrApiKey
 {
@@ -631,7 +631,7 @@ public partial class V1api20231101SearchServiceStatusAuthOptionsAadOrApiKey
 /// AuthOptions: Defines the options for how the data plane API of a search service authenticates requests. This cannot be
 /// set if &apos;disableLocalAuth&apos; is set to true.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusAuthOptions
 {
@@ -648,7 +648,7 @@ public partial class V1api20231101SearchServiceStatusAuthOptions
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusConditions
 {
@@ -697,7 +697,7 @@ public partial class V1api20231101SearchServiceStatusConditions
 /// EncryptionWithCmk: Specifies any policy regarding encryption of resources (such as indexes) using customer manager keys
 /// within a search service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusEncryptionWithCmk
 {
@@ -715,7 +715,7 @@ public partial class V1api20231101SearchServiceStatusEncryptionWithCmk
 }
 
 /// <summary>Identity: The identity of the resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusIdentity
 {
@@ -733,7 +733,7 @@ public partial class V1api20231101SearchServiceStatusIdentity
 }
 
 /// <summary>The IP restriction rule of the search service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusNetworkRuleSetIpRules
 {
@@ -746,7 +746,7 @@ public partial class V1api20231101SearchServiceStatusNetworkRuleSetIpRules
 }
 
 /// <summary>NetworkRuleSet: Network-specific rules that determine how the search service may be reached.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusNetworkRuleSet
 {
@@ -759,7 +759,7 @@ public partial class V1api20231101SearchServiceStatusNetworkRuleSet
 }
 
 /// <summary>Describes an existing private endpoint connection to the search service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusPrivateEndpointConnections
 {
@@ -772,7 +772,7 @@ public partial class V1api20231101SearchServiceStatusPrivateEndpointConnections
 }
 
 /// <summary>Describes a Shared Private Link Resource managed by the search service.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusSharedPrivateLinkResources
 {
@@ -788,7 +788,7 @@ public partial class V1api20231101SearchServiceStatusSharedPrivateLinkResources
 /// Sku: The SKU of the search service, which determines billing rate and capacity limits. This property is required when
 /// creating a new search service.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatusSku
 {
@@ -805,7 +805,7 @@ public partial class V1api20231101SearchServiceStatusSku
 }
 
 /// <summary>Describes a search service and its current state.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20231101SearchServiceStatus
 {
@@ -952,7 +952,7 @@ public partial class V1api20231101SearchServiceStatus
 /// - Generated from: /search/resource-manager/Microsoft.Search/Search/stable/2023-11-01/search.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20231101SearchService : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20231101SearchServiceSpec?>, IStatus<V1api20231101SearchServiceStatus?>

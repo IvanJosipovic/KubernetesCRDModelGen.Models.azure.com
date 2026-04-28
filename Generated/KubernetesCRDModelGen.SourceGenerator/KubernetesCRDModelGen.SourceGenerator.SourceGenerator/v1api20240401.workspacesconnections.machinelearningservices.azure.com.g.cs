@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.machinelearningservices.azure.com;
 /// - Generated from: /machinelearningservices/resource-manager/Microsoft.MachineLearningServices/stable/2024-04-01/workspaceRP.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/connections/{connectionName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240401WorkspacesConnectionList : IKubernetesObject<V1ListMeta>, IItems<V1api20240401WorkspacesConnection>
@@ -45,7 +45,7 @@ public partial class V1api20240401WorkspacesConnectionList : IKubernetesObject<V
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecOperatorSpecConfigMapExpressions
 {
@@ -78,7 +78,7 @@ public partial class V1api20240401WorkspacesConnectionSpecOperatorSpecConfigMapE
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecOperatorSpecSecretExpressions
 {
@@ -110,7 +110,7 @@ public partial class V1api20240401WorkspacesConnectionSpecOperatorSpecSecretExpr
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecOperatorSpec
 {
@@ -128,7 +128,7 @@ public partial class V1api20240401WorkspacesConnectionSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a machinelearningservices.azure.com/Workspace resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecOwner
 {
@@ -141,7 +141,7 @@ public partial class V1api20240401WorkspacesConnectionSpecOwner
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAadAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAadAuthTypeEnum
 {
@@ -150,7 +150,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAadAuthTypeEnum
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAadCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAadCategoryEnum
 {
@@ -361,7 +361,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAadCategoryEnum
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAadValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAadValueFormatEnum
 {
@@ -370,7 +370,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAadValueFormatEnum
 }
 
 /// <summary>AAD: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesAad
 {
@@ -408,7 +408,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesAad
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyAuthTypeEnum
 {
@@ -417,7 +417,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyAuthTypeEnum
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyCategoryEnum
 {
@@ -631,7 +631,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyCategoryEnum
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyCredentialsSecretAccessKey
 {
@@ -647,7 +647,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyCre
     public required string Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyCredentials
 {
@@ -663,7 +663,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyCre
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyValueFormatEnum
 {
@@ -672,7 +672,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAccessKeyValueFormatE
 }
 
 /// <summary>AccessKey: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccessKey
 {
@@ -713,7 +713,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccessKey
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyAuthTypeEnum
 {
@@ -722,7 +722,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyAuthTypeEnu
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyCategoryEnum
 {
@@ -936,7 +936,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyCategoryEnu
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyCredentialsKey
 {
@@ -952,7 +952,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyCr
     public required string Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyCredentials
 {
@@ -965,7 +965,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyCr
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyValueFormatEnum
 {
@@ -974,7 +974,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesAccountKeyValueFormat
 }
 
 /// <summary>AccountKey: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccountKey
 {
@@ -1015,7 +1015,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesAccountKey
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesApiKeyAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesApiKeyAuthTypeEnum
 {
@@ -1024,7 +1024,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesApiKeyAuthTypeEnum
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesApiKeyCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesApiKeyCategoryEnum
 {
@@ -1238,7 +1238,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesApiKeyCategoryEnum
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesApiKeyCredentialsKey
 {
@@ -1255,7 +1255,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesApiKeyCreden
 }
 
 /// <summary>Credentials: Api key object for workspace connection credential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesApiKeyCredentials
 {
@@ -1268,7 +1268,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesApiKeyCreden
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesApiKeyValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesApiKeyValueFormatEnum
 {
@@ -1277,7 +1277,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesApiKeyValueFormatEnum
 }
 
 /// <summary>ApiKey: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesApiKey
 {
@@ -1319,7 +1319,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesApiKey
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysAuthTypeEnum
 {
@@ -1328,7 +1328,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysAuthTypeEnu
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysCategoryEnum
 {
@@ -1542,7 +1542,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysCategoryEnu
 /// SecretMapReference is a reference to a Kubernetes secret in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysCredentialsKeys
 {
@@ -1555,7 +1555,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysCr
 }
 
 /// <summary>Credentials: Custom Keys credential object</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysCredentials
 {
@@ -1568,7 +1568,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysCr
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysValueFormatEnum
 {
@@ -1577,7 +1577,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesCustomKeysValueFormat
 }
 
 /// <summary>CustomKeys: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesCustomKeys
 {
@@ -1619,7 +1619,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesCustomKeys
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityAuthTypeEnum
 {
@@ -1628,7 +1628,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityAuthTy
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityCategoryEnum
 {
@@ -1842,7 +1842,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityCatego
 /// ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityCredentialsClientIdFromConfig
 {
@@ -1859,7 +1859,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesManagedIdent
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityCredentialsResourceReference
 {
@@ -1884,7 +1884,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesManagedIdent
     public string? Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityCredentials
 {
@@ -1904,7 +1904,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesManagedIdent
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityValueFormatEnum
 {
@@ -1913,7 +1913,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentityValueF
 }
 
 /// <summary>ManagedIdentity: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesManagedIdentity
 {
@@ -1954,7 +1954,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesManagedIdent
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesNoneAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesNoneAuthTypeEnum
 {
@@ -1963,7 +1963,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesNoneAuthTypeEnum
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesNoneCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesNoneCategoryEnum
 {
@@ -2174,7 +2174,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesNoneCategoryEnum
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesNoneValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesNoneValueFormatEnum
 {
@@ -2183,7 +2183,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesNoneValueFormatEnum
 }
 
 /// <summary>None: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesNone
 {
@@ -2221,7 +2221,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesNone
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesOAuth2AuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesOAuth2AuthTypeEnum
 {
@@ -2230,7 +2230,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesOAuth2AuthTypeEnum
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CategoryEnum
 {
@@ -2441,7 +2441,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CategoryEnum
 }
 
 /// <summary>ClientIdFromConfig: Client id in the format of UUID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CredentialsClientIdFromConfig
 {
@@ -2461,7 +2461,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2Creden
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CredentialsClientSecret
 {
@@ -2478,7 +2478,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2Creden
 }
 
 /// <summary>DeveloperToken: Required by GoogleAdWords connection category</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CredentialsDeveloperToken
 {
@@ -2498,7 +2498,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2Creden
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CredentialsPassword
 {
@@ -2518,7 +2518,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2Creden
 /// RefreshToken: Required by GoogleBigQuery, GoogleAdWords, Hubspot, QuickBooks, Square, Xero, Zoho
 /// where user needs to get RefreshToken offline
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CredentialsRefreshToken
 {
@@ -2535,7 +2535,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2Creden
 }
 
 /// <summary>TenantIdFromConfig: Required by QuickBooks and Xero connection categories</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2CredentialsTenantIdFromConfig
 {
@@ -2555,7 +2555,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2Creden
 /// Credentials: ClientId and ClientSecret are required. Other properties are optional
 /// depending on each OAuth2 provider&apos;s  implementation.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2Credentials
 {
@@ -2613,7 +2613,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2Creden
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesOAuth2ValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesOAuth2ValueFormatEnum
 {
@@ -2622,7 +2622,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesOAuth2ValueFormatEnum
 }
 
 /// <summary>OAuth2: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2
 {
@@ -2667,7 +2667,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesOAuth2
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesPatAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesPatAuthTypeEnum
 {
@@ -2676,7 +2676,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesPatAuthTypeEnum
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesPatCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesPatCategoryEnum
 {
@@ -2890,7 +2890,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesPatCategoryEnum
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesPatCredentialsPat
 {
@@ -2906,7 +2906,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesPatCredentia
     public required string Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesPatCredentials
 {
@@ -2919,7 +2919,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesPatCredentia
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesPatValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesPatValueFormatEnum
 {
@@ -2928,7 +2928,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesPatValueFormatEnum
 }
 
 /// <summary>PAT: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesPat
 {
@@ -2969,7 +2969,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesPat
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesSasAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesSasAuthTypeEnum
 {
@@ -2978,7 +2978,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesSasAuthTypeEnum
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesSasCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesSasCategoryEnum
 {
@@ -3192,7 +3192,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesSasCategoryEnum
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesSasCredentialsSas
 {
@@ -3208,7 +3208,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesSasCredentia
     public required string Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesSasCredentials
 {
@@ -3221,7 +3221,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesSasCredentia
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesSasValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesSasValueFormatEnum
 {
@@ -3230,7 +3230,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesSasValueFormatEnum
 }
 
 /// <summary>SAS: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesSas
 {
@@ -3271,7 +3271,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesSas
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalAuthTypeEnum
 {
@@ -3280,7 +3280,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalAuthT
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalCategoryEnum
 {
@@ -3494,7 +3494,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalCateg
 /// ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalCredentialsClientIdFromConfig
 {
@@ -3514,7 +3514,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrinc
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalCredentialsClientSecret
 {
@@ -3534,7 +3534,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrinc
 /// ConfigMapReference is a reference to a Kubernetes configmap and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalCredentialsTenantIdFromConfig
 {
@@ -3550,7 +3550,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrinc
     public required string Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalCredentials
 {
@@ -3583,7 +3583,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrinc
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalValueFormatEnum
 {
@@ -3592,7 +3592,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipalValue
 }
 
 /// <summary>ServicePrincipal: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrincipal
 {
@@ -3633,7 +3633,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesServicePrinc
 }
 
 /// <summary>AuthType: Authentication type of the connection target</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordAuthTypeEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordAuthTypeEnum
 {
@@ -3642,7 +3642,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordAuthT
 }
 
 /// <summary>Category: Category of the connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordCategoryEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordCategoryEnum
 {
@@ -3856,7 +3856,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordCateg
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordCredentialsPassword
 {
@@ -3873,7 +3873,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesUsernamePass
 }
 
 /// <summary>SecurityToken: Optional, required by connections like SalesForce for extra security in addition to UsernamePassword</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordCredentialsSecurityToken
 {
@@ -3889,7 +3889,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesUsernamePass
     public required string Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordCredentials
 {
@@ -3909,7 +3909,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesUsernamePass
 }
 
 /// <summary>ValueFormat: format for the workspace connection value</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordValueFormatEnum>))]
 public enum V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordValueFormatEnum
 {
@@ -3918,7 +3918,7 @@ public enum V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordValue
 }
 
 /// <summary>UsernamePassword: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecPropertiesUsernamePassword
 {
@@ -3958,7 +3958,7 @@ public partial class V1api20240401WorkspacesConnectionSpecPropertiesUsernamePass
     public V1api20240401WorkspacesConnectionSpecPropertiesUsernamePasswordValueFormatEnum? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpecProperties
 {
@@ -4011,7 +4011,7 @@ public partial class V1api20240401WorkspacesConnectionSpecProperties
     public V1api20240401WorkspacesConnectionSpecPropertiesUsernamePassword? UsernamePassword { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionSpec
 {
@@ -4042,7 +4042,7 @@ public partial class V1api20240401WorkspacesConnectionSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusConditions
 {
@@ -4088,7 +4088,7 @@ public partial class V1api20240401WorkspacesConnectionStatusConditions
 }
 
 /// <summary>AAD: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesAad
 {
@@ -4132,7 +4132,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesAad
     public string? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesAccessKeyCredentials
 {
@@ -4141,7 +4141,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesAccessKeyC
 }
 
 /// <summary>AccessKey: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesAccessKey
 {
@@ -4188,14 +4188,14 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesAccessKey
     public string? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesAccountKeyCredentials
 {
 }
 
 /// <summary>AccountKey: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesAccountKey
 {
@@ -4243,14 +4243,14 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesAccountKey
 }
 
 /// <summary>Credentials: Api key object for workspace connection credential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesApiKeyCredentials
 {
 }
 
 /// <summary>ApiKey: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesApiKey
 {
@@ -4299,7 +4299,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesApiKey
 }
 
 /// <summary>Credentials: Custom Keys credential object</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesCustomKeysCredentials
 {
@@ -4308,7 +4308,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesCustomKeys
 }
 
 /// <summary>CustomKeys: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesCustomKeys
 {
@@ -4356,7 +4356,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesCustomKeys
     public string? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesManagedIdentityCredentials
 {
@@ -4368,7 +4368,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesManagedIde
 }
 
 /// <summary>ManagedIdentity: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesManagedIdentity
 {
@@ -4416,7 +4416,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesManagedIde
 }
 
 /// <summary>None: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesNone
 {
@@ -4464,7 +4464,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesNone
 /// Credentials: ClientId and ClientSecret are required. Other properties are optional
 /// depending on each OAuth2 provider&apos;s  implementation.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesOAuth2Credentials
 {
@@ -4489,7 +4489,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesOAuth2Cred
 }
 
 /// <summary>OAuth2: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesOAuth2
 {
@@ -4540,14 +4540,14 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesOAuth2
     public string? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesPatCredentials
 {
 }
 
 /// <summary>PAT: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesPat
 {
@@ -4594,14 +4594,14 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesPat
     public string? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesSasCredentials
 {
 }
 
 /// <summary>SAS: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesSas
 {
@@ -4648,7 +4648,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesSas
     public string? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesServicePrincipalCredentials
 {
@@ -4660,7 +4660,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesServicePri
 }
 
 /// <summary>ServicePrincipal: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesServicePrincipal
 {
@@ -4707,7 +4707,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesServicePri
     public string? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesUsernamePasswordCredentials
 {
@@ -4716,7 +4716,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesUsernamePa
 }
 
 /// <summary>UsernamePassword: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusPropertiesUsernamePassword
 {
@@ -4763,7 +4763,7 @@ public partial class V1api20240401WorkspacesConnectionStatusPropertiesUsernamePa
     public string? ValueFormat { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusProperties
 {
@@ -4817,7 +4817,7 @@ public partial class V1api20240401WorkspacesConnectionStatusProperties
 }
 
 /// <summary>SystemData: Azure Resource Manager metadata containing createdBy and modifiedBy information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatusSystemData
 {
@@ -4846,7 +4846,7 @@ public partial class V1api20240401WorkspacesConnectionStatusSystemData
     public string? LastModifiedByType { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240401WorkspacesConnectionStatus
 {
@@ -4882,7 +4882,7 @@ public partial class V1api20240401WorkspacesConnectionStatus
 /// - Generated from: /machinelearningservices/resource-manager/Microsoft.MachineLearningServices/stable/2024-04-01/workspaceRP.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/connections/{connectionName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240401WorkspacesConnection : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240401WorkspacesConnectionSpec?>, IStatus<V1api20240401WorkspacesConnectionStatus?>

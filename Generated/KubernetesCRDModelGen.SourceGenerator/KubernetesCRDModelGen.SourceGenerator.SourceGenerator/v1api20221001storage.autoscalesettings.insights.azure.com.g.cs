@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.insights.azure.com;
 /// - Generated from: /monitor/resource-manager/Microsoft.Insights/stable/2022-10-01/autoscale_API.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/autoscalesettings/{autoscaleSettingName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20221001storageAutoscaleSettingList : IKubernetesObject<V1ListMeta>, IItems<V1api20221001storageAutoscaleSetting>
@@ -45,7 +45,7 @@ public partial class V1api20221001storageAutoscaleSettingList : IKubernetesObjec
 /// Storage version of v1api20221001.EmailNotification
 /// Email notification of an autoscale event.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecNotificationsEmail
 {
@@ -70,7 +70,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecNotificationsEmail
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecNotificationsWebhooksServiceUriFromSecret
 {
@@ -90,7 +90,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecNotificationsWebhoo
 /// Storage version of v1api20221001.WebhookNotification
 /// Webhook notification of an autoscale event.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecNotificationsWebhooks
 {
@@ -119,7 +119,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecNotificationsWebhoo
 /// Storage version of v1api20221001.AutoscaleNotification
 /// Autoscale notification.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecNotifications
 {
@@ -149,7 +149,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecNotifications
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecOperatorSpecConfigMapExpressions
 {
@@ -182,7 +182,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecOperatorSpecConfigM
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecOperatorSpecSecretExpressions
 {
@@ -214,7 +214,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecOperatorSpecSecretE
 /// Storage version of v1api20221001.AutoscaleSettingOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecOperatorSpec
 {
@@ -237,7 +237,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecOwner
 {
@@ -253,7 +253,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecOwner
 /// Storage version of v1api20221001.PredictiveAutoscalePolicy
 /// The parameters for enabling predictive autoscale.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecPredictiveAutoscalePolicy
 {
@@ -275,7 +275,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecPredictiveAutoscale
 /// Storage version of v1api20221001.ScaleCapacity
 /// The number of instances that can be used during this profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesCapacity
 {
@@ -300,7 +300,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesCapacity
 /// Storage version of v1api20221001.TimeWindow
 /// A specific date-time for the profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesFixedDate
 {
@@ -325,7 +325,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesFixedDate
 /// Storage version of v1api20221001.RecurrentSchedule
 /// The scheduling constraints for when the profile begins.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesRecurrenceSchedule
 {
@@ -353,7 +353,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesRecurrenceS
 /// Storage version of v1api20221001.Recurrence
 /// The repeating times at which this profile begins. This element is not used if the FixedDate element is used.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesRecurrence
 {
@@ -379,7 +379,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesRecurrence
 /// Storage version of v1api20221001.ScaleRuleMetricDimension
 /// Specifies an auto scale rule metric dimension.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesRulesMetricTriggerDimensions
 {
@@ -401,7 +401,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesRulesMetric
 }
 
 /// <summary>MetricResourceUriReference: the resource identifier of the resource the rule monitors.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesRulesMetricTriggerMetricResourceUriReference
 {
@@ -430,7 +430,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesRulesMetric
 /// Storage version of v1api20221001.MetricTrigger
 /// The trigger that results in a scaling action.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesRulesMetricTrigger
 {
@@ -483,7 +483,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesRulesMetric
 /// Storage version of v1api20221001.ScaleAction
 /// The parameters for the scaling action.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesRulesScaleAction
 {
@@ -511,7 +511,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesRulesScaleA
 /// Storage version of v1api20221001.ScaleRule
 /// A rule that provide the triggers and parameters for the scaling action.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfilesRules
 {
@@ -541,7 +541,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfilesRules
 /// Storage version of v1api20221001.AutoscaleProfile
 /// Autoscale profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecProfiles
 {
@@ -581,7 +581,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecProfiles
 }
 
 /// <summary>TargetResourceUriReference: the resource identifier of the resource that the autoscale setting should be added to.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpecTargetResourceUriReference
 {
@@ -607,7 +607,7 @@ public partial class V1api20221001storageAutoscaleSettingSpecTargetResourceUriRe
 }
 
 /// <summary>Storage version of v1api20221001.AutoscaleSetting_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingSpec
 {
@@ -677,7 +677,7 @@ public partial class V1api20221001storageAutoscaleSettingSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusConditions
 {
@@ -726,7 +726,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusConditions
 /// Storage version of v1api20221001.EmailNotification_STATUS
 /// Email notification of an autoscale event.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusNotificationsEmail
 {
@@ -751,7 +751,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusNotificationsEmai
 /// Storage version of v1api20221001.WebhookNotification_STATUS
 /// Webhook notification of an autoscale event.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusNotificationsWebhooks
 {
@@ -770,7 +770,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusNotificationsWebh
 /// Storage version of v1api20221001.AutoscaleNotification_STATUS
 /// Autoscale notification.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusNotifications
 {
@@ -799,7 +799,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusNotifications
 /// Storage version of v1api20221001.PredictiveAutoscalePolicy_STATUS
 /// The parameters for enabling predictive autoscale.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusPredictiveAutoscalePolicy
 {
@@ -821,7 +821,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusPredictiveAutosca
 /// Storage version of v1api20221001.ScaleCapacity_STATUS
 /// The number of instances that can be used during this profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfilesCapacity
 {
@@ -846,7 +846,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfilesCapacity
 /// Storage version of v1api20221001.TimeWindow_STATUS
 /// A specific date-time for the profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfilesFixedDate
 {
@@ -871,7 +871,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfilesFixedDate
 /// Storage version of v1api20221001.RecurrentSchedule_STATUS
 /// The scheduling constraints for when the profile begins.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfilesRecurrenceSchedule
 {
@@ -899,7 +899,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfilesRecurrenc
 /// Storage version of v1api20221001.Recurrence_STATUS
 /// The repeating times at which this profile begins. This element is not used if the FixedDate element is used.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfilesRecurrence
 {
@@ -925,7 +925,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfilesRecurrenc
 /// Storage version of v1api20221001.ScaleRuleMetricDimension_STATUS
 /// Specifies an auto scale rule metric dimension.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfilesRulesMetricTriggerDimensions
 {
@@ -950,7 +950,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfilesRulesMetr
 /// Storage version of v1api20221001.MetricTrigger_STATUS
 /// The trigger that results in a scaling action.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfilesRulesMetricTrigger
 {
@@ -1002,7 +1002,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfilesRulesMetr
 /// Storage version of v1api20221001.ScaleAction_STATUS
 /// The parameters for the scaling action.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfilesRulesScaleAction
 {
@@ -1030,7 +1030,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfilesRulesScal
 /// Storage version of v1api20221001.ScaleRule_STATUS
 /// A rule that provide the triggers and parameters for the scaling action.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfilesRules
 {
@@ -1060,7 +1060,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfilesRules
 /// Storage version of v1api20221001.AutoscaleProfile_STATUS
 /// Autoscale profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusProfiles
 {
@@ -1103,7 +1103,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusProfiles
 /// Storage version of v1api20221001.SystemData_STATUS
 /// Metadata pertaining to creation and last modification of the resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatusSystemData
 {
@@ -1134,7 +1134,7 @@ public partial class V1api20221001storageAutoscaleSettingStatusSystemData
 }
 
 /// <summary>Storage version of v1api20221001.Autoscalesetting_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20221001storageAutoscaleSettingStatus
 {
@@ -1202,7 +1202,7 @@ public partial class V1api20221001storageAutoscaleSettingStatus
 /// - Generated from: /monitor/resource-manager/Microsoft.Insights/stable/2022-10-01/autoscale_API.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/autoscalesettings/{autoscaleSettingName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20221001storageAutoscaleSetting : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20221001storageAutoscaleSettingSpec?>, IStatus<V1api20221001storageAutoscaleSettingStatus?>

@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.apimanagement.azure.com;
 /// - Generated from: /apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement/preview/2023-05-01-preview/apimapis.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/apis/{apiId}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20230501previewApiList : IKubernetesObject<V1ListMeta>, IItems<V20230501previewApi>
@@ -48,7 +48,7 @@ public partial class V20230501previewApiList : IKubernetesObject<V1ListMeta>, II
 /// * `graphql` creates GraphQL API.
 /// New types can be added in the future.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20230501previewApiSpecApiTypeEnum>))]
 public enum V20230501previewApiSpecApiTypeEnum
 {
@@ -67,7 +67,7 @@ public enum V20230501previewApiSpecApiTypeEnum
 }
 
 /// <summary>Reference: Identifier for existing API Version Set. Omit this value to create a new Version Set.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecApiVersionSetReference
 {
@@ -93,7 +93,7 @@ public partial class V20230501previewApiSpecApiVersionSetReference
 }
 
 /// <summary>VersioningScheme: An value that determines where the API Version identifier will be located in a HTTP request.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20230501previewApiSpecApiVersionSetVersioningSchemeEnum>))]
 public enum V20230501previewApiSpecApiVersionSetVersioningSchemeEnum
 {
@@ -106,7 +106,7 @@ public enum V20230501previewApiSpecApiVersionSetVersioningSchemeEnum
 }
 
 /// <summary>ApiVersionSet: Version set details</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecApiVersionSet
 {
@@ -136,7 +136,7 @@ public partial class V20230501previewApiSpecApiVersionSet
 }
 
 /// <summary>ApiVersionSetReference: A resource identifier for the related ApiVersionSet.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecApiVersionSetReference1
 {
@@ -162,7 +162,7 @@ public partial class V20230501previewApiSpecApiVersionSetReference1
 }
 
 /// <summary>OAuth2: OAuth2 Authentication settings</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecAuthenticationSettingsOAuth2
 {
@@ -176,7 +176,7 @@ public partial class V20230501previewApiSpecAuthenticationSettingsOAuth2
 }
 
 /// <summary>API OAuth2 Authentication settings details.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecAuthenticationSettingsOAuth2AuthenticationSettings
 {
@@ -190,7 +190,7 @@ public partial class V20230501previewApiSpecAuthenticationSettingsOAuth2Authenti
 }
 
 /// <summary>Form of an authorization grant, which the client uses to request the access token.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20230501previewApiSpecAuthenticationSettingsOpenidBearerTokenSendingMethodsEnum>))]
 public enum V20230501previewApiSpecAuthenticationSettingsOpenidBearerTokenSendingMethodsEnum
 {
@@ -201,7 +201,7 @@ public enum V20230501previewApiSpecAuthenticationSettingsOpenidBearerTokenSendin
 }
 
 /// <summary>Openid: OpenID Connect Authentication Settings</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecAuthenticationSettingsOpenid
 {
@@ -215,7 +215,7 @@ public partial class V20230501previewApiSpecAuthenticationSettingsOpenid
 }
 
 /// <summary>Form of an authorization grant, which the client uses to request the access token.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20230501previewApiSpecAuthenticationSettingsOpenidAuthenticationSettingsBearerTokenSendingMethodsEnum>))]
 public enum V20230501previewApiSpecAuthenticationSettingsOpenidAuthenticationSettingsBearerTokenSendingMethodsEnum
 {
@@ -226,7 +226,7 @@ public enum V20230501previewApiSpecAuthenticationSettingsOpenidAuthenticationSet
 }
 
 /// <summary>API OAuth2 Authentication settings details.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecAuthenticationSettingsOpenidAuthenticationSettings
 {
@@ -240,7 +240,7 @@ public partial class V20230501previewApiSpecAuthenticationSettingsOpenidAuthenti
 }
 
 /// <summary>AuthenticationSettings: Collection of authentication settings included into this API.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecAuthenticationSettings
 {
@@ -262,7 +262,7 @@ public partial class V20230501previewApiSpecAuthenticationSettings
 }
 
 /// <summary>Contact: Contact information for the API.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecContact
 {
@@ -280,7 +280,7 @@ public partial class V20230501previewApiSpecContact
 }
 
 /// <summary>Format: Format of the Content in which the API is getting imported. New formats can be added in the future</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20230501previewApiSpecFormatEnum>))]
 public enum V20230501previewApiSpecFormatEnum
 {
@@ -317,7 +317,7 @@ public enum V20230501previewApiSpecFormatEnum
 }
 
 /// <summary>License: License information for the API.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecLicense
 {
@@ -335,7 +335,7 @@ public partial class V20230501previewApiSpecLicense
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecOperatorSpecConfigMapExpressions
 {
@@ -368,7 +368,7 @@ public partial class V20230501previewApiSpecOperatorSpecConfigMapExpressions
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecOperatorSpecSecretExpressions
 {
@@ -400,7 +400,7 @@ public partial class V20230501previewApiSpecOperatorSpecSecretExpressions
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecOperatorSpec
 {
@@ -418,7 +418,7 @@ public partial class V20230501previewApiSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a apimanagement.azure.com/Service resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecOwner
 {
@@ -430,7 +430,7 @@ public partial class V20230501previewApiSpecOwner
     public string? Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20230501previewApiSpecProtocolsEnum>))]
 public enum V20230501previewApiSpecProtocolsEnum
 {
@@ -445,7 +445,7 @@ public enum V20230501previewApiSpecProtocolsEnum
 }
 
 /// <summary>SourceApiReference: API identifier of the source API.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecSourceApiReference
 {
@@ -471,7 +471,7 @@ public partial class V20230501previewApiSpecSourceApiReference
 }
 
 /// <summary>SubscriptionKeyParameterNames: Protocols over which API is made available.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecSubscriptionKeyParameterNames
 {
@@ -488,7 +488,7 @@ public partial class V20230501previewApiSpecSubscriptionKeyParameterNames
 /// TranslateRequiredQueryParameters: Strategy of translating required query parameters to template ones. By default has
 /// value &apos;template&apos;. Possible values: &apos;template&apos;, &apos;query&apos;
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20230501previewApiSpecTranslateRequiredQueryParametersEnum>))]
 public enum V20230501previewApiSpecTranslateRequiredQueryParametersEnum
 {
@@ -499,7 +499,7 @@ public enum V20230501previewApiSpecTranslateRequiredQueryParametersEnum
 }
 
 /// <summary>Type: Type of API.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20230501previewApiSpecTypeEnum>))]
 public enum V20230501previewApiSpecTypeEnum
 {
@@ -518,7 +518,7 @@ public enum V20230501previewApiSpecTypeEnum
 }
 
 /// <summary>WsdlSelector: Criteria to limit import of WSDL to a subset of the document.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpecWsdlSelector
 {
@@ -531,7 +531,7 @@ public partial class V20230501previewApiSpecWsdlSelector
     public string? WsdlServiceName { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiSpec
 {
@@ -673,7 +673,7 @@ public partial class V20230501previewApiSpec
 }
 
 /// <summary>ApiVersionSet: Version set details</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusApiVersionSet
 {
@@ -703,7 +703,7 @@ public partial class V20230501previewApiStatusApiVersionSet
 }
 
 /// <summary>OAuth2: OAuth2 Authentication settings</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusAuthenticationSettingsOAuth2
 {
@@ -717,7 +717,7 @@ public partial class V20230501previewApiStatusAuthenticationSettingsOAuth2
 }
 
 /// <summary>API OAuth2 Authentication settings details.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusAuthenticationSettingsOAuth2AuthenticationSettings
 {
@@ -731,7 +731,7 @@ public partial class V20230501previewApiStatusAuthenticationSettingsOAuth2Authen
 }
 
 /// <summary>Openid: OpenID Connect Authentication Settings</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusAuthenticationSettingsOpenid
 {
@@ -745,7 +745,7 @@ public partial class V20230501previewApiStatusAuthenticationSettingsOpenid
 }
 
 /// <summary>API OAuth2 Authentication settings details.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusAuthenticationSettingsOpenidAuthenticationSettings
 {
@@ -759,7 +759,7 @@ public partial class V20230501previewApiStatusAuthenticationSettingsOpenidAuthen
 }
 
 /// <summary>AuthenticationSettings: Collection of authentication settings included into this API.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusAuthenticationSettings
 {
@@ -781,7 +781,7 @@ public partial class V20230501previewApiStatusAuthenticationSettings
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusConditions
 {
@@ -827,7 +827,7 @@ public partial class V20230501previewApiStatusConditions
 }
 
 /// <summary>Contact: Contact information for the API.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusContact
 {
@@ -845,7 +845,7 @@ public partial class V20230501previewApiStatusContact
 }
 
 /// <summary>License: License information for the API.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusLicense
 {
@@ -859,7 +859,7 @@ public partial class V20230501previewApiStatusLicense
 }
 
 /// <summary>SubscriptionKeyParameterNames: Protocols over which API is made available.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatusSubscriptionKeyParameterNames
 {
@@ -872,7 +872,7 @@ public partial class V20230501previewApiStatusSubscriptionKeyParameterNames
     public string? Query { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20230501previewApiStatus
 {
@@ -993,7 +993,7 @@ public partial class V20230501previewApiStatus
 /// - Generated from: /apimanagement/resource-manager/Microsoft.ApiManagement/ApiManagement/preview/2023-05-01-preview/apimapis.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/apis/{apiId}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20230501previewApi : IKubernetesObject<V1ObjectMeta>, ISpec<V20230501previewApiSpec?>, IStatus<V20230501previewApiStatus?>

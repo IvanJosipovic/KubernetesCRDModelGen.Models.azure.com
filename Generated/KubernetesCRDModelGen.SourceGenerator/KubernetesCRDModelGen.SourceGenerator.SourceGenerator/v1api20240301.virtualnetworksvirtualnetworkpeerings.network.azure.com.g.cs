@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2024-03-01/virtualNetwork.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/virtualNetworkPeerings/{virtualNetworkPeeringName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringList : IKubernetesObject<V1ListMeta>, IItems<V1api20240301VirtualNetworksVirtualNetworkPeering>
@@ -41,7 +41,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringList : IKu
 }
 
 /// <summary>LocalAddressSpace: The local address space of the local virtual network that is peered.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecLocalAddressSpace
 {
@@ -51,7 +51,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecLocalA
 }
 
 /// <summary>LocalVirtualNetworkAddressSpace: The current local address space of the local virtual network that is peered.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecLocalVirtualNetworkAddressSpace
 {
@@ -65,7 +65,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecLocalV
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecOperatorSpecConfigMapExpressions
 {
@@ -98,7 +98,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecOperat
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecOperatorSpecSecretExpressions
 {
@@ -130,7 +130,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecOperat
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecOperatorSpec
 {
@@ -148,7 +148,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecOperat
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a network.azure.com/VirtualNetwork resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecOwner
 {
@@ -161,7 +161,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecOwner
 }
 
 /// <summary>PeeringState: The status of the virtual network peering.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240301VirtualNetworksVirtualNetworkPeeringSpecPeeringStateEnum>))]
 public enum V1api20240301VirtualNetworksVirtualNetworkPeeringSpecPeeringStateEnum
 {
@@ -174,7 +174,7 @@ public enum V1api20240301VirtualNetworksVirtualNetworkPeeringSpecPeeringStateEnu
 }
 
 /// <summary>PeeringSyncLevel: The peering sync status of the virtual network peering.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20240301VirtualNetworksVirtualNetworkPeeringSpecPeeringSyncLevelEnum>))]
 public enum V1api20240301VirtualNetworksVirtualNetworkPeeringSpecPeeringSyncLevelEnum
 {
@@ -189,7 +189,7 @@ public enum V1api20240301VirtualNetworksVirtualNetworkPeeringSpecPeeringSyncLeve
 }
 
 /// <summary>RemoteAddressSpace: The reference to the address space peered with the remote virtual network.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemoteAddressSpace
 {
@@ -199,7 +199,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemote
 }
 
 /// <summary>RemoteBgpCommunities: The reference to the remote virtual network&apos;s Bgp Communities.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemoteBgpCommunities
 {
@@ -209,7 +209,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemote
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemoteVirtualNetworkReference
 {
@@ -239,7 +239,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemote
 /// different region (preview). See here to register for the preview and learn more
 /// (https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-create-peering).
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemoteVirtualNetwork
 {
@@ -249,7 +249,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemote
 }
 
 /// <summary>RemoteVirtualNetworkAddressSpace: The reference to the current address space of the remote virtual network.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemoteVirtualNetworkAddressSpace
 {
@@ -258,7 +258,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpecRemote
     public IList<string>? AddressPrefixes { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpec
 {
@@ -369,7 +369,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusConditions
 {
@@ -415,7 +415,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusCond
 }
 
 /// <summary>LocalAddressSpace: The local address space of the local virtual network that is peered.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusLocalAddressSpace
 {
@@ -425,7 +425,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusLoca
 }
 
 /// <summary>LocalVirtualNetworkAddressSpace: The current local address space of the local virtual network that is peered.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusLocalVirtualNetworkAddressSpace
 {
@@ -435,7 +435,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusLoca
 }
 
 /// <summary>RemoteAddressSpace: The reference to the address space peered with the remote virtual network.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemoteAddressSpace
 {
@@ -445,7 +445,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemo
 }
 
 /// <summary>RemoteBgpCommunities: The reference to the remote virtual network&apos;s Bgp Communities.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemoteBgpCommunities
 {
@@ -463,7 +463,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemo
 /// different region (preview). See here to register for the preview and learn more
 /// (https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-create-peering).
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemoteVirtualNetwork
 {
@@ -473,7 +473,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemo
 }
 
 /// <summary>RemoteVirtualNetworkAddressSpace: The reference to the current address space of the remote virtual network.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemoteVirtualNetworkAddressSpace
 {
@@ -483,7 +483,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemo
 }
 
 /// <summary>RemoteVirtualNetworkEncryption: The reference to the remote virtual network&apos;s encryption</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemoteVirtualNetworkEncryption
 {
@@ -499,7 +499,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatusRemo
     public string? Enforcement { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatus
 {
@@ -624,7 +624,7 @@ public partial class V1api20240301VirtualNetworksVirtualNetworkPeeringStatus
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2024-03-01/virtualNetwork.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/virtualNetworkPeerings/{virtualNetworkPeeringName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20240301VirtualNetworksVirtualNetworkPeering : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20240301VirtualNetworksVirtualNetworkPeeringSpec?>, IStatus<V1api20240301VirtualNetworksVirtualNetworkPeeringStatus?>

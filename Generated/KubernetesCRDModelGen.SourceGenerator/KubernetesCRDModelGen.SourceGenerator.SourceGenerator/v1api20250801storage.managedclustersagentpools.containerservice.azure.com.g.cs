@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.containerservice.azure.com;
 /// - Generated from: /containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2025-08-01/managedClusters.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/managedClusters/{resourceName}/agentPools/{agentPoolName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20250801storageManagedClustersAgentPoolList : IKubernetesObject<V1ListMeta>, IItems<V1api20250801storageManagedClustersAgentPool>
@@ -42,7 +42,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolList : IKuberne
 }
 
 /// <summary>CapacityReservationGroupReference: AKS will associate the specified agent pool with the Capacity Reservation Group.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecCapacityReservationGroupReference
 {
@@ -68,7 +68,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecCapacityRes
 }
 
 /// <summary>SourceResourceReference: This is the ARM ID of the source object to be used to create the target object.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecCreationDataSourceResourceReference
 {
@@ -97,7 +97,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecCreationDat
 /// Storage version of v1api20250801.CreationData
 /// Data used when creating a target resource from a source resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecCreationData
 {
@@ -117,7 +117,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecCreationDat
 /// Storage version of v1api20250801.AgentPoolGatewayProfile
 /// Profile of the managed cluster gateway agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecGatewayProfile
 {
@@ -136,7 +136,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecGatewayProf
 /// Storage version of v1api20250801.GPUProfile
 /// GPU settings for the Agent Pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecGpuProfile
 {
@@ -157,7 +157,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecGpuProfile
 /// /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/hostGroups/{hostGroupName}.
 /// For more information see [Azure dedicated hosts](https://docs.microsoft.com/azure/virtual-machines/dedicated-hosts).
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecHostGroupReference
 {
@@ -187,7 +187,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecHostGroupRe
 /// Kubelet configurations of agent nodes. See [AKS custom node
 /// configuration](https://docs.microsoft.com/azure/aks/custom-node-configuration) for more details.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecKubeletConfig
 {
@@ -236,7 +236,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecKubeletConf
 /// Storage version of v1api20250801.SysctlConfig
 /// Sysctl settings for Linux agent nodes.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecLinuxOSConfigSysctls
 {
@@ -337,7 +337,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecLinuxOSConf
 /// OS configurations of Linux agent nodes. See [AKS custom node
 /// configuration](https://docs.microsoft.com/azure/aks/custom-node-configuration) for more details.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecLinuxOSConfig
 {
@@ -369,7 +369,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecLinuxOSConf
 /// Storage version of v1api20250801.PortRange
 /// The port range.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecNetworkProfileAllowedHostPorts
 {
@@ -391,7 +391,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecNetworkProf
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecNetworkProfileApplicationSecurityGroupsReferences
 {
@@ -420,7 +420,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecNetworkProf
 /// Storage version of v1api20250801.IPTag
 /// Contains the IPTag associated with the object.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecNetworkProfileNodePublicIPTags
 {
@@ -442,7 +442,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecNetworkProf
 /// Storage version of v1api20250801.AgentPoolNetworkProfile
 /// Network settings of an agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecNetworkProfile
 {
@@ -467,7 +467,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecNetworkProf
 /// NodePublicIPPrefixReference: The public IP prefix ID which VM nodes should use IPs from. This is of the form:
 /// /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/publicIPPrefixes/{publicIPPrefixName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecNodePublicIPPrefixReference
 {
@@ -497,7 +497,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecNodePublicI
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecOperatorSpecConfigMapExpressions
 {
@@ -530,7 +530,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecOperatorSpe
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecOperatorSpecSecretExpressions
 {
@@ -562,7 +562,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecOperatorSpe
 /// Storage version of v1api20250801.ManagedClustersAgentPoolOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecOperatorSpec
 {
@@ -585,7 +585,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecOperatorSpe
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a containerservice.azure.com/ManagedCluster resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecOwner
 {
@@ -602,7 +602,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecOwner
 /// on the node subnet (see vnetSubnetID for more details). This is of the form:
 /// /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/subnets/{subnetName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecPodSubnetReference
 {
@@ -631,7 +631,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecPodSubnetRe
 /// Storage version of v1api20250801.PowerState
 /// Describes the Power State of the cluster
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecPowerState
 {
@@ -647,7 +647,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecPowerState
 }
 
 /// <summary>ProximityPlacementGroupReference: The ID for Proximity Placement Group.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecProximityPlacementGroupReference
 {
@@ -676,7 +676,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecProximityPl
 /// Storage version of v1api20250801.AgentPoolSecurityProfile
 /// The security settings of an agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecSecurityProfile
 {
@@ -701,7 +701,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecSecurityPro
 /// Storage version of v1api20250801.AgentPoolUpgradeSettings
 /// Settings for upgrading an agentpool
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecUpgradeSettings
 {
@@ -732,7 +732,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecUpgradeSett
 /// Storage version of v1api20250801.VirtualMachineNodes
 /// Current status on a group of nodes of the same vm size.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecVirtualMachineNodesStatus
 {
@@ -754,7 +754,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecVirtualMach
 /// Storage version of v1api20250801.ManualScaleProfile
 /// Specifications on number of machines.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecVirtualMachinesProfileScaleManual
 {
@@ -776,7 +776,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecVirtualMach
 /// Storage version of v1api20250801.ScaleProfile
 /// Specifications on how to scale a VirtualMachines agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecVirtualMachinesProfileScale
 {
@@ -795,7 +795,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecVirtualMach
 /// Storage version of v1api20250801.VirtualMachinesProfile
 /// Specifications on VirtualMachines agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecVirtualMachinesProfile
 {
@@ -820,7 +820,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecVirtualMach
 /// pods, otherwise it applies to just nodes. This is of the form:
 /// /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/subnets/{subnetName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecVnetSubnetReference
 {
@@ -849,7 +849,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecVnetSubnetR
 /// Storage version of v1api20250801.AgentPoolWindowsProfile
 /// The Windows agent pool&apos;s specific profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpecWindowsProfile
 {
@@ -865,7 +865,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpecWindowsProf
 }
 
 /// <summary>Storage version of v1api20250801.ManagedClustersAgentPool_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolSpec
 {
@@ -1116,7 +1116,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusConditions
 {
@@ -1165,7 +1165,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusCondition
 /// Storage version of v1api20250801.CreationData_STATUS
 /// Data used when creating a target resource from a source resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusCreationData
 {
@@ -1184,7 +1184,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusCreationD
 /// Storage version of v1api20250801.AgentPoolGatewayProfile_STATUS
 /// Profile of the managed cluster gateway agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusGatewayProfile
 {
@@ -1203,7 +1203,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusGatewayPr
 /// Storage version of v1api20250801.GPUProfile_STATUS
 /// GPU settings for the Agent Pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusGpuProfile
 {
@@ -1223,7 +1223,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusGpuProfil
 /// Kubelet configurations of agent nodes. See [AKS custom node
 /// configuration](https://docs.microsoft.com/azure/aks/custom-node-configuration) for more details.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusKubeletConfig
 {
@@ -1272,7 +1272,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusKubeletCo
 /// Storage version of v1api20250801.SysctlConfig_STATUS
 /// Sysctl settings for Linux agent nodes.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusLinuxOSConfigSysctls
 {
@@ -1373,7 +1373,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusLinuxOSCo
 /// OS configurations of Linux agent nodes. See [AKS custom node
 /// configuration](https://docs.microsoft.com/azure/aks/custom-node-configuration) for more details.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusLinuxOSConfig
 {
@@ -1405,7 +1405,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusLinuxOSCo
 /// Storage version of v1api20250801.PortRange_STATUS
 /// The port range.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusNetworkProfileAllowedHostPorts
 {
@@ -1430,7 +1430,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusNetworkPr
 /// Storage version of v1api20250801.IPTag_STATUS
 /// Contains the IPTag associated with the object.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusNetworkProfileNodePublicIPTags
 {
@@ -1452,7 +1452,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusNetworkPr
 /// Storage version of v1api20250801.AgentPoolNetworkProfile_STATUS
 /// Network settings of an agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusNetworkProfile
 {
@@ -1477,7 +1477,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusNetworkPr
 /// Storage version of v1api20250801.PowerState_STATUS
 /// Describes the Power State of the cluster
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusPowerState
 {
@@ -1496,7 +1496,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusPowerStat
 /// Storage version of v1api20250801.AgentPoolSecurityProfile_STATUS
 /// The security settings of an agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusSecurityProfile
 {
@@ -1521,7 +1521,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusSecurityP
 /// Storage version of v1api20250801.ErrorAdditionalInfo_STATUS
 /// The resource management error additional info.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusStatusProvisioningErrorAdditionalInfo
 {
@@ -1543,7 +1543,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusStatusPro
 /// Storage version of v1api20250801.ErrorAdditionalInfo_STATUS
 /// The resource management error additional info.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusStatusProvisioningErrorDetailsAdditionalInfo
 {
@@ -1562,7 +1562,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusStatusPro
 }
 
 /// <summary>Storage version of v1api20250801.ErrorDetail_STATUS_Unrolled</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusStatusProvisioningErrorDetails
 {
@@ -1590,7 +1590,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusStatusPro
 /// Storage version of v1api20250801.ErrorDetail_STATUS
 /// The error detail.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusStatusProvisioningError
 {
@@ -1621,7 +1621,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusStatusPro
 /// Storage version of v1api20250801.AgentPoolStatus_STATUS
 /// Contains read-only information about the Agent Pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusStatus
 {
@@ -1644,7 +1644,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusStatus
 /// Storage version of v1api20250801.AgentPoolUpgradeSettings_STATUS
 /// Settings for upgrading an agentpool
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusUpgradeSettings
 {
@@ -1675,7 +1675,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusUpgradeSe
 /// Storage version of v1api20250801.VirtualMachineNodes_STATUS
 /// Current status on a group of nodes of the same vm size.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusVirtualMachineNodesStatus
 {
@@ -1697,7 +1697,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusVirtualMa
 /// Storage version of v1api20250801.ManualScaleProfile_STATUS
 /// Specifications on number of machines.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusVirtualMachinesProfileScaleManual
 {
@@ -1719,7 +1719,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusVirtualMa
 /// Storage version of v1api20250801.ScaleProfile_STATUS
 /// Specifications on how to scale a VirtualMachines agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusVirtualMachinesProfileScale
 {
@@ -1738,7 +1738,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusVirtualMa
 /// Storage version of v1api20250801.VirtualMachinesProfile_STATUS
 /// Specifications on VirtualMachines agent pool.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusVirtualMachinesProfile
 {
@@ -1761,7 +1761,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusVirtualMa
 /// Storage version of v1api20250801.AgentPoolWindowsProfile_STATUS
 /// The Windows agent pool&apos;s specific profile.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatusWindowsProfile
 {
@@ -1777,7 +1777,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatusWindowsPr
 }
 
 /// <summary>Storage version of v1api20250801.ManagedClustersAgentPool_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20250801storageManagedClustersAgentPoolStatus
 {
@@ -2016,7 +2016,7 @@ public partial class V1api20250801storageManagedClustersAgentPoolStatus
 /// - Generated from: /containerservice/resource-manager/Microsoft.ContainerService/aks/stable/2025-08-01/managedClusters.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerService/managedClusters/{resourceName}/agentPools/{agentPoolName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20250801storageManagedClustersAgentPool : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20250801storageManagedClustersAgentPoolSpec?>, IStatus<V1api20250801storageManagedClustersAgentPoolStatus?>

@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.containerinstance.azure.com;
 /// - Generated from: /containerinstance/resource-manager/Microsoft.ContainerInstance/ContainerInstance/stable/2021-10-01/containerInstance.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerInstance/containerGroups/{containerGroupName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20211001storageContainerGroupList : IKubernetesObject<V1ListMeta>, IItems<V1api20211001storageContainerGroup>
@@ -45,7 +45,7 @@ public partial class V1api20211001storageContainerGroupList : IKubernetesObject<
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersEnvironmentVariablesSecureValue
 {
@@ -65,7 +65,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersEnvironment
 /// Storage version of v1api20211001.EnvironmentVariable
 /// The environment variable to set within the container instance.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersEnvironmentVariables
 {
@@ -94,7 +94,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersEnvironment
 /// Storage version of v1api20211001.ContainerExec
 /// The container execution command, for liveness or readiness probe
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersLivenessProbeExec
 {
@@ -113,7 +113,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersLivenessPro
 /// Storage version of v1api20211001.HttpHeader
 /// The HTTP header.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersLivenessProbeHttpGetHttpHeaders
 {
@@ -135,7 +135,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersLivenessPro
 /// Storage version of v1api20211001.ContainerHttpGet
 /// The container Http Get settings, for liveness or readiness probe
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersLivenessProbeHttpGet
 {
@@ -163,7 +163,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersLivenessPro
 /// Storage version of v1api20211001.ContainerProbe
 /// The container probe, for liveness or readiness
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersLivenessProbe
 {
@@ -208,7 +208,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersLivenessPro
 /// Storage version of v1api20211001.ContainerPort
 /// The port exposed on the container instance.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersPorts
 {
@@ -230,7 +230,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersPorts
 /// Storage version of v1api20211001.ContainerExec
 /// The container execution command, for liveness or readiness probe
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersReadinessProbeExec
 {
@@ -249,7 +249,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersReadinessPr
 /// Storage version of v1api20211001.HttpHeader
 /// The HTTP header.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersReadinessProbeHttpGetHttpHeaders
 {
@@ -271,7 +271,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersReadinessPr
 /// Storage version of v1api20211001.ContainerHttpGet
 /// The container Http Get settings, for liveness or readiness probe
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersReadinessProbeHttpGet
 {
@@ -299,7 +299,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersReadinessPr
 /// Storage version of v1api20211001.ContainerProbe
 /// The container probe, for liveness or readiness
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersReadinessProbe
 {
@@ -344,7 +344,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersReadinessPr
 /// Storage version of v1api20211001.GpuResource
 /// The GPU resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersResourcesLimitsGpu
 {
@@ -366,7 +366,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersResourcesLi
 /// Storage version of v1api20211001.ResourceLimits
 /// The resource limits.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersResourcesLimits
 {
@@ -395,7 +395,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersResourcesLi
 /// Storage version of v1api20211001.GpuResource
 /// The GPU resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersResourcesRequestsGpu
 {
@@ -417,7 +417,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersResourcesRe
 /// Storage version of v1api20211001.ResourceRequests
 /// The resource requests.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersResourcesRequests
 {
@@ -446,7 +446,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersResourcesRe
 /// Storage version of v1api20211001.ResourceRequirements
 /// The resource requirements.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersResources
 {
@@ -476,7 +476,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersResources
 /// Storage version of v1api20211001.VolumeMount
 /// The properties of the volume mount.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainersVolumeMounts
 {
@@ -501,7 +501,7 @@ public partial class V1api20211001storageContainerGroupSpecContainersVolumeMount
 /// Storage version of v1api20211001.Container
 /// A container instance.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecContainers
 {
@@ -556,7 +556,7 @@ public partial class V1api20211001storageContainerGroupSpecContainers
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecDiagnosticsLogAnalyticsWorkspaceKey
 {
@@ -573,7 +573,7 @@ public partial class V1api20211001storageContainerGroupSpecDiagnosticsLogAnalyti
 }
 
 /// <summary>WorkspaceResourceReference: The workspace resource id for log analytics</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecDiagnosticsLogAnalyticsWorkspaceResourceReference
 {
@@ -602,7 +602,7 @@ public partial class V1api20211001storageContainerGroupSpecDiagnosticsLogAnalyti
 /// Storage version of v1api20211001.LogAnalytics
 /// Container group log analytics information.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecDiagnosticsLogAnalytics
 {
@@ -638,7 +638,7 @@ public partial class V1api20211001storageContainerGroupSpecDiagnosticsLogAnalyti
 /// Storage version of v1api20211001.ContainerGroupDiagnostics
 /// Container group diagnostic information.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecDiagnostics
 {
@@ -661,7 +661,7 @@ public partial class V1api20211001storageContainerGroupSpecDiagnostics
 /// Storage version of v1api20211001.DnsConfiguration
 /// DNS configuration for the container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecDnsConfig
 {
@@ -686,7 +686,7 @@ public partial class V1api20211001storageContainerGroupSpecDnsConfig
 /// Storage version of v1api20211001.EncryptionProperties
 /// The container group encryption properties.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecEncryptionProperties
 {
@@ -708,7 +708,7 @@ public partial class V1api20211001storageContainerGroupSpecEncryptionProperties
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecIdentityUserAssignedIdentitiesReference
 {
@@ -737,7 +737,7 @@ public partial class V1api20211001storageContainerGroupSpecIdentityUserAssignedI
 /// Storage version of v1api20211001.UserAssignedIdentityDetails
 /// Information about the user assigned identity for the resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecIdentityUserAssignedIdentities
 {
@@ -757,7 +757,7 @@ public partial class V1api20211001storageContainerGroupSpecIdentityUserAssignedI
 /// Storage version of v1api20211001.ContainerGroupIdentity
 /// Identity for the container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecIdentity
 {
@@ -779,7 +779,7 @@ public partial class V1api20211001storageContainerGroupSpecIdentity
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecImageRegistryCredentialsPassword
 {
@@ -799,7 +799,7 @@ public partial class V1api20211001storageContainerGroupSpecImageRegistryCredenti
 /// Storage version of v1api20211001.ImageRegistryCredential
 /// Image registry credential.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecImageRegistryCredentials
 {
@@ -834,7 +834,7 @@ public partial class V1api20211001storageContainerGroupSpecImageRegistryCredenti
 /// SecretReference is a reference to a Kubernetes secret and key in the same namespace as
 /// the resource it is on.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecInitContainersEnvironmentVariablesSecureValue
 {
@@ -854,7 +854,7 @@ public partial class V1api20211001storageContainerGroupSpecInitContainersEnviron
 /// Storage version of v1api20211001.EnvironmentVariable
 /// The environment variable to set within the container instance.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecInitContainersEnvironmentVariables
 {
@@ -883,7 +883,7 @@ public partial class V1api20211001storageContainerGroupSpecInitContainersEnviron
 /// Storage version of v1api20211001.VolumeMount
 /// The properties of the volume mount.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecInitContainersVolumeMounts
 {
@@ -908,7 +908,7 @@ public partial class V1api20211001storageContainerGroupSpecInitContainersVolumeM
 /// Storage version of v1api20211001.InitContainerDefinition
 /// The init container definition.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecInitContainers
 {
@@ -939,7 +939,7 @@ public partial class V1api20211001storageContainerGroupSpecInitContainers
 /// Storage version of v1api20211001.Port
 /// The port exposed on the container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecIpAddressPorts
 {
@@ -961,7 +961,7 @@ public partial class V1api20211001storageContainerGroupSpecIpAddressPorts
 /// Storage version of v1api20211001.IpAddress
 /// IP address for the container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecIpAddress
 {
@@ -993,7 +993,7 @@ public partial class V1api20211001storageContainerGroupSpecIpAddress
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecOperatorSpecConfigMapExpressions
 {
@@ -1026,7 +1026,7 @@ public partial class V1api20211001storageContainerGroupSpecOperatorSpecConfigMap
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecOperatorSpecSecretExpressions
 {
@@ -1058,7 +1058,7 @@ public partial class V1api20211001storageContainerGroupSpecOperatorSpecSecretExp
 /// Storage version of v1api20211001.ContainerGroupOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecOperatorSpec
 {
@@ -1081,7 +1081,7 @@ public partial class V1api20211001storageContainerGroupSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecOwner
 {
@@ -1094,7 +1094,7 @@ public partial class V1api20211001storageContainerGroupSpecOwner
 }
 
 /// <summary>Reference: Resource ID of virtual network and subnet.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecSubnetIdsReference
 {
@@ -1123,7 +1123,7 @@ public partial class V1api20211001storageContainerGroupSpecSubnetIdsReference
 /// Storage version of v1api20211001.ContainerGroupSubnetId
 /// Container group subnet information.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecSubnetIds
 {
@@ -1146,7 +1146,7 @@ public partial class V1api20211001storageContainerGroupSpecSubnetIds
 /// Storage version of v1api20211001.AzureFileVolume
 /// The properties of the Azure File volume. Azure File shares are mounted as volumes.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecVolumesAzureFile
 {
@@ -1174,7 +1174,7 @@ public partial class V1api20211001storageContainerGroupSpecVolumesAzureFile
 /// Storage version of v1api20211001.GitRepoVolume
 /// Represents a volume that is populated with the contents of a git repository
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecVolumesGitRepo
 {
@@ -1199,7 +1199,7 @@ public partial class V1api20211001storageContainerGroupSpecVolumesGitRepo
 /// Storage version of v1api20211001.Volume
 /// The properties of the volume.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpecVolumes
 {
@@ -1235,7 +1235,7 @@ public partial class V1api20211001storageContainerGroupSpecVolumes
 }
 
 /// <summary>Storage version of v1api20211001.ContainerGroup_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupSpec
 {
@@ -1341,7 +1341,7 @@ public partial class V1api20211001storageContainerGroupSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusConditions
 {
@@ -1390,7 +1390,7 @@ public partial class V1api20211001storageContainerGroupStatusConditions
 /// Storage version of v1api20211001.EnvironmentVariable_STATUS
 /// The environment variable to set within the container instance.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersEnvironmentVariables
 {
@@ -1412,7 +1412,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersEnvironme
 /// Storage version of v1api20211001.ContainerState_STATUS
 /// The container instance state.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersInstanceViewCurrentState
 {
@@ -1443,7 +1443,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersInstanceV
 /// Storage version of v1api20211001.Event_STATUS
 /// A container group or container instance event.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersInstanceViewEvents
 {
@@ -1477,7 +1477,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersInstanceV
 /// Storage version of v1api20211001.ContainerState_STATUS
 /// The container instance state.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersInstanceViewPreviousState
 {
@@ -1505,7 +1505,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersInstanceV
 }
 
 /// <summary>Storage version of v1api20211001.ContainerProperties_InstanceView_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersInstanceView
 {
@@ -1541,7 +1541,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersInstanceV
 /// Storage version of v1api20211001.ContainerExec_STATUS
 /// The container execution command, for liveness or readiness probe
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersLivenessProbeExec
 {
@@ -1560,7 +1560,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersLivenessP
 /// Storage version of v1api20211001.HttpHeader_STATUS
 /// The HTTP header.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersLivenessProbeHttpGetHttpHeaders
 {
@@ -1582,7 +1582,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersLivenessP
 /// Storage version of v1api20211001.ContainerHttpGet_STATUS
 /// The container Http Get settings, for liveness or readiness probe
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersLivenessProbeHttpGet
 {
@@ -1610,7 +1610,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersLivenessP
 /// Storage version of v1api20211001.ContainerProbe_STATUS
 /// The container probe, for liveness or readiness
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersLivenessProbe
 {
@@ -1655,7 +1655,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersLivenessP
 /// Storage version of v1api20211001.ContainerPort_STATUS
 /// The port exposed on the container instance.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersPorts
 {
@@ -1677,7 +1677,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersPorts
 /// Storage version of v1api20211001.ContainerExec_STATUS
 /// The container execution command, for liveness or readiness probe
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersReadinessProbeExec
 {
@@ -1696,7 +1696,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersReadiness
 /// Storage version of v1api20211001.HttpHeader_STATUS
 /// The HTTP header.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersReadinessProbeHttpGetHttpHeaders
 {
@@ -1718,7 +1718,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersReadiness
 /// Storage version of v1api20211001.ContainerHttpGet_STATUS
 /// The container Http Get settings, for liveness or readiness probe
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersReadinessProbeHttpGet
 {
@@ -1746,7 +1746,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersReadiness
 /// Storage version of v1api20211001.ContainerProbe_STATUS
 /// The container probe, for liveness or readiness
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersReadinessProbe
 {
@@ -1791,7 +1791,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersReadiness
 /// Storage version of v1api20211001.GpuResource_STATUS
 /// The GPU resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersResourcesLimitsGpu
 {
@@ -1813,7 +1813,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersResources
 /// Storage version of v1api20211001.ResourceLimits_STATUS
 /// The resource limits.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersResourcesLimits
 {
@@ -1842,7 +1842,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersResources
 /// Storage version of v1api20211001.GpuResource_STATUS
 /// The GPU resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersResourcesRequestsGpu
 {
@@ -1864,7 +1864,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersResources
 /// Storage version of v1api20211001.ResourceRequests_STATUS
 /// The resource requests.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersResourcesRequests
 {
@@ -1893,7 +1893,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersResources
 /// Storage version of v1api20211001.ResourceRequirements_STATUS
 /// The resource requirements.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersResources
 {
@@ -1923,7 +1923,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersResources
 /// Storage version of v1api20211001.VolumeMount_STATUS
 /// The properties of the volume mount.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainersVolumeMounts
 {
@@ -1948,7 +1948,7 @@ public partial class V1api20211001storageContainerGroupStatusContainersVolumeMou
 /// Storage version of v1api20211001.Container_STATUS
 /// A container instance.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusContainers
 {
@@ -2007,7 +2007,7 @@ public partial class V1api20211001storageContainerGroupStatusContainers
 /// Storage version of v1api20211001.LogAnalytics_STATUS
 /// Container group log analytics information.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusDiagnosticsLogAnalytics
 {
@@ -2032,7 +2032,7 @@ public partial class V1api20211001storageContainerGroupStatusDiagnosticsLogAnaly
 /// Storage version of v1api20211001.ContainerGroupDiagnostics_STATUS
 /// Container group diagnostic information.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusDiagnostics
 {
@@ -2055,7 +2055,7 @@ public partial class V1api20211001storageContainerGroupStatusDiagnostics
 /// Storage version of v1api20211001.DnsConfiguration_STATUS
 /// DNS configuration for the container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusDnsConfig
 {
@@ -2080,7 +2080,7 @@ public partial class V1api20211001storageContainerGroupStatusDnsConfig
 /// Storage version of v1api20211001.EncryptionProperties_STATUS
 /// The container group encryption properties.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusEncryptionProperties
 {
@@ -2107,7 +2107,7 @@ public partial class V1api20211001storageContainerGroupStatusEncryptionPropertie
 /// resource ids in the form:
 /// &apos;/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{identityName}&apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusIdentityUserAssignedIdentities
 {
@@ -2129,7 +2129,7 @@ public partial class V1api20211001storageContainerGroupStatusIdentityUserAssigne
 /// Storage version of v1api20211001.ContainerGroupIdentity_STATUS
 /// Identity for the container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusIdentity
 {
@@ -2157,7 +2157,7 @@ public partial class V1api20211001storageContainerGroupStatusIdentity
 /// Storage version of v1api20211001.ImageRegistryCredential_STATUS
 /// Image registry credential.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusImageRegistryCredentials
 {
@@ -2185,7 +2185,7 @@ public partial class V1api20211001storageContainerGroupStatusImageRegistryCreden
 /// Storage version of v1api20211001.EnvironmentVariable_STATUS
 /// The environment variable to set within the container instance.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInitContainersEnvironmentVariables
 {
@@ -2207,7 +2207,7 @@ public partial class V1api20211001storageContainerGroupStatusInitContainersEnvir
 /// Storage version of v1api20211001.ContainerState_STATUS
 /// The container instance state.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInitContainersInstanceViewCurrentState
 {
@@ -2238,7 +2238,7 @@ public partial class V1api20211001storageContainerGroupStatusInitContainersInsta
 /// Storage version of v1api20211001.Event_STATUS
 /// A container group or container instance event.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInitContainersInstanceViewEvents
 {
@@ -2272,7 +2272,7 @@ public partial class V1api20211001storageContainerGroupStatusInitContainersInsta
 /// Storage version of v1api20211001.ContainerState_STATUS
 /// The container instance state.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInitContainersInstanceViewPreviousState
 {
@@ -2300,7 +2300,7 @@ public partial class V1api20211001storageContainerGroupStatusInitContainersInsta
 }
 
 /// <summary>Storage version of v1api20211001.InitContainerPropertiesDefinition_InstanceView_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInitContainersInstanceView
 {
@@ -2336,7 +2336,7 @@ public partial class V1api20211001storageContainerGroupStatusInitContainersInsta
 /// Storage version of v1api20211001.VolumeMount_STATUS
 /// The properties of the volume mount.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInitContainersVolumeMounts
 {
@@ -2361,7 +2361,7 @@ public partial class V1api20211001storageContainerGroupStatusInitContainersVolum
 /// Storage version of v1api20211001.InitContainerDefinition_STATUS
 /// The init container definition.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInitContainers
 {
@@ -2396,7 +2396,7 @@ public partial class V1api20211001storageContainerGroupStatusInitContainers
 /// Storage version of v1api20211001.Event_STATUS
 /// A container group or container instance event.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInstanceViewEvents
 {
@@ -2427,7 +2427,7 @@ public partial class V1api20211001storageContainerGroupStatusInstanceViewEvents
 }
 
 /// <summary>Storage version of v1api20211001.ContainerGroup_Properties_InstanceView_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusInstanceView
 {
@@ -2449,7 +2449,7 @@ public partial class V1api20211001storageContainerGroupStatusInstanceView
 /// Storage version of v1api20211001.Port_STATUS
 /// The port exposed on the container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusIpAddressPorts
 {
@@ -2471,7 +2471,7 @@ public partial class V1api20211001storageContainerGroupStatusIpAddressPorts
 /// Storage version of v1api20211001.IpAddress_STATUS
 /// IP address for the container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusIpAddress
 {
@@ -2505,7 +2505,7 @@ public partial class V1api20211001storageContainerGroupStatusIpAddress
 /// Storage version of v1api20211001.ContainerGroupSubnetId_STATUS
 /// Container group subnet information.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusSubnetIds
 {
@@ -2527,7 +2527,7 @@ public partial class V1api20211001storageContainerGroupStatusSubnetIds
 /// Storage version of v1api20211001.AzureFileVolume_STATUS
 /// The properties of the Azure File volume. Azure File shares are mounted as volumes.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusVolumesAzureFile
 {
@@ -2555,7 +2555,7 @@ public partial class V1api20211001storageContainerGroupStatusVolumesAzureFile
 /// Storage version of v1api20211001.GitRepoVolume_STATUS
 /// Represents a volume that is populated with the contents of a git repository
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusVolumesGitRepo
 {
@@ -2580,7 +2580,7 @@ public partial class V1api20211001storageContainerGroupStatusVolumesGitRepo
 /// Storage version of v1api20211001.Volume_STATUS
 /// The properties of the volume.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatusVolumes
 {
@@ -2619,7 +2619,7 @@ public partial class V1api20211001storageContainerGroupStatusVolumes
 /// Storage version of v1api20211001.ContainerGroup_STATUS
 /// A container group.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20211001storageContainerGroupStatus
 {
@@ -2724,7 +2724,7 @@ public partial class V1api20211001storageContainerGroupStatus
 /// - Generated from: /containerinstance/resource-manager/Microsoft.ContainerInstance/ContainerInstance/stable/2021-10-01/containerInstance.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerInstance/containerGroups/{containerGroupName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20211001storageContainerGroup : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20211001storageContainerGroupSpec?>, IStatus<V1api20211001storageContainerGroupStatus?>

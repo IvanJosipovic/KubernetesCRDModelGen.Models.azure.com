@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.insights.azure.com;
 /// - Generated from: /monitor/resource-manager/Microsoft.Insights/stable/2018-03-01/metricAlert_API.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/metricAlerts/{ruleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20180301MetricAlertList : IKubernetesObject<V1ListMeta>, IItems<V1api20180301MetricAlert>
@@ -41,7 +41,7 @@ public partial class V1api20180301MetricAlertList : IKubernetesObject<V1ListMeta
 }
 
 /// <summary>ActionGroupReference: the id of the action group to use.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecActionsActionGroupReference
 {
@@ -67,7 +67,7 @@ public partial class V1api20180301MetricAlertSpecActionsActionGroupReference
 }
 
 /// <summary>An alert action.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecActions
 {
@@ -91,7 +91,7 @@ public partial class V1api20180301MetricAlertSpecActions
 /// AlertSensitivity: The extent of deviation required to trigger an alert. This will affect how tight the threshold is to
 /// the metric series pattern.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionAlertSensitivityEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionAlertSensitivityEnum
 {
@@ -104,7 +104,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleRes
 }
 
 /// <summary>CriterionType: Specifies the type of threshold criteria</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionCriterionTypeEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionCriterionTypeEnum
 {
@@ -113,7 +113,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleRes
 }
 
 /// <summary>Specifies a metric dimension.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionDimensions
 {
@@ -134,7 +134,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMu
 /// FailingPeriods: The minimum number of violations required within the selected lookback time window required to raise an
 /// alert.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionFailingPeriods
 {
@@ -154,7 +154,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMu
 }
 
 /// <summary>Operator: The operator used to compare the metric value against the threshold.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionOperatorEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionOperatorEnum
 {
@@ -167,7 +167,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleRes
 }
 
 /// <summary>TimeAggregation: the criteria time aggregation types.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionTimeAggregationEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionTimeAggregationEnum
 {
@@ -184,7 +184,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleRes
 }
 
 /// <summary>Dynamic: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterion
 {
@@ -249,7 +249,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMu
 }
 
 /// <summary>CriterionType: Specifies the type of threshold criteria</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionCriterionTypeEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionCriterionTypeEnum
 {
@@ -258,7 +258,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleRes
 }
 
 /// <summary>Specifies a metric dimension.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionDimensions
 {
@@ -276,7 +276,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMu
 }
 
 /// <summary>Operator: the criteria operator.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionOperatorEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionOperatorEnum
 {
@@ -293,7 +293,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleRes
 }
 
 /// <summary>TimeAggregation: the criteria time aggregation types.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionTimeAggregationEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionTimeAggregationEnum
 {
@@ -310,7 +310,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleRes
 }
 
 /// <summary>Static: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterion
 {
@@ -357,7 +357,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMu
     public required V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionTimeAggregationEnum TimeAggregation { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOf
 {
@@ -371,7 +371,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMu
 }
 
 /// <summary>OdataType: specifies the type of the alert criteria.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaOdataTypeEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaOdataTypeEnum
 {
@@ -380,7 +380,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleRes
 }
 
 /// <summary>MicrosoftAzureMonitorMultipleResourceMultipleMetric: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteria
 {
@@ -397,7 +397,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorMu
 }
 
 /// <summary>CriterionType: Specifies the type of threshold criteria</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOfCriterionTypeEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOfCriterionTypeEnum
 {
@@ -406,7 +406,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResou
 }
 
 /// <summary>Specifies a metric dimension.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOfDimensions
 {
@@ -424,7 +424,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSi
 }
 
 /// <summary>Operator: the criteria operator.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOfOperatorEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOfOperatorEnum
 {
@@ -441,7 +441,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResou
 }
 
 /// <summary>TimeAggregation: the criteria time aggregation types.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOfTimeAggregationEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOfTimeAggregationEnum
 {
@@ -457,7 +457,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResou
     Total
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOf
 {
@@ -505,7 +505,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSi
 }
 
 /// <summary>OdataType: specifies the type of the alert criteria.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaOdataTypeEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaOdataTypeEnum
 {
@@ -514,7 +514,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResou
 }
 
 /// <summary>MicrosoftAzureMonitorSingleResourceMultipleMetric: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteria
 {
@@ -531,7 +531,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorSi
 }
 
 /// <summary>ComponentReference: The Application Insights resource Id.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorWebtestLocationAvailabilityCriteriaComponentReference
 {
@@ -557,7 +557,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorWe
 }
 
 /// <summary>OdataType: specifies the type of the alert criteria.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorWebtestLocationAvailabilityCriteriaOdataTypeEnum>))]
 public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorWebtestLocationAvailabilityCriteriaOdataTypeEnum
 {
@@ -566,7 +566,7 @@ public enum V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorWebtestLoca
 }
 
 /// <summary>MicrosoftAzureMonitorWebtestLocationAvailability: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorWebtestLocationAvailabilityCriteria
 {
@@ -591,7 +591,7 @@ public partial class V1api20180301MetricAlertSpecCriteriaMicrosoftAzureMonitorWe
 }
 
 /// <summary>Criteria: defines the specific alert criteria information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecCriteria
 {
@@ -613,7 +613,7 @@ public partial class V1api20180301MetricAlertSpecCriteria
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecOperatorSpecConfigMapExpressions
 {
@@ -646,7 +646,7 @@ public partial class V1api20180301MetricAlertSpecOperatorSpecConfigMapExpression
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecOperatorSpecSecretExpressions
 {
@@ -678,7 +678,7 @@ public partial class V1api20180301MetricAlertSpecOperatorSpecSecretExpressions
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecOperatorSpec
 {
@@ -696,7 +696,7 @@ public partial class V1api20180301MetricAlertSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecOwner
 {
@@ -709,7 +709,7 @@ public partial class V1api20180301MetricAlertSpecOwner
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpecScopesReferences
 {
@@ -734,7 +734,7 @@ public partial class V1api20180301MetricAlertSpecScopesReferences
     public string? Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertSpec
 {
@@ -829,7 +829,7 @@ public partial class V1api20180301MetricAlertSpec
 }
 
 /// <summary>An alert action.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusActions
 {
@@ -846,7 +846,7 @@ public partial class V1api20180301MetricAlertStatusActions
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusConditions
 {
@@ -892,7 +892,7 @@ public partial class V1api20180301MetricAlertStatusConditions
 }
 
 /// <summary>Specifies a metric dimension.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionDimensions
 {
@@ -913,7 +913,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 /// FailingPeriods: The minimum number of violations required within the selected lookback time window required to raise an
 /// alert.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterionFailingPeriods
 {
@@ -933,7 +933,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 }
 
 /// <summary>Dynamic: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfDynamicThresholdCriterion
 {
@@ -998,7 +998,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 }
 
 /// <summary>Specifies a metric dimension.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterionDimensions
 {
@@ -1016,7 +1016,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 }
 
 /// <summary>Static: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOfStaticThresholdCriterion
 {
@@ -1063,7 +1063,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
     public string? TimeAggregation { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteriaAllOf
 {
@@ -1077,7 +1077,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 }
 
 /// <summary>MicrosoftAzureMonitorMultipleResourceMultipleMetric: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorMultipleResourceMultipleMetricCriteria
 {
@@ -1094,7 +1094,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 }
 
 /// <summary>Specifies a metric dimension.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOfDimensions
 {
@@ -1111,7 +1111,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
     public IList<string>? Values { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteriaAllOf
 {
@@ -1159,7 +1159,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 }
 
 /// <summary>MicrosoftAzureMonitorSingleResourceMultipleMetric: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorSingleResourceMultipleMetricCriteria
 {
@@ -1176,7 +1176,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 }
 
 /// <summary>MicrosoftAzureMonitorWebtestLocationAvailability: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorWebtestLocationAvailabilityCriteria
 {
@@ -1201,7 +1201,7 @@ public partial class V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitor
 }
 
 /// <summary>Criteria: defines the specific alert criteria information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatusCriteria
 {
@@ -1218,7 +1218,7 @@ public partial class V1api20180301MetricAlertStatusCriteria
     public V1api20180301MetricAlertStatusCriteriaMicrosoftAzureMonitorWebtestLocationAvailabilityCriteria? MicrosoftAzureMonitorWebtestLocationAvailabilityCriteria { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20180301MetricAlertStatus
 {
@@ -1319,7 +1319,7 @@ public partial class V1api20180301MetricAlertStatus
 /// - Generated from: /monitor/resource-manager/Microsoft.Insights/stable/2018-03-01/metricAlert_API.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/metricAlerts/{ruleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20180301MetricAlert : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20180301MetricAlertSpec?>, IStatus<V1api20180301MetricAlertStatus?>
