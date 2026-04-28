@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.eventgrid.azure.com;
 /// - Generated from: /eventgrid/resource-manager/Microsoft.EventGrid/EventGrid/stable/2020-06-01/EventGrid.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/topics/{topicName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20200601TopicList : IKubernetesObject<V1ListMeta>, IItems<V1api20200601Topic>
@@ -41,7 +41,7 @@ public partial class V1api20200601TopicList : IKubernetesObject<V1ListMeta>, IIt
 }
 
 /// <summary>Action: Action to perform based on the match or no match of the IpMask.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601TopicSpecInboundIpRulesActionEnum>))]
 public enum V1api20200601TopicSpecInboundIpRulesActionEnum
 {
@@ -49,7 +49,7 @@ public enum V1api20200601TopicSpecInboundIpRulesActionEnum
     Allow
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInboundIpRules
 {
@@ -63,7 +63,7 @@ public partial class V1api20200601TopicSpecInboundIpRules
 }
 
 /// <summary>InputSchema: This determines the format that Event Grid should expect for incoming events published to the topic.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601TopicSpecInputSchemaEnum>))]
 public enum V1api20200601TopicSpecInputSchemaEnum
 {
@@ -76,7 +76,7 @@ public enum V1api20200601TopicSpecInputSchemaEnum
 }
 
 /// <summary>DataVersion: The mapping information for the DataVersion property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInputSchemaMappingJsonDataVersion
 {
@@ -93,7 +93,7 @@ public partial class V1api20200601TopicSpecInputSchemaMappingJsonDataVersion
 }
 
 /// <summary>EventTime: The mapping information for the EventTime property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInputSchemaMappingJsonEventTime
 {
@@ -103,7 +103,7 @@ public partial class V1api20200601TopicSpecInputSchemaMappingJsonEventTime
 }
 
 /// <summary>EventType: The mapping information for the EventType property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInputSchemaMappingJsonEventType
 {
@@ -120,7 +120,7 @@ public partial class V1api20200601TopicSpecInputSchemaMappingJsonEventType
 }
 
 /// <summary>Id: The mapping information for the Id property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInputSchemaMappingJsonId
 {
@@ -130,7 +130,7 @@ public partial class V1api20200601TopicSpecInputSchemaMappingJsonId
 }
 
 /// <summary>InputSchemaMappingType: Type of the custom mapping</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601TopicSpecInputSchemaMappingJsonInputSchemaMappingTypeEnum>))]
 public enum V1api20200601TopicSpecInputSchemaMappingJsonInputSchemaMappingTypeEnum
 {
@@ -139,7 +139,7 @@ public enum V1api20200601TopicSpecInputSchemaMappingJsonInputSchemaMappingTypeEn
 }
 
 /// <summary>Subject: The mapping information for the Subject property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInputSchemaMappingJsonSubject
 {
@@ -156,7 +156,7 @@ public partial class V1api20200601TopicSpecInputSchemaMappingJsonSubject
 }
 
 /// <summary>Topic: The mapping information for the Topic property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInputSchemaMappingJsonTopic
 {
@@ -166,7 +166,7 @@ public partial class V1api20200601TopicSpecInputSchemaMappingJsonTopic
 }
 
 /// <summary>Json: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInputSchemaMappingJson
 {
@@ -203,7 +203,7 @@ public partial class V1api20200601TopicSpecInputSchemaMappingJson
 /// InputSchemaMapping: This enables publishing using custom event schemas. An InputSchemaMapping can be specified to map
 /// various properties of a source schema to various required properties of the EventGridEvent schema.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecInputSchemaMapping
 {
@@ -217,7 +217,7 @@ public partial class V1api20200601TopicSpecInputSchemaMapping
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOperatorSpecConfigMapExpressions
 {
@@ -246,7 +246,7 @@ public partial class V1api20200601TopicSpecOperatorSpecConfigMapExpressions
 }
 
 /// <summary>Endpoint: indicates where the Endpoint config map should be placed. If omitted, no config map will be created.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOperatorSpecConfigMapsEndpoint
 {
@@ -263,7 +263,7 @@ public partial class V1api20200601TopicSpecOperatorSpecConfigMapsEndpoint
 }
 
 /// <summary>ConfigMaps: configures where to place operator written ConfigMaps.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOperatorSpecConfigMaps
 {
@@ -277,7 +277,7 @@ public partial class V1api20200601TopicSpecOperatorSpecConfigMaps
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOperatorSpecSecretExpressions
 {
@@ -306,7 +306,7 @@ public partial class V1api20200601TopicSpecOperatorSpecSecretExpressions
 }
 
 /// <summary>Key1: indicates where the Key1 secret should be placed. If omitted, the secret will not be retrieved from Azure.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOperatorSpecSecretsKey1
 {
@@ -323,7 +323,7 @@ public partial class V1api20200601TopicSpecOperatorSpecSecretsKey1
 }
 
 /// <summary>Key2: indicates where the Key2 secret should be placed. If omitted, the secret will not be retrieved from Azure.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOperatorSpecSecretsKey2
 {
@@ -340,7 +340,7 @@ public partial class V1api20200601TopicSpecOperatorSpecSecretsKey2
 }
 
 /// <summary>Secrets: configures where to place Azure generated secrets.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOperatorSpecSecrets
 {
@@ -357,7 +357,7 @@ public partial class V1api20200601TopicSpecOperatorSpecSecrets
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOperatorSpec
 {
@@ -383,7 +383,7 @@ public partial class V1api20200601TopicSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpecOwner
 {
@@ -400,7 +400,7 @@ public partial class V1api20200601TopicSpecOwner
 /// You can further restrict to specific IPs by configuring &lt;seealso
 /// cref=&quot;P:Microsoft.Azure.Events.ResourceProvider.Common.Contracts.TopicProperties.InboundIpRules&quot; /&gt;
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601TopicSpecPublicNetworkAccessEnum>))]
 public enum V1api20200601TopicSpecPublicNetworkAccessEnum
 {
@@ -410,7 +410,7 @@ public enum V1api20200601TopicSpecPublicNetworkAccessEnum
     Enabled
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicSpec
 {
@@ -472,7 +472,7 @@ public partial class V1api20200601TopicSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusConditions
 {
@@ -517,7 +517,7 @@ public partial class V1api20200601TopicStatusConditions
     public required string Type { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInboundIpRules
 {
@@ -531,7 +531,7 @@ public partial class V1api20200601TopicStatusInboundIpRules
 }
 
 /// <summary>DataVersion: The mapping information for the DataVersion property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInputSchemaMappingJsonDataVersion
 {
@@ -548,7 +548,7 @@ public partial class V1api20200601TopicStatusInputSchemaMappingJsonDataVersion
 }
 
 /// <summary>EventTime: The mapping information for the EventTime property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInputSchemaMappingJsonEventTime
 {
@@ -558,7 +558,7 @@ public partial class V1api20200601TopicStatusInputSchemaMappingJsonEventTime
 }
 
 /// <summary>EventType: The mapping information for the EventType property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInputSchemaMappingJsonEventType
 {
@@ -575,7 +575,7 @@ public partial class V1api20200601TopicStatusInputSchemaMappingJsonEventType
 }
 
 /// <summary>Id: The mapping information for the Id property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInputSchemaMappingJsonId
 {
@@ -585,7 +585,7 @@ public partial class V1api20200601TopicStatusInputSchemaMappingJsonId
 }
 
 /// <summary>Subject: The mapping information for the Subject property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInputSchemaMappingJsonSubject
 {
@@ -602,7 +602,7 @@ public partial class V1api20200601TopicStatusInputSchemaMappingJsonSubject
 }
 
 /// <summary>Topic: The mapping information for the Topic property of the Event Grid Event.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInputSchemaMappingJsonTopic
 {
@@ -612,7 +612,7 @@ public partial class V1api20200601TopicStatusInputSchemaMappingJsonTopic
 }
 
 /// <summary>Json: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInputSchemaMappingJson
 {
@@ -649,7 +649,7 @@ public partial class V1api20200601TopicStatusInputSchemaMappingJson
 /// InputSchemaMapping: This enables publishing using custom event schemas. An InputSchemaMapping can be specified to map
 /// various properties of a source schema to various required properties of the EventGridEvent schema.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusInputSchemaMapping
 {
@@ -658,7 +658,7 @@ public partial class V1api20200601TopicStatusInputSchemaMapping
     public V1api20200601TopicStatusInputSchemaMappingJson? Json { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusPrivateEndpointConnections
 {
@@ -668,7 +668,7 @@ public partial class V1api20200601TopicStatusPrivateEndpointConnections
 }
 
 /// <summary>SystemData: The system metadata relating to Topic resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatusSystemData
 {
@@ -698,7 +698,7 @@ public partial class V1api20200601TopicStatusSystemData
 }
 
 /// <summary>EventGrid Topic</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601TopicStatus
 {
@@ -777,7 +777,7 @@ public partial class V1api20200601TopicStatus
 /// - Generated from: /eventgrid/resource-manager/Microsoft.EventGrid/EventGrid/stable/2020-06-01/EventGrid.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/topics/{topicName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20200601Topic : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20200601TopicSpec?>, IStatus<V1api20200601TopicStatus?>

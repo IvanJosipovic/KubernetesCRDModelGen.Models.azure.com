@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.alertsmanagement.azure.com;
 /// - Generated from: /alertsmanagement/resource-manager/Microsoft.AlertsManagement/Legacy/stable/2021-04-01/SmartDetectorAlertRulesApi.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.alertsManagement/smartDetectorAlertRules/{alertRuleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20210401SmartDetectorAlertRuleList : IKubernetesObject<V1ListMeta>, IItems<V20210401SmartDetectorAlertRule>
@@ -41,7 +41,7 @@ public partial class V20210401SmartDetectorAlertRuleList : IKubernetesObject<V1L
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecActionGroupsGroupReferences
 {
@@ -67,7 +67,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecActionGroupsGroupReferen
 }
 
 /// <summary>ActionGroups: The alert rule actions.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecActionGroups
 {
@@ -85,7 +85,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecActionGroups
 }
 
 /// <summary>Detector: The alert rule&apos;s detector.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecDetector
 {
@@ -103,7 +103,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecDetector
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecOperatorSpecConfigMapExpressions
 {
@@ -136,7 +136,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecOperatorSpecConfigMapExp
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecOperatorSpecSecretExpressions
 {
@@ -168,7 +168,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecOperatorSpecSecretExpres
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecOperatorSpec
 {
@@ -186,7 +186,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecOwner
 {
@@ -199,7 +199,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecOwner
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecScopeReferences
 {
@@ -225,7 +225,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecScopeReferences
 }
 
 /// <summary>Severity: The alert rule severity.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20210401SmartDetectorAlertRuleSpecSeverityEnum>))]
 public enum V20210401SmartDetectorAlertRuleSpecSeverityEnum
 {
@@ -242,7 +242,7 @@ public enum V20210401SmartDetectorAlertRuleSpecSeverityEnum
 }
 
 /// <summary>State: The alert rule state.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V20210401SmartDetectorAlertRuleSpecStateEnum>))]
 public enum V20210401SmartDetectorAlertRuleSpecStateEnum
 {
@@ -253,7 +253,7 @@ public enum V20210401SmartDetectorAlertRuleSpecStateEnum
 }
 
 /// <summary>Throttling: The alert rule throttling information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpecThrottling
 {
@@ -265,7 +265,7 @@ public partial class V20210401SmartDetectorAlertRuleSpecThrottling
     public string? Duration { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleSpec
 {
@@ -336,7 +336,7 @@ public partial class V20210401SmartDetectorAlertRuleSpec
 }
 
 /// <summary>ActionGroups: The alert rule actions.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleStatusActionGroups
 {
@@ -354,7 +354,7 @@ public partial class V20210401SmartDetectorAlertRuleStatusActionGroups
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleStatusConditions
 {
@@ -400,7 +400,7 @@ public partial class V20210401SmartDetectorAlertRuleStatusConditions
 }
 
 /// <summary>The detector parameter definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleStatusDetectorParameterDefinitions
 {
@@ -426,7 +426,7 @@ public partial class V20210401SmartDetectorAlertRuleStatusDetectorParameterDefin
 }
 
 /// <summary>Detector: The alert rule&apos;s detector.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleStatusDetector
 {
@@ -464,7 +464,7 @@ public partial class V20210401SmartDetectorAlertRuleStatusDetector
 }
 
 /// <summary>Throttling: The alert rule throttling information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleStatusThrottling
 {
@@ -476,7 +476,7 @@ public partial class V20210401SmartDetectorAlertRuleStatusThrottling
     public string? Duration { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V20210401SmartDetectorAlertRuleStatus
 {
@@ -545,7 +545,7 @@ public partial class V20210401SmartDetectorAlertRuleStatus
 /// - Generated from: /alertsmanagement/resource-manager/Microsoft.AlertsManagement/Legacy/stable/2021-04-01/SmartDetectorAlertRulesApi.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.alertsManagement/smartDetectorAlertRules/{alertRuleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V20210401SmartDetectorAlertRule : IKubernetesObject<V1ObjectMeta>, ISpec<V20210401SmartDetectorAlertRuleSpec?>, IStatus<V20210401SmartDetectorAlertRuleStatus?>

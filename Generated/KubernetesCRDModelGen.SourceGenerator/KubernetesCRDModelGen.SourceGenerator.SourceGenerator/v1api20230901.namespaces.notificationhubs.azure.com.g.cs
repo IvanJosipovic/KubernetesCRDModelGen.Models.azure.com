@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.notificationhubs.azure.com;
 /// - Generated from: /notificationhubs/resource-manager/Microsoft.NotificationHubs/NotificationHubs/stable/2023-09-01/notificationhubs.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20230901NamespaceList : IKubernetesObject<V1ListMeta>, IItems<V1api20230901Namespace>
@@ -45,7 +45,7 @@ public partial class V1api20230901NamespaceList : IKubernetesObject<V1ListMeta>,
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecConfigMapExpressions
 {
@@ -77,7 +77,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecConfigMapExpressions
 /// ServiceBusEndpoint: indicates where the ServiceBusEndpoint config map should be placed. If omitted, no config map will
 /// be created.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecConfigMapsServiceBusEndpoint
 {
@@ -94,7 +94,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecConfigMapsServiceBusE
 }
 
 /// <summary>ConfigMaps: configures where to place operator written ConfigMaps.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecConfigMaps
 {
@@ -111,7 +111,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecConfigMaps
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecSecretExpressions
 {
@@ -143,7 +143,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecSecretExpressions
 /// PrimaryConnectionString: indicates where the PrimaryConnectionString secret should be placed. If omitted, the secret
 /// will not be retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecSecretsPrimaryConnectionString
 {
@@ -163,7 +163,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecSecretsPrimaryConnect
 /// PrimaryKey: indicates where the PrimaryKey secret should be placed. If omitted, the secret will not be retrieved from
 /// Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecSecretsPrimaryKey
 {
@@ -183,7 +183,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecSecretsPrimaryKey
 /// SecondaryConnectionString: indicates where the SecondaryConnectionString secret should be placed. If omitted, the secret
 /// will not be retrieved from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecSecretsSecondaryConnectionString
 {
@@ -203,7 +203,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecSecretsSecondaryConne
 /// SecondaryKey: indicates where the SecondaryKey secret should be placed. If omitted, the secret will not be retrieved
 /// from Azure.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecSecretsSecondaryKey
 {
@@ -220,7 +220,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecSecretsSecondaryKey
 }
 
 /// <summary>Secrets: configures where to place Azure generated secrets.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpecSecrets
 {
@@ -257,7 +257,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpecSecrets
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOperatorSpec
 {
@@ -283,7 +283,7 @@ public partial class V1api20230901NamespaceSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecOwner
 {
@@ -296,7 +296,7 @@ public partial class V1api20230901NamespaceSpecOwner
 }
 
 /// <summary>NamespaceType: Defines values for NamespaceType.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230901NamespaceSpecPropertiesNamespaceTypeEnum>))]
 public enum V1api20230901NamespaceSpecPropertiesNamespaceTypeEnum
 {
@@ -307,7 +307,7 @@ public enum V1api20230901NamespaceSpecPropertiesNamespaceTypeEnum
 }
 
 /// <summary>Defines values for AccessRights.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230901NamespaceSpecPropertiesNetworkAclsIpRulesRightsEnum>))]
 public enum V1api20230901NamespaceSpecPropertiesNetworkAclsIpRulesRightsEnum
 {
@@ -320,7 +320,7 @@ public enum V1api20230901NamespaceSpecPropertiesNetworkAclsIpRulesRightsEnum
 }
 
 /// <summary>A network authorization rule that filters traffic based on IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesNetworkAclsIpRules
 {
@@ -334,7 +334,7 @@ public partial class V1api20230901NamespaceSpecPropertiesNetworkAclsIpRules
 }
 
 /// <summary>Defines values for AccessRights.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230901NamespaceSpecPropertiesNetworkAclsPublicNetworkRuleRightsEnum>))]
 public enum V1api20230901NamespaceSpecPropertiesNetworkAclsPublicNetworkRuleRightsEnum
 {
@@ -350,7 +350,7 @@ public enum V1api20230901NamespaceSpecPropertiesNetworkAclsPublicNetworkRuleRigh
 /// PublicNetworkRule: A default (public Internet) network authorization rule, which contains rights if no other network
 /// rule matches.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesNetworkAclsPublicNetworkRule
 {
@@ -360,7 +360,7 @@ public partial class V1api20230901NamespaceSpecPropertiesNetworkAclsPublicNetwor
 }
 
 /// <summary>NetworkAcls: A collection of network authorization rules.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesNetworkAcls
 {
@@ -377,7 +377,7 @@ public partial class V1api20230901NamespaceSpecPropertiesNetworkAcls
 }
 
 /// <summary>AuthTokenUrl: Gets or sets the URL of the authorization token.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCredentialPropertiesAuthTokenUrl
 {
@@ -394,7 +394,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCreden
 }
 
 /// <summary>ClientId: Gets or sets the client identifier.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCredentialPropertiesClientId
 {
@@ -411,7 +411,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCreden
 }
 
 /// <summary>ClientSecret: Gets or sets the credential secret access key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCredentialPropertiesClientSecret
 {
@@ -428,7 +428,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCreden
 }
 
 /// <summary>Properties: Description of a NotificationHub AdmCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCredentialProperties
 {
@@ -446,7 +446,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCreden
 }
 
 /// <summary>AdmCredential: Description of a NotificationHub AdmCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCredential
 {
@@ -456,7 +456,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsAdmCreden
 }
 
 /// <summary>ApnsCertificate: Gets or sets the APNS certificate.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialPropertiesApnsCertificate
 {
@@ -476,7 +476,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 /// AppId: Gets or sets the issuer (iss) registered claim key, whose value is
 /// your 10-character Team ID, obtained from your developer account
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialPropertiesAppId
 {
@@ -493,7 +493,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 }
 
 /// <summary>AppName: Gets or sets the name of the application</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialPropertiesAppName
 {
@@ -510,7 +510,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 }
 
 /// <summary>CertificateKey: Gets or sets the certificate key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialPropertiesCertificateKey
 {
@@ -527,7 +527,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 }
 
 /// <summary>Endpoint: Gets or sets the endpoint of this credential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialPropertiesEndpoint
 {
@@ -547,7 +547,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 /// KeyId: Gets or sets a 10-character key identifier (kid) key, obtained from
 /// your developer account
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialPropertiesKeyId
 {
@@ -564,7 +564,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 }
 
 /// <summary>Thumbprint: Gets or sets the APNS certificate Thumbprint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialPropertiesThumbprint
 {
@@ -584,7 +584,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 /// Token: Gets or sets provider Authentication Token, obtained through your
 /// developer account
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialPropertiesToken
 {
@@ -601,7 +601,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 }
 
 /// <summary>Properties: Description of a NotificationHub ApnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredentialProperties
 {
@@ -648,7 +648,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 }
 
 /// <summary>ApnsCredential: Description of a NotificationHub ApnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCredential
 {
@@ -658,7 +658,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsApnsCrede
 }
 
 /// <summary>BaiduApiKey: Gets or sets baidu Api Key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCredentialPropertiesBaiduApiKey
 {
@@ -675,7 +675,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCred
 }
 
 /// <summary>BaiduEndPoint: Gets or sets baidu Endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCredentialPropertiesBaiduEndPoint
 {
@@ -692,7 +692,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCred
 }
 
 /// <summary>BaiduSecretKey: Gets or sets baidu Secret Key</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCredentialPropertiesBaiduSecretKey
 {
@@ -709,7 +709,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCred
 }
 
 /// <summary>Properties: Description of a NotificationHub BaiduCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCredentialProperties
 {
@@ -727,7 +727,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCred
 }
 
 /// <summary>BaiduCredential: Description of a NotificationHub BaiduCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCredential
 {
@@ -737,7 +737,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBaiduCred
 }
 
 /// <summary>Subject: Gets or sets web push subject.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCredentialPropertiesSubject
 {
@@ -754,7 +754,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCr
 }
 
 /// <summary>VapidPrivateKey: Gets or sets VAPID private key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCredentialPropertiesVapidPrivateKey
 {
@@ -771,7 +771,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCr
 }
 
 /// <summary>VapidPublicKey: Gets or sets VAPID public key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCredentialPropertiesVapidPublicKey
 {
@@ -788,7 +788,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCr
 }
 
 /// <summary>Properties: Description of a NotificationHub BrowserCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCredentialProperties
 {
@@ -806,7 +806,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCr
 }
 
 /// <summary>BrowserCredential: Description of a NotificationHub BrowserCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCredential
 {
@@ -816,7 +816,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsBrowserCr
 }
 
 /// <summary>GcmEndpoint: Gets or sets the GCM endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsGcmCredentialPropertiesGcmEndpoint
 {
@@ -833,7 +833,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsGcmCreden
 }
 
 /// <summary>GoogleApiKey: Gets or sets the Google API key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsGcmCredentialPropertiesGoogleApiKey
 {
@@ -850,7 +850,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsGcmCreden
 }
 
 /// <summary>Properties: Description of a NotificationHub GcmCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsGcmCredentialProperties
 {
@@ -864,7 +864,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsGcmCreden
 }
 
 /// <summary>GcmCredential: Description of a NotificationHub GcmCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsGcmCredential
 {
@@ -874,7 +874,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsGcmCreden
 }
 
 /// <summary>CertificateKey: Gets or sets the certificate key for this credential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCredentialPropertiesCertificateKey
 {
@@ -891,7 +891,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCrede
 }
 
 /// <summary>MpnsCertificate: Gets or sets the MPNS certificate.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCredentialPropertiesMpnsCertificate
 {
@@ -908,7 +908,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCrede
 }
 
 /// <summary>Thumbprint: Gets or sets the MPNS certificate Thumbprint</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCredentialPropertiesThumbprint
 {
@@ -925,7 +925,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCrede
 }
 
 /// <summary>Properties: Description of a NotificationHub MpnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCredentialProperties
 {
@@ -943,7 +943,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCrede
 }
 
 /// <summary>MpnsCredential: Description of a NotificationHub MpnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCredential
 {
@@ -953,7 +953,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsMpnsCrede
 }
 
 /// <summary>CertificateKey: Ges or sets the WNS Certificate Key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCredentialPropertiesCertificateKey
 {
@@ -970,7 +970,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCreden
 }
 
 /// <summary>PackageSid: Gets or sets the package ID for this credential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCredentialPropertiesPackageSid
 {
@@ -987,7 +987,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCreden
 }
 
 /// <summary>SecretKey: Gets or sets the secret key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCredentialPropertiesSecretKey
 {
@@ -1004,7 +1004,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCreden
 }
 
 /// <summary>WindowsLiveEndpoint: Gets or sets the Windows Live endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCredentialPropertiesWindowsLiveEndpoint
 {
@@ -1021,7 +1021,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCreden
 }
 
 /// <summary>WnsCertificate: Gets or sets the WNS Certificate.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCredentialPropertiesWnsCertificate
 {
@@ -1038,7 +1038,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCreden
 }
 
 /// <summary>Properties: Description of a NotificationHub WnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCredentialProperties
 {
@@ -1064,7 +1064,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCreden
 }
 
 /// <summary>WnsCredential: Description of a NotificationHub WnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCredential
 {
@@ -1074,7 +1074,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsWnsCreden
 }
 
 /// <summary>AppSecret: Gets or sets app secret.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsXiaomiCredentialPropertiesAppSecret
 {
@@ -1091,7 +1091,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsXiaomiCre
 }
 
 /// <summary>Endpoint: Gets or sets xiaomi service endpoint.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsXiaomiCredentialPropertiesEndpoint
 {
@@ -1108,7 +1108,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsXiaomiCre
 }
 
 /// <summary>Properties: Description of a NotificationHub XiaomiCredentialProperties.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsXiaomiCredentialProperties
 {
@@ -1122,7 +1122,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsXiaomiCre
 }
 
 /// <summary>XiaomiCredential: Description of a NotificationHub XiaomiCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsXiaomiCredential
 {
@@ -1132,7 +1132,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentialsXiaomiCre
 }
 
 /// <summary>PnsCredentials: Collection of Notification Hub or Notification Hub Namespace PNS credentials.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecPropertiesPnsCredentials
 {
@@ -1170,7 +1170,7 @@ public partial class V1api20230901NamespaceSpecPropertiesPnsCredentials
 }
 
 /// <summary>PublicNetworkAccess: Type of public network access.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230901NamespaceSpecPropertiesPublicNetworkAccessEnum>))]
 public enum V1api20230901NamespaceSpecPropertiesPublicNetworkAccessEnum
 {
@@ -1181,7 +1181,7 @@ public enum V1api20230901NamespaceSpecPropertiesPublicNetworkAccessEnum
 }
 
 /// <summary>ReplicationRegion: Allowed replication region</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230901NamespaceSpecPropertiesReplicationRegionEnum>))]
 public enum V1api20230901NamespaceSpecPropertiesReplicationRegionEnum
 {
@@ -1204,7 +1204,7 @@ public enum V1api20230901NamespaceSpecPropertiesReplicationRegionEnum
 }
 
 /// <summary>ZoneRedundancy: Namespace SKU name.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230901NamespaceSpecPropertiesZoneRedundancyEnum>))]
 public enum V1api20230901NamespaceSpecPropertiesZoneRedundancyEnum
 {
@@ -1215,7 +1215,7 @@ public enum V1api20230901NamespaceSpecPropertiesZoneRedundancyEnum
 }
 
 /// <summary>Properties: Represents namespace properties.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecProperties
 {
@@ -1253,7 +1253,7 @@ public partial class V1api20230901NamespaceSpecProperties
 }
 
 /// <summary>Name: Namespace SKU name.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230901NamespaceSpecSkuNameEnum>))]
 public enum V1api20230901NamespaceSpecSkuNameEnum
 {
@@ -1266,7 +1266,7 @@ public enum V1api20230901NamespaceSpecSkuNameEnum
 }
 
 /// <summary>Sku: The Sku description for a namespace</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpecSku
 {
@@ -1291,7 +1291,7 @@ public partial class V1api20230901NamespaceSpecSku
     public string? Tier { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceSpec
 {
@@ -1335,7 +1335,7 @@ public partial class V1api20230901NamespaceSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusConditions
 {
@@ -1381,7 +1381,7 @@ public partial class V1api20230901NamespaceStatusConditions
 }
 
 /// <summary>A network authorization rule that filters traffic based on IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesNetworkAclsIpRules
 {
@@ -1398,7 +1398,7 @@ public partial class V1api20230901NamespaceStatusPropertiesNetworkAclsIpRules
 /// PublicNetworkRule: A default (public Internet) network authorization rule, which contains rights if no other network
 /// rule matches.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesNetworkAclsPublicNetworkRule
 {
@@ -1408,7 +1408,7 @@ public partial class V1api20230901NamespaceStatusPropertiesNetworkAclsPublicNetw
 }
 
 /// <summary>NetworkAcls: A collection of network authorization rules.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesNetworkAcls
 {
@@ -1425,14 +1425,14 @@ public partial class V1api20230901NamespaceStatusPropertiesNetworkAcls
 }
 
 /// <summary>Properties: Description of a NotificationHub AdmCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsAdmCredentialProperties
 {
 }
 
 /// <summary>AdmCredential: Description of a NotificationHub AdmCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsAdmCredential
 {
@@ -1442,14 +1442,14 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsAdmCred
 }
 
 /// <summary>Properties: Description of a NotificationHub ApnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsApnsCredentialProperties
 {
 }
 
 /// <summary>ApnsCredential: Description of a NotificationHub ApnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsApnsCredential
 {
@@ -1459,14 +1459,14 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsApnsCre
 }
 
 /// <summary>Properties: Description of a NotificationHub BaiduCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsBaiduCredentialProperties
 {
 }
 
 /// <summary>BaiduCredential: Description of a NotificationHub BaiduCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsBaiduCredential
 {
@@ -1476,14 +1476,14 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsBaiduCr
 }
 
 /// <summary>Properties: Description of a NotificationHub BrowserCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsBrowserCredentialProperties
 {
 }
 
 /// <summary>BrowserCredential: Description of a NotificationHub BrowserCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsBrowserCredential
 {
@@ -1493,14 +1493,14 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsBrowser
 }
 
 /// <summary>Properties: Description of a NotificationHub GcmCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsGcmCredentialProperties
 {
 }
 
 /// <summary>GcmCredential: Description of a NotificationHub GcmCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsGcmCredential
 {
@@ -1510,14 +1510,14 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsGcmCred
 }
 
 /// <summary>Properties: Description of a NotificationHub MpnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsMpnsCredentialProperties
 {
 }
 
 /// <summary>MpnsCredential: Description of a NotificationHub MpnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsMpnsCredential
 {
@@ -1527,14 +1527,14 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsMpnsCre
 }
 
 /// <summary>Properties: Description of a NotificationHub WnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsWnsCredentialProperties
 {
 }
 
 /// <summary>WnsCredential: Description of a NotificationHub WnsCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsWnsCredential
 {
@@ -1544,14 +1544,14 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsWnsCred
 }
 
 /// <summary>Properties: Description of a NotificationHub XiaomiCredentialProperties.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsXiaomiCredentialProperties
 {
 }
 
 /// <summary>XiaomiCredential: Description of a NotificationHub XiaomiCredential.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsXiaomiCredential
 {
@@ -1561,7 +1561,7 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentialsXiaomiC
 }
 
 /// <summary>PnsCredentials: Collection of Notification Hub or Notification Hub Namespace PNS credentials.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPnsCredentials
 {
@@ -1599,7 +1599,7 @@ public partial class V1api20230901NamespaceStatusPropertiesPnsCredentials
 }
 
 /// <summary>Represents a Private Endpoint Connection ARM resource - a sub-resource of Notification Hubs namespace.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusPropertiesPrivateEndpointConnections
 {
@@ -1612,7 +1612,7 @@ public partial class V1api20230901NamespaceStatusPropertiesPrivateEndpointConnec
 }
 
 /// <summary>Properties: Represents namespace properties.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusProperties
 {
@@ -1707,7 +1707,7 @@ public partial class V1api20230901NamespaceStatusProperties
 }
 
 /// <summary>Sku: The Sku description for a namespace</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusSku
 {
@@ -1733,7 +1733,7 @@ public partial class V1api20230901NamespaceStatusSku
 }
 
 /// <summary>SystemData: Azure Resource Manager metadata containing createdBy and modifiedBy information.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatusSystemData
 {
@@ -1762,7 +1762,7 @@ public partial class V1api20230901NamespaceStatusSystemData
     public string? LastModifiedByType { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230901NamespaceStatus
 {
@@ -1811,7 +1811,7 @@ public partial class V1api20230901NamespaceStatus
 /// - Generated from: /notificationhubs/resource-manager/Microsoft.NotificationHubs/NotificationHubs/stable/2023-09-01/notificationhubs.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20230901Namespace : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20230901NamespaceSpec?>, IStatus<V1api20230901NamespaceStatus?>

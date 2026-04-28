@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /dnsresolver/resource-manager/Microsoft.Network/DnsResolver/stable/2022-07-01/dnsresolver.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsForwardingRulesets/{dnsForwardingRulesetName}/forwardingRules/{forwardingRuleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleList : IKubernetesObject<V1ListMeta>, IItems<V1api20220701DnsForwardingRuleSetsForwardingRule>
@@ -41,7 +41,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleList : IKub
 }
 
 /// <summary>ForwardingRuleState: The state of forwarding rule.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20220701DnsForwardingRuleSetsForwardingRuleSpecForwardingRuleStateEnum>))]
 public enum V1api20220701DnsForwardingRuleSetsForwardingRuleSpecForwardingRuleStateEnum
 {
@@ -56,7 +56,7 @@ public enum V1api20220701DnsForwardingRuleSetsForwardingRuleSpecForwardingRuleSt
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecOperatorSpecConfigMapExpressions
 {
@@ -89,7 +89,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecOperato
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecOperatorSpecSecretExpressions
 {
@@ -121,7 +121,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecOperato
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecOperatorSpec
 {
@@ -139,7 +139,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecOperato
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a network.azure.com/DnsForwardingRuleset resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecOwner
 {
@@ -152,7 +152,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecOwner
 }
 
 /// <summary>IpAddressFromConfig: DNS server IP address.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecTargetDnsServersIpAddressFromConfig
 {
@@ -169,7 +169,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecTargetD
 }
 
 /// <summary>Describes a server to forward the DNS queries to.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecTargetDnsServers
 {
@@ -186,7 +186,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpecTargetD
     public int? Port { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpec
 {
@@ -230,7 +230,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleStatusConditions
 {
@@ -276,7 +276,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleStatusCondi
 }
 
 /// <summary>SystemData: Metadata pertaining to creation and last modification of the resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleStatusSystemData
 {
@@ -306,7 +306,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleStatusSyste
 }
 
 /// <summary>Describes a server to forward the DNS queries to.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleStatusTargetDnsServers
 {
@@ -319,7 +319,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleStatusTarge
     public int? Port { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleStatus
 {
@@ -379,7 +379,7 @@ public partial class V1api20220701DnsForwardingRuleSetsForwardingRuleStatus
 /// - Generated from: /dnsresolver/resource-manager/Microsoft.Network/DnsResolver/stable/2022-07-01/dnsresolver.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsForwardingRulesets/{dnsForwardingRulesetName}/forwardingRules/{forwardingRuleName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20220701DnsForwardingRuleSetsForwardingRule : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20220701DnsForwardingRuleSetsForwardingRuleSpec?>, IStatus<V1api20220701DnsForwardingRuleSetsForwardingRuleStatus?>

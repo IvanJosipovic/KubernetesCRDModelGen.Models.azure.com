@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.keyvault.azure.com;
 /// - Generated from: /keyvault/resource-manager/Microsoft.KeyVault/preview/2021-04-01-preview/keyvault.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210401previewVaultList : IKubernetesObject<V1ListMeta>, IItems<V1api20210401previewVault>
@@ -45,7 +45,7 @@ public partial class V1api20210401previewVaultList : IKubernetesObject<V1ListMet
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecOperatorSpecConfigMapExpressions
 {
@@ -78,7 +78,7 @@ public partial class V1api20210401previewVaultSpecOperatorSpecConfigMapExpressio
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecOperatorSpecSecretExpressions
 {
@@ -110,7 +110,7 @@ public partial class V1api20210401previewVaultSpecOperatorSpecSecretExpressions
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecOperatorSpec
 {
@@ -128,7 +128,7 @@ public partial class V1api20210401previewVaultSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecOwner
 {
@@ -141,7 +141,7 @@ public partial class V1api20210401previewVaultSpecOwner
 }
 
 /// <summary>ApplicationIdFromConfig:  Application ID of the client making request on behalf of a principal</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesAccessPoliciesApplicationIdFromConfig
 {
@@ -161,7 +161,7 @@ public partial class V1api20210401previewVaultSpecPropertiesAccessPoliciesApplic
 /// ObjectIdFromConfig: The object ID of a user, service principal or security group in the Azure Active Directory tenant
 /// for the vault. The object ID must be unique for the list of access policies.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesAccessPoliciesObjectIdFromConfig
 {
@@ -177,7 +177,7 @@ public partial class V1api20210401previewVaultSpecPropertiesAccessPoliciesObject
     public required string Name { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsCertificatesEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsCertificatesEnum
 {
@@ -215,7 +215,7 @@ public enum V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsCert
     Update
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsKeysEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsKeysEnum
 {
@@ -255,7 +255,7 @@ public enum V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsKeys
     WrapKey
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsSecretsEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsSecretsEnum
 {
@@ -277,7 +277,7 @@ public enum V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsSecr
     Set
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsStorageEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsStorageEnum
 {
@@ -312,7 +312,7 @@ public enum V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissionsStor
 }
 
 /// <summary>Permissions: Permissions the identity has for keys, secrets and certificates.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesAccessPoliciesPermissions
 {
@@ -337,7 +337,7 @@ public partial class V1api20210401previewVaultSpecPropertiesAccessPoliciesPermis
 /// TenantIdFromConfig: The Azure Active Directory tenant ID that should be used for authenticating requests to the key
 /// vault.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesAccessPoliciesTenantIdFromConfig
 {
@@ -357,7 +357,7 @@ public partial class V1api20210401previewVaultSpecPropertiesAccessPoliciesTenant
 /// An identity that have access to the key vault. All identities in the array must use the same tenant ID as the key
 /// vault&apos;s tenant ID.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesAccessPolicies
 {
@@ -400,7 +400,7 @@ public partial class V1api20210401previewVaultSpecPropertiesAccessPolicies
 }
 
 /// <summary>CreateMode: The vault&apos;s create mode to indicate whether the vault need to be recovered or not.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesCreateModeEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesCreateModeEnum
 {
@@ -418,7 +418,7 @@ public enum V1api20210401previewVaultSpecPropertiesCreateModeEnum
 /// Bypass: Tells what traffic can bypass network rules. This can be &apos;AzureServices&apos; or &apos;None&apos;.  If not specified the
 /// default is &apos;AzureServices&apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesNetworkAclsBypassEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesNetworkAclsBypassEnum
 {
@@ -432,7 +432,7 @@ public enum V1api20210401previewVaultSpecPropertiesNetworkAclsBypassEnum
 /// DefaultAction: The default action when no rule from ipRules and from virtualNetworkRules match. This is only used after
 /// the bypass property has been evaluated.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesNetworkAclsDefaultActionEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesNetworkAclsDefaultActionEnum
 {
@@ -443,7 +443,7 @@ public enum V1api20210401previewVaultSpecPropertiesNetworkAclsDefaultActionEnum
 }
 
 /// <summary>A rule governing the accessibility of a vault from a specific ip address or ip range.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesNetworkAclsIpRules
 {
@@ -459,7 +459,7 @@ public partial class V1api20210401previewVaultSpecPropertiesNetworkAclsIpRules
 /// Reference: Full resource id of a vnet subnet, such as
 /// &apos;/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Network/virtualNetworks/test-vnet/subnets/subnet1&apos;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesNetworkAclsVirtualNetworkRulesReference
 {
@@ -485,7 +485,7 @@ public partial class V1api20210401previewVaultSpecPropertiesNetworkAclsVirtualNe
 }
 
 /// <summary>A rule governing the accessibility of a vault from a specific virtual network.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesNetworkAclsVirtualNetworkRules
 {
@@ -505,7 +505,7 @@ public partial class V1api20210401previewVaultSpecPropertiesNetworkAclsVirtualNe
 }
 
 /// <summary>NetworkAcls: Rules governing the accessibility of the key vault from specific network locations.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesNetworkAcls
 {
@@ -533,7 +533,7 @@ public partial class V1api20210401previewVaultSpecPropertiesNetworkAcls
 }
 
 /// <summary>ProvisioningState: Provisioning state of the vault.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesProvisioningStateEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesProvisioningStateEnum
 {
@@ -544,7 +544,7 @@ public enum V1api20210401previewVaultSpecPropertiesProvisioningStateEnum
 }
 
 /// <summary>Family: SKU family name</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesSkuFamilyEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesSkuFamilyEnum
 {
@@ -553,7 +553,7 @@ public enum V1api20210401previewVaultSpecPropertiesSkuFamilyEnum
 }
 
 /// <summary>Name: SKU name to specify whether the key vault is a standard vault or a premium vault.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20210401previewVaultSpecPropertiesSkuNameEnum>))]
 public enum V1api20210401previewVaultSpecPropertiesSkuNameEnum
 {
@@ -564,7 +564,7 @@ public enum V1api20210401previewVaultSpecPropertiesSkuNameEnum
 }
 
 /// <summary>Sku: SKU details</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesSku
 {
@@ -581,7 +581,7 @@ public partial class V1api20210401previewVaultSpecPropertiesSku
 /// TenantIdFromConfig: The Azure Active Directory tenant ID that should be used for authenticating requests to the key
 /// vault.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecPropertiesTenantIdFromConfig
 {
@@ -598,7 +598,7 @@ public partial class V1api20210401previewVaultSpecPropertiesTenantIdFromConfig
 }
 
 /// <summary>Properties: Properties of the vault</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpecProperties
 {
@@ -694,7 +694,7 @@ public partial class V1api20210401previewVaultSpecProperties
     public string? VaultUri { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultSpec
 {
@@ -734,7 +734,7 @@ public partial class V1api20210401previewVaultSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusConditions
 {
@@ -780,7 +780,7 @@ public partial class V1api20210401previewVaultStatusConditions
 }
 
 /// <summary>Permissions: Permissions the identity has for keys, secrets and certificates.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesAccessPoliciesPermissions
 {
@@ -805,7 +805,7 @@ public partial class V1api20210401previewVaultStatusPropertiesAccessPoliciesPerm
 /// An identity that have access to the key vault. All identities in the array must use the same tenant ID as the key
 /// vault&apos;s tenant ID.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesAccessPolicies
 {
@@ -830,7 +830,7 @@ public partial class V1api20210401previewVaultStatusPropertiesAccessPolicies
 }
 
 /// <summary>A rule governing the accessibility of a vault from a specific ip address or ip range.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesNetworkAclsIpRules
 {
@@ -843,7 +843,7 @@ public partial class V1api20210401previewVaultStatusPropertiesNetworkAclsIpRules
 }
 
 /// <summary>A rule governing the accessibility of a vault from a specific virtual network.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesNetworkAclsVirtualNetworkRules
 {
@@ -863,7 +863,7 @@ public partial class V1api20210401previewVaultStatusPropertiesNetworkAclsVirtual
 }
 
 /// <summary>NetworkAcls: Rules governing the accessibility of the key vault from specific network locations.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesNetworkAcls
 {
@@ -891,7 +891,7 @@ public partial class V1api20210401previewVaultStatusPropertiesNetworkAcls
 }
 
 /// <summary>PrivateEndpoint: Properties of the private endpoint object.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesPrivateEndpointConnectionsPrivateEndpoint
 {
@@ -901,7 +901,7 @@ public partial class V1api20210401previewVaultStatusPropertiesPrivateEndpointCon
 }
 
 /// <summary>PrivateLinkServiceConnectionState: Approval state of the private link connection.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesPrivateEndpointConnectionsPrivateLinkServiceConnectionState
 {
@@ -919,7 +919,7 @@ public partial class V1api20210401previewVaultStatusPropertiesPrivateEndpointCon
 }
 
 /// <summary>Private endpoint connection item.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesPrivateEndpointConnections
 {
@@ -945,7 +945,7 @@ public partial class V1api20210401previewVaultStatusPropertiesPrivateEndpointCon
 }
 
 /// <summary>Sku: SKU details</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusPropertiesSku
 {
@@ -959,7 +959,7 @@ public partial class V1api20210401previewVaultStatusPropertiesSku
 }
 
 /// <summary>Properties: Properties of the vault</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusProperties
 {
@@ -1057,7 +1057,7 @@ public partial class V1api20210401previewVaultStatusProperties
 }
 
 /// <summary>SystemData: System metadata for the key vault.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatusSystemData
 {
@@ -1087,7 +1087,7 @@ public partial class V1api20210401previewVaultStatusSystemData
 }
 
 /// <summary>Resource information with extended details.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20210401previewVaultStatus
 {
@@ -1129,7 +1129,7 @@ public partial class V1api20210401previewVaultStatus
 /// - Generated from: /keyvault/resource-manager/Microsoft.KeyVault/preview/2021-04-01-preview/keyvault.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.KeyVault/vaults/{vaultName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20210401previewVault : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20210401previewVaultSpec?>, IStatus<V1api20210401previewVaultStatus?>

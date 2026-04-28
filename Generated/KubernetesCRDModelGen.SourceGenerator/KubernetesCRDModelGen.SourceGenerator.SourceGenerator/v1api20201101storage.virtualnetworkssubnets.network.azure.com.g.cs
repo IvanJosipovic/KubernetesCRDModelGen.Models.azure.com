@@ -15,7 +15,7 @@ namespace KubernetesCRDModelGen.Models.network.azure.com;
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2020-11-01/virtualNetwork.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/subnets/{subnetName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20201101storageVirtualNetworksSubnetList : IKubernetesObject<V1ListMeta>, IItems<V1api20201101storageVirtualNetworksSubnet>
@@ -42,7 +42,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetList : IKubernetes
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecApplicationGatewayIpConfigurationsReference
 {
@@ -71,7 +71,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecApplicationGat
 /// Storage version of v1api20201101.ApplicationGatewayIPConfiguration_VirtualNetworks_Subnet_SubResourceEmbedded
 /// IP configuration of an application gateway. Currently 1 public and 1 private IP configuration is allowed.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecApplicationGatewayIpConfigurations
 {
@@ -91,7 +91,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecApplicationGat
 /// Storage version of v1api20201101.Delegation
 /// Details the service to which the subnet is delegated.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecDelegations
 {
@@ -110,7 +110,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecDelegations
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecIpAllocationsReference
 {
@@ -139,7 +139,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecIpAllocationsR
 /// Storage version of v1api20201101.SubResource
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecIpAllocations
 {
@@ -156,7 +156,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecIpAllocations
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecNatGatewayReference
 {
@@ -185,7 +185,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecNatGatewayRefe
 /// Storage version of v1api20201101.SubResource
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecNatGateway
 {
@@ -202,7 +202,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecNatGateway
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecNetworkSecurityGroupReference
 {
@@ -231,7 +231,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecNetworkSecurit
 /// Storage version of v1api20201101.NetworkSecurityGroupSpec_VirtualNetworks_Subnet_SubResourceEmbedded
 /// NetworkSecurityGroup resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecNetworkSecurityGroup
 {
@@ -252,7 +252,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecNetworkSecurit
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecOperatorSpecConfigMapExpressions
 {
@@ -285,7 +285,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecOperatorSpecCo
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecOperatorSpecSecretExpressions
 {
@@ -317,7 +317,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecOperatorSpecSe
 /// Storage version of v1api20201101.VirtualNetworksSubnetOperatorSpec
 /// Details for configuring operator behavior. Fields in this struct are interpreted by the operator directly rather than being passed to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecOperatorSpec
 {
@@ -340,7 +340,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a network.azure.com/VirtualNetwork resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecOwner
 {
@@ -353,7 +353,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecOwner
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecRouteTableReference
 {
@@ -382,7 +382,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecRouteTableRefe
 /// Storage version of v1api20201101.RouteTableSpec_VirtualNetworks_Subnet_SubResourceEmbedded
 /// Route table resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecRouteTable
 {
@@ -399,7 +399,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecRouteTable
 }
 
 /// <summary>Reference: Resource ID.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecServiceEndpointPoliciesReference
 {
@@ -428,7 +428,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecServiceEndpoin
 /// Storage version of v1api20201101.ServiceEndpointPolicySpec_VirtualNetworks_Subnet_SubResourceEmbedded
 /// Service End point policy resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecServiceEndpointPolicies
 {
@@ -448,7 +448,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecServiceEndpoin
 /// Storage version of v1api20201101.ServiceEndpointPropertiesFormat
 /// The service endpoint properties.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpecServiceEndpoints
 {
@@ -467,7 +467,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpecServiceEndpoin
 }
 
 /// <summary>Storage version of v1api20201101.VirtualNetworksSubnet_Spec</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetSpec
 {
@@ -556,7 +556,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetSpec
 /// Storage version of v1api20201101.ApplicationGatewayIPConfiguration_STATUS_VirtualNetworks_Subnet_SubResourceEmbedded
 /// IP configuration of an application gateway. Currently 1 public and 1 private IP configuration is allowed.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusApplicationGatewayIpConfigurations
 {
@@ -572,7 +572,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusApplicationG
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusConditions
 {
@@ -621,7 +621,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusConditions
 /// Storage version of v1api20201101.Delegation_STATUS
 /// Details the service to which the subnet is delegated.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusDelegations
 {
@@ -658,7 +658,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusDelegations
 /// Storage version of v1api20201101.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusIpAllocations
 {
@@ -677,7 +677,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusIpAllocation
 /// Storage version of v1api20201101.IPConfigurationProfile_STATUS
 /// IP configuration profile child resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusIpConfigurationProfiles
 {
@@ -696,7 +696,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusIpConfigurat
 /// Storage version of v1api20201101.IPConfiguration_STATUS_VirtualNetworks_Subnet_SubResourceEmbedded
 /// IP configuration.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusIpConfigurations
 {
@@ -715,7 +715,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusIpConfigurat
 /// Storage version of v1api20201101.SubResource_STATUS
 /// Reference to another subresource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusNatGateway
 {
@@ -734,7 +734,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusNatGateway
 /// Storage version of v1api20201101.NetworkSecurityGroup_STATUS_VirtualNetworks_Subnet_SubResourceEmbedded
 /// NetworkSecurityGroup resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusNetworkSecurityGroup
 {
@@ -753,7 +753,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusNetworkSecur
 /// Storage version of v1api20201101.PrivateEndpoint_STATUS_VirtualNetworks_Subnet_SubResourceEmbedded
 /// Private endpoint resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusPrivateEndpoints
 {
@@ -772,7 +772,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusPrivateEndpo
 /// Storage version of v1api20201101.ResourceNavigationLink_STATUS
 /// ResourceNavigationLink resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusResourceNavigationLinks
 {
@@ -791,7 +791,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusResourceNavi
 /// Storage version of v1api20201101.RouteTable_STATUS_SubResourceEmbedded
 /// Route table resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusRouteTable
 {
@@ -810,7 +810,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusRouteTable
 /// Storage version of v1api20201101.ServiceAssociationLink_STATUS
 /// ServiceAssociationLink resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusServiceAssociationLinks
 {
@@ -829,7 +829,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusServiceAssoc
 /// Storage version of v1api20201101.ServiceEndpointPolicy_STATUS_VirtualNetworks_Subnet_SubResourceEmbedded
 /// Service End point policy resource.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusServiceEndpointPolicies
 {
@@ -848,7 +848,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusServiceEndpo
 /// Storage version of v1api20201101.ServiceEndpointPropertiesFormat_STATUS
 /// The service endpoint properties.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatusServiceEndpoints
 {
@@ -870,7 +870,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatusServiceEndpo
 }
 
 /// <summary>Storage version of v1api20201101.VirtualNetworksSubnet_STATUS</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20201101storageVirtualNetworksSubnetStatus
 {
@@ -972,7 +972,7 @@ public partial class V1api20201101storageVirtualNetworksSubnetStatus
 /// - Generated from: /network/resource-manager/Microsoft.Network/Network/stable/2020-11-01/virtualNetwork.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/subnets/{subnetName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20201101storageVirtualNetworksSubnet : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20201101storageVirtualNetworksSubnetSpec?>, IStatus<V1api20201101storageVirtualNetworksSubnetStatus?>

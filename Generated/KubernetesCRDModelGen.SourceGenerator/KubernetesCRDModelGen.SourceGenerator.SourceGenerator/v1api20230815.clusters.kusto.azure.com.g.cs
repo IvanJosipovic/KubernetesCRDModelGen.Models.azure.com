@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.kusto.azure.com;
 /// - Generated from: /azure-kusto/resource-manager/Microsoft.Kusto/Kusto/stable/2023-08-15/kusto.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20230815ClusterList : IKubernetesObject<V1ListMeta>, IItems<V1api20230815Cluster>
@@ -41,7 +41,7 @@ public partial class V1api20230815ClusterList : IKubernetesObject<V1ListMeta>, I
 }
 
 /// <summary>Represents an accepted audience trusted by the cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecAcceptedAudiences
 {
@@ -51,7 +51,7 @@ public partial class V1api20230815ClusterSpecAcceptedAudiences
 }
 
 /// <summary>EngineType: The engine type</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecEngineTypeEnum>))]
 public enum V1api20230815ClusterSpecEngineTypeEnum
 {
@@ -65,7 +65,7 @@ public enum V1api20230815ClusterSpecEngineTypeEnum
 /// Type: The type of managed identity used. The type &apos;SystemAssigned, UserAssigned&apos; includes both an implicitly created
 /// identity and a set of user-assigned identities. The type &apos;None&apos; will remove all identities.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecIdentityTypeEnum>))]
 public enum V1api20230815ClusterSpecIdentityTypeEnum
 {
@@ -80,7 +80,7 @@ public enum V1api20230815ClusterSpecIdentityTypeEnum
 }
 
 /// <summary>ResourceReference represents a resource reference, either to a Kubernetes resource or directly to an Azure resource via ARMID</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecIdentityUserAssignedIdentitiesReference
 {
@@ -106,7 +106,7 @@ public partial class V1api20230815ClusterSpecIdentityUserAssignedIdentitiesRefer
 }
 
 /// <summary>Information about the user assigned identity for the resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecIdentityUserAssignedIdentities
 {
@@ -116,7 +116,7 @@ public partial class V1api20230815ClusterSpecIdentityUserAssignedIdentities
 }
 
 /// <summary>Identity: The identity of the cluster, if configured.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecIdentity
 {
@@ -137,7 +137,7 @@ public partial class V1api20230815ClusterSpecIdentity
 }
 
 /// <summary>UserIdentityReference: The user assigned identity (ARM resource id) that has access to the key.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecKeyVaultPropertiesUserIdentityReference
 {
@@ -163,7 +163,7 @@ public partial class V1api20230815ClusterSpecKeyVaultPropertiesUserIdentityRefer
 }
 
 /// <summary>KeyVaultProperties: KeyVault properties for the cluster encryption.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecKeyVaultProperties
 {
@@ -185,7 +185,7 @@ public partial class V1api20230815ClusterSpecKeyVaultProperties
 }
 
 /// <summary>LanguageExtensionImageName: The language extension image name.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecLanguageExtensionsValueLanguageExtensionImageNameEnum>))]
 public enum V1api20230815ClusterSpecLanguageExtensionsValueLanguageExtensionImageNameEnum
 {
@@ -202,7 +202,7 @@ public enum V1api20230815ClusterSpecLanguageExtensionsValueLanguageExtensionImag
 }
 
 /// <summary>LanguageExtensionName: The language extension name.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecLanguageExtensionsValueLanguageExtensionNameEnum>))]
 public enum V1api20230815ClusterSpecLanguageExtensionsValueLanguageExtensionNameEnum
 {
@@ -213,7 +213,7 @@ public enum V1api20230815ClusterSpecLanguageExtensionsValueLanguageExtensionName
 }
 
 /// <summary>The language extension object.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecLanguageExtensionsValue
 {
@@ -231,7 +231,7 @@ public partial class V1api20230815ClusterSpecLanguageExtensionsValue
 }
 
 /// <summary>LanguageExtensions: List of the cluster&apos;s language extensions.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecLanguageExtensions
 {
@@ -245,7 +245,7 @@ public partial class V1api20230815ClusterSpecLanguageExtensions
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecOperatorSpecConfigMapExpressions
 {
@@ -278,7 +278,7 @@ public partial class V1api20230815ClusterSpecOperatorSpecConfigMapExpressions
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecOperatorSpecSecretExpressions
 {
@@ -310,7 +310,7 @@ public partial class V1api20230815ClusterSpecOperatorSpecSecretExpressions
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecOperatorSpec
 {
@@ -324,7 +324,7 @@ public partial class V1api20230815ClusterSpecOperatorSpec
 }
 
 /// <summary>OptimizedAutoscale: Optimized auto scale definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecOptimizedAutoscale
 {
@@ -350,7 +350,7 @@ public partial class V1api20230815ClusterSpecOptimizedAutoscale
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. Owner is expected to be a
 /// reference to a resources.azure.com/ResourceGroup resource
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecOwner
 {
@@ -363,7 +363,7 @@ public partial class V1api20230815ClusterSpecOwner
 }
 
 /// <summary>PublicIPType: Indicates what public IP type to create - IPv4 (default), or DualStack (both IPv4 and IPv6)</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecPublicIPTypeEnum>))]
 public enum V1api20230815ClusterSpecPublicIPTypeEnum
 {
@@ -377,7 +377,7 @@ public enum V1api20230815ClusterSpecPublicIPTypeEnum
 /// PublicNetworkAccess: Public network access to the cluster is enabled by default. When disabled, only private endpoint
 /// connection to the cluster is allowed
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecPublicNetworkAccessEnum>))]
 public enum V1api20230815ClusterSpecPublicNetworkAccessEnum
 {
@@ -391,7 +391,7 @@ public enum V1api20230815ClusterSpecPublicNetworkAccessEnum
 /// RestrictOutboundNetworkAccess: Whether or not to restrict outbound network access.  Value is optional but if passed in,
 /// must be &apos;Enabled&apos; or &apos;Disabled&apos;
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecRestrictOutboundNetworkAccessEnum>))]
 public enum V1api20230815ClusterSpecRestrictOutboundNetworkAccessEnum
 {
@@ -402,7 +402,7 @@ public enum V1api20230815ClusterSpecRestrictOutboundNetworkAccessEnum
 }
 
 /// <summary>Name: SKU name.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecSkuNameEnum>))]
 public enum V1api20230815ClusterSpecSkuNameEnum
 {
@@ -537,7 +537,7 @@ public enum V1api20230815ClusterSpecSkuNameEnum
 }
 
 /// <summary>Tier: SKU tier.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecSkuTierEnum>))]
 public enum V1api20230815ClusterSpecSkuTierEnum
 {
@@ -548,7 +548,7 @@ public enum V1api20230815ClusterSpecSkuTierEnum
 }
 
 /// <summary>Sku: The SKU of the cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecSku
 {
@@ -566,7 +566,7 @@ public partial class V1api20230815ClusterSpecSku
 }
 
 /// <summary>Represents a tenant ID that is trusted by the cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecTrustedExternalTenants
 {
@@ -576,7 +576,7 @@ public partial class V1api20230815ClusterSpecTrustedExternalTenants
 }
 
 /// <summary>VirtualClusterGraduationProperties: Virtual Cluster graduation properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecVirtualClusterGraduationProperties
 {
@@ -593,7 +593,7 @@ public partial class V1api20230815ClusterSpecVirtualClusterGraduationProperties
 }
 
 /// <summary>DataManagementPublicIpReference: Data management&apos;s service public IP address resource id.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecVirtualNetworkConfigurationDataManagementPublicIpReference
 {
@@ -619,7 +619,7 @@ public partial class V1api20230815ClusterSpecVirtualNetworkConfigurationDataMana
 }
 
 /// <summary>EnginePublicIpReference: Engine service&apos;s public IP address resource id.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecVirtualNetworkConfigurationEnginePublicIpReference
 {
@@ -648,7 +648,7 @@ public partial class V1api20230815ClusterSpecVirtualNetworkConfigurationEnginePu
 /// State: When enabled, the cluster is deployed into the configured subnet, when disabled it will be removed from the
 /// subnet.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20230815ClusterSpecVirtualNetworkConfigurationStateEnum>))]
 public enum V1api20230815ClusterSpecVirtualNetworkConfigurationStateEnum
 {
@@ -659,7 +659,7 @@ public enum V1api20230815ClusterSpecVirtualNetworkConfigurationStateEnum
 }
 
 /// <summary>SubnetReference: The subnet resource id.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecVirtualNetworkConfigurationSubnetReference
 {
@@ -685,7 +685,7 @@ public partial class V1api20230815ClusterSpecVirtualNetworkConfigurationSubnetRe
 }
 
 /// <summary>VirtualNetworkConfiguration: Virtual network definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpecVirtualNetworkConfiguration
 {
@@ -709,7 +709,7 @@ public partial class V1api20230815ClusterSpecVirtualNetworkConfiguration
     public required V1api20230815ClusterSpecVirtualNetworkConfigurationSubnetReference SubnetReference { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterSpec
 {
@@ -838,7 +838,7 @@ public partial class V1api20230815ClusterSpec
 }
 
 /// <summary>Represents an accepted audience trusted by the cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusAcceptedAudiences
 {
@@ -848,7 +848,7 @@ public partial class V1api20230815ClusterStatusAcceptedAudiences
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusConditions
 {
@@ -893,7 +893,7 @@ public partial class V1api20230815ClusterStatusConditions
     public required string Type { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusIdentityUserAssignedIdentities
 {
@@ -907,7 +907,7 @@ public partial class V1api20230815ClusterStatusIdentityUserAssignedIdentities
 }
 
 /// <summary>Identity: The identity of the cluster, if configured.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusIdentity
 {
@@ -936,7 +936,7 @@ public partial class V1api20230815ClusterStatusIdentity
 }
 
 /// <summary>KeyVaultProperties: KeyVault properties for the cluster encryption.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusKeyVaultProperties
 {
@@ -958,7 +958,7 @@ public partial class V1api20230815ClusterStatusKeyVaultProperties
 }
 
 /// <summary>The language extension object.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusLanguageExtensionsValue
 {
@@ -976,7 +976,7 @@ public partial class V1api20230815ClusterStatusLanguageExtensionsValue
 }
 
 /// <summary>LanguageExtensions: List of the cluster&apos;s language extensions.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusLanguageExtensions
 {
@@ -986,7 +986,7 @@ public partial class V1api20230815ClusterStatusLanguageExtensions
 }
 
 /// <summary>MigrationCluster: Properties of the peer cluster involved in a migration to/from this cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusMigrationCluster
 {
@@ -1008,7 +1008,7 @@ public partial class V1api20230815ClusterStatusMigrationCluster
 }
 
 /// <summary>OptimizedAutoscale: Optimized auto scale definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusOptimizedAutoscale
 {
@@ -1030,7 +1030,7 @@ public partial class V1api20230815ClusterStatusOptimizedAutoscale
 }
 
 /// <summary>A private endpoint connection</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusPrivateEndpointConnections
 {
@@ -1043,7 +1043,7 @@ public partial class V1api20230815ClusterStatusPrivateEndpointConnections
 }
 
 /// <summary>Sku: The SKU of the cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusSku
 {
@@ -1061,7 +1061,7 @@ public partial class V1api20230815ClusterStatusSku
 }
 
 /// <summary>SystemData: Metadata pertaining to creation and last modification of the resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusSystemData
 {
@@ -1091,7 +1091,7 @@ public partial class V1api20230815ClusterStatusSystemData
 }
 
 /// <summary>Represents a tenant ID that is trusted by the cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusTrustedExternalTenants
 {
@@ -1101,7 +1101,7 @@ public partial class V1api20230815ClusterStatusTrustedExternalTenants
 }
 
 /// <summary>VirtualNetworkConfiguration: Virtual network definition.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatusVirtualNetworkConfiguration
 {
@@ -1126,7 +1126,7 @@ public partial class V1api20230815ClusterStatusVirtualNetworkConfiguration
 }
 
 /// <summary>Class representing a Kusto cluster.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20230815ClusterStatus
 {
@@ -1288,7 +1288,7 @@ public partial class V1api20230815ClusterStatus
 /// - Generated from: /azure-kusto/resource-manager/Microsoft.Kusto/Kusto/stable/2023-08-15/kusto.json
 /// - ARM URI: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20230815Cluster : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20230815ClusterSpec?>, IStatus<V1api20230815ClusterStatus?>

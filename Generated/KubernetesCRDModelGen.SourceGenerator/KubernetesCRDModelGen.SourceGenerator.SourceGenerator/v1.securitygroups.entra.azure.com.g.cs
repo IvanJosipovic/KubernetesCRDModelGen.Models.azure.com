@@ -10,7 +10,7 @@ using System.Text.Json.Serialization;
 
 namespace KubernetesCRDModelGen.Models.entra.azure.com;
 /// <summary>SecurityGroup is an Entra Security Group.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1SecurityGroupList : IKubernetesObject<V1ListMeta>, IItems<V1SecurityGroup>
@@ -37,7 +37,7 @@ public partial class V1SecurityGroupList : IKubernetesObject<V1ListMeta>, IItems
 }
 
 /// <summary>MembershipType: The membership type of the group.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1SecurityGroupSpecMembershipTypeEnum>))]
 public enum V1SecurityGroupSpecMembershipTypeEnum
 {
@@ -52,7 +52,7 @@ public enum V1SecurityGroupSpecMembershipTypeEnum
 }
 
 /// <summary>EntraID: The Entra ID of the group.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1SecurityGroupSpecOperatorSpecConfigmapsEntraID
 {
@@ -69,7 +69,7 @@ public partial class V1SecurityGroupSpecOperatorSpecConfigmapsEntraID
 }
 
 /// <summary>ConfigMaps specifies any config maps that should be created by the operator.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1SecurityGroupSpecOperatorSpecConfigmaps
 {
@@ -85,7 +85,7 @@ public partial class V1SecurityGroupSpecOperatorSpecConfigmaps
 /// If multiple security groups with the same display name are found, the resource condition will show an error.
 /// If not specified, defaults to &quot;AdoptOrCreate&quot;.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1SecurityGroupSpecOperatorSpecCreationModeEnum>))]
 public enum V1SecurityGroupSpecOperatorSpecCreationModeEnum
 {
@@ -96,7 +96,7 @@ public enum V1SecurityGroupSpecOperatorSpecCreationModeEnum
 }
 
 /// <summary>OperatorSpec: The operator specific configuration for the resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1SecurityGroupSpecOperatorSpec
 {
@@ -115,7 +115,7 @@ public partial class V1SecurityGroupSpecOperatorSpec
     public V1SecurityGroupSpecOperatorSpecCreationModeEnum? CreationMode { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1SecurityGroupSpec
 {
@@ -148,7 +148,7 @@ public partial class V1SecurityGroupSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1SecurityGroupStatusConditions
 {
@@ -193,7 +193,7 @@ public partial class V1SecurityGroupStatusConditions
     public required string Type { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1SecurityGroupStatus
 {
@@ -219,7 +219,7 @@ public partial class V1SecurityGroupStatus
 }
 
 /// <summary>SecurityGroup is an Entra Security Group.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1SecurityGroup : IKubernetesObject<V1ObjectMeta>, ISpec<V1SecurityGroupSpec?>, IStatus<V1SecurityGroupStatus?>

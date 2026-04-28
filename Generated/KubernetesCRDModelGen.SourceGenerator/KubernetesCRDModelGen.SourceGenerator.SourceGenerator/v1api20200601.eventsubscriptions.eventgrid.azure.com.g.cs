@@ -14,7 +14,7 @@ namespace KubernetesCRDModelGen.Models.eventgrid.azure.com;
 /// - Generated from: /eventgrid/resource-manager/Microsoft.EventGrid/EventGrid/stable/2020-06-01/EventGrid.json
 /// - ARM URI: /{scope}/providers/Microsoft.EventGrid/eventSubscriptions/{eventSubscriptionName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20200601EventSubscriptionList : IKubernetesObject<V1ListMeta>, IItems<V1api20200601EventSubscription>
@@ -41,7 +41,7 @@ public partial class V1api20200601EventSubscriptionList : IKubernetesObject<V1Li
 }
 
 /// <summary>EndpointType: Type of the endpoint for the dead letter destination</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecDeadLetterDestinationStorageBlobEndpointTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecDeadLetterDestinationStorageBlobEndpointTypeEnum
 {
@@ -50,7 +50,7 @@ public enum V1api20200601EventSubscriptionSpecDeadLetterDestinationStorageBlobEn
 }
 
 /// <summary>ResourceReference: The Azure Resource ID of the storage account that is the destination of the deadletter events</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDeadLetterDestinationStorageBlobResourceReference
 {
@@ -76,7 +76,7 @@ public partial class V1api20200601EventSubscriptionSpecDeadLetterDestinationStor
 }
 
 /// <summary>StorageBlob: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDeadLetterDestinationStorageBlob
 {
@@ -94,7 +94,7 @@ public partial class V1api20200601EventSubscriptionSpecDeadLetterDestinationStor
 }
 
 /// <summary>DeadLetterDestination: The DeadLetter destination of the event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDeadLetterDestination
 {
@@ -104,7 +104,7 @@ public partial class V1api20200601EventSubscriptionSpecDeadLetterDestination
 }
 
 /// <summary>EndpointType: Type of the endpoint for the event subscription destination.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecDestinationAzureFunctionEndpointTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecDestinationAzureFunctionEndpointTypeEnum
 {
@@ -116,7 +116,7 @@ public enum V1api20200601EventSubscriptionSpecDestinationAzureFunctionEndpointTy
 /// ResourceReference: The Azure Resource Id that represents the endpoint of the Azure Function destination of an event
 /// subscription.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationAzureFunctionResourceReference
 {
@@ -142,7 +142,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationAzureFunctionR
 }
 
 /// <summary>AzureFunction: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationAzureFunction
 {
@@ -167,7 +167,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationAzureFunction
 }
 
 /// <summary>EndpointType: Type of the endpoint for the event subscription destination.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecDestinationEventHubEndpointTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecDestinationEventHubEndpointTypeEnum
 {
@@ -179,7 +179,7 @@ public enum V1api20200601EventSubscriptionSpecDestinationEventHubEndpointTypeEnu
 /// ResourceReference: The Azure Resource Id that represents the endpoint of an Event Hub destination of an event
 /// subscription.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationEventHubResourceReference
 {
@@ -205,7 +205,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationEventHubResour
 }
 
 /// <summary>EventHub: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationEventHub
 {
@@ -222,7 +222,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationEventHub
 }
 
 /// <summary>EndpointType: Type of the endpoint for the event subscription destination.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecDestinationHybridConnectionEndpointTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecDestinationHybridConnectionEndpointTypeEnum
 {
@@ -231,7 +231,7 @@ public enum V1api20200601EventSubscriptionSpecDestinationHybridConnectionEndpoin
 }
 
 /// <summary>ResourceReference: The Azure Resource ID of an hybrid connection that is the destination of an event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationHybridConnectionResourceReference
 {
@@ -257,7 +257,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationHybridConnecti
 }
 
 /// <summary>HybridConnection: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationHybridConnection
 {
@@ -271,7 +271,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationHybridConnecti
 }
 
 /// <summary>EndpointType: Type of the endpoint for the event subscription destination.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecDestinationServiceBusQueueEndpointTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecDestinationServiceBusQueueEndpointTypeEnum
 {
@@ -283,7 +283,7 @@ public enum V1api20200601EventSubscriptionSpecDestinationServiceBusQueueEndpoint
 /// ResourceReference: The Azure Resource Id that represents the endpoint of the Service Bus destination of an event
 /// subscription.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationServiceBusQueueResourceReference
 {
@@ -309,7 +309,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationServiceBusQueu
 }
 
 /// <summary>ServiceBusQueue: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationServiceBusQueue
 {
@@ -326,7 +326,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationServiceBusQueu
 }
 
 /// <summary>EndpointType: Type of the endpoint for the event subscription destination.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecDestinationServiceBusTopicEndpointTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecDestinationServiceBusTopicEndpointTypeEnum
 {
@@ -338,7 +338,7 @@ public enum V1api20200601EventSubscriptionSpecDestinationServiceBusTopicEndpoint
 /// ResourceReference: The Azure Resource Id that represents the endpoint of the Service Bus Topic destination of an event
 /// subscription.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationServiceBusTopicResourceReference
 {
@@ -364,7 +364,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationServiceBusTopi
 }
 
 /// <summary>ServiceBusTopic: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationServiceBusTopic
 {
@@ -381,7 +381,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationServiceBusTopi
 }
 
 /// <summary>EndpointType: Type of the endpoint for the event subscription destination.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecDestinationStorageQueueEndpointTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecDestinationStorageQueueEndpointTypeEnum
 {
@@ -393,7 +393,7 @@ public enum V1api20200601EventSubscriptionSpecDestinationStorageQueueEndpointTyp
 /// ResourceReference: The Azure Resource ID of the storage account that contains the queue that is the destination of an
 /// event subscription.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationStorageQueueResourceReference
 {
@@ -419,7 +419,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationStorageQueueRe
 }
 
 /// <summary>StorageQueue: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationStorageQueue
 {
@@ -440,7 +440,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationStorageQueue
 }
 
 /// <summary>EndpointType: Type of the endpoint for the event subscription destination.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecDestinationWebHookEndpointTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecDestinationWebHookEndpointTypeEnum
 {
@@ -449,7 +449,7 @@ public enum V1api20200601EventSubscriptionSpecDestinationWebHookEndpointTypeEnum
 }
 
 /// <summary>EndpointUrl: The URL that represents the endpoint of the destination of an event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationWebHookEndpointUrl
 {
@@ -466,7 +466,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationWebHookEndpoin
 }
 
 /// <summary>WebHook: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestinationWebHook
 {
@@ -502,7 +502,7 @@ public partial class V1api20200601EventSubscriptionSpecDestinationWebHook
 }
 
 /// <summary>Destination: Information about the destination where events have to be delivered for the event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecDestination
 {
@@ -536,7 +536,7 @@ public partial class V1api20200601EventSubscriptionSpecDestination
 }
 
 /// <summary>EventDeliverySchema: The event delivery schema for the event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecEventDeliverySchemaEnum>))]
 public enum V1api20200601EventSubscriptionSpecEventDeliverySchemaEnum
 {
@@ -549,7 +549,7 @@ public enum V1api20200601EventSubscriptionSpecEventDeliverySchemaEnum
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersBoolEqualsOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersBoolEqualsOperatorTypeEnum
 {
@@ -558,7 +558,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersBoolEqualsOpe
 }
 
 /// <summary>BoolEquals: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersBoolEquals
 {
@@ -576,7 +576,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersBool
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberGreaterThanOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberGreaterThanOperatorTypeEnum
 {
@@ -585,7 +585,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberGreater
 }
 
 /// <summary>NumberGreaterThan: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberGreaterThan
 {
@@ -603,7 +603,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumb
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberGreaterThanOrEqualsOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberGreaterThanOrEqualsOperatorTypeEnum
 {
@@ -612,7 +612,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberGreater
 }
 
 /// <summary>NumberGreaterThanOrEquals: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberGreaterThanOrEquals
 {
@@ -630,7 +630,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumb
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberInOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberInOperatorTypeEnum
 {
@@ -639,7 +639,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberInOpera
 }
 
 /// <summary>NumberIn: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberIn
 {
@@ -657,7 +657,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumb
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberLessThanOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberLessThanOperatorTypeEnum
 {
@@ -666,7 +666,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberLessTha
 }
 
 /// <summary>NumberLessThan: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberLessThan
 {
@@ -684,7 +684,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumb
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberLessThanOrEqualsOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberLessThanOrEqualsOperatorTypeEnum
 {
@@ -693,7 +693,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberLessTha
 }
 
 /// <summary>NumberLessThanOrEquals: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberLessThanOrEquals
 {
@@ -711,7 +711,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumb
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberNotInOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberNotInOperatorTypeEnum
 {
@@ -720,7 +720,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberNotInOp
 }
 
 /// <summary>NumberNotIn: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumberNotIn
 {
@@ -738,7 +738,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersNumb
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringBeginsWithOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringBeginsWithOperatorTypeEnum
 {
@@ -747,7 +747,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringBeginsW
 }
 
 /// <summary>StringBeginsWith: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringBeginsWith
 {
@@ -765,7 +765,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStri
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringContainsOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringContainsOperatorTypeEnum
 {
@@ -774,7 +774,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringContain
 }
 
 /// <summary>StringContains: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringContains
 {
@@ -792,7 +792,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStri
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringEndsWithOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringEndsWithOperatorTypeEnum
 {
@@ -801,7 +801,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringEndsWit
 }
 
 /// <summary>StringEndsWith: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringEndsWith
 {
@@ -819,7 +819,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStri
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringInOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringInOperatorTypeEnum
 {
@@ -828,7 +828,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringInOpera
 }
 
 /// <summary>StringIn: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringIn
 {
@@ -846,7 +846,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStri
 }
 
 /// <summary>OperatorType: The operator type used for filtering, e.g., NumberIn, StringContains, BoolEquals and others.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [JsonConverter(typeof(JsonStringEnumConverter<V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringNotInOperatorTypeEnum>))]
 public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringNotInOperatorTypeEnum
 {
@@ -855,7 +855,7 @@ public enum V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringNotInOp
 }
 
 /// <summary>StringNotIn: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStringNotIn
 {
@@ -872,7 +872,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFiltersStri
     public IList<string>? Values { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFilters
 {
@@ -926,7 +926,7 @@ public partial class V1api20200601EventSubscriptionSpecFilterAdvancedFilters
 }
 
 /// <summary>Filter: Information about the filter for the event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecFilter
 {
@@ -969,7 +969,7 @@ public partial class V1api20200601EventSubscriptionSpecFilter
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecOperatorSpecConfigMapExpressions
 {
@@ -1002,7 +1002,7 @@ public partial class V1api20200601EventSubscriptionSpecOperatorSpecConfigMapExpr
 /// be a secret or a configmap. The value of the expression is stored at the specified location in
 /// the destination.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecOperatorSpecSecretExpressions
 {
@@ -1034,7 +1034,7 @@ public partial class V1api20200601EventSubscriptionSpecOperatorSpecSecretExpress
 /// OperatorSpec: The specification for configuring operator behavior. This field is interpreted by the operator and not
 /// passed directly to Azure
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecOperatorSpec
 {
@@ -1052,7 +1052,7 @@ public partial class V1api20200601EventSubscriptionSpecOperatorSpec
 /// controls the resources lifecycle. When the owner is deleted the resource will also be deleted. This resource is an
 /// extension resource, which means that any other Azure resource can be its owner.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecOwner
 {
@@ -1077,7 +1077,7 @@ public partial class V1api20200601EventSubscriptionSpecOwner
 /// RetryPolicy: The retry policy for events. This can be used to configure maximum number of delivery attempts and time to
 /// live for events.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpecRetryPolicy
 {
@@ -1090,7 +1090,7 @@ public partial class V1api20200601EventSubscriptionSpecRetryPolicy
     public int? MaxDeliveryAttempts { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionSpec
 {
@@ -1149,7 +1149,7 @@ public partial class V1api20200601EventSubscriptionSpec
 }
 
 /// <summary>Condition defines an extension to status (an observation) of a resource</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusConditions
 {
@@ -1195,7 +1195,7 @@ public partial class V1api20200601EventSubscriptionStatusConditions
 }
 
 /// <summary>StorageBlob: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDeadLetterDestinationStorageBlob
 {
@@ -1213,7 +1213,7 @@ public partial class V1api20200601EventSubscriptionStatusDeadLetterDestinationSt
 }
 
 /// <summary>DeadLetterDestination: The DeadLetter destination of the event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDeadLetterDestination
 {
@@ -1223,7 +1223,7 @@ public partial class V1api20200601EventSubscriptionStatusDeadLetterDestination
 }
 
 /// <summary>AzureFunction: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDestinationAzureFunction
 {
@@ -1248,7 +1248,7 @@ public partial class V1api20200601EventSubscriptionStatusDestinationAzureFunctio
 }
 
 /// <summary>EventHub: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDestinationEventHub
 {
@@ -1262,7 +1262,7 @@ public partial class V1api20200601EventSubscriptionStatusDestinationEventHub
 }
 
 /// <summary>HybridConnection: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDestinationHybridConnection
 {
@@ -1276,7 +1276,7 @@ public partial class V1api20200601EventSubscriptionStatusDestinationHybridConnec
 }
 
 /// <summary>ServiceBusQueue: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDestinationServiceBusQueue
 {
@@ -1290,7 +1290,7 @@ public partial class V1api20200601EventSubscriptionStatusDestinationServiceBusQu
 }
 
 /// <summary>ServiceBusTopic: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDestinationServiceBusTopic
 {
@@ -1307,7 +1307,7 @@ public partial class V1api20200601EventSubscriptionStatusDestinationServiceBusTo
 }
 
 /// <summary>StorageQueue: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDestinationStorageQueue
 {
@@ -1328,7 +1328,7 @@ public partial class V1api20200601EventSubscriptionStatusDestinationStorageQueue
 }
 
 /// <summary>WebHook: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDestinationWebHook
 {
@@ -1364,7 +1364,7 @@ public partial class V1api20200601EventSubscriptionStatusDestinationWebHook
 }
 
 /// <summary>Destination: Information about the destination where events have to be delivered for the event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusDestination
 {
@@ -1398,7 +1398,7 @@ public partial class V1api20200601EventSubscriptionStatusDestination
 }
 
 /// <summary>BoolEquals: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersBoolEquals
 {
@@ -1416,7 +1416,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersBo
 }
 
 /// <summary>NumberGreaterThan: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNumberGreaterThan
 {
@@ -1434,7 +1434,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNu
 }
 
 /// <summary>NumberGreaterThanOrEquals: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNumberGreaterThanOrEquals
 {
@@ -1452,7 +1452,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNu
 }
 
 /// <summary>NumberIn: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNumberIn
 {
@@ -1470,7 +1470,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNu
 }
 
 /// <summary>NumberLessThan: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNumberLessThan
 {
@@ -1488,7 +1488,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNu
 }
 
 /// <summary>NumberLessThanOrEquals: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNumberLessThanOrEquals
 {
@@ -1506,7 +1506,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNu
 }
 
 /// <summary>NumberNotIn: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNumberNotIn
 {
@@ -1524,7 +1524,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersNu
 }
 
 /// <summary>StringBeginsWith: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersStringBeginsWith
 {
@@ -1542,7 +1542,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersSt
 }
 
 /// <summary>StringContains: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersStringContains
 {
@@ -1560,7 +1560,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersSt
 }
 
 /// <summary>StringEndsWith: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersStringEndsWith
 {
@@ -1578,7 +1578,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersSt
 }
 
 /// <summary>StringIn: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersStringIn
 {
@@ -1596,7 +1596,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersSt
 }
 
 /// <summary>StringNotIn: Mutually exclusive with all other properties</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersStringNotIn
 {
@@ -1613,7 +1613,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFiltersSt
     public IList<string>? Values { get; set; }
 }
 
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFilters
 {
@@ -1667,7 +1667,7 @@ public partial class V1api20200601EventSubscriptionStatusFilterAdvancedFilters
 }
 
 /// <summary>Filter: Information about the filter for the event subscription.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusFilter
 {
@@ -1709,7 +1709,7 @@ public partial class V1api20200601EventSubscriptionStatusFilter
 /// RetryPolicy: The retry policy for events. This can be used to configure maximum number of delivery attempts and time to
 /// live for events.
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusRetryPolicy
 {
@@ -1723,7 +1723,7 @@ public partial class V1api20200601EventSubscriptionStatusRetryPolicy
 }
 
 /// <summary>SystemData: The system metadata relating to Event Subscription resource.</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatusSystemData
 {
@@ -1753,7 +1753,7 @@ public partial class V1api20200601EventSubscriptionStatusSystemData
 }
 
 /// <summary>Event Subscription</summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 public partial class V1api20200601EventSubscriptionStatus
 {
@@ -1822,7 +1822,7 @@ public partial class V1api20200601EventSubscriptionStatus
 /// - Generated from: /eventgrid/resource-manager/Microsoft.EventGrid/EventGrid/stable/2020-06-01/EventGrid.json
 /// - ARM URI: /{scope}/providers/Microsoft.EventGrid/eventSubscriptions/{eventSubscriptionName}
 /// </summary>
-[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.5.3+0316f97acf12de380316633df08e7f13a064978d")]
+[global::System.CodeDom.Compiler.GeneratedCode("KubernetesCRDModelGen", "1.6.0+0fbafdb9fc339df17b265ba23ecc4a7be2359877")]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 [KubernetesEntity(Group = KubeGroup, Kind = KubeKind, ApiVersion = KubeApiVersion, PluralName = KubePluralName)]
 public partial class V1api20200601EventSubscription : IKubernetesObject<V1ObjectMeta>, ISpec<V1api20200601EventSubscriptionSpec?>, IStatus<V1api20200601EventSubscriptionStatus?>
